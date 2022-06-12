@@ -11704,5 +11704,5 @@ body {
   padding: 5rem 0 1rem;
 }
 
-#map { height: 600px; width:600px }
+#map { height: 600px; width:100% }
 
