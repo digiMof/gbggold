@@ -21,6 +21,7 @@ var castellonord = L.polygon([[44.838453, 11.619152],[44.837841, 11.620413]]),
     garibaldi5 = L.polygon([[44.836296, 11.618427], [44.837118, 11.617478]]),
     cunione = L.polygon([[44.839712, 11.618382], [44.839638, 11.618248], [44.839507, 11.61849], [44.839602, 11.618586]]), 
     cnegozianti = L.polygon([[44.837295, 11.621848], [44.837238, 11.621966], [44.837369, 11.622065], [44.837415, 11.621963]]),
+    caffeborsa = L.polygon([[44.837187, 11.620153], [44.837095, 11.620099], [44.837073, 11.620195], [44.837151, 11.620235]]),
     //fadigati prima
     fcastellonord = L.polygon([[44.838453, 11.619152],[44.837841, 11.620413]], {color: '#ffa500'}),
     fpiazzaerbe = L.polygon([[44.835646, 11.619211], [44.835456, 11.619187], [44.834769, 11.621046], [44.834973, 11.621266]], {color: '#ffa500'}),
@@ -55,27 +56,33 @@ var castellonord = L.polygon([[44.838453, 11.619152],[44.837841, 11.620413]]),
     gripagrande1 = L.polygon([[44.837453, 11.611766], [44.834478, 11.616079]], {color: '#8f00ff'}),
     gmontagnone = L.polygon ([[44.826108, 11.630797],[44.825971, 11.633093], [44.828171, 11.632406], [44.828269, 11.631935]], {color: '#8f00ff'}),
     gsavonarola = L.polygon([[44.834316, 11.624084], [44.832216, 11.628128]], {color: '#8f00ff'}), 
-    ggirolamo = L.polygon ([[44.832907, 11.626813], [44.831743, 11.626298]], {color: '#8f00ff'});
+    ggirolamo = L.polygon ([[44.832907, 11.626813], [44.831743, 11.626298]], {color: '#8f00ff'}),
+    muraangeli = L.polygon ([[44.849338, 11.624457], [44.848734, 11.632319]], {color: '#8f00ff'}), 
+    cimitero = L.polygon([[44.845387, 11.632171], [44.845376, 11.632546], [44.843083, 11.633211], [44.842927, 11.632423], [44.843615, 11.62935], [44.843855, 11.629521], [44.843665, 11.630084], [44.844425, 11.630588], [44.844129, 11.631559]], {color: '#8f00ff'}); 
+
 
 //rimini
 //fadigati prima
 var hotmarepineta = L.polygon([[44.271631, 12.351724],[44.271819, 12.352764], [44.271127, 12.352904], [44.270954, 12.352132]], {color: '#ffa500'}),
     hotbritannia = L.polygon([[44.198278, 12.407933],[44.19852, 12.408448], [44.198181, 12.408743], [44.197979, 12.408362]], {color: '#ffa500'}),
+    fgrandhotel = L.polygon([[44.001662, 12.661009], [44.001094, 12.661995], [44.001611, 12.662548], [44.002134, 12.661667]], {color: '#ffa500'}),
+    fcampotennis = L.polygon([[43.998408, 12.654455], [43.99793, 12.65515], [43.998194, 12.655514], [43.998657, 12.654847]], {color: '#ffa500'}), 
     //riccione
-    caffezanarini = L.polygon([[43.996112, 12.650816], [44.003074, 12.661389]]), 
-    vialemille = L.polygon([[44.003038, 12.653674], [44.000183, 12.656955]]);
+    ceccarini = L.polygon([[43.996112, 12.650816], [44.003074, 12.661389]]), 
+    vialemille = L.polygon([[44.003038, 12.653674], [44.000183, 12.656955]]),
+    grandhotel = L.polygon([[44.001662, 12.661009], [44.001094, 12.661995], [44.001611, 12.662548], [44.002134, 12.661667]]),
+    caffezanarini = L.polygon([[43.998225, 12.654171], [43.998111, 12.654356], [43.998233, 12.654573], [43.998341, 12.654409]]);
+    campotennis = L.polygon([[43.998408, 12.654455], [43.99793, 12.65515], [43.998194, 12.655514], [43.998657, 12.654847]])
+
 //bologna
-var comunale=L.polygon([[44.496176, 11.350422], [44.49644, 11.351043], [44.497014, 11.350528], [44.496831, 11.349933]], {color: '#ffa500'}),
-    pgalliera=L.polygon([[44.504024, 11.344544], [44.503959, 11.344855], [44.504119, 11.344919], [44.504181, 11.344662]], {color: '#ffa500'}), 
-    collesluca=L.polygon([[44.47884, 11.297649], [44.478779, 11.298764], [44.479315, 11.298678], [44.479284, 11.297777]], {color: '#ffa500'}), 
+var pgalliera=L.polygon([[44.504024, 11.344544], [44.503959, 11.344855], [44.504119, 11.344919], [44.504181, 11.344662]], {color: '#ffa500'}), 
     piazzastazione=L.polygon([[44.505325, 11.342661], [44.505164, 11.34369], [44.505631, 11.343803], [44.505768, 11.342779]], {color: '#ffa500'}),
     zamboni1=L.polygon([[44.494529, 11.34683],[44.494912, 11.347227]], {color: '#ffa500'}), 
     zamboni2=L.polygon([[44.494912, 11.347227], [44.498191, 11.355897]], {color: '#ffa500'}), 
     indipendenza=L.polygon([[44.494908, 11.3425744],[44.504535, 11.345464]], {color: '#ffa500'}), 
-    stmaggiore=L.polygon([[44.494207, 11.346473], [44.490166, 11.356992]], {color: '#ffa500'}),
-    duetorri=L.polygon([[44.494207, 11.346473], [44.494454, 11.346712], [44.494355, 11.347055], [44.494056, 11.34684]], {color: '#ffa500'}),
     pasticceriamajani=L.polygon([[44.491315, 11.341029],[44.491315, 11.340868], [44.491378, 11.340863], [44.491387, 11.340991]], {color: '#ffa500'}),
     sanvitale=L.polygon([[44.494454, 11.346712],[44.49401, 11.356577]], {color: '#ffa500'}),
+    piazzanettuno=L.polygon([[44.494819, 11.342483],[44.494731, 11.343005], [44.49432, 11.342887], [44.494375, 11.342348]], {color: '#ffa500'}),
     //studenti
     scomunale=L.polygon([[44.496176, 11.350422], [44.49644, 11.351043], [44.497014, 11.350528], [44.496831, 11.349933]]),
     spgalliera=L.polygon([[44.504024, 11.344544], [44.503959, 11.344855], [44.504119, 11.344919], [44.504181, 11.344662]]), 
@@ -87,16 +94,17 @@ var comunale=L.polygon([[44.496176, 11.350422], [44.49644, 11.351043], [44.49701
     sstmaggiore=L.polygon([[44.494207, 11.346473], [44.490166, 11.356992]]),
     sduetorri=L.polygon([[44.494207, 11.346473], [44.494454, 11.346712], [44.494355, 11.347055], [44.494056, 11.34684]]),
     spasticceriamajani=L.polygon([[44.491315, 11.341029],[44.491315, 11.340868], [44.491378, 11.340863], [44.491387, 11.340991]]),
-    ssanvitale=L.polygon([[44.494454, 11.346712],[44.49401, 11.356577]]);
+    ssanvitale=L.polygon([[44.494454, 11.346712],[44.49401, 11.356577]]),
+    piazzanettuno=L.polygon([[44.494819, 11.342483],[44.494731, 11.343005], [44.49432, 11.342887], [44.494375, 11.342348]]);
 
 var casastudio = L.marker([44.835579, 11.621328]).bindPopup('Casa-Studio Fadigati').addTo(map);
 var suicidio = L.marker ([44.888008, 11.615381]).bindPopup('Suicidio Fadigati').addTo(map);
 
-var borghesia = L.layerGroup([castellonord, piazzaerbe, giovecca, roma, bersaglieripo, sancarlo, cattedrale, mazzini, garganello, garibaldi4, garibaldi5, cunione, cnegozianti, caffezanarini,vialemille]).addTo(map);
-var fadigati_prima = L.layerGroup([fcastellonord, fpiazzaerbe, fgiovecca, froma, fbersaglieripo, fsancarlo, fcattedrale, fmazzini, fsaraceno, fgarganello, fgaribaldi1, fgaribaldi2, fsanromano, fsanromanobis, fptravaglio, fcunione, fcnegozianti, comunale, pgalliera, collesluca, piazzastazione, zamboni1, zamboni2, indipendenza, stmaggiore, duetorri, pasticceriamajani, sanvitale, hotmarepineta, hotbritannia]);
+var borghesia = L.layerGroup([caffeborsa, castellonord, piazzaerbe, giovecca, roma, bersaglieripo, sancarlo, cattedrale, mazzini, garganello, garibaldi4, garibaldi5, cunione, cnegozianti, vialemille, grandhotel, ceccarini, campotennis]).addTo(map);
+var fadigati_prima = L.layerGroup([fcastellonord, fpiazzaerbe, fgiovecca, froma, fbersaglieripo, fsancarlo, fcattedrale, fmazzini, fsaraceno, fgarganello, fgaribaldi1, fgaribaldi2, fsanromano, fsanromanobis, fptravaglio, fcunione, fcnegozianti, pgalliera,  piazzastazione, zamboni1, zamboni2, indipendenza, pasticceriamajani, sanvitale, piazzanettuno, hotmarepineta, hotbritannia, fgrandhotel, fcampotennis]);
 var fadigati_dopo = L.layerGroup([fgaribaldi1bis, fgaribaldi2bis, acquedotto, bomporto, vigne, ripagrande, ripagrande1, montagnone, pontelagoscuro]);
-var bassani_dopo = L.layerGroup([gbomporto, gripagrande, gripagrande1, gmontagnone, gsavonarola, ggirolamo]); 
-var studenti = L.layerGroup([scomunale, spgalliera, scollesluca, spiazzastazione, szamboni1, szamboni2, sindipendenza, sstmaggiore, sduetorri, spasticceriamajani, ssanvitale])
+var bassani_dopo = L.layerGroup([gbomporto, gripagrande, gripagrande1, gmontagnone, gsavonarola, ggirolamo, muraangeli, cimitero]); 
+var studenti = L.layerGroup([scomunale, spgalliera, scollesluca, spiazzastazione, szamboni1, szamboni2, sindipendenza, sstmaggiore, sduetorri, spasticceriamajani, ssanvitale, piazzanettuno, caffezanarini])
 
 var baseMaps = {"Open Street Map": osm};
 var overlayMaps = {"Borghesia": borghesia};
