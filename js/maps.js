@@ -59,7 +59,7 @@ var castellonord = L.polygon([[44.838453, 11.619152],[44.837841, 11.620413]]),
 
 //rimini
 //fadigati prima
-var hotmarepineta = L.polygon([[44.271631, 12.351724],[44.271819, 12.352764],[44.270954, 12.352132],[44.271127, 12.352904]], {color: '#ffa500'}),
+var hotmarepineta = L.polygon([[44.271631, 12.351724],[44.271819, 12.352764], [44.271127, 12.352904], [44.270954, 12.352132]], {color: '#ffa500'}),
     hotbritannia = L.polygon([[44.198278, 12.407933],[44.19852, 12.408448], [44.198181, 12.408743], [44.197979, 12.408362]], {color: '#ffa500'}),
     //riccione
     caffezanarini = L.polygon([[43.996112, 12.650816], [44.003074, 12.661389]]), 
@@ -92,8 +92,8 @@ var comunale=L.polygon([[44.496176, 11.350422], [44.49644, 11.351043], [44.49701
 var casastudio = L.marker([44.835579, 11.621328]).bindPopup('Casa-Studio Fadigati').addTo(map);
 var suicidio = L.marker ([44.888008, 11.615381]).bindPopup('Suicidio Fadigati').addTo(map);
 
-var borghesia = L.layerGroup([castellonord, piazzaerbe, giovecca, roma, bersaglieripo, sancarlo, cattedrale, mazzini, garganello, garibaldi4, garibaldi5, cunione, cnegozianti]).addTo(map);
-var fadigati_prima = L.layerGroup([fcastellonord, fpiazzaerbe, fgiovecca, froma, fbersaglieripo, fsancarlo, fcattedrale, fmazzini, fsaraceno, fgarganello, fgaribaldi1, fgaribaldi2, fsanromano, fsanromanobis, fptravaglio, fcunione, fcnegozianti, comunale, pgalliera, collesluca, piazzastazione, zamboni1, zamboni2, indipendenza, stmaggiore, duetorri, pasticceriamajani, sanvitale]);
+var borghesia = L.layerGroup([castellonord, piazzaerbe, giovecca, roma, bersaglieripo, sancarlo, cattedrale, mazzini, garganello, garibaldi4, garibaldi5, cunione, cnegozianti, caffezanarini,vialemille]).addTo(map);
+var fadigati_prima = L.layerGroup([fcastellonord, fpiazzaerbe, fgiovecca, froma, fbersaglieripo, fsancarlo, fcattedrale, fmazzini, fsaraceno, fgarganello, fgaribaldi1, fgaribaldi2, fsanromano, fsanromanobis, fptravaglio, fcunione, fcnegozianti, comunale, pgalliera, collesluca, piazzastazione, zamboni1, zamboni2, indipendenza, stmaggiore, duetorri, pasticceriamajani, sanvitale, hotmarepineta, hotbritannia]);
 var fadigati_dopo = L.layerGroup([fgaribaldi1bis, fgaribaldi2bis, acquedotto, bomporto, vigne, ripagrande, ripagrande1, montagnone, pontelagoscuro]);
 var bassani_dopo = L.layerGroup([gbomporto, gripagrande, gripagrande1, gmontagnone, gsavonarola, ggirolamo]); 
 var studenti = L.layerGroup([scomunale, spgalliera, scollesluca, spiazzastazione, szamboni1, szamboni2, sindipendenza, sstmaggiore, sduetorri, spasticceriamajani, ssanvitale])
@@ -106,7 +106,4 @@ layerControl.addOverlay(fadigati_prima, "Fadigati prima");
 layerControl.addOverlay(studenti, "Studenti")
 layerControl.addOverlay(fadigati_dopo, "Fadigati dopo");
 layerControl.addOverlay(bassani_dopo, "Bassani dopo");
-
-
-
 
