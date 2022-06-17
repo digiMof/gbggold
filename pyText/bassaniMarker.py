@@ -2,7 +2,6 @@ def parser(filePath):
     f = open(filePath, 'r')
     rawText = f.read()
     listBook = rawText.split("\n\n\n") 
-    listBook = listBook[:2] #Da rimuovere
     listChap = []
     for chapt in listBook:
         chaptParsed = chapt.split("\n\n")
@@ -11,7 +10,7 @@ def parser(filePath):
 
 def marker(listOfChap):
     taggedBookList = []
-    for chap in sample:
+    for chap in listOfChap:
         taggedChapList = ["<div>"]
         for par in chap:
             par = "<p>" + par + "</p>"
@@ -20,8 +19,12 @@ def marker(listOfChap):
         taggedChapStr = '\n'.join(taggedChapList)
         taggedBookList.append(taggedChapStr)
     taggedBookStr = '\n\n'.join(taggedBookList)
+    with open('pyText/taggedBassani.txt', 'w', encoding='utf-8') as f:
+        for chap in taggedBookList:
+            f.write(chap)
+            f.write('\n')
     return taggedBookStr
 
-basssaniPath = 'occhialiOro.txt'
+basssaniPath = 'pyText/occhialiOro.txt'
 parsed = (parser(basssaniPath))
 print(marker(parsed))
