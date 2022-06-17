@@ -2,19 +2,71 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dbo="http://dbpedia.org/ontology/">
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Gli occhiali d'oro</title>
+            <author>Giorgio Bassani</author>
          </titleStmt>
+         <editionStmt>
+            <edition>Mondadori, 1980</edition>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName>Manuele Veggi</persName>
+               <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Changing Lenses</authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+                  4.0</licence>
+            </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <bibl>
+               <author>Giorgio Bassani</author>, <title>Gli occhiali d'oro</title>.
+               <publisher>Mondadori</publisher>
+               <date>1980</date>. 
+            </bibl>
          </sourceDesc>
       </fileDesc>
+     <profileDesc>
+        <particDesc>
+             <listPerson>
+                <person xml:id="Fadigati">
+                   <persName>Athos Fadigati</persName>
+                </person>
+             </listPerson>
+          </particDesc>
+          <settingDesc>
+             <listPlace>
+                <place xml:id="Ferrara">
+                   <placeName>Ferrara</placeName>
+                </place>
+            </listPlace>
+          </settingDesc>
+       </profileDesc>
+     <xenoData>
+        <rdf:RDF>
+           <!-- places:
+                    @PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+                    @PREFIX dbo: <http://dbpedia.org/ontology/>.
+                    dbo:Ferrara a dbo:Place;
+                      rdfs:label "Ferrara"@en.
+                -->
+           <rdf:Description tei:ref="#Ferrara" rdf:about="http://dbpedia.org/resource/Ferrara">
+              <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+              <rdfs:label xml:lang="en">Ferrara</rdfs:label>
+           </rdf:Description>
+        </rdf:RDF> 
+     </xenoData>
   </teiHeader>
   <text>
    <body>
