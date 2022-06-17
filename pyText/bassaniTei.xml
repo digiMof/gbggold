@@ -7,7 +7,9 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dbo="http://dbpedia.org/ontology/">
+     xmlns:dbo="http://dbpedia.org/ontology/"
+     xmlns:geonames="https://www.geonames.org/"
+     xmlns:mof="https://github.com/digiMof/gbggold/"> <!-- CORRETTO PER @BASE!!?? -->
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,13 +57,26 @@
        </profileDesc>
      <xenoData>
         <rdf:RDF>
+           <!-- people:
+                    @BASE mof: https://github.com/digiMof/gbggold/
+                    @PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+                    @PREFIX dbo: <http://dbpedia.org/ontology/>.
+                    @PREFIX foaf: <http://xmlns.com/foaf/0.1/>.
+                    dbo:Marco_Polo a foaf:Person;
+                      rdfs:label "Marco Polo"@en.
+                -->
+           <rdf:Description tei:ref="#Adam" rdf:about="https://github.com/digiMof/gbggold/Fadigati"> <!-- CORRECT??? URI assignment -->
+              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdfs:label xml:lang="en">Athos Fadigati</rdfs:label>
+           </rdf:Description>
            <!-- places:
                     @PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
                     @PREFIX dbo: <http://dbpedia.org/ontology/>.
+                    @PREFIX geonames: <https://www.geonames.org/>.
                     dbo:Ferrara a dbo:Place;
                       rdfs:label "Ferrara"@en.
                 -->
-           <rdf:Description tei:ref="#Ferrara" rdf:about="http://dbpedia.org/resource/Ferrara">
+           <rdf:Description tei:ref="#Ferrara" rdf:about="https://www.geonames.org/3177090">
               <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
               <rdfs:label xml:lang="en">Ferrara</rdfs:label>
            </rdf:Description>
