@@ -65,7 +65,7 @@
                     dbo:Marco_Polo a foaf:Person;
                       rdfs:label "Marco Polo"@en.
                 -->
-           <rdf:Description tei:ref="#Adam" rdf:about="https://github.com/digiMof/gbggold/Fadigati"> <!-- CORRECT??? URI assignment -->
+           <rdf:Description tei:ref="#Adam" rdf:about="mof:Fadigati"> <!-- CORRECT??? URI assignment -->
               <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
               <rdfs:label xml:lang="en">Athos Fadigati</rdfs:label>
            </rdf:Description>
@@ -78,7 +78,7 @@
                 -->
            <rdf:Description tei:ref="#Ferrara" rdf:about="https://www.geonames.org/3177090">
               <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
-              <rdfs:label xml:lang="en">Ferrara</rdfs:label>
+              <rdfs:label xml:lang="it">Ferrara</rdfs:label>
            </rdf:Description>
         </rdf:RDF> 
      </xenoData>
