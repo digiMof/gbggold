@@ -52,3 +52,7 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+function disclaimer() {
+    alert("The purpose of this web site is to explore various types of typographic and layout style for text documents, as an end-of-course project for the 'Digital Text in the Humanities: Theories, Methodologies, Applications' course of the Master Degree in Digital Humanities and Digital Knowledge of the University of Bologna, under prof. Tiziana Mancinelli. \n The document contained as final version of the novel according to Bassani's autographs. Its publication here is not intended to be an alternative or replace their original locations, mentioned in this website. \n All copyrights and related rights on the content remain with their original owners. All copyright on the infographics, analysis and metadata enrichment are 2022 © Changing Lenses.");
+}
