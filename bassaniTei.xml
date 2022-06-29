@@ -6,10 +6,9 @@
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dbo="http://dbpedia.org/ontology/"
+     xmlns:wikidata="https://www.wikidata.org/wiki/"
      xmlns:geonames="https://www.geonames.org/"
-     xmlns:mof="https://github.com/digiMof/gbggold/"> <!-- CORRETTO PER @BASE!!?? -->
+     xmlns:viaf="http://viaf.org/viaf/"> 
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -57,50 +56,7 @@
        </profileDesc>
      <xenoData>
         <rdf:RDF>
-           <!-- PLACES:
-                    @PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-                    @PREFIX dbo: <http://dbpedia.org/ontology/>.
-                    @PREFIX geonames: <https://www.geonames.org/>.
-                    dbo:Ferrara a dbo:Place;
-                      rdfs:label "Ferrara"@en.
-                    list of places @ https://docs.google.com/document/d/1Wa3Xsa2KM2-xdcMcMIxXZOcmjsq2k7a-1REfXnNAf4g/edit
-                -->
-           <!-- Places 1. Ferrara
-           Ferrara
-               (Lato Nord del) Castello → pubblicità aperitivo Lenin -> castello, 6290248
-               Piazza Cattedrale -> 11126670
-               Lista di ristoranti “di decoro” (inizio cap. II): da Vincenzo, dalla Sandrina, ai Tre Galletti, da Roveraro ?
-               Fianco meridionale del Duomo VIAF!!!! 234334949 
-               Piazza Travaglio (bancarelle e passeggio)
-               Via Garibaldi (bancarelle e passeggio)
-               Via San Romano (via con portici, preferita per il passeggio da Fadigati)
-               Lista di cinema cittadini: l’Excelsior, il Salvini, il Rex, il Diana
-               San Carlo
-               Il Listone
-               Lista di circoli cittadini: i Commercianti e i Concordi (cap. III)
-               Il Montagnone (dove i ragazzi giocano a pallone e Manservigi passa i pomeriggi)
-               Viale Cavour
-               Caffè della Borsa
-               Via Bomporto
-               Mura degli Angeli
-               Chiesa di San Cristoforo
-               Castello Estense
-               Farmacia Barilari
-               Piazza Cattedrale
-               Palazzo Arcivescovile
-               Via Vignatagliata
-               Vicolo-mozzo Torcicoda
-               Ghetto di Ferrara
-               Corso Ercole I 
-               Via Ripagrande
-               L’Acquedotto
-               La Spianata
-               Via Piangipane
-               Pontelagoscuro
-               Via Cairoli
-               Via Savonarola
-               Piazzale della Chiesa di San Girolamo
-           -->
+           <!-- Places 1. Ferrara -->
            <rdf:Description tei:ref="#Ferrara" rdf:about="geonames:3177090"> <!-- Ferrara -->
               <rdf:type rdf:resource="dbo:Place"/>
               <rdfs:label xml:lang="it">Ferrara</rdfs:label>
