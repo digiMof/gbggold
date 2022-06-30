@@ -8,7 +8,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:wikidata="https://www.wikidata.org/wiki/"
      xmlns:geonames="https://www.geonames.org/"
-     xmlns:viaf="http://viaf.org/viaf/"> 
+     xmlns:viaf="http://viaf.org/viaf/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"> 
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,39 +45,658 @@
                 <person xml:id="Fadigati">
                    <persName>Athos Fadigati</persName>
                 </person>
+                <person xml:id="AFsMother">
+                   <persName>Madre di Athos Fadigati</persName>
+                </person>
+                <person xml:id="Narrator">
+                   <persName>Io narrante</persName>
+                </person>
+                <person xml:id="IosMother">
+                   <persName>Madre del narratore</persName>
+                </person>
+                <person xml:id="IosFather">
+                   <persName>Padre del narratore</persName>
+                </person>
+                <person xml:id="Ernesto">
+                   <persName>Ernesto</persName>
+                </person>
+                <person xml:id="Fanny">
+                   <persName>Fanny</persName>
+                </person>
+                <person xml:id="Corcos">
+                   <persName>Elia Corcos</persName>
+                </person>
+                <person xml:id="MrsGrillanzoni">
+                   <persName>donna Maria Grillanzoni</persName>
+                </person>
+                <person xml:id="Manservigi">
+                   <persName>Manservigi</persName>
+                </person>
+                <person xml:id="Trapolni">
+                   <persName>Trapolni</persName>
+                </person>
+                <person xml:id="Baùsi">
+                   <persName>Olao Baùsi</persName>
+                </person>
+                <person xml:id="Deliliers">
+                   <persName>Eraldo Deliliers</persName>
+                </person>
+                <person xml:id="Aldrovandi">
+                   <persName>Conduttore Aldrovandi</persName>
+                </person>
+                <person xml:id="ASgabri">
+                   <persName>Attilia Sgarbi</persName>
+                </person>
+                <person xml:id="BSgarbi">
+                   <persName>Bianca Sgarbi</persName>
+                </person>
+                <person xml:id="Bottecchiari">
+                   <persName>Nino Bottecchiari</persName>
+                </person>
+                <person xml:id="Pavani">
+                   <persName>Sergio Pavani</persName>
+                </person>
+                <person xml:id="Forti">
+                   <persName>Otello Forti</persName>
+                </person>
+                <person xml:id="Piazza">
+                   <persName>Giovannino Piazza</persName>
+                </person>
+                <person xml:id="Sangiuliano">
+                   <persName>Enrico Sangiuliano</persName>
+                </person>
+                <person xml:id="Molon">
+                   <persName>Vittorio Molon</persName>
+                </person>
+                <person xml:id="Arslan">
+                   <persName>Arslan</persName>
+                </person>
+                <person xml:id="famScagnellato">
+                   <persName>Famiglia Scagnellato</persName>
+                </person>
+                <person xml:id="Manfredini">
+                   <persName>Dott. Manfredini</persName>
+                </person>
+                <person xml:id="Tubi">
+                   <persName>Portiere Tubi</persName>
+                </person>
+                <person xml:id="MrsLavezzoli">
+                   <persName>signora Lavezzoli</persName>
+                </person>
+                <person xml:id="CLavezzoli">
+                   <persName>Cristina Lavezzoli</persName>
+                </person>
+                <person xml:id="Franco">
+                   <persName>Franco</persName>
+                </person>
+                <person xml:id="Gilberto">
+                   <persName>Gilberto</persName>
+                </person>
+                <person xml:id="Levi">
+                   <persName>Dott. Levi</persName>
+                </person>
+                <person xml:id="Giovanni">
+                   <persName>Cameriere Giovanni</persName>
+                </person>
+                <person xml:id="Aretusi">
+                   <persName>Aretusi</persName>
+                </person>
+                <person xml:id="Sturla">
+                   <persName>Sturla</persName>
+                </person>
+                <person xml:id="Bellistracci">
+                   <persName>Bellistracci</persName>
+                </person>
+                <person xml:id="Bolognesi">
+                   <persName>Segretario generale Bolognesi</persName>
+                </person>
+                <person xml:id="Cariani">
+                   <persName>Gino Cariani</persName>
+                </person>
+                <person xml:id="Sciagura">
+                   <persName>Sciagura</persName>
+                </person>
+                <person xml:id="Mauro">
+                   <persName>zio Mauro</persName>
+                </person>
+                <person xml:id="Cenzo">
+                   <persName>Cenzo</persName>
+                </person>
+                <person xml:id="Tabet">
+                   <persName>Avv. Geremia Tabet</persName>
+                </person>
+                <person xml:id="Lattes">
+                   <persName>Avv. Lattes</persName>
+                </person>
+                <person xml:id="famFinziContini">
+                   <persName>Famiglia Finzi-Contini</persName>
+                </person>
+                <person xml:id="Elisa">
+                   <persName>cuoca Elisa</persName>
+                </person>
+                <person xml:id="Bocchini">
+                   <persName>Sua Eccellenza Bocchini</persName>
+                </person>
+                <!-- with semantic tagging -->
+                <person xml:id="Mussolini">
+                   <persName>Benito Mussolini</persName>
+                </person>
+                <person xml:id="Ciano">
+                   <persName>Galeazzo Ciano</persName>
+                </person>
+                <person xml:id="DePisis">
+                   <persName>Filippo De Pisis</persName>
+                </person>
              </listPerson>
           </particDesc>
-          <settingDesc>
-             <listPlace>
+        <settingDesc>
+            <listPlace>
+                <place xml:id="ViaGorgadello">
+                   <placeName>Via Gorgadello</placeName>
+                   <placeName>Via Adelardi</placeName>
+                </place>
+                <place xml:id="PiazzaErbe">
+                   <placeName>Piazza delle Erbe</placeName>
+                   <placeName>Piazza Trento e Trieste</placeName>
+                </place>
+                <place xml:id="CorsoGiovecca">
+                   <placeName>Corso Giovecca</placeName>
+                </place>
+                <place xml:id="ViaBersglieri">
+                   <placeName>Via Bersaglieri del Po</placeName>
+                </place>
+                <place xml:id="ViaSaracena">
+                   <placeName>Via Saracena</placeName>
+                </place>
+                <place xml:id="PiazzaTravaglio">
+                   <placeName>Piazza Travaglio</placeName>
+                </place>
+                <place xml:id="Listone">
+                   <placeName>Il Listone</placeName>
+                   <placeName>Piazza Trento e Trieste</placeName>
+                </place>
+                <place xml:id="CircoloUnione">
+                   <placeName>Circolo Unione</placeName>
+                   <placeName>Via Lollio 15</placeName>
+                </place>
+                <place xml:id="ViaBuonPorto">
+                   <placeName>Via Bomporto</placeName>
+                   <placeName>Via Buon Porto</placeName>
+                </place>
+                <place xml:id="MuraDeglAngeli">
+                   <placeName>Mura degli Angeli</placeName>
+                </place>
+                <place xml:id="VicoloTorcicoda">
+                   <placeName>Vicolo mozzo Torcicoda</placeName>
+                </place>
+                <place xml:id="Spianata">
+                   <placeName>Spianata</placeName>
+                </place>
+                <place xml:id="ViaPiangipane">
+                   <placeName>Via Piangipane</placeName>
+                </place>
+                <place xml:id="ViaCairoli">
+                   <placeName>Via Cairoli</placeName>
+                </place>
+                <place xml:id="PasticceriaMajani">
+                   <placeName>Pasticceria Majani</placeName>
+                </place>
+                <place xml:id="ViaSFrancesco">
+                   <placeName>Via San Francesco</placeName>
+                </place>
+                <place xml:id="VialeMille">
+                   <placeName>Viale dei Mille</placeName>
+                </place>
+                <place xml:id="GHotel">
+                   <placeName>Grand Hotel, Riccione</placeName>
+                </place>
+                <place xml:id="PuntaPesaro">
+                   <placeName>Punta di Pesaro Hotel, Riccione</placeName>
+                </place>  
+                
+                <!-- with semantic tagging -->
                 <place xml:id="Ferrara">
                    <placeName>Ferrara</placeName>
                 </place>
-            </listPlace>
+                <place xml:id="CorsoRoma">
+                   <placeName>Corso Roma</placeName>
+                   <placeName>Corso Martiri della Libertà</placeName>
+                </place>
+                <place xml:id="PalazzoGenerali">
+                   <placeName>Palazzo Assicurazioni Generali</placeName>
+                </place>
+                <place xml:id="CastelloFE">
+                   <placeName>Castello di Ferrara</placeName>
+                </place>
+                <place xml:id="CattedraleFE">
+                   <placeName>Cattedrale di Ferrara</placeName>
+                   <placeName>Duomo</placeName>
+                </place>
+                <place xml:id="ViaMazzini">
+                   <placeName>Via Mazzini</placeName>
+                </place>
+                <place xml:id="ViaGaribaldi">
+                   <placeName>Via Garibaldi</placeName>
+                </place>
+                <place xml:id="ViaSRomano">
+                   <placeName>Via San Romano</placeName>
+                </place>
+                <place xml:id="SCarlo">
+                   <placeName>San Carlo</placeName>
+                </place>
+                <place xml:id="CircoloNegozianti">
+                   <placeName>Circolo Negozianti</placeName>
+                   <placeName>Palazzo Roverella</placeName>
+                </place>
+                <place xml:id="Montagnone">
+                   <placeName>Montagnone</placeName>
+                </place>
+                <place xml:id="VialeCavour">
+                   <placeName>Viale Cavour</placeName>
+                </place>
+                <place xml:id="ChiesaSCristoforo">
+                   <placeName>Chiesa di San Cristoforo</placeName>
+                </place>
+                <place xml:id="PalazzoArcivescovile">
+                   <placeName>Palazzo Arcivescovile</placeName>
+                </place>
+                <place xml:id="ViaVignatagliata">
+                   <placeName>Via Vignatagliata</placeName>
+                </place>
+                <place xml:id="GhettoFE">
+                   <placeName>Ghetto di Ferrara</placeName>
+                </place>
+                <place xml:id="CorsoErcole">
+                   <placeName>Corso Ercole I d'Este</placeName>
+                </place>
+                <place xml:id="Acquedotto">
+                   <placeName>Acquedotto</placeName>
+                   <placeName>Piazza XXIV Maggio</placeName>
+                </place>
+                <place xml:id="Pontelagoscuro">
+                   <placeName>Pontelagoscuro</placeName>
+                </place>
+                <place xml:id="ViaSavonarola">
+                   <placeName>Via Savonarola</placeName>
+                </place>
+                <place xml:id="ChiesaSGirolamo">
+                   <placeName>Chiesa di San Girolamo</placeName>
+                </place>
+                <place xml:id="Firenze">
+                   <placeName>Firenze</placeName>
+                </place>
+                <place xml:id="ComunaleFI">
+                   <placeName>Teatro Comunale, Firenze</placeName>
+                </place>
+                <place xml:id="MaggioFI">
+                   <placeName>Maggio Fiorentino</placeName>
+                </place>
+                <place xml:id="Venezia">
+                   <placeName>Venezia</placeName>
+                </place>
+                <place xml:id="CanalGrande">
+                   <placeName>Canal Grande</placeName>
+                </place>
+                <place xml:id="Biennale">
+                   <placeName>Biennale di Venezia</placeName>
+                </place>
+                <place xml:id="Bologna">
+                   <placeName>Bologna</placeName>
+                </place>
+                <place xml:id="ComunaleBO">
+                   <placeName>Teatro Comunale, Bologna</placeName>
+                </place>
+                <place xml:id="PortaGalliera">
+                   <placeName>Porta Galliera</placeName>
+                </place>
+                <place xml:id="SLuca">
+                   <placeName>Colle di San Luca</placeName>
+                </place>
+                <place xml:id="BOCentrale">
+                   <placeName>Stazione di Bologna</placeName>
+                </place>
+                <place xml:id="ViaZamboni">
+                   <placeName>Via Zamboni</placeName>
+                </place>
+                <place xml:id="ViaIndipendenza">
+                   <placeName>Via Indipendenza</placeName>
+                </place>
+                <place xml:id="PiazzaNettuno">
+                   <placeName>Piazza del Nettuno</placeName>
+                </place>
+                <place xml:id="StradaMaggiore">
+                   <placeName>Strada Maggiore</placeName>
+                </place>
+                <place xml:id="Torri">
+                   <placeName>Due Torri</placeName>
+                </place>
+                <place xml:id="SVitale">
+                   <placeName>San Vitale</placeName>
+                </place>
+                <place xml:id="PoggioRecanatico">
+                   <placeName>Poggio Renatico</placeName>
+                </place>
+                <place xml:id="Galliera">
+                   <placeName>Galliera</placeName>
+                </place>
+                <place xml:id="SGiorgioPiano">
+                   <placeName>San Giorgio di Piano</placeName>
+                </place>
+                <place xml:id="SPietroCasale">
+                   <placeName>San Pietro in Casale</placeName>
+                </place>
+                <place xml:id="Castelmaggiore">
+                   <placeName>Castelmaggiore</placeName>
+                </place>
+                <place xml:id="Corticella">
+                   <placeName>Corticella</placeName>
+                </place>
+                <place xml:id="Padova">
+                   <placeName>Padova</placeName>
+                </place>
+                <place xml:id="SFrancesco">
+                   <placeName>Chiesa di San Francesco</placeName>
+                </place>
+                <place xml:id="Imperia">
+                   <placeName>Imperia</placeName>
+                </place>
+                <place xml:id="XXMiglia">
+                   <placeName>Ventimilgia</placeName>
+                </place>
+                <place xml:id="Moena">
+                   <placeName>Moena</placeName>
+                </place>
+                <place xml:id="Riccione">
+                   <placeName>Riccione</placeName>
+                </place>
+                <place xml:id="CaffeZanarini">
+                   <placeName>Caffé Zanarini</placeName>
+                   <placeName>Viale Ceccarini</placeName>
+                </place>
+                <place xml:id="SLeo">
+                   <placeName>San Leo</placeName>
+                </place>
+                <place xml:id="Carpegna">
+                   <placeName>Carpegna</placeName>
+                </place>
+                <place xml:id="PortoCorsini">
+                   <placeName>Porto Corsini</placeName>
+                </place>
+                <place xml:id="MIMarittima">
+                   <placeName>Milano Marittima</placeName>
+                </place>
+                <place xml:id="Cervia">
+                   <placeName>Cervia</placeName>
+                </place>
+                <place xml:id="Cesenatico">
+                   <placeName>Cesenatico</placeName>
+                </place>
+                <place xml:id="Rimini">
+                   <placeName>Rimini</placeName>
+                </place>
+                <place xml:id="Cattolica">
+                   <placeName>Cattolica</placeName>
+                </place>
+             </listPlace>
           </settingDesc>
        </profileDesc>
      <xenoData>
         <rdf:RDF>
-           <!-- Places 1. Ferrara -->
+           <!-- Places -->
            <rdf:Description tei:ref="#Ferrara" rdf:about="geonames:3177090"> <!-- Ferrara -->
               <rdf:type rdf:resource="dbo:Place"/>
               <rdfs:label xml:lang="it">Ferrara</rdfs:label>
            </rdf:Description>
-           <rdf:Description tei:ref="#Ferrara" rdf:about="geonames:3177090"> <!-- Ferrara -->
+           <rdf:Description tei:ref="#CorsoRoma" rdf:about="wikidata:Q54558484"> 
                  <rdf:type rdf:resource="dbo:Place"/>
-                 <rdfs:label xml:lang="it">Ferrara</rdfs:label>
+                 <rdfs:label xml:lang="it">Corso Roma</rdfs:label>
+              <rdfs:label xml:lang="it">Corso Martiri della Libertà</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#PalazzoGenerali" rdf:about="wikidata:Q96757964"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Palazzo Assicurazioni Generali</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#CastelloFE" rdf:about="viaf:158977469">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Castello di Ferrara</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#CattedraleFE" rdf:about="viaf:234334949"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Cattedrale di Ferrara</rdfs:label>
+              <rdfs:label xml:lang="it">Duomo</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#ViaMazzini" rdf:about="wikidata:Q54315508"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Via Mazzini</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#ViaGaribaldi" rdf:about="wikidata:Q54791681"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Via Garibaldi</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#ViaSRomano" rdf:about="wikidata:Q54590840"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Via San Romano</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#SCarlo" rdf:about="geonames:3168500">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">San Carlo</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#CircoloNegozianti" rdf:about="wikidata:Q3890793"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Circolo Negozianti</rdfs:label>
+              <rdfs:label xml:lang="it">Palazzo Roverella</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Montagnone" rdf:about="wikidata:Q56682579">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Montagnone</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#VialeCavour" rdf:about="wikidata:Q4010983">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">VialeCavour</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#ChiesaSCristoforo" rdf:about="viaf:129406265">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Chiesa di San Cristoforo</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#PalazzoArcivescovile" rdf:about="wikidata:Q72709963"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">PalazzoArcivescovile</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#ViaVignatagliata" rdf:about="wikidata:Q54497430"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Via Vignatagliata</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#GhettoFE" rdf:about="geonames:8969232"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Ghetto di Ferrara</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#CorsoErcole" rdf:about="wikidata:Q2998055">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Corso Ercole I d'Este</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Acquedotto" rdf:about="wikidata:Q3604728"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Acquedotto</rdfs:label>
+              <rdfs:label xml:lang="it">Piazza XXIV Maggio</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Pontelagoscuro" rdf:about="geonames:3170254"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Pontelagoscuro</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#ViaSavonarola" rdf:about="viaf:240128257"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Ferrara</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#ChiesaSGirolamo" rdf:about="wikidata:Q3670571"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Chiesa di San Girolamo</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Firenze" rdf:about="geonames:3176959"> <!-- Firenze -->
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Firenze</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#MaggioFI" rdf:about="geonames:11983671"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Maggio Fiorentino</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#ComunaleFI" rdf:about="viaf:124209498"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Teatro Comunale, Firenze</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Venezia" rdf:about="geonames:3164603"> <!-- Venezia -->
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Venezia</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#CanalGrande" rdf:about="geonames:3175933">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Canal Grande</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Biennale" rdf:about="geonames:7910756">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Biennale di Venezia</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Bologna" rdf:about="geonames:3181928"> <!-- Bologna -->
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Bologna</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#ComunaleBO" rdf:about="geonames:10278931">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Teatro Comunale, Bologna</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#PortaGalliera" rdf:about="geonames:11847532"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Porta Galliera</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#SLuca" rdf:about="geonames:3174319">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Colle di San Luca</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#BOCentrale" rdf:about="geonames:3181926"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Stazione di Bologna</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#ViaZamboni" rdf:about="wikidata:Q3556507"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Via Zamboni</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#ViaIndipendenza" rdf:about="wikidata:Q112601459"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Via Indipendenza</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#PiazzaNettuno" rdf:about="geonames:11839768">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Piazza del Nettuno</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#StradaMaggiore" rdf:about="wikidata:Q106365854">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Strada Maggiore</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Torri" rdf:about="geonames:7670504"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Due Torri</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#SVitale" rdf:about="viaf:130562334"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">San Vitale</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Padova" rdf:about="geonames:3171728"> <!-- Padova -->
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Padova</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#SFrancesco" rdf:about="geonames:Q3670109"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Chiesa di San Francesco</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Riccione" rdf:about="geonames:3169424"> <!-- Riccione -->
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Ferrara</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#CaffeZanarini" rdf:about="wikidata:Q60998573"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Caffé Zanarini</rdfs:label>
+              <rdfs:label xml:lang="it">Viale Ceccarini</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#PoggioRecanatico" rdf:about="geonames:3170442"> <!-- Alre località -->
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Poggio Recanatico</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Galliera" rdf:about="geonames:3176375"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Galliera</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#SGiorgioPiano" rdf:about="geonames:3168300"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">San Giorgio di Piano</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#SPietroCasale" rdf:about="geonames:3167824"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">San Pietro in Casale</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Castelmaggiore" rdf:about="geonames:10377508">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Castelmaggiore</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Corticella" rdf:about="geonames:3177963"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Corticella</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Imperia" rdf:about="geonames:3175532">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Imperia</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#XXMiglia" rdf:about="geonames:3164582"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Ventimiglia</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Moena" rdf:about="geonames:3173325">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Moena</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#SLeo" rdf:about="geonames:3168173"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">San Leo</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Carpegna" rdf:about="geonames:6539719"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Carpegna</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#PuntaCorsini" rdf:about="geonames:3170098"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Punta Corsini</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#MIMarittima" rdf:about="geonames:3173428"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Milano Marittima</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Cervia" rdf:about="geonames:3178998">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Cervia</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Cesenatico" rdf:about="geonames:6538487"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Cesenatico</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Rimini" rdf:about="geonames:3169361">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Rimini</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Cattolica" rdf:about="geonames:3179347">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Cattolica</rdfs:label>
            </rdf:Description>
               
-           <!-- people:
-                    @BASE mof: https://github.com/digiMof/gbggold/
-                    @PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-                    @PREFIX dbo: <http://dbpedia.org/ontology/>.
-                    @PREFIX foaf: <http://xmlns.com/foaf/0.1/>.
-                    dbo:Marco_Polo a foaf:Person;
-                      rdfs:label "Marco Polo"@en.
-                -->
-              <rdf:Description tei:ref="#Adam" rdf:about="mof:Fadigati"> <!-- CORRECT??? URI assignment -->
+           <!-- PEOPLE -->
+           <rdf:Description tei:ref="#Mussolini" rdf:about="viaf:90162262"> 
+              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdfs:label xml:lang="en">Benito Mussolini</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Ciano" rdf:about="viaf:56702085"> 
+              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdfs:label xml:lang="en">Galeazzo Ciano</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#DePisis" rdf:about="viaf:68940882"> 
                  <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-                 <rdfs:label xml:lang="en">Athos Fadigati</rdfs:label>
+                 <rdfs:label xml:lang="en">Filippo De Pisis</rdfs:label>
               </rdf:Description>
         </rdf:RDF> 
      </xenoData>
