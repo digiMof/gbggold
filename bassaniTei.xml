@@ -221,6 +221,13 @@
                 <person xml:id="DePisis">
                    <persName>Filippo De Pisis</persName>
                 </person>
+                <person xml:id="Ridolini">
+                   <persName>Ridolini</persName>
+                   <persName>Larry Semon</persName>
+                </person>
+                <person xml:id="FFranco">
+                   <persName>Francisco Franco</persName>
+                </person>
              </listPerson>
           </particDesc>
         <settingDesc>
@@ -250,7 +257,10 @@
                </place>
                <place xml:id="VicoloGranchio">
                   <placeName>Vicolo del Granchio</placeName>
-               </place>
+               </place> 
+               <place xml:id="CaffeBorsa">
+                  <placeName>Caffè della Borsa</placeName>
+               </place> 
                <place xml:id="ViaBersglieri">
                    <placeName>Via Bersaglieri del Po</placeName>
                 </place>
@@ -298,6 +308,15 @@
                 </place>
                <place xml:id="ViaMascarella">
                   <placeName>Via Mascarella</placeName>
+               </place>
+               <place xml:id="RistoStellaN">
+                  <placeName>Ristorante alla Stella del Nord</placeName>
+               </place>
+               <place xml:id="RistoGigino">
+                  <placeName>Ristorante da Gigino</placeName>
+               </place>
+               <place xml:id="RistoGallinaFaraona">
+                  <placeName>Ristorante alla Gallina Faraona</placeName>
                </place>
                 <place xml:id="PasticceriaMajani">
                    <placeName>Pasticceria Majani</placeName>
@@ -476,6 +495,9 @@
                 <place xml:id="XXMiglia">
                    <placeName>Ventimilgia</placeName>
                 </place>
+               <place xml:id="Grappa">
+                  <placeName>Grappa</placeName>
+               </place>
                 <place xml:id="Moena">
                    <placeName>Moena</placeName>
                 </place>
@@ -749,6 +771,10 @@
               <rdf:type rdf:resource="dbo:Place"/>
               <rdfs:label xml:lang="it">Ventimiglia</rdfs:label>
            </rdf:Description>
+           <rdf:Description tei:ref="Grappa" rdf:about="viaf:245119758">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Monte Grappa</rdfs:label>
+           </rdf:Description>
            <rdf:Description tei:ref="#Moena" rdf:about="geonames:3173325">
               <rdf:type rdf:resource="dbo:Place"/>
               <rdfs:label xml:lang="it">Moena</rdfs:label>
@@ -847,6 +873,14 @@
                  <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
                  <rdfs:label xml:lang="en">Filippo De Pisis</rdfs:label>
               </rdf:Description>
+           <rdf:Description tei:ref="#Ridolini" rdf:about="viaf:24802993"> 
+              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdfs:label xml:lang="en">Ridolini</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#FFranco" rdf:about="viaf:44334635"> 
+              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdfs:label xml:lang="en">Francisco Franco</rdfs:label>
+           </rdf:Description>
         </rdf:RDF> 
      </xenoData>
   </teiHeader> 
@@ -984,61 +1018,61 @@
       <div>
          <p>Capitolo 7</p>
          <p>Si accontentava di niente, in fondo, o almeno così sembrava. Più che restare lì, nel nostro scompartimento di terza classe, con l'aria del vecchio che si scalda in silenzio davanti a un bel fuoco, altro non pretendeva.</p>
-         <p>A Bologna, per esempio, non appena fossimo usciti nel piazzale di fronte alla stazione, lui saliva su un tassì, e via. Dopo una volta o due, all'inizio, che venne con noi fino all'università, non successe mai che ce lo trovassimo vicino senza sapere come liberarcene. Conosceva bene, perché glielo avevamo detto, le trattorie a buon mercato dove intorno all'una avrebbe potuto raggiungerci: alla Stella del Nord, in Strada Maggiore, o da Gigino, ai piedi delle due Torri, o alla Gallina Faraona, in San Vitale. Tuttavia non vi capitò mai. Un pomeriggio, entrando in un locale di via Zamboni per giocare a boccette, lo scorgemmo seduto a un tavolino in disparte, con davanti un caffè e un bicchier d'acqua, e immerso nella lettura di un giornale. Si accorse subito di noi, certo. Ma finse di no; e anzi, dopo qualche minuto, chiamò il cameriere con un cenno, pagò, scivolando quindi fuori alla chetichella.</p>
+         <p>A <placeName ref="#Bologna">Bologna</placeName>, per esempio, non appena fossimo usciti nel piazzale di fronte alla <placeName ref="#BOCentrale">stazione</placeName>, lui saliva su un tassì, e via. Dopo una volta o due, all'inizio, che venne con noi fino all'università, non successe mai che ce lo trovassimo vicino senza sapere come liberarcene. Conosceva bene, perché glielo avevamo detto, le trattorie a buon mercato dove intorno all'una avrebbe potuto raggiungerci: alla <placeName ref="#RistoStellaN">Stella del Nord</placeName>, in <placeName ref="#StradaMaggiore">Strada Maggiore</placeName>, o <placeName ref="#RistoGigino">da Gigino</placeName>, ai piedi delle <placeName ref="#Torri">due Torri</placeName>, o <placeName ref="#RistoGallinaFaraona">alla Gallina Faraona</placeName>, in <placeName ref="#SVitale">San Vitale</placeName>. Tuttavia non vi capitò mai. Un pomeriggio, entrando in un locale di <placeName ref="#ViaZamboni">via Zamboni</placeName> per giocare a boccette, lo scorgemmo seduto a un tavolino in disparte, con davanti un caffè e un bicchier d'acqua, e immerso nella lettura di un giornale. Si accorse subito di noi, certo. Ma finse di no; e anzi, dopo qualche minuto, chiamò il cameriere con un cenno, pagò, scivolando quindi fuori alla chetichella.</p>
          <p>Non era insomma né indiscreto né noioso.</p>
          <p>Eppure, a poco a poco, nonostante che, grosso come era, si rannicchiasse a tal punto sulla panca di legno dello scompartimento fino a occuparne anche meno dell'ottava parte, a poco a poco, senza volerlo, cominciammo pressoché tutti a mancargli di rispetto.</p>
-         <p>Per la verità fu di nuovo lui a sbagliare: quando una mattina, mentre il treno sostava a San Pietro in Casale, d'un tratto volle scendere a procurarci i soliti panini e biscotti al bar della stazione. «Tocca a me», aveva dichiarato, e non c'era stato verso di trattenerlo.</p>
+         <p>Per la verità fu di nuovo lui a sbagliare: quando una mattina, mentre il treno sostava a <placeName ref="#SPietroCasale">San Pietro in Casale</placeName>, d'un tratto volle scendere a procurarci i soliti panini e biscotti al bar della stazione. «Tocca a me», aveva dichiarato, e non c'era stato verso di trattenerlo.</p>
          <p>Lo vedemmo dunque, dal treno, attraversare goffo i binari. C'era da scommetterlo che si sarebbe dimenticato quanti panini doveva comperare e quanti pacchetti di biscotti. E difatti si verificò puntualmente proprio questo: col seguito di noi a spenzolarci come coscritti ubriachi dal finestrino e a dargli di lontano, urlando e sghignazzando senza ritegno, gli ordini più contraddittori, e di lui sempre più confuso e affannato via via che i minuti passavano, tanto che per un pelo non restava a terra.</p>
-         <p>Dirò poi di Deliliers, che non gli rivolgeva mai la parola, affliggendolo ogni volta che gli capitava con trasparenti allusioni, con brutali doppisensi. Ma lo stesso Nino Bottecchiari, al quale da bambino aveva levato le tonsille ed era il solo a cui desse del tu, prese a trattarlo freddamente. E lui? Era strano a vedersi, e anche penoso: più Nino e Deliliers moltiplicavano le sgarberie nei suoi confronti, e più lui si agitava nel vano tentativo di riuscire simpatico. Per una parola buona, uno sguardo di consenso, un sorriso divertito che gli fossero venuti dai due, avrebbe fatto davvero qualsiasi cosa.</p>
-         <p>Con Nino, che era a giudizio unanime l'intellettuale del gruppo, e l'anno precedente aveva partecipato a Venezia ai Littoriali della Cultura e dell'Arte (si era classificato quinto in Dottrina del Fascismo, e secondo assoluto in Critica cinematografica), cercava di intavolare discussioni che dessero modo al nostro compagno di brillare: sul cinema, appunto, e perfino sulla politica, sebbene di politica, come precisò più volte, lui non se ne intendesse granché.</p>
+         <p>Dirò poi di <persName ref="#Deliliers">Deliliers</persName>, che non gli rivolgeva mai la parola, affliggendolo ogni volta che gli capitava con trasparenti allusioni, con brutali doppisensi. Ma lo stesso <persName ref="#Bottecchiari">Nino Bottecchiari</persName>, al quale da bambino aveva levato le tonsille ed era il solo a cui desse del tu, prese a trattarlo freddamente. E lui? Era strano a vedersi, e anche penoso: più <persName ref="#Bottecchiari">Nino</persName> e <persName ref="#Deliliers">Deliliers</persName> moltiplicavano le sgarberie nei suoi confronti, e più lui si agitava nel vano tentativo di riuscire simpatico. Per una parola buona, uno sguardo di consenso, un sorriso divertito che gli fossero venuti dai due, avrebbe fatto davvero qualsiasi cosa.</p>
+         <p>Con <persName ref="#Bottecchiari">Nino</persName>, che era a giudizio unanime l'intellettuale del gruppo, e l'anno precedente aveva partecipato a <placeName ref="#Venezia">Venezia</placeName> ai Littoriali della Cultura e dell'Arte (si era classificato quinto in Dottrina del Fascismo, e secondo assoluto in Critica cinematografica), cercava di intavolare discussioni che dessero modo al nostro compagno di brillare: sul cinema, appunto, e perfino sulla politica, sebbene di politica, come precisò più volte, lui non se ne intendesse granché.</p>
          <p>Ma era sfortunato. Non ne azzeccava una.</p>
-         <p>Cominciava a discorrere di cinema (qui se ne intendeva: erano anni, fra l'altro, che passava le serate nei cinema!), e Nino gli dava subito addosso con urla isteriche, come se non gli riconoscesse nemmeno il diritto di parlarne, come se sentirgli dichiarare, non so, che le vecchie comiche di Ridolini erano «stupende» (Nino dal canto suo le aveva più volte definite «fondamentali»), bastasse di colpo, sull'argomento, a fargli cambiare radicalmente «posizione».</p>
-         <p>Respinto, tentò allora con la politica. La guerra di Spagna stava ormai per concludersi con la vittoria di Franco e del fascismo. Una mattina, dopo aver scorso la prima pagina del «Corriere della Sera», evidentemente sicuro di non stare dicendo nulla che potesse dispiacere né a Nino né a nessun altro di noi, ma anzi convinto senza il minimo dubbio di trovarci tutti quanti del suo parere, Fadigati espresse l'opinione, a quell'epoca niente affatto peregrina, che l'imminente trionfo dei «nostri legionari» fosse da considerarsi una gran bella cosa. E invece ecco, d'un tratto, scatenarsi l'imprevedibile. Come attraversato dalla corrente elettrica, e alzando la voce in modo tale che Bianca a un certo punto pensò bene di mettergli una mano sulla bocca, Nino cominciò a sbraitare che «forse» era un disastro, viceversa, altro che storie!, che «forse era il principio della fine», e che si vergognasse, lui, alla sua età, di essere rimasto così «irresponsabile».</p>
-         <p>«Scusa, caro figliolo... vedi... se permetti...», badava a ripetere Fadigati, pallido più d'un morto. Smarrito sotto l'imperversare della bufera, non capiva. Girava gli occhi attorno quasi a chiedere una spiegazione. Ma anche noi eravamo troppo sconcertati per dargli retta: specie io che l'anno avanti, nel corso di una delle solite discussioni, ero stato accusato proprio da Nino - gentiliano, lui, e ardente assertore dello Stato etico - di essere imbevuto di «scetticismo crociano»... E poi, alla fin fine, erano davvero atterriti gli occhi rotondi del dottore, o non, piuttosto, brillando vividi dietro le lenti, pieni di un'acre soddisfazione, di una infantile, inesplicabile, cieca allegria?</p>
+         <p>Cominciava a discorrere di cinema (qui se ne intendeva: erano anni, fra l'altro, che passava le serate nei cinema!), e <persName ref="#Bottecchiari">Nino</persName> gli dava subito addosso con urla isteriche, come se non gli riconoscesse nemmeno il diritto di parlarne, come se sentirgli dichiarare, non so, che le vecchie comiche di Ridolini erano «stupende» (<persName ref="#Bottecchiari">Nino</persName> dal canto suo le aveva più volte definite «fondamentali»), bastasse di colpo, sull'argomento, a fargli cambiare radicalmente «posizione».</p>
+         <p>Respinto, tentò allora con la politica. La guerra di Spagna stava ormai per concludersi con la vittoria di <persName ref="#FFranco">Franco</persName> e del fascismo. Una mattina, dopo aver scorso la prima pagina del «Corriere della Sera», evidentemente sicuro di non stare dicendo nulla che potesse dispiacere né a <persName ref="#Bottecchiari">Nino</persName> né a nessun altro di noi, ma anzi convinto senza il minimo dubbio di trovarci tutti quanti del suo parere, <persName ref="#Fadigati">Fadigati</persName> espresse l'opinione, a quell'epoca niente affatto peregrina, che l'imminente trionfo dei «nostri legionari» fosse da considerarsi una gran bella cosa. E invece ecco, d'un tratto, scatenarsi l'imprevedibile. Come attraversato dalla corrente elettrica, e alzando la voce in modo tale che <persName ref="#BSgarbi">Bianca</persName> a un certo punto pensò bene di mettergli una mano sulla bocca, <persName ref="#Bottecchiari">Nino</persName> cominciò a sbraitare che «forse» era un disastro, viceversa, altro che storie!, che «forse era il principio della fine», e che si vergognasse, lui, alla sua età, di essere rimasto così «irresponsabile».</p>
+         <p>«Scusa, caro figliolo... vedi... se permetti...», badava a ripetere <persName ref="#Fadigati">Fadigati</persName>, pallido più d'un morto. Smarrito sotto l'imperversare della bufera, non capiva. Girava gli occhi attorno quasi a chiedere una spiegazione. Ma anche noi eravamo troppo sconcertati per dargli retta: specie io che l'anno avanti, nel corso di una delle solite discussioni, ero stato accusato proprio da <persName ref="#Bottecchiari">Nino</persName> - gentiliano, lui, e ardente assertore dello Stato etico - di essere imbevuto di «scetticismo crociano»... E poi, alla fin fine, erano davvero atterriti gli occhi rotondi del dottore, o non, piuttosto, brillando vividi dietro le lenti, pieni di un'acre soddisfazione, di una infantile, inesplicabile, cieca allegria?</p>
          <p>Un'altra volta si parlava tutti assieme di sport.</p>
-         <p>Se in materia di cultura Nino Bottecchiari era ritenuto il nostro numero uno, nello sport era Deliliers che primeggiava indiscutibilmente. Ferrarese soltanto per parte di madre (nativo di Imperia, mi sembra, o di Ventimiglia, il padre era morto nel '18 sul Grappa, alla testa di una compagnia di Arditi), anche lui, come Vittorio Molon, aveva compiuto a Ferrara soltanto le scuole medie superiori, cioè i quattro anni del liceo scientifico. Quei quattro anni erano stati ad ogni modo più che sufficienti per fare di Eraldo, che nel '35 aveva vinto il campionato regionale di boxe, categoria allievi, pesi medi, e a parte questo era un bellissimo ragazzo, alto un metro e ottanta e con un volto e un corpo da statua greca, un reuccio locale vero e proprio. Già gli si attribuivano, e non aveva ancora vent'anni, tre o quattro conquiste clamorose. Una sua compagna di scuola, suicidatasi l'anno stesso che lui aveva vinto il titolo di campione emiliano, lo aveva fatto, si diceva, per amor suo. Da un giorno all'altro lui non l'aveva più nemmeno guardata; e allora lei, poverina, era corsa difilato a buttarsi in Po. Certo è che anche nell'ambiente studentesco Eraldo Deliliers veniva, più che amato, addirittura idolatrato. Per vestirci ci si regolava sui suoi abiti, che la madre gli spazzolava, smacchiava e stirava indefessamente. Stare accanto a lui la domenica mattina, al Caffè della Borsa, con la schiena appoggiata a una colonna del portico e guardando le gambe delle donne che passavano, era considerato un autentico privilegio.</p>
-         <p>Insomma una volta, in treno, verso la fine di maggio, stavamo discutendo di sport con Deliliers. Dall'atletica si finì a discorrere di boxe. Non dava mai troppa confidenza a nessuno, Deliliers. Quel giorno, al contrario, si aprì abbastanza. Disse che di studiare non gli andava, che aveva bisogno di troppi soldi «per vivere», e che perciò, se gli fosse riuscito un certo «colpetto» che meditava, si sarebbe poi dedicato completamente alla «nobile arte».</p>
-         <p>«Come professionista?», osò chiedergli Fadigati.</p>
-         <p>Deliliers lo guardò come si guarda uno scarafaggio.</p>
+         <p>Se in materia di cultura <persName ref="#Bottecchiari">Nino Bottecchiari</persName> era ritenuto il nostro numero uno, nello sport era Deliliers che primeggiava indiscutibilmente. Ferrarese soltanto per parte di madre (nativo di <placeName ref="#Imperia">Imperia</placeName>, mi sembra, o di <placeName ref="#XXMiglia">Ventimiglia</placeName>, il padre era morto nel '18 sul <placeName ref="#Grappa">Grappa</placeName>, alla testa di una compagnia di Arditi), anche lui, come <persName ref="#Molon">Vittorio Molon</persName>, aveva compiuto a <placeName ref="#Ferrara">Ferrara</placeName> soltanto le scuole medie superiori, cioè i quattro anni del liceo scientifico. Quei quattro anni erano stati ad ogni modo più che sufficienti per fare di <persName ref="#Deliliers">Eraldo</persName>, che nel <date when="1935">'35</date> aveva vinto il campionato regionale di boxe, categoria allievi, pesi medi, e a parte questo era un bellissimo ragazzo, alto un metro e ottanta e con un volto e un corpo da statua greca, un reuccio locale vero e proprio. Già gli si attribuivano, e non aveva ancora vent'anni, tre o quattro conquiste clamorose. Una sua compagna di scuola, suicidatasi l'anno stesso che lui aveva vinto il titolo di campione emiliano, lo aveva fatto, si diceva, per amor suo. Da un giorno all'altro lui non l'aveva più nemmeno guardata; e allora lei, poverina, era corsa difilato a buttarsi in Po. Certo è che anche nell'ambiente studentesco <persName ref="#Deliliers">Eraldo Deliliers</persName> veniva, più che amato, addirittura idolatrato. Per vestirci ci si regolava sui suoi abiti, che la madre gli spazzolava, smacchiava e stirava indefessamente. Stare accanto a lui la domenica mattina, al <placeName ref="#CaffeBorsa">Caffè della Borsa</placeName>, con la schiena appoggiata a una colonna del portico e guardando le gambe delle donne che passavano, era considerato un autentico privilegio.</p>
+         <p>Insomma una volta, in treno, verso la fine di maggio, stavamo discutendo di sport con <persName ref="#Deliliers">Deliliers</persName>. Dall'atletica si finì a discorrere di boxe. Non dava mai troppa confidenza a nessuno, <persName ref="#Deliliers">Deliliers</persName>. Quel giorno, al contrario, si aprì abbastanza. Disse che di studiare non gli andava, che aveva bisogno di troppi soldi «per vivere», e che perciò, se gli fosse riuscito un certo «colpetto» che meditava, si sarebbe poi dedicato completamente alla «nobile arte».</p>
+         <p>«Come professionista?», osò chiedergli <persName ref="#Fadigati">Fadigati</persName>.</p>
+         <p><persName ref="#Deliliers">Deliliers</persName> lo guardò come si guarda uno scarafaggio.</p>
          <p>«Si capisce», disse. «Ha paura che mi rovini la faccia, dottore?»</p>
          <p>«Della faccia non me ne importa, per quanto, vedo, è già molto segnata lungo gli archi sopraccigliari. Sento comunque il dovere di avvertirla che la boxe, specie se praticata professionalmente, a lungo andare risulta deleteria per l'organismo. Se fossi nel governo, io proibirei il pugilato: anche quello dilettantistico. Più che uno sport, lo considero una specie di assassinio legale. Pura brutalità organizzata...»</p>
-         <p>«Ma faccia il piacere!», lo interruppe Deliliers. «Ha mai visto tirare?»</p>
+         <p>«Ma faccia il piacere!», lo interruppe <persName ref="#Deliliers">Deliliers</persName>. «Ha mai visto tirare?»</p>
          <p>Fadigati fu costretto ad ammettere di no. Disse che, per quanto medico, violenza e sangue gli facevano orrore.</p>
-         <p>«E allora, se non ha mai visto tirare», tagliò corto Deliliers, «perché parla? Chi ha chiesto il suo parere?»</p>
-         <p>E di nuovo, mentre Deliliers gli indirizzava quasi gridando queste parole, e quindi, voltategli le spalle, spiegava a noi assai più calmo che la boxe, «al contrario di quello che certi fessi possono pensare», è gioco di gambe, scelta di tempo, e scherma, in sostanza, soprattutto scherma, di nuovo vidi brillare negli occhi di Fadigati la luce assurda ma inequivocabile di una interna felicità.</p>
-         <p>Nino Bottecchiari era l'unico fra noi che non venerasse Deliliers. Non erano amici, però si rispettavano a vicenda. Di fronte a Nino, Deliliers attenuava di parecchio le sue abituali pose da gangster, e Nino, dal canto suo, faceva molto meno il professore.</p>
-         <p>Una mattina Nino e Bianca non c'erano (fu a giugno, mi pare, durante gli esami). Nello scompartimento eravamo soltanto in sei, tutti uomini.</p>
+         <p>«E allora, se non ha mai visto tirare», tagliò corto <persName ref="#Deliliers">Deliliers</persName>, «perché parla? Chi ha chiesto il suo parere?»</p>
+         <p>E di nuovo, mentre <persName ref="#Deliliers">Deliliers</persName> gli indirizzava quasi gridando queste parole, e quindi, voltategli le spalle, spiegava a noi assai più calmo che la boxe, «al contrario di quello che certi fessi possono pensare», è gioco di gambe, scelta di tempo, e scherma, in sostanza, soprattutto scherma, di nuovo vidi brillare negli occhi di <persName ref="#Fadigati">Fadigati</persName> la luce assurda ma inequivocabile di una interna felicità.</p>
+         <p><persName ref="#Bottecchiari">Nino Bottecchiari</persName> era l'unico fra noi che non venerasse Deliliers. Non erano amici, però si rispettavano a vicenda. Di fronte a <persName ref="#Bottecchiari">Nino</persName>, <persName ref="#Deliliers">Deliliers</persName> attenuava di parecchio le sue abituali pose da gangster, e <persName ref="#Bottecchiari">Nino</persName>, dal canto suo, faceva molto meno il professore.</p>
+         <p>Una mattina <persName ref="#Bottecchiari">Nino</persName> e <persName ref="#Bsgarbi">Bianca</persName> non c'erano (fu a giugno, mi pare, durante gli esami). Nello scompartimento eravamo soltanto in sei, tutti uomini.</p>
          <p>Avevo un po' di mal di gola, e me ne ero lamentato. Ricordandosi che da ragazzo, durante il periodo dello sviluppo, aveva dovuto curarmi a varie riprese per degli ascessi tonsillari, Fadigati si offerse subito di darmi una «guardata».</p>
          <p>«Vediamo.»</p>
          <p>Rialzò gli occhiali sulla fronte, mi prese il capo fra le mani, e cominciò a scrutarmi nelle fauci.</p>
          <p>«Faccia aaa», ordinò, con piglio professionale.</p>
-         <p>Eseguii. E lui era ancora lì che mi esaminava la gola, e intanto si raccomandava, bonario e paterno, che mi riguardassi, che non sudassi, perché le tonsille, «sebbene ormai abbastanza ridotte», erano rimaste chiaramente il mio... «tallone d'Achille», quando Deliliers ad un tratto uscì a dire:</p>
-         <p>«Scusi, dottore. Appena ha finito, le dispiacerebbe dare una guardatina anche a me?» Fadigati si voltò: sbalordito evidentemente della richiesta, e del tono soave con cui Deliliers l'aveva formulata.</p>
+         <p>Eseguii. E lui era ancora lì che mi esaminava la gola, e intanto si raccomandava, bonario e paterno, che mi riguardassi, che non sudassi, perché le tonsille, «sebbene ormai abbastanza ridotte», erano rimaste chiaramente il mio... «tallone d'Achille», quando <persName ref="#Deliliers">Deliliers</persName> ad un tratto uscì a dire:</p>
+         <p>«Scusi, dottore. Appena ha finito, le dispiacerebbe dare una guardatina anche a me?» <persName ref="#Fadigati">Fadigati</persName> si voltò: sbalordito evidentemente della richiesta, e del tono soave con cui <persName ref="#Deliliers">Deliliers</persName> l'aveva formulata.</p>
          <p>«Cosa prova?», domandò. «Le fa male a inghiottire?»</p>
-         <p>Deliliers lo fissava coi suoi occhi azzurri. Sorrideva, scoprendo appena gli incisivi.</p>
+         <p><persName ref="#Deliliers">Deliliers</persName> lo fissava coi suoi occhi azzurri. Sorrideva, scoprendo appena gli incisivi.</p>
          <p>«Non ho mica male alla gola», disse.</p>
          <p>«E dove, allora?»</p>
-         <p>«Qua», fece Deliliers, accennando ai propri pantaloni, all'altezza dell'inguine.</p>
-         <p>Spiegò quindi calmo, indifferente, ma non senza una punta di orgoglio, che soffriva da circa un mese delle conseguenze di un «regalo delle verginelle di via Bomporto»: una «notevole fregatura, altro che balle!», a causa della quale aveva dovuto sospendere «anche» la ginnastica in palestra. Il dottor Manfredini - aggiunse - lo curava col blu di metilene e con quotidiane irrigazioni di permanganato. Ma la cura andava per le lunghe, e lui invece aveva bisogno di ristabilirsi al più presto.</p>
+         <p>«Qua», fece <persName ref="#Deliliers">Deliliers</persName>, accennando ai propri pantaloni, all'altezza dell'inguine.</p>
+         <p>Spiegò quindi calmo, indifferente, ma non senza una punta di orgoglio, che soffriva da circa un mese delle conseguenze di un «regalo delle verginelle di <placeName ref="#ViaBuonPorto">via Bomporto»</placeName>: una «notevole fregatura, altro che balle!», a causa della quale aveva dovuto sospendere «anche» la ginnastica in palestra. <persName ref="#Manfredini">Il dottor Manfredini</persName> - aggiunse - lo curava col blu di metilene e con quotidiane irrigazioni di permanganato. Ma la cura andava per le lunghe, e lui invece aveva bisogno di ristabilirsi al più presto.</p>
          <p>«Le mie donne cominciano a lamentarsi, capirà... E dunque: vorrebbe essere così gentile da darmi un'occhiata anche lei?»</p>
-         <p>Fadigati era tornato a sedersi.</p>
-         <p>«Ma caro», balbettò, «lei sa bene che di quel genere di malattie lì io non me ne intendo. E poi, il dottor Manfredini...»</p>
-         <p>«Vada là che se ne intende, e come!», sogghignò Deliliers.</p>
-         <p>«Senza dire che qui, in treno...», riprese Fadigati, guardando spaventato verso il corridoio, «qui in treno... come si fa?...»</p>
-         <p>«Oh, per questo», replicò pronto Deliliers, torcendo le labbra sprezzante, «c'è sempre il gabinetto, se vuole.»</p>
+         <p><persName ref="#Fadigati">Fadigati</persName> era tornato a sedersi.</p>
+         <p>«Ma caro», balbettò, «lei sa bene che di quel genere di malattie lì io non me ne intendo. E poi, il dottor <persName ref="#Manfredini">il dottor Manfredini</persName>...»</p>
+         <p>«Vada là che se ne intende, e come!», sogghignò <persName ref="#Deliliers">Deliliers</persName>.</p>
+         <p>«Senza dire che qui, in treno...», riprese <persName ref="#Fadigati">Fadigati</persName>, guardando spaventato verso il corridoio, «qui in treno... come si fa?...»</p>
+         <p>«Oh, per questo», replicò pronto <persName ref="#Deliliers">Deliliers</persName>, torcendo le labbra sprezzante, «c'è sempre il gabinetto, se vuole.»</p>
          <p>Ci fu un attimo di silenzio.</p>
-         <p>Fu Fadigati a scoppiare per primo in una gran risata.</p>
+         <p>Fu <persName ref="#Fadigati">Fadigati</persName> a scoppiare per primo in una gran risata.</p>
          <p>«Ma lei scherza!», gridò. «Possibile che scherzi sempre? Mi prende proprio per un ingenuo!»</p>
          <p>Quindi, curvandosi un poco di fianco, e battendogli con la mano sopra un ginocchio:</p>
          <p>«Eh, lei deve stare attento!», disse. «Se non sta attento, un giorno o l'altro farà una brutta fine!»</p>
-         <p>E Deliliers di rimando, ma serio:</p>
+         <p>E <persName ref="#Deliliers">Deliliers</persName> di rimando, ma serio:</p>
          <p>«Badi di non farla lei, piuttosto.»</p>
-         <p>Di lì a qualche giorno capitammo verso le sei di sera da Majani, in via Indipendenza. Faceva un gran caldo. Era stato Nino Bottecchiari a lanciare la proposta di un gelato. Se non l'avessimo preso - aveva detto -, fra poco, in «direttissimo», avremmo avuto tempo abbondante per pentircene.</p>
-         <p>Anche allora, prima del rammodernamento del '40, la Pasticceria Majani era una delle maggiori di Bologna. Consisteva di una enorme sala semibuia, dal cui soffitto, altissimo e tenebroso, pendeva un solo, gigantesco lampadario di vetro di Murano. Del diametro di due o tre metri, raffigurava una rosa. Lo gremivano in gran quantità certe piccole lampadine impolverate dalle quali pioveva in basso una luce straordinariamente debole.</p>
+         <p>Di lì a qualche giorno capitammo verso le sei di sera <placeName ref="#PasticceriaMajani">da Majani</placeName>, in <placeName ref="#ViaIndipendenza">via Indipendenza</placeName>. Faceva un gran caldo. Era stato <persName ref="#Bottecchiari">Nino Bottecchiari</persName> a lanciare la proposta di un gelato. Se non l'avessimo preso - aveva detto -, fra poco, in «direttissimo», avremmo avuto tempo abbondante per pentircene.</p>
+         <p>Anche allora, prima del rammodernamento del <date when="1940">'40</date>, la <placeName ref="#PasticceriaMajani">Pasticceria Majani</placeName> era una delle maggiori di <placeName ref="#Bologna">Bologna</placeName>. Consisteva di una enorme sala semibuia, dal cui soffitto, altissimo e tenebroso, pendeva un solo, gigantesco lampadario di vetro di Murano. Del diametro di due o tre metri, raffigurava una rosa. Lo gremivano in gran quantità certe piccole lampadine impolverate dalle quali pioveva in basso una luce straordinariamente debole.</p>
          <p>Non appena fummo entrati, gli occhi ci corsero al fondo della sala, di dove proveniva un suono di risate.</p>
          <p>Saranno stati una ventina di ragazzi, la maggior parte in tuta sportiva blu scura: chi buttato a sedere, chi in piedi, e ciascuno alle prese con un semifreddo in coppa o con un cono gelato. Intanto parlavano ad alta voce, negli accenti più varî: bolognesi, romagnoli, veneti, marchigiani, toscani. A guardarli, si capiva che appartenevano a quella particolare categoria di studenti universitari assai più assidua di stadi e piscine che non di aule scolastiche e di biblioteche.</p>
-         <p>Eccetto Deliliers, che subito ci salutò alzando di lontano il braccio in un gesto amichevole, da principio non ravvisammo tra i presenti nessun'altra persona di conoscenza. Ma dopo qualche istante, quando ci fummo abituati alla mezza luce dell'ambiente, scorgemmo confuso nel gruppo un signore attempato che sedeva accanto a Deliliers volgendo le spalle all'ingresso. Stava lì, col cappello in testa, le mani raccolte sul pomo del bastone e senza prendere niente. Aspettava. Come un padre dal cuore tenero, il quale abbia acconsentito a pagare il gelato a un branco di figli e nipotini turbolenti, e attenda in silenzio, un po' vergognoso, che i cari marmocchi abbiano finito di leccare e succhiare a loro piacere, per poi, più tardi, portarseli a casa...</p>
-         <p>Quel signore era il dottor Fadigati, naturalmente.</p>
+         <p>Eccetto <persName ref="#Deliliers">Deliliers</persName>, che subito ci salutò alzando di lontano il braccio in un gesto amichevole, da principio non ravvisammo tra i presenti nessun'altra persona di conoscenza. Ma dopo qualche istante, quando ci fummo abituati alla mezza luce dell'ambiente, scorgemmo confuso nel gruppo un signore attempato che sedeva accanto a <persName ref="#Deliliers">Deliliers</persName> volgendo le spalle all'ingresso. Stava lì, col cappello in testa, le mani raccolte sul pomo del bastone e senza prendere niente. Aspettava. Come un padre dal cuore tenero, il quale abbia acconsentito a pagare il gelato a un branco di figli e nipotini turbolenti, e attenda in silenzio, un po' vergognoso, che i cari marmocchi abbiano finito di leccare e succhiare a loro piacere, per poi, più tardi, portarseli a casa...</p>
+         <p>Quel signore era <persName ref="#Fadigati">il dottor Fadigati</persName>, naturalmente.</p>
       </div>
       <div>
          <p>Capitolo 8</p>
