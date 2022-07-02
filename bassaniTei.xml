@@ -45,19 +45,19 @@
                 <person xml:id="Fadigati">
                    <persName>Athos Fadigati</persName>
                 </person>
-                <person xml:id="AFsMother">
+                <person xml:id="madreFadigati">
                    <persName>Madre di Athos Fadigati</persName>
                 </person>
-                <person xml:id="AFsFather">
+                <person xml:id="padreFadigati">
                    <persName>Padre di Athos Fadigati</persName>
                 </person>
-                <person xml:id="AFsSister">
+                <person xml:id="sorellaFadigati">
                    <persName>Sorella di Athos Fadigati</persName>
                 </person>
-                <person xml:id="Narrator">
+                <person xml:id="Narratore">
                    <persName>Io narrante</persName>
                 </person>
-                <person xml:id="IosMother">
+                <person xml:id="madreNarratore">
                    <persName>Madre del narratore</persName>
                 </person>
                 <person xml:id="IosFather">
@@ -129,11 +129,23 @@
                 <person xml:id="Tubi">
                    <persName>Portiere Tubi</persName>
                 </person>
+                <person xml:id="Torello">
+                   <persName>Masi Torello</persName>
+                </person>
+                <person xml:id="FamLavezzoli">
+                   <persName>Famiglia Lavezzoli</persName>
+                </person>
+                <person xml:id="AvvLavezzoli">
+                   <persName>Avv. Filippo Lavezzoli</persName>
+                </person>
                 <person xml:id="MrsLavezzoli">
                    <persName>signora Lavezzoli</persName>
                 </person>
                 <person xml:id="CLavezzoli">
                    <persName>Cristina Lavezzoli</persName>
+                </person>
+                <person xml:id="MrsDolfuss">
+                   <persName>Signora Dolfuss</persName>
                 </person>
                 <person xml:id="Franco">
                    <persName>Franco</persName>
@@ -212,11 +224,27 @@
                 <person xml:id="Beethoven">
                    <persName>Ludwig van Beethoven</persName>
                 </person>
+                <person xml:id="Hitler">
+                   <persName>Adolf Hitler</persName>
+                </person>
                 <person xml:id="Mussolini">
                    <persName>Benito Mussolini</persName>
                 </person>
+                <person xml:id="DonnaRachele">
+                   <persName>Rachele Guidi Mussolini</persName>
+                   <persName>Donna Rachele</persName>
+                </person>
+                <person xml:id="VittorioMussolini">
+                   <persName>Vittorio Mussolini</persName>
+                </person>
+                <person xml:id="BrunoMussolini">
+                   <persName>Bruno Mussolini</persName>
+                </person>
                 <person xml:id="Ciano">
                    <persName>Galeazzo Ciano</persName>
+                </person>
+                <person xml:id="Dolfuss">
+                   <persName>Engelbert Dolfuss</persName>
                 </person>
                 <person xml:id="DePisis">
                    <persName>Filippo De Pisis</persName>
@@ -227,6 +255,12 @@
                 </person>
                 <person xml:id="FFranco">
                    <persName>Francisco Franco</persName>
+                </person>
+                <person xml:id="Pascoli">
+                   <persName>Giovanni Pascoli</persName>
+                </person>
+                <person xml:id="Croce">
+                   <persName>Benedetto Croce</persName>
                 </person>
              </listPerson>
           </particDesc>
@@ -244,22 +278,22 @@
                    <placeName>Corso Giovecca</placeName>
                 </place>
                <place xml:id="RistoVincenzo">
-                  <placeName>Ristorante da Vincenzo</placeName>
+                  <placeName>Ristorante da Vincenzo, Ferrara</placeName>
                </place>
                <place xml:id="RistoSandrina">
-                  <placeName>Ristorante dalla Sandrina</placeName>
+                  <placeName>Ristorante dalla Sandrina, Ferrara</placeName>
                </place>
                <place xml:id="Risto3Galletti">
-                  <placeName>Ristorante ai Tre Galletti</placeName>
+                  <placeName>Ristorante ai Tre Galletti, Ferrara</placeName>
                </place>
                <place xml:id="RistoRoveraro">
-                  <placeName>Ristorante da Roveraro</placeName>
+                  <placeName>Ristorante da Roveraro, Ferrara</placeName>
                </place>
                <place xml:id="VicoloGranchio">
                   <placeName>Vicolo del Granchio</placeName>
                </place> 
                <place xml:id="CaffeBorsa">
-                  <placeName>Caffè della Borsa</placeName>
+                  <placeName>Caffè della Borsa, Ferrara</placeName>
                </place> 
                <place xml:id="ViaBersglieri">
                    <placeName>Via Bersaglieri del Po</placeName>
@@ -268,16 +302,16 @@
                    <placeName>Piazza Travaglio</placeName>
                 </place>
                <place xml:id="CineExcelsior">
-                  <placeName>Cinema Excelsior</placeName>
+                  <placeName>Cinema Excelsior, Ferrara</placeName>
                </place>
                <place xml:id="CineSalvini">
-                  <placeName>Cinema Salvini</placeName>
+                  <placeName>Cinema Salvini, Ferrara</placeName>
                </place>
                <place xml:id="CineRex">
-                  <placeName>Cinema Rex</placeName>
+                  <placeName>Cinema Rex, Ferrara</placeName>
                </place>
                <place xml:id="CineDiana">
-                  <placeName>Cinema Diana</placeName>
+                  <placeName>Cinema Diana, Ferrara</placeName>
                </place>
                 <place xml:id="Listone">
                    <placeName>Il Listone</placeName>
@@ -319,7 +353,7 @@
                   <placeName>Ristorante alla Gallina Faraona</placeName>
                </place>
                 <place xml:id="PasticceriaMajani">
-                   <placeName>Pasticceria Majani</placeName>
+                   <placeName>Pasticceria Majani, Bologna</placeName>
                 </place>
                 <place xml:id="ViaSFrancesco">
                    <placeName>Via San Francesco</placeName>
@@ -327,14 +361,27 @@
                 <place xml:id="VialeMille">
                    <placeName>Viale dei Mille</placeName>
                 </place>
-                <place xml:id="GHotel">
-                   <placeName>Grand Hotel, Riccione</placeName>
-                </place>
+               <place xml:id="CaffeZanarini">
+                  <placeName>Caffé Zanarini</placeName>
+                  <placeName>Viale Ceccarini</placeName>
+               </place>
+               <place xml:id="GrandHotel">
+                  <placeName>Grand Hotel, Riccione</placeName>
+               </place>
+               <place xml:id="HotelMarePineta">
+                  <placeName>Hotel Mare e Pineta, Milano Marittima</placeName>
+               </place>
+               <place xml:id="HotelBritannia">
+                  <placeName>Hotel Britannia, Cesenatico</placeName>
+               </place>
                 <place xml:id="PuntaPesaro">
-                   <placeName>Punta di Pesaro Hotel, Riccione</placeName>
+                   <placeName>Punta di Pesaro</placeName>
                 </place>  
                 
                 <!-- with semantic tagging -->
+               <place xml:id="Italia">
+                  <placeName>Italia</placeName>
+               </place>
                 <place xml:id="Ferrara">
                    <placeName>Ferrara</placeName>
                 </place>
@@ -432,6 +479,9 @@
                 <place xml:id="Biennale">
                    <placeName>Biennale di Venezia</placeName>
                 </place>
+               <place xml:id="VeLido">
+                  <placeName>Lido di Venezia</placeName>
+               </place>
                 <place xml:id="Bologna">
                    <placeName>Bologna</placeName>
                 </place>
@@ -504,12 +554,8 @@
                 <place xml:id="Riccione">
                    <placeName>Riccione</placeName>
                 </place>
-                <place xml:id="CaffeZanarini">
-                   <placeName>Caffé Zanarini</placeName>
-                   <placeName>Viale Ceccarini</placeName>
-                </place>
                 <place xml:id="SLeo">
-                   <placeName>San Leo</placeName>
+                  <placeName>San Leo</placeName>
                 </place>
                 <place xml:id="Carpegna">
                    <placeName>Carpegna</placeName>
@@ -523,6 +569,9 @@
                 <place xml:id="Cervia">
                    <placeName>Cervia</placeName>
                 </place>
+               <place xml:id="Viserba">
+                  <placeName>Viserba</placeName>
+               </place>
                 <place xml:id="Cesenatico">
                    <placeName>Cesenatico</placeName>
                 </place>
@@ -532,7 +581,16 @@
                 <place xml:id="Cattolica">
                    <placeName>Cattolica</placeName>
                 </place>
-               <place xml:id="Malta">
+               <place xml:id="MarAdriatico">
+                  <placeName>Mar Adriatico</placeName>
+               </place>
+               <place xml:id="Viareggio">
+                  <placeName>Viareggio</placeName>
+               </place>
+               <place xml:id="MarTirreno">
+                  <placeName>Mar Tirreno</placeName>
+               </place>
+               <place xml:id="Malta"> <!-- luoghi minori menzionati -->
                   <placeName>Malta</placeName>
                </place>
                <place xml:id="Ponza">
@@ -544,12 +602,31 @@
                <place xml:id="FrattaPolesine">
                   <placeName>Fratta Polesine</placeName>
                </place>
+               <place xml:id="Inghilterra">
+                  <placeName>Inghilterra</placeName>
+               </place>
+               <place xml:id="Bath">
+                  <placeName>Bath</placeName>
+               </place>
+               <place xml:id="Pisa">
+                  <placeName>Bath</placeName>
+               </place>
+               <place xml:id="Jugoslavia">
+                  <placeName>Jugoslavia</placeName>
+               </place>
+               <place xml:id="Roma">
+                  <placeName>Roma</placeName>
+               </place>
              </listPlace>
           </settingDesc>
        </profileDesc>
      <xenoData>
         <rdf:RDF>
            <!-- PLACES -->
+           <rdf:Description tei:ref="#Italia" rdf:about="geonames:3175395"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Italia</rdfs:label>
+           </rdf:Description>
            <rdf:Description tei:ref="#Ferrara" rdf:about="geonames:3177090"> <!-- Ferrara -->
               <rdf:type rdf:resource="dbo:Place"/>
               <rdfs:label xml:lang="it">Ferrara</rdfs:label>
@@ -678,6 +755,10 @@
               <rdf:type rdf:resource="dbo:Place"/>
               <rdfs:label xml:lang="it">Biennale di Venezia</rdfs:label>
            </rdf:Description>
+           <rdf:Description tei:ref="#VeLido" rdf:about="geonames:3174748">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Lido di Venezia</rdfs:label>
+           </rdf:Description>
            <rdf:Description tei:ref="#Bologna" rdf:about="geonames:3181928"> <!-- Bologna -->
               <rdf:type rdf:resource="dbo:Place"/>
               <rdfs:label xml:lang="it">Bologna</rdfs:label>
@@ -799,6 +880,10 @@
               <rdf:type rdf:resource="dbo:Place"/>
               <rdfs:label xml:lang="it">Cervia</rdfs:label>
            </rdf:Description>
+           <rdf:Description tei:ref="#Viserba" rdf:about="geonames:3164051"> 
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Viserba</rdfs:label>
+           </rdf:Description>
            <rdf:Description tei:ref="#Cesenatico" rdf:about="geonames:6538487"> 
               <rdf:type rdf:resource="dbo:Place"/>
               <rdfs:label xml:lang="it">Cesenatico</rdfs:label>
@@ -810,6 +895,18 @@
            <rdf:Description tei:ref="#Cattolica" rdf:about="geonames:3179347">
               <rdf:type rdf:resource="dbo:Place"/>
               <rdfs:label xml:lang="it">Cattolica</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#MarAdriatico" rdf:about="geonames:3183462">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Mar Adriatico</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Viareggio" rdf:about="geonames:3164433">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Viareggio</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#MarTirreno" rdf:about="geonames:2522836">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Mar Tirreno</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#Malta" rdf:about="geonames:2562770">
               <rdf:type rdf:resource="dbo:Place"/>
@@ -826,6 +923,26 @@
            <rdf:Description tei:ref="#FrattaPolesine" rdf:about="geonames:3176559">
               <rdf:type rdf:resource="dbo:Place"/>
               <rdfs:label xml:lang="it">Fratta Polesine</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Inghilterra" rdf:about="geonames:6269131">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Inghilterra</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Bath" rdf:about="geonames:2656173">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Bath</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Pisa" rdf:about="geonames:3170647">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Pisa</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Jugoslavia" rdf:about="viaf:129724016">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Jugoslavia</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Roma" rdf:about="geonames:3169070">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Roma</rdfs:label>
            </rdf:Description>
               
            <!-- PEOPLE -->
@@ -861,13 +978,34 @@
               <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
               <rdfs:label xml:lang="en">Ludwig van Beethoven</rdfs:label>
            </rdf:Description>
+           <rdf:Description tei:ref="#Hitler" rdf:about="viaf:38190770"> 
+              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdfs:label xml:lang="en">Adolf Hitler</rdfs:label>
+           </rdf:Description>
            <rdf:Description tei:ref="#Mussolini" rdf:about="viaf:90162262"> 
               <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
               <rdfs:label xml:lang="en">Benito Mussolini</rdfs:label>
            </rdf:Description>
+           <rdf:Description tei:ref="#DonnaRachele" rdf:about="viaf:47605447"> 
+              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdfs:label xml:lang="en">Rachele Guidi Mussolini</rdfs:label>
+              <rdfs:label xml:lang="en">Donna Rachele</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#VittorioMussolini" rdf:about="viaf:95308999"> 
+              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdfs:label xml:lang="en">Vittorio Mussolini</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#BrunoMussolini" rdf:about="viaf:295149196253174790294"> 
+              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdfs:label xml:lang="en">Bruno Mussolini</rdfs:label>
+           </rdf:Description>
            <rdf:Description tei:ref="#Ciano" rdf:about="viaf:56702085"> 
               <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-              <rdfs:label xml:lang="en">Galeazzo Ciano</rdfs:label>
+              <rdfs:label xml:lang="en">Gian Galeazzo Ciano</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Dollfuss" rdf:about="viaf:56702085"> 
+              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdfs:label xml:lang="en">Engelbert Dolfuss</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#DePisis" rdf:about="viaf:68940882"> 
                  <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
@@ -881,6 +1019,14 @@
               <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
               <rdfs:label xml:lang="en">Francisco Franco</rdfs:label>
            </rdf:Description>
+           <rdf:Description tei:ref="#Pascoli" rdf:about="viaf:39397405"> 
+              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdfs:label xml:lang="en">Giovanni Pascoli</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Croce" rdf:about="viaf:61544292"> 
+              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdfs:label xml:lang="en">Benedetto Croce</rdfs:label>
+           </rdf:Description>
         </rdf:RDF> 
      </xenoData>
   </teiHeader> 
@@ -889,8 +1035,8 @@
       <div>
          <p>Capitolo 1</p>
          <p>Il tempo ha cominciato a diradarli, eppure non si può ancora dire che siano pochi, a <placeName ref="#Ferrara">Ferrara</placeName>, quelli che ricordano il <persName ref="#Fadigati">dottor Fadigati</persName> (<persName ref="#Fadigati">Athos Fadigati</persName>, sicuro - rievocano -, l'otorinolaringoiatra che aveva studio e casa in <placeName ref="#ViaGorgadello">via Gorgadello</placeName>, a due passi da <placeName ref="#PiazzaErbe">Piazza delle Erbe</placeName>, e che è finito così male, poveruomo, così tragicamente, proprio lui che da giovane, quando venne a stabilirsi nella nostra città dalla nativa <placeName ref="#Venezia">Venezia</placeName>, era parso destinato alla più regolare, più tranquilla, e per ciò stesso più invidiabile delle carriere...).</p>
-         <p>Fu nel <date when="1919">'19</date>, subito dopo l'altra guerra. Per ragioni di età, <persName ref="#Narrator">io che scrivo</persName> non ho da offrire che una immagine piuttosto vaga e confusa dell'epoca. I caffè del centro rigurgitavano di ufficiali in divisa; ogni momento lungo <placeName ref="#CorsoGiovecca">corso Giovecca</placeName>corso Giovecca e <placeName ref="#CorsoRoma">corso Roma (oggi ribattezzato corso Martiri della Libertà)</placeName> passavano camion sventolanti di bandiere rosse; sulle impalcature che ricoprivano la facciata in costruzione del <placeName ref="#PalazzoGenerali">palazzo delle Assicurazioni Generali</placeName>, di fronte al lato nord del <placeName ref="#CastelloFE">Castello</placeName>, era steso un enorme, scarlatto telone pubblicitario, che invitava amici e avversari del socialismo a bere concordi l'APERITIVO LENIN; le zuffe fra contadini e operai massimalisti da una parte, ed ex combattenti dall'altra, scoppiavano quasi ogni giorno... Questo clima di febbre, di agitazione, di distrazione generale, entro cui si svolse la prima infanzia di tutti coloro che sarebbero diventati uomini nel ventennio successivo, dovette in qualche modo favorire <persName ref="#Fadigati">il veneziano Fadigati</persName>. In una città come la nostra, dove i giovani di buona famiglia riluttarono più che in qualunque altro luogo a ritornare dopo la guerra alle professioni liberali, si capisce come avesse potuto mettere radici senza quasi farsi notare. Fatto sta che nel <date when="1925">'25</date>, quando la scalmana anche da noi cominciò a placarsi, e il fascismo, organizzandosi in grande partito nazionale, fu in grado di offrire vantaggiose sistemazioni a tutti i ritardatari, <persName ref="#Fadigati">Athos Fadigati</persName> era già solidamente impiantato a <placeName ref="#Ferrara">Ferrara</placeName>, titolare di un magnifico ambulatorio privato, e per di più direttore del reparto orecchio-naso-gola del nuovo <placeName ref="#Arcispedale">Arcispedale Sant'Anna</placeName>.</p>
-         <p>Aveva incontrato, come si dice. Non più giovanissimo, e con l'aria, già allora, di non esserlo mai stato, piacque che fosse venuto via da <placeName ref="#Venezia">Venezia</placeName> (lo raccontò una volta lui stesso) non tanto per cercare fortuna in una città non sua, quanto per sottrarsi all'atmosfera angosciosa di una vasta casa sul <placeName ref="#CanalGrande">Canal Grande</placeName> nella quale aveva visto spegnersi in pochi anni ambedue i <persName ref="#AFsMother"><persName ref="#AFsFather">genitori</persName></persName> e una <persName ref="#AFsSister">sorella</persName> molto amata. Erano piaciuti i suoi modi cortesi, discreti, il suo evidente disinteresse, il suo ragionevole spirito di carità nei confronti dei malati più poveri. Ma prima ancora che per queste ragioni, dovette raccomandarsi per come era: per quegli occhiali d'oro che scintillavano simpaticamente sul colorito terreo delle guance glabre, per la pinguedine niente affatto sgradevole di quel suo grosso corpo di cardiaco congenito, scampato per miracolo alla crisi della pubertà e sempre avvolto, anche l'estate, di soffici lane inglesi (durante la guerra, a causa della salute, non aveva potuto prestar servizio che nella censura postale). In lui ci fu di sicuro, insomma, a prima vista, qualcosa che subito attrasse e rassicurò.</p>
+         <p>Fu nel <date when="1919">'19</date>, subito dopo l'altra guerra. Per ragioni di età, <persName ref="#Narratore">io che scrivo</persName> non ho da offrire che una immagine piuttosto vaga e confusa dell'epoca. I caffè del centro rigurgitavano di ufficiali in divisa; ogni momento lungo <placeName ref="#CorsoGiovecca">corso Giovecca</placeName>corso Giovecca e <placeName ref="#CorsoRoma">corso Roma (oggi ribattezzato corso Martiri della Libertà)</placeName> passavano camion sventolanti di bandiere rosse; sulle impalcature che ricoprivano la facciata in costruzione del <placeName ref="#PalazzoGenerali">palazzo delle Assicurazioni Generali</placeName>, di fronte al lato nord del <placeName ref="#CastelloFE">Castello</placeName>, era steso un enorme, scarlatto telone pubblicitario, che invitava amici e avversari del socialismo a bere concordi l'APERITIVO LENIN; le zuffe fra contadini e operai massimalisti da una parte, ed ex combattenti dall'altra, scoppiavano quasi ogni giorno... Questo clima di febbre, di agitazione, di distrazione generale, entro cui si svolse la prima infanzia di tutti coloro che sarebbero diventati uomini nel ventennio successivo, dovette in qualche modo favorire <persName ref="#Fadigati">il veneziano Fadigati</persName>. In una città come la nostra, dove i giovani di buona famiglia riluttarono più che in qualunque altro luogo a ritornare dopo la guerra alle professioni liberali, si capisce come avesse potuto mettere radici senza quasi farsi notare. Fatto sta che nel <date when="1925">'25</date>, quando la scalmana anche da noi cominciò a placarsi, e il fascismo, organizzandosi in grande partito nazionale, fu in grado di offrire vantaggiose sistemazioni a tutti i ritardatari, <persName ref="#Fadigati">Athos Fadigati</persName> era già solidamente impiantato a <placeName ref="#Ferrara">Ferrara</placeName>, titolare di un magnifico ambulatorio privato, e per di più direttore del reparto orecchio-naso-gola del nuovo <placeName ref="#Arcispedale">Arcispedale Sant'Anna</placeName>.</p>
+         <p>Aveva incontrato, come si dice. Non più giovanissimo, e con l'aria, già allora, di non esserlo mai stato, piacque che fosse venuto via da <placeName ref="#Venezia">Venezia</placeName> (lo raccontò una volta lui stesso) non tanto per cercare fortuna in una città non sua, quanto per sottrarsi all'atmosfera angosciosa di una vasta casa sul <placeName ref="#CanalGrande">Canal Grande</placeName> nella quale aveva visto spegnersi in pochi anni ambedue i <persName ref="#madreFadigati"><persName ref="#padreFadigati">genitori</persName></persName> e una <persName ref="#sorellaFadigati">sorella</persName> molto amata. Erano piaciuti i suoi modi cortesi, discreti, il suo evidente disinteresse, il suo ragionevole spirito di carità nei confronti dei malati più poveri. Ma prima ancora che per queste ragioni, dovette raccomandarsi per come era: per quegli occhiali d'oro che scintillavano simpaticamente sul colorito terreo delle guance glabre, per la pinguedine niente affatto sgradevole di quel suo grosso corpo di cardiaco congenito, scampato per miracolo alla crisi della pubertà e sempre avvolto, anche l'estate, di soffici lane inglesi (durante la guerra, a causa della salute, non aveva potuto prestar servizio che nella censura postale). In lui ci fu di sicuro, insomma, a prima vista, qualcosa che subito attrasse e rassicurò.</p>
          <p>Lo studio di <placeName ref="#ViaGorgadello">via Gorgadello</placeName>, dove riceveva dalle quattro alle sette di ogni pomeriggio, completò più tardi il suo successo.</p>
          <p>Si trattava di un ambulatorio davvero moderno, come fino allora a <placeName ref="#Ferrara">Ferrara</placeName> nessun dottore ne aveva mai avuto di uguali. Fornito di un impeccabile gabinetto medico che quanto a pulizia, efficienza, e perfino ampiezza, poteva esser paragonato soltanto a quelli del <placeName ref="#Arcispedale">Arcispedale Sant'Anna</placeName>, si fregiava oltre a ciò di ben otto stanze dell'attiguo appartamento privato come di altrettante salette d'aspetto per il pubblico. I nostri concittadini, specie quelli socialmente più ragguardevoli, ne furono abbagliati. Divenuti all'improvviso insofferenti del disordine pittoresco, se si vuole, ma troppo familiare e in fondo equivoco, nel quale gli altri tre o quattro anziani specialisti locali continuavano a ricevere le rispettive clientele, se ne commossero come per un omaggio particolare. Dove erano, da <persName ref="#Fadigati">Fadigati</persName> - non si stancavano mai di ripetere -, le interminabili attese ammucchiati l'uno sull'altro come bestie, ascoltando attraverso le fragili pareti divisorie voci più o meno remote di famiglie quasi sempre allegre e numerose, mentre, alla fioca luce di una lampadina da venti candele, l'occhio non aveva da posarsi, scorrendo lungo i tristi muri, che su qualche NON SPUTARE! di maiolica, qualche caricatura di professore universitario o di collega, per non parlare di altre immagini anche più melanconiche e iettatorie di pazienti sottoposti a enormi clisteri davanti a un intero collegio accademico, o di laparatomie a cui, sogghignando, provvedeva la Morte stessa travestita da chirurgo? E come poteva essere accaduto, come!, che si fosse sopportato fino allora un simile trattamento da Medio Evo?</p>
          <p>Andare da <persName ref="#Fadigati">Fadigati</persName> costituì ben presto, più che una moda, una vera e propria risorsa. Specie nelle sere d'inverno, quando il vento gelido si infilava fischiando da <placeName ref="#CattedraleFE">piazza Cattedrale</placeName> giù per <placeName ref="#ViaGorgadello">via Gorgadello</placeName>, era con schietta soddisfazione che il ricco borghese, infagottato nel suo cappottone di pelliccia, prendeva a pretesto il più piccolo mal di gola per imbucare la porticina socchiusa, salire le due rampe di scale, suonare il campanello dell'uscio a vetri. Lassù, oltre quel magico riquadro luminoso, alla cui apertura presiedeva un'infermiera in camice bianco sempre giovane e sempre sorridente, lassù lui trovava termosifoni che andavano a tutto vapore, come non dico a casa propria, ma nemmeno, quasi, al <placeName ref="#CircoloNegozianti">Circolo dei Negozianti</placeName> o a <placeName ref="#CircoloUnione">quello dell'Unione</placeName>. Trovava poltrone e divani in abbondanza, tavolinetti sempre forniti d'aggiornatissima carta stampata, abat-jours da cui si effondeva una luce bianca, forte, generosa. Trovava tappeti che quando uno si fosse stancato di rimanere lì, a sonnecchiare al calduccio o a sfogliare le riviste illustrate, lo invogliavano a passare da un salotto all'altro guardando i quadri e le stampe, antichi e moderni, attaccati fitti fitti alle pareti. Trovava infine un medico bonario e conversevole, che mentre lo introduceva personalmente «di là» per esaminargli la gola, pareva soprattutto ansioso, da quel vero signore che anche era, di sapere se il suo cliente avesse avuto modo di ascoltare alcune sere prima, al <placeName ref="#ComunaleBO">Comunale di Bologna</placeName>, <persName ref="#Pertile">Aureliano Pertile</persName> nel Lohengrin; oppure, che so?, se avesse visto bene, appeso a quella data parete di quel dato salotto, quel tale <persName ref="#DeChirico">De Chirico</persName> o quel tale <persName ref="#Casorati">«Casoratino»</persName>, e se gli fosse piaciuto quel talaltro <persName ref="#DePisis">De Pisis</persName>; e faceva poi le più alte meraviglie se il cliente, a quest'ultimo proposito, confessava non soltanto di non conoscere <persName ref="#DePisis">De Pisis</persName>, ma di non aver mai saputo prima d'allora che <persName ref="#DePisis">De Pisis</persName> fosse un giovane,molto promettente pittore ferrarese. Un ambiente comodo, piacevole, signorile, e perfino stimolante per il cervello, in conclusione. Dove il tempo, il dannato tempo che è sempre stato dappertutto il gran problema della provincia, passava che era un piacere.</p>
@@ -969,7 +1115,7 @@
          <p>Tuttavia non fu in treno che vennero stabiliti fra noi i primi contatti, direi proprio di no. Mi resta l'impressione che la cosa sia accaduta a <placeName ref="#Bologna">Bologna</placeName>, per istrada, anche se poi, come si vedrà qui di seguito, io non sappia indicare con sicurezza in quale strada precisa. (Forse in quei giorni fui assente da scuola, e la cosa mi venne variamente riferita dopo, dagli altri? Oppure sono io, a tanti anni di distanza, a non distinguere, a non ricordare con precisione?)</p>
          <p>Può darsi che sia stato uscendo dalla stazione, mentre aspettavamo il tram di <placeName ref="#ViaMascarella">Mascarella</placeName>. Siamo una decina e tutti quanti assieme, occupando buona parte della piattaforma tranviaria antistante al luogo di posteggio per le carrozze e per i tassì. Il sole scintilla sui cumuli di neve sporca che punteggiano a intervalli regolari il vasto piazzale. Il cielo sopra è d'un azzurro intenso, vibrante di luce.</p>
          <p>E <persName ref="#Fadigati">Fadigati</persName>, che sta aspettando anche lui il tram sulla medesima piattaforma (è sopraggiunto un momento fa, per ultimo), ad un tratto, per attaccare discorso, non trova di meglio che uscire in qualche osservazione sulla «giornata deliziosa, quasi primaverile», nonché sul tram di <placeName ref="#ViaMascarella">Mascarella</placeName> il quale «se la prende così comoda che converrebbe in un certo senso andare a piedi». Sono frasi generiche, banali, dette a mezza voce e non rivolte ad alcuno di noi in particolare, ma a tutti in blocco e a nessuno: come se lui non ci conoscesse, o piuttosto non si azzardasse ad ammettere che ci conosce, neanche di vista. Ma alla fine basta che uno, imbarazzato dalla sua incertezza e dal sorriso nervoso col quale ha accompagnato le sue vaghe considerazioni sulla stagione e sul tram, gli risponda con un minimo di urbanità, chiamandolo «dottore». Allora salta subito fuori la verità: cioè che ci conosce tutti benissimo, lui, nomi e cognomi, nonostante il fatto che in pochi anni siamo diventati dei giovanotti. Sa esattamente di chi siamo figli. E come potrebbe non saperlo, come potrebbe essersene scordato, andiamo!, se da bambini, «all'età che i bambini di buona famiglia hanno sempre da combattere col mal di gola e col mal d'orecchi» - e ride -, ci ha visti, quale più quale meno, passare dal suo studio tutti quanti?</p>
-         <p>Senonché spesso, invece che prendere il tram e filare spediti all'università, in <placeName ref="#ViaZamboni">via Zamboni</placeName>, preferivamo risalire a piedi i portici di <placeName ref="#ViaIndipendenza">via Indipendenza</placeName>, su su fino al centro. Era raro che Deliliers ci fosse. Appena fuori dalla <placeName ref="#BOCentrale">stazione</placeName>, tagliava la corda per conto suo, e prima dell'indomani mattina nessuno, in genere, lo rivedeva più: né all'università, né in trattoria, né altrove. Sgranati in ordine sparso lungo il marciapiede, gli altri però c'erano sempre tutti. C'era <persName ref="#Bottecchiari">Nino Bottecchiari</persName>, che studiava legge, ma per via di <persName ref="#BSgarbi">Bianca Sgarbi</persName> bazzicava assai spesso i corridoi e le aule della Facoltà di lettere, sorbendosi con pazienza le lezioni più indigeste: da quella di grammatica latina a quella di biblioteconomia. C'era <persName ref="#BSgarbi">Bianca</persName>, in basco blu e pellicciotto di coniglio corto ai fianchi, ora a braccetto con uno ora con l'altro: quasi mai con Nino, e solo per litigarci. C'erano <persName ref="#Pavani">Sergio Pavani</persName>, <persName ref="#Forti">Otello Forti</persName>, <persName ref="#GioPiazza">Giovannino Piazza</persName>, <persName ref="#Sangiuliano">Enrico Sangiuliano</persName>, <persName ref="#Molon">Vittorio Molon</persName>: chi studente di agraria, chi di medicina, chi di scienze economiche e commerciali. E infine, unico studente in lettere della compagnia (a parte <persName ref="#BSgarbi">Bianca Sgarbi</persName>), infine c'ero <persName ref="#Narrator">io</persName>.</p>
+         <p>Senonché spesso, invece che prendere il tram e filare spediti all'università, in <placeName ref="#ViaZamboni">via Zamboni</placeName>, preferivamo risalire a piedi i portici di <placeName ref="#ViaIndipendenza">via Indipendenza</placeName>, su su fino al centro. Era raro che Deliliers ci fosse. Appena fuori dalla <placeName ref="#BOCentrale">stazione</placeName>, tagliava la corda per conto suo, e prima dell'indomani mattina nessuno, in genere, lo rivedeva più: né all'università, né in trattoria, né altrove. Sgranati in ordine sparso lungo il marciapiede, gli altri però c'erano sempre tutti. C'era <persName ref="#Bottecchiari">Nino Bottecchiari</persName>, che studiava legge, ma per via di <persName ref="#BSgarbi">Bianca Sgarbi</persName> bazzicava assai spesso i corridoi e le aule della Facoltà di lettere, sorbendosi con pazienza le lezioni più indigeste: da quella di grammatica latina a quella di biblioteconomia. C'era <persName ref="#BSgarbi">Bianca</persName>, in basco blu e pellicciotto di coniglio corto ai fianchi, ora a braccetto con uno ora con l'altro: quasi mai con Nino, e solo per litigarci. C'erano <persName ref="#Pavani">Sergio Pavani</persName>, <persName ref="#Forti">Otello Forti</persName>, <persName ref="#GioPiazza">Giovannino Piazza</persName>, <persName ref="#Sangiuliano">Enrico Sangiuliano</persName>, <persName ref="#Molon">Vittorio Molon</persName>: chi studente di agraria, chi di medicina, chi di scienze economiche e commerciali. E infine, unico studente in lettere della compagnia (a parte <persName ref="#BSgarbi">Bianca Sgarbi</persName>), infine c'ero <persName ref="#Narratore">io</persName>.</p>
          <p>Ebbene, non è impossibile che una mattina di queste, mentre camminiamo lungo gli interminabili portici di <placeName ref="#ViaIndipendenza">via Indipendenza</placeName>, alti e bui come navate di chiesa, fermandoci ogni tanto davanti a una vetrina di articoli sportivi, presso un chiosco di giornali, confondendoci magari alla gente che, attratta e come ipnotizzata dalla fiamma ossidrica, si assiepa in silenzio attorno a una squadra di operai intenti ad aggiustare una rotaia della linea tranviaria, non è affatto impossibile, dicevo, che una di queste mattine di tardo inverno, quando ogni pretesto sembra buono per rinviare il momento di chiudersi dentro un'aula scolastica, il <persName ref="#Fadigati">dottor Fadigati</persName>, che da tempo ci seguiva, venga d'un tratto ad affiancarsi a qualcuno di noi: a <persName ref="#Bottecchiari">Nino Bottecchiari</persName> e a <persName ref="#BSgarbi">Bianca Sgarbi</persName>, per esempio, che un poco in disparte, ma incuranti come al solito di farsi sentire, non la piantano un solo istante di discutere e litigare.</p>
          <p>Ronzandoci, per così dire, continuamente attorno, <persName ref="#Fadigati">Fadigati</persName> ci ha seguiti finora passo passo. Ce ne siamo accorti benissimo. Sogghignando, dandoci di gomito, ne abbiamo anche parlato.</p>
          <p>All'improvviso, eccolo affiancarsi a <persName ref="#Bottecchiari">Nino</persName> e <persName ref="#BSgarbi">Bianca</persName>, raschiarsi la gola.</p>
@@ -993,8 +1139,8 @@
          <p>«Chissà lei, dottore, che sgobbone sarà stato!», esclamò una volta <persName ref="#BSgarbi">Bianca</persName> che, tanta era l'abitudine, faceva la civetta anche con <persName ref="#Fadigati">Fadigati</persName>.</p>
          <p>Non le rispose, limitandosi a sorriderle con gentilezza.</p>
          <p>«Al giorno d'oggi avete la partita, il cinema, sani passatempi di ogni specie», disse poi. «Sapete qual era la principale risorsa della domenica per la gioventù dell'epoca mia? Le sale da ballo!»</p>
-         <p>Storse la bocca, come se avesse evocato luoghi ben altrimenti abominevoli. Aggiungendo subito dopo che a <placeName ref="#Venezia">Venezia</placeName> per lo meno lui aveva la casa, il <persName ref="#AFsFather">papà</persName> e la <persName ref="#AFsMother">mamma</persName>, soprattutto la <persName ref="#AFsMother">mamma</persName>: gli «affetti» più sacri, insomma.</p>
-         <p>Come l'aveva adorata - sospirava -, la sua povera <persName ref="#AFsMother">mamma</persName>!</p>
+         <p>Storse la bocca, come se avesse evocato luoghi ben altrimenti abominevoli. Aggiungendo subito dopo che a <placeName ref="#Venezia">Venezia</placeName> per lo meno lui aveva la casa, il <persName ref="#padreFadigati">papà</persName> e la <persName ref="#madreFadigati">mamma</persName>, soprattutto la <persName ref="#madreFadigati">mamma</persName>: gli «affetti» più sacri, insomma.</p>
+         <p>Come l'aveva adorata - sospirava -, la sua povera <persName ref="#madreFadigati">mamma</persName>!</p>
          <p>Intelligente, colta, bella, pia: in lei si assommavano tutte le virtù. Una mattina, anzi, e per la commozione gli occhi gli si inumidirono, estrasse dal portafoglio una fotografia che circolò di mano in mano. Si trattava di un piccolo ovale sbiadito. Ritraeva una donna in abito ottocentesco, di mezza età: dall'espressione soave, senza dubbio, ma nel complesso piuttosto insignificante.</p>
          <p><persName ref="#Molon">Vittorio Molon</persName> era l'unico fra noi la cui famiglia non fosse ferrarese. Proprietari agricoli di <placeName ref="#FrattaPolesine">Fratta Polesine</placeName>, i Molon si erano trasferiti di qua dal Po da cinque o sei anni soltanto. E si sentiva: perché <persName ref="#Molon">Vittorio</persName>, specie quando parlava in italiano, conservava in pieno la cadenza veneta.</p>
          <p>Un giorno <persName ref="#Fadigati">Fadigati</persName> gli chiese se per caso «loro» fossero di Padova.</p>
@@ -1076,80 +1222,80 @@
       </div>
       <div>
          <p>Capitolo 8</p>
-         <p>Anche quell'estate andammo in villeggiatura a Riccione, sulla vicina costa adriatica. Ogni anno succedeva la stessa cosa. Mio padre, dopo aver invano tentato di trascinarci in montagna, sulle Dolomiti, nei luoghi dove aveva fatto la guerra, alla fine si rassegnava a tornare a Riccione, a riprendere in affitto la medesima villetta accanto al Grand Hôtel. Ricordo molto bene. Io, la mamma, e Fanny, la nostra sorellina minore, ci muovemmo da Ferrara il 10 di agosto, insieme con la donna di servizio (Ernesto, l'altro mio fratello, si trovava in Inghilterra dalla metà di luglio,au pair presso una famiglia di Bath per impratichirsi nella lingua). Quanto a mio padre, che era rimasto in città, ci avrebbe raggiunti più tardi: non appena la cura della campagna di Masi Torello glielo avesse consentito.</p>
-         <p>Lo stesso giorno del nostro arrivo seppi subito di Fadigati e Deliliers. Sulla spiaggia, affollata anche allora da ferraresi in villeggiatura con le famiglie, non si parlava che di loro, della loro «amicizia scandalosa».</p>
-         <p>A cominciare dai primi di agosto, infatti, i due erano stati visti passare da un albergo all'altro delle varie cittadine balneari disseminate tra Porto Corsini e la Punta di Pesaro. Erano comparsi la prima volta a Milano Marittima, di là dal porto-canale di Cervia, fissando una bella camera all'Hôtel Mare e Pineta. Dopo una settimana si erano spostati a Cesenatico, all'Hôtel Britannia. E poi, via via, destando ovunque enorme scalpore e voci infinite, a Viserba, a Rimini, a Riccione stessa, a Cattolica. Viaggiavano in macchina: una Alfa Romeo 1750 a due posti, rossa, tipo Mille Miglia.</p>
-         <p>Intorno al 20 agosto, impensatamente, eccoli di nuovo a Riccione, piazzati al Grand Hôtel come una decina di giorni avanti.</p>
-         <p>L'Alfa Romeo era nuova di zecca, il suo motore mandava una specie di ringhio. Oltre che per viaggiare, i due amici la adoperavano anche per la passeggiata di ogni pomeriggio, quando, all'ora del tramonto, la massa dei bagnanti risaliva dall'arenile per riversarsi sul lungomare. Guidava sempre Deliliers. Biondo, abbronzato, bellissimo nelle sue magliette aderenti, nei suoi pantaloni di lana color crema (alle mani, appoggiate con negligenza al volante, ostentava certi guanti di camoscio traforato del cui prezzo non era lecito dubitare), evidentemente era a lui, al suo esclusivo capriccio, che la macchina ubbidiva. L'altro non faceva nulla. Tutto fiero del suo berretto piatto di panno scozzese e dei suoi occhiali da seconda-guida o da meccanico (oggetti da cui non si separava nemmeno se l'automobile, fendendo la calca a fatica, dovesse percorrere a passo d'uomo il tratto di viale davanti al Caffè Zanarini), si limitava a farsi scarrozzare su e giù, costretto nel sedile a fianco del compagno.</p>
+         <p>Anche quell'estate andammo in villeggiatura a <placeName ref="#Riccione">Riccione</placeName>, sulla vicina costa adriatica. Ogni anno succedeva la stessa cosa. Mio padre, dopo aver invano tentato di trascinarci in montagna, sulle Dolomiti, nei luoghi dove aveva fatto la guerra, alla fine si rassegnava a tornare a <placeName ref="#Riccione">Riccione</placeName>, a riprendere in affitto la medesima villetta accanto al Grand Hôtel. Ricordo molto bene. <persName ref="#Narratore">Io</persName>, <persName ref="#madreNarratore">la mamma</persName>, e <persName ref="#Fanny">Fanny</persName>, la nostra sorellina minore, ci muovemmo da <placeName ref="#Ferrara">Ferrara</placeName> il <date when="1937-08-10">10 di agosto</date>, insieme con la donna di servizio (<persName ref="#Ernesto">Ernesto</persName>, l'altro mio fratello, si trovava in <placeName ref="#Inghilterra">Inghilterra</placeName> dalla metà di luglio, au pair presso una famiglia di <placeName ref="#Bath">Bath</placeName> per impratichirsi nella lingua). Quanto a mio padre, che era rimasto in città, ci avrebbe raggiunti più tardi: non appena la cura della campagna di <persName ref="#Torello">Masi Torello</persName> glielo avesse consentito.</p>
+         <p>Lo stesso giorno del nostro arrivo seppi subito di <persName ref="#Fadigati">Fadigati</persName> e <persName ref="#Deliliers">Deliliers</persName>. Sulla spiaggia, affollata anche allora da ferraresi in villeggiatura con le famiglie, non si parlava che di loro, della loro «amicizia scandalosa».</p>
+         <p>A cominciare dai primi di agosto, infatti, i due erano stati visti passare da un albergo all'altro delle varie cittadine balneari disseminate tra <placeName ref="#PortoCorsini">Porto Corsini</placeName> e la <placeName ref="#PuntaPesaro">Punta di Pesaro</placeName>. Erano comparsi la prima volta a <placeName ref="#MIMarittima">Milano Marittima</placeName>, di là dal porto-canale di <placeName ref="#Cervia">Cervia</placeName>, fissando una bella camera all'<placeName ref="#HotelMarePineta">Hôtel Mare e Pineta</placeName>. Dopo una settimana si erano spostati a <placeName ref="#Cesenatico">Cesenatico</placeName>, all'<placeName ref="#HotelBritannia">Hôtel Britannia</placeName>. E poi, via via, destando ovunque enorme scalpore e voci infinite, a <placeName ref="#Viserba">Viserba</placeName>, a <placeName ref="#Rimini">Rimini</placeName>, a <placeName ref="#Riccione">Riccione</placeName> stessa, a <placeName ref="#Cattolica">Cattolica</placeName>. Viaggiavano in macchina: una Alfa Romeo 1750 a due posti, rossa, tipo Mille Miglia.</p>
+         <p>Intorno al 20 agosto, impensatamente, eccoli di nuovo a <placeName ref="#Riccione">Riccione</placeName>, piazzati al <placeName ref="#GrandHotel">Grand Hôtel</placeName> come una decina di giorni avanti.</p>
+         <p>L'Alfa Romeo era nuova di zecca, il suo motore mandava una specie di ringhio. Oltre che per viaggiare, i due amici la adoperavano anche per la passeggiata di ogni pomeriggio, quando, all'ora del tramonto, la massa dei bagnanti risaliva dall'arenile per riversarsi sul lungomare. Guidava sempre <persName ref="#Deliliers">Deliliers</persName>. Biondo, abbronzato, bellissimo nelle sue magliette aderenti, nei suoi pantaloni di lana color crema (alle mani, appoggiate con negligenza al volante, ostentava certi guanti di camoscio traforato del cui prezzo non era lecito dubitare), evidentemente era a lui, al suo esclusivo capriccio, che la macchina ubbidiva. L'altro non faceva nulla. Tutto fiero del suo berretto piatto di panno scozzese e dei suoi occhiali da seconda-guida o da meccanico (oggetti da cui non si separava nemmeno se l'automobile, fendendo la calca a fatica, dovesse percorrere a passo d'uomo il tratto di viale davanti al <placeName ref="#CaffeZanarini">Caffè Zanarini</placeName>), si limitava a farsi scarrozzare su e giù, costretto nel sedile a fianco del compagno.</p>
          <p>Continuavano a dormire nella stessa stanza, a mangiare allo stesso tavolo.</p>
-         <p>E sedevano al medesimo tavolino anche la sera, quando l'orchestra del Grand Hôtel, trasportati gli strumenti del salone da pranzo a pianterreno sulla terrazza esterna esposta alla brezza marina, passava dai brani di musica leggera alla musica sincopata. Ben presto la terrazza si riempiva (ci andavo molto spesso anche io, coi nuovi amici del mare), e Deliliers non si lasciava sfuggire né un tango, né un valzer, né un passo doppio, né uno slow. Fadigati non ballava, si capisce. Portando ogni tanto alle labbra la cannuccia che pescava nella bibita, non cessava però di seguire con l'occhio rotondo, di sopra l'orlo del bicchiere, le perfette evoluzioni che l'amico lontano compiva abbracciato alle ragazze e alle signore più eleganti, più vistose. Rientrati dalla corsa in macchina, entrambi erano subito saliti in camera a mettere lo smoking. Serio, di pesante stoffa nera quello di Fadigati; con la giacchetta bianca, attillata e corta ai fianchi, quello di Deliliers.</p>
-         <p>Facevano assieme anche vita di spiaggia: per quanto, la mattina, fosse di solito Fadigati a uscire per primo dall'albergo.</p>
+         <p>E sedevano al medesimo tavolino anche la sera, quando l'orchestra del <placeName ref="#GrandHotel">Grand Hôtel</placeName>, trasportati gli strumenti del salone da pranzo a pianterreno sulla terrazza esterna esposta alla brezza marina, passava dai brani di musica leggera alla musica sincopata. Ben presto la terrazza si riempiva (ci andavo molto spesso anche io, coi nuovi amici del mare), e <persName ref="#Deliliers">Deliliers</persName> non si lasciava sfuggire né un tango, né un valzer, né un passo doppio, né uno slow. <persName ref="#Fadigati">Fadigati</persName> non ballava, si capisce. Portando ogni tanto alle labbra la cannuccia che pescava nella bibita, non cessava però di seguire con l'occhio rotondo, di sopra l'orlo del bicchiere, le perfette evoluzioni che l'amico lontano compiva abbracciato alle ragazze e alle signore più eleganti, più vistose. Rientrati dalla corsa in macchina, entrambi erano subito saliti in camera a mettere lo smoking. Serio, di pesante stoffa nera quello di <persName ref="#Fadigati">Fadigati</persName>; con la giacchetta bianca, attillata e corta ai fianchi, quello di <persName ref="#Deliliers">Deliliers</persName>.</p>
+         <p>Facevano assieme anche vita di spiaggia: per quanto, la mattina, fosse di solito <persName ref="#Fadigati">Fadigati</persName> a uscire per primo dall'albergo.</p>
          <p>Arrivava quando non c'era ancora quasi nessuno, fra le otto e mezzo e le nove, salutato con rispetto dai bagnini, ai quali, secondo ciò che loro stessi dicevano, era sempre molto largo di mance. Vestito da capo a piedi di un normale abito da città (solo più tardi, quando il caldo aumentava, si decideva a sbarazzarsi della cravatta e delle scarpe, ma il panama bianco, con la tesa abbassata sopra gli occhiali neri, quello non se lo toglieva mai), andava a sedersi sotto l'ombrellone solitario che per suo ordine era stato piantato più avanti di tutti gli altri, a pochi metri dalla riva. Sdraiato su una chaise longue, le mani intrecciate dietro la nuca e un libro giallo aperto sulle ginocchia, rimaneva così per due ore buone a guardare il mare.</p>
-         <p>Deliliers non sopraggiungeva mai prima delle undici. Col suo bel passo da belva pigra, reso anche più elegante dal leggero impedimento degli zoccoli, eccolo che attraversava senza affrettarsi lo spazio di sabbia infuocata tra i capanni e le tende. Era quasi nudo, lui. Le braghette bianche che finiva di allacciarsi sull'anca sinistra giusto in quel momento, la stessa catenina d'oro che portava al collo e da cui pendeva, in cima al torace, il ciondolo della Madonna, accentuavano in qualche modo la sua nudità. E sebbene, specie i primi giorni, gli costasse un certo sforzo salutare perfino me, quando mi vedeva lì, al riparo della nostra tenda; sebbene, passando tra i varchi delle tende e degli ombrelloni, non mancasse mai di arricciare la fronte in segno di fastidio: non per questo c'era troppo da credergli. Era chiaro che si sentiva ammirato dalla maggior parte degli astanti, dagli uomini come dalle donne, e che ciò gli faceva un gran piacere.</p>
-         <p>Senza dubbio lo ammiravano tutti, uomini e donne. Ma toccava poi a Fadigati scontare in qualche modo l'indulgenza che il settore ferrarese della spiaggia di Riccione riservava a Deliliers.</p>
-         <p>Nostra vicina di tenda era quell'anno la signora Lavezzoli, la moglie dell'avvocato. Perduta ormai l'antica importanza, oggi non è più che una vecchia. Ma allora, nel maturo splendore dei suoi quarant'anni, circondata dal perpetuo ossequio dei tre figli adolescenti, due maschi e una femmina, e da quello non meno perpetuo del degno consorte, illustre civilista, professore universitario ed ex deputato salandrino, allora era da considerarsi una delle più autorevoli ispiratrici dell'opinione pubblica cittadina.</p>
-         <p>Puntando dunque l'occhialetto verso l'ombrellone a cui Deliliers era approdato, la signora Lavezzoli, che era nata e cresciuta a Pisa, «in riva d'Arno», e si serviva con straordinaria destrezza della sua veloce lingua di toscana, ci teneva continuamente informati di tutto quanto accadesse «laggiù».</p>
-         <p>Con la tecnica, quasi, di un cronista sportivo della radio, riferiva ad esempio che «gli sposini», alzatisi d'un tratto dalle sedie a sdraio, stavano dirigendosi alla volta del più vicino moscone: evidentemente il giovanotto aveva espresso il desiderio di tuffarsi al largo, e il «signor dottore», per non rimaner solo, «in palpiti», ad attenderne il ritorno, aveva ottenuto di accompagnarlo. Oppure descriveva e commentava gli esercizi ginnastici a corpo libero che Deliliers dopo il bagno eseguiva al sole per asciugarsi, quando invece «l'amato bene», inattivo lì accanto con un asciugatoio di spugna in mano, era chiaro che sarebbe intervenuto così volentieri per fare lui, per asciugare lui, per toccare lui...</p>
-         <p>Oh, quel Deliliers - soggiungeva poi, sempre da tenda a tenda, rivolta in particolare a mia madre: credendo forse d'abbassare la voce in modo tale che i «figlioli» non sarebbero riusciti a udirla, ma in realtà parlando più forte che mai -, quel Deliliers non era in fondo che un ragazzo viziato, un «ragazzaccio» a cui il servizio militare sarebbe a suo tempo tornato utilissimo. Il dottor Fadigati invece no. Un signore della sua condizione, della sua età, non era scusabile in nessun modo. Era «così»? Ebbene, pazienza! Chi gliene aveva fatto eccessivo carico, prima d'ora? Ma venire a esibirsi proprio a Riccione, dove certo non ignorava come fosse conosciuto, venire a dar spettacolo proprio da quelle parti, mentre in Italia, volendo, di spiagge nelle quali non c'è pericolo di imbattersi in un ferrarese che sia uno se ne trovano a migliaia! No, via. Solamente da uno «sporcaccione» (e così dicendo la signora Lavezzoli mandava fuori dai grandi occhi celesti di regina fiamme di autentica indignazione), solamente da un «vecchio degenerato» ci si sarebbe potuti aspettare un tiro del genere.</p>
-         <p>La signora Lavezzoli parlava, ed io avrei dato molto perché tacesse, una buona volta. La sentivo ingiusta. Fadigati mi dispiaceva, senza dubbio, ma non era da lui che mi consideravo offeso. Conoscevo alla perfezione il carattere di Deliliers. In quella scelta delle spiagge romagnole, così prossime a Ferrara, c'era tutta la sua cattiveria e strafottenza. Fadigati non c'entrava, ne ero sicuro. Per me lui si vergognava. Se non salutava, se anche lui fingeva di non riconoscermi, doveva essere soprattutto per questo.</p>
-         <p>A differenza dell'avvocato Lavezzoli, che si trovava al mare dai primi di agosto, e dunque era al corrente come gli altri dello scandalo (sotto la tenda, però, mentre la moglie teneva cattedra, non faceva che leggere Antonio Adverse, né mai l'udii interloquire), mio padre capitò a Riccione soltanto il 25 mattina, un sabato: ancora più tardi del preventivato, e ovviamente ignaro di tutto. Arrivò in treno all'improvviso. Non trovando a casa nessuno, nemmeno la cuoca, scese senz'altro sulla spiaggia.</p>
-         <p>Si accorse quasi subito di Fadigati. Prima che mia madre o i Lavezzoli potessero trattenerlo, si diresse allegro verso di lui.</p>
-         <p>Fadigati sussultò, si volse. Mio padre gli aveva già teso la mano, e lui stava ancora cercando di tirarsi su dalla chaise longue.</p>
+         <p><persName ref="#Deliliers">Deliliers</persName> non sopraggiungeva mai prima delle undici. Col suo bel passo da belva pigra, reso anche più elegante dal leggero impedimento degli zoccoli, eccolo che attraversava senza affrettarsi lo spazio di sabbia infuocata tra i capanni e le tende. Era quasi nudo, lui. Le braghette bianche che finiva di allacciarsi sull'anca sinistra giusto in quel momento, la stessa catenina d'oro che portava al collo e da cui pendeva, in cima al torace, il ciondolo della Madonna, accentuavano in qualche modo la sua nudità. E sebbene, specie i primi giorni, gli costasse un certo sforzo salutare perfino me, quando mi vedeva lì, al riparo della nostra tenda; sebbene, passando tra i varchi delle tende e degli ombrelloni, non mancasse mai di arricciare la fronte in segno di fastidio: non per questo c'era troppo da credergli. Era chiaro che si sentiva ammirato dalla maggior parte degli astanti, dagli uomini come dalle donne, e che ciò gli faceva un gran piacere.</p>
+         <p>Senza dubbio lo ammiravano tutti, uomini e donne. Ma toccava poi a <persName ref="#Fadigati">Fadigati</persName> scontare in qualche modo l'indulgenza che il settore ferrarese della spiaggia di <persName ref="#Riccione">Riccione</persName> riservava a <persName ref="#Deliliers">Deliliers</persName>.</p>
+         <p>Nostra vicina di tenda era quell'anno <persName ref="#MrsLavezzoli">la signora Lavezzoli</persName>, la moglie dell'<persName ref="#AvvLavezzoli">avvocato</persName>. Perduta ormai l'antica importanza, oggi non è più che una vecchia. Ma allora, nel maturo splendore dei suoi quarant'anni, circondata dal perpetuo ossequio dei <persName ref="#FamLavezzoli">tre figli adolescenti, due maschi e una <persName ref="#CLavezzoli">femmina</persName></persName>, e da quello non meno perpetuo del <persName ref="#AvvLavezzoli">degno consorte, illustre civilista, professore universitario ed ex deputato salandrino</persName>, allora era da considerarsi una delle più autorevoli ispiratrici dell'opinione pubblica cittadina.</p>
+         <p>Puntando dunque l'occhialetto verso l'ombrellone a cui <persName ref="#Deliliers">Deliliers</persName> era approdato, <persName ref="#MrsLavezzoli">la signora Lavezzoli</persName>, che era nata e cresciuta a <placeName ref="#Pisa">Pisa</placeName>, «in riva d'Arno», e si serviva con straordinaria destrezza della sua veloce lingua di toscana, ci teneva continuamente informati di tutto quanto accadesse «laggiù».</p>
+         <p>Con la tecnica, quasi, di un cronista sportivo della radio, riferiva ad esempio che «gli sposini», alzatisi d'un tratto dalle sedie a sdraio, stavano dirigendosi alla volta del più vicino moscone: evidentemente il giovanotto aveva espresso il desiderio di tuffarsi al largo, e il <persName ref="#Fadigati">«signor dottore»</persName>, per non rimaner solo, «in palpiti», ad attenderne il ritorno, aveva ottenuto di accompagnarlo. Oppure descriveva e commentava gli esercizi ginnastici a corpo libero che Deliliers dopo il bagno eseguiva al sole per asciugarsi, quando invece «l'amato bene», inattivo lì accanto con un asciugatoio di spugna in mano, era chiaro che sarebbe intervenuto così volentieri per fare lui, per asciugare lui, per toccare lui...</p>
+         <p>Oh, quel <persName ref="#Deliliers">Deliliers</persName> - soggiungeva poi, sempre da tenda a tenda, rivolta in particolare a <persName ref="#madreNarratore">mia madre</persName>: credendo forse d'abbassare la voce in modo tale che i «figlioli» non sarebbero riusciti a udirla, ma in realtà parlando più forte che mai -, quel <persName ref="#Deliliers">Deliliers</persName> non era in fondo che un ragazzo viziato, un «ragazzaccio» a cui il servizio militare sarebbe a suo tempo tornato utilissimo. <persName ref="#Fadigati">Il dottor Fadigati</persName> invece no. Un signore della sua condizione, della sua età, non era scusabile in nessun modo. Era «così»? Ebbene, pazienza! Chi gliene aveva fatto eccessivo carico, prima d'ora? Ma venire a esibirsi proprio a <placeName ref="#Riccione">Riccione</placeName>, dove certo non ignorava come fosse conosciuto, venire a dar spettacolo proprio da quelle parti, mentre in <placeName ref="#Italia">Italia</placeName>, volendo, di spiagge nelle quali non c'è pericolo di imbattersi in un ferrarese che sia uno se ne trovano a migliaia! No, via. Solamente da uno «sporcaccione» (e così dicendo <persName ref="#MrsLavezzoli">la signora Lavezzoli</persName> mandava fuori dai grandi occhi celesti di regina fiamme di autentica indignazione), solamente da un «vecchio degenerato» ci si sarebbe potuti aspettare un tiro del genere.</p>
+         <p><persName ref="#MrsLavezzoli">La signora Lavezzoli</persName> parlava, ed io avrei dato molto perché tacesse, una buona volta. La sentivo ingiusta. <persName ref="#Fadigati">Fadigati</persName> mi dispiaceva, senza dubbio, ma non era da lui che mi consideravo offeso. Conoscevo alla perfezione il carattere di <persName ref="#Deliliers">Deliliers</persName>. In quella scelta delle spiagge romagnole, così prossime a <placeName ref="#Ferrara">Ferrara</placeName>, c'era tutta la sua cattiveria e strafottenza. <persName ref="#Fadigati">Fadigati</persName> non c'entrava, ne ero sicuro. Per me lui si vergognava. Se non salutava, se anche lui fingeva di non riconoscermi, doveva essere soprattutto per questo.</p>
+         <p>A differenza dell'<persName ref="#AvvLavezzoli">avvocato Lavezzoli</persName>, che si trovava al mare dai primi di agosto, e dunque era al corrente come gli altri dello scandalo (sotto la tenda, però, mentre la moglie teneva cattedra, non faceva che leggere Antonio Adverse, né mai l'udii interloquire), mio padre capitò a <placeName ref="#Riccione">Riccione</placeName> soltanto il 25 mattina, un sabato: ancora più tardi del preventivato, e ovviamente ignaro di tutto. Arrivò in treno all'improvviso. Non trovando a casa nessuno, nemmeno la cuoca, scese senz'altro sulla spiaggia.</p>
+         <p>Si accorse quasi subito di <persName ref="#Fadigati">Fadigati</persName>. Prima che mia madre o i Lavezzoli potessero trattenerlo, si diresse allegro verso di lui.</p>
+         <p><persName ref="#Fadigati">Fadigati</persName> sussultò, si volse. Mio padre gli aveva già teso la mano, e lui stava ancora cercando di tirarsi su dalla chaise longue.</p>
          <p>Alla fine ci riuscì. Dopodiché, per cinque minuti almeno, li vedemmo parlare in piedi sotto l'ombrellone, voltandoci le spalle.</p>
-         <p>Guardavano entrambi l'immobile lastra del mare, liscia, pallidamente luminosa, senza una increspatura. E mio padre, il quale esprimeva dall'intera persona la felicità di aver «chiuso bottega» (così diceva quando da Riccione intendeva riferirsi a tutte le non piacevoli cose lasciate in città: affari, casa vuota, calura estiva, malinconici pranzi da Roveraro, zanzare, eccetera), indicava a Fadigati col braccio alzato le centinaia di mosconi sparsi a varia distanza dalla riva, nonché lontanissime, appena visibili all'orizzonte e quasi sospese a mezz'aria, le vele color ruggine delle paranze e dei bragozzi.</p>
-         <p>Vennero da ultimo verso la nostra tenda, Fadigati facendosi precedere da mio padre di circa un metro, e col volto atteggiato a una strana espressione, tra implorante, disgustata, e colpevole.</p>
-         <p>Saranno state le undici, Deliliers non era ancora apparso. Mentre mi alzavo per andar loro incontro, notai che il dottore lanciava verso la linea dei capanni, di dove da un momento all'altro sperava, o temeva, di veder spuntare l'amico, una rapida occhiata piena di inquietudine.</p>
+         <p>Guardavano entrambi l'immobile lastra del mare, liscia, pallidamente luminosa, senza una increspatura. E mio padre, il quale esprimeva dall'intera persona la felicità di aver «chiuso bottega» (così diceva quando da <placeName ref="#Riccione">Riccione</placeName> intendeva riferirsi a tutte le non piacevoli cose lasciate in città: affari, casa vuota, calura estiva, malinconici pranzi da Roveraro, zanzare, eccetera), indicava a <persName ref="#Fadigati">Fadigati</persName> col braccio alzato le centinaia di mosconi sparsi a varia distanza dalla riva, nonché lontanissime, appena visibili all'orizzonte e quasi sospese a mezz'aria, le vele color ruggine delle paranze e dei bragozzi.</p>
+         <p>Vennero da ultimo verso la nostra tenda, <persName ref="#Fadigati">Fadigati</persName> facendosi precedere da mio padre di circa un metro, e col volto atteggiato a una strana espressione, tra implorante, disgustata, e colpevole.</p>
+         <p>Saranno state le undici, <persName ref="#Deliliers">Deliliers</persName> non era ancora apparso. Mentre mi alzavo per andar loro incontro, notai che <persName ref="#Fadigati">il dottore</persName> lanciava verso la linea dei capanni, di dove da un momento all'altro sperava, o temeva, di veder spuntare l'amico, una rapida occhiata piena di inquietudine.</p>
       </div>
       <div>
          <p>Capitolo 9</p>
-         <p>Baciò la mano di mia madre.</p>
-         <p>«Lei conosce l'avvocato Lavezzoli, non è vero?», disse subito mio padre, ad alta voce.</p>
-         <p>Fadigati ebbe un attimo di esitazione. Guardò mio padre, accennando di sì col capo; quindi, sulle spine, si volse verso la tenda dei Lavezzoli.</p>
-         <p>L'avvocato appariva più che mai assorbito dalla lettura di Antonio Adverse. I tre «figlioli», sdraiati bocconi sulla sabbia a due passi di distanza, in circolo attorno a un asciugamano di spugna azzurro, prendevano il sole sulla schiena, immobili come lucertole. La signora stava ricamando una tovaglia che le ricadeva in lunghe pieghe dalle ginocchia. Sembrava una Madonna rinascimentale sul suo trono di nuvole.</p>
-         <p>Famoso per il suo candore, mio padre non si rendeva conto delle cosiddette «situazioni» prima di trovarcisi immerso fino al collo.</p>
-         <p>«Avvocato», gridò, «guardi qui chi c'è!»</p>
-         <p>Anticipando la risposta del marito, la signora Lavezzoli fu pronta a intervenire. Alzò di scatto gli occhi dalla tovaglia, e, d'impeto, tese il dorso della mano a Fadigati.</p>
+         <p>Baciò la mano di <persName ref="#madreNarratore">mia madre</persName>.</p>
+         <p>«Lei conosce <persName ref="#AvvLavezzoli">l'avvocato Lavezzoli</persName>, non è vero?», disse subito mio padre, ad alta voce.</p>
+         <p><persName ref="#Fadigati">Fadigati</persName> ebbe un attimo di esitazione. Guardò <persName ref="#IosFather">mio padre</persName>, accennando di sì col capo; quindi, sulle spine, si volse verso la tenda dei Lavezzoli.</p>
+         <p><persName ref="#AvvLavezzoli">L'avvocato</persName> appariva più che mai assorbito dalla lettura di Antonio Adverse. <persName ref="#FamLavezzoli">I tre «figlioli»</persName>, sdraiati bocconi sulla sabbia a due passi di distanza, in circolo attorno a un asciugamano di spugna azzurro, prendevano il sole sulla schiena, immobili come lucertole. La signora stava ricamando una tovaglia che le ricadeva in lunghe pieghe dalle ginocchia. Sembrava una Madonna rinascimentale sul suo trono di nuvole.</p>
+         <p>Famoso per il suo candore, <persName ref="#IosFather">mio padre</persName> non si rendeva conto delle cosiddette «situazioni» prima di trovarcisi immerso fino al collo.</p>
+         <p>«<persName ref="#AvvLavezzoli">Avvocato</persName>», gridò, «guardi qui chi c'è!»</p>
+         <p>Anticipando la risposta del marito, <persName ref="#MrsLavezzoli">la signora Lavezzoli</persName> fu pronta a intervenire. Alzò di scatto gli occhi dalla tovaglia, e, d'impeto, tese il dorso della mano a Fadigati.</p>
          <p>«Ma sì... ma sì...», gorgheggiò.</p>
-         <p>Fadigati avanzò avvilito nel sole, e al solito un po' barcollava per via delle scarpe e della rena. Raggiunta comunque la tenda dei Lavezzoli, baciò la mano della signora, strinse quella dell'avvocato che nel frattempo si era alzato in piedi, strinse ad una ad una quelle dei tre ragazzi. Infine ritornò verso la nostra tenda, dove mio padre gli aveva già preparato una chaise longue di fianco a quella della mamma. Sembrava molto più sereno di poc'anzi: sollevato come uno studente dopo un esame difficile.</p>
+         <p><persName ref="#Fadigati">Fadigati</persName> avanzò avvilito nel sole, e al solito un po' barcollava per via delle scarpe e della rena. Raggiunta comunque la tenda dei Lavezzoli, baciò la mano della <persName ref="#MrsLavezzoli">signora</persName>, strinse quella dell'avvocato che nel frattempo si era alzato in piedi, strinse ad una ad una quelle dei tre ragazzi. Infine ritornò verso la nostra tenda, dove mio padre gli aveva già preparato una chaise longue di fianco a quella della mamma. Sembrava molto più sereno di poc'anzi: sollevato come uno studente dopo un esame difficile.</p>
          <p>Non appena si fu seduto esalò un sospiro di soddisfazione.</p>
          <p>«Però che bello, qui», disse, «che bella ventilazione!»</p>
          <p>Si girò di tre quarti per parlarmi.</p>
-         <p>«Ricorda a Bologna, il mese scorso, che razza di caldo faceva?»</p>
-         <p>Spiegò quindi a mio padre e a mia madre, ai quali non avevo mai raccontato dei nostri periodici incontri sull'accelerato mattutino delle sei e cinquanta, come negli ultimi tre mesi ci fossimo fatti «ottima compagnia». Si esprimeva con disinvoltura mondana. Non gli pareva vero, lo si capiva benissimo, di ritrovarsi lì, con noi, perfino coi temuti Lavezzoli, restituito d'un tratto al suo ambiente, riaccettato dalla società di persone colte e beneducate a cui aveva sempre appartenuto. «Aah!», faceva di continuo, allargando il petto ad accogliere la brezza marina. Era chiaro che si sentiva felice, libero, e insieme penetrato di gratitudine nei confronti di tutti coloro che gli permettevano di sentirsi così.</p>
-         <p>Frattanto mio padre aveva riportato il discorso sull'afa incredibile dell'agosto ferrarese.</p>
+         <p>«Ricorda a <placeName ref="#Bologna">Bologna</placeName>, il mese scorso, che razza di caldo faceva?»</p>
+         <p>Spiegò quindi a <persName ref="#IosFather">mio padre</persName> e a <persName ref="#madreNarratore">mia madre</persName>, ai quali non avevo mai raccontato dei nostri periodici incontri sull'accelerato mattutino delle sei e cinquanta, come negli ultimi tre mesi ci fossimo fatti «ottima compagnia». Si esprimeva con disinvoltura mondana. Non gli pareva vero, lo si capiva benissimo, di ritrovarsi lì, con noi, perfino <persName ref="#FamLavezzoli">coi temuti Lavezzoli</persName>, restituito d'un tratto al suo ambiente, riaccettato dalla società di persone colte e beneducate a cui aveva sempre appartenuto. «Aah!», faceva di continuo, allargando il petto ad accogliere la brezza marina. Era chiaro che si sentiva felice, libero, e insieme penetrato di gratitudine nei confronti di tutti coloro che gli permettevano di sentirsi così.</p>
+         <p>Frattanto <persName ref="#IosFather">mio padre</persName> aveva riportato il discorso sull'afa incredibile dell'agosto ferrarese.</p>
          <p>«La notte non si dormiva», diceva, contraendo il viso in una smorfia di sofferenza: come se gli bastasse il ricordo del caldo cittadino per provarne ancora tutta l'oppressione. «Mi creda, dottore, non si riusciva a chiudere occhio. C'è chi fa cominciare l'Evo moderno dall'anno in cui è stato inventato il Flit. Non discuto. Ma il Flit vuole anche dire finestre tutte chiuse. E le finestre chiuse significano lenzuola che ti si attaccano alla pelle per il sudore. Non scherzo. Fino a ieri vedevo avvicinarsi la notte terrorizzato. Maledette zanzare!»</p>
-         <p>«Qui è diverso», disse Fadigati con slancio entusiastico. «Anche nelle notti più calde qui c'è sempre modo di respirare.» E cominciò a diffondersi sui «vantaggi» della costa adriatica in confronto alle altre coste del resto d'Italia. Era veneziano - ammise -, aveva trascorso l'infanzia e l'adolescenza al Lido, e quindi il suo giudizio peccava forse di parzialità. Però l'Adriatico a lui sembrava di gran lunga più riposante del Tirreno.</p>
-         <p>La signora Lavezzoli stava con le orecchie tese. Dissimulando l'intenzione maligna dietro un finto orgoglio municipale, assunse impetuosamente le difese del Tirreno. Dichiarò che se si fosse trovata nelle condizioni di poter scegliere fra una villeggiatura a Riccione e una a Viareggio, non avrebbe esitato nemmeno un momento.</p>
-         <p>«Guardi certe sere», aggiunse. «A passare davanti al Caffè Zanarini, si ha spesso la sensazione di non essersi spostati da Ferrara di un solo chilometro. Almeno l'estate uno desidererebbe, siamo sinceri, vedere altre facce, diverse una buona volta da quelle che gli vengono offerte tutto il resto dell'anno. Sembra di camminare per la Giovecca, oppure per corso Roma, sotto i portici del Caffè della Borsa. Non trova?» A disagio, Fadigati si mosse sulla chaise longue. Di nuovo gli occhi gli sfuggirono verso i capanni. Ma di Deliliers ancora niente.</p>
+         <p>«Qui è diverso», disse <persName ref="#Fadigati">Fadigati</persName> con slancio entusiastico. «Anche nelle notti più calde qui c'è sempre modo di respirare.» E cominciò a diffondersi sui «vantaggi» della costa adriatica in confronto alle altre coste del resto d'Italia. Era veneziano - ammise -, aveva trascorso l'infanzia e l'adolescenza al <placeName ref="#VeLido">Lido</placeName>, e quindi il suo giudizio peccava forse di parzialità. Però l'Adriatico a lui sembrava di gran lunga più riposante del Tirreno.</p>
+         <p><persName ref="#MrsLavezzoli">La signora Lavezzoli</persName> stava con le orecchie tese. Dissimulando l'intenzione maligna dietro un finto orgoglio municipale, assunse impetuosamente le difese del <placeName ref="#MarTirreno">Tirreno</placeName>. Dichiarò che se si fosse trovata nelle condizioni di poter scegliere fra una villeggiatura a <placeName ref="#Riccione">Riccione</placeName> e una a <placeName ref="#Viareggio">Viareggio</placeName>, non avrebbe esitato nemmeno un momento.</p>
+         <p>«Guardi certe sere», aggiunse. «A passare davanti al <placeName ref="#CaffeZanarini">Caffè Zanarini</placeName>, si ha spesso la sensazione di non essersi spostati da <placeName ref="#Ferrara">Ferrara</placeName> di un solo chilometro. Almeno l'estate uno desidererebbe, siamo sinceri, vedere altre facce, diverse una buona volta da quelle che gli vengono offerte tutto il resto dell'anno. Sembra di camminare per la <placeName ref="#CorsoGiovecca">Giovecca</placeName>, oppure per <placeName ref="#CorsoRoma">corso Roma</placeName>, sotto i portici del <placeName ref="#CaffeBorsa">Caffè della Borsa</placeName>. Non trova?» A disagio, <persName ref="#Fadigati">Fadigati</persName> si mosse sulla chaise longue. Di nuovo gli occhi gli sfuggirono verso i capanni. Ma di <persName ref="#Deliliers">Deliliers</persName> ancora niente.</p>
          <p>«Può darsi, può darsi», rispose con un sorriso nervoso, tornando a portare gli sguardi sul mare.</p>
-         <p>Come ogni mattina fra le undici e mezzogiorno, l'acqua aveva cambiato colore. Non era già più la massa scialba, oleosa, di mezz'ora avanti. Il vento teso che proveniva dal largo, il sole pressoché a picco, l'avevano trasformata in una distesa azzurra, sparsa di innumerevoli scintille d'oro. La spiaggia cominciava a essere attraversata di corsa dai primi bagnanti. E anche i tre ragazzi Lavezzoli, dopo aver chiesto permesso alla madre, si diressero verso il loro capanno per cambiarsi di costume.</p>
-         <p>«Può darsi», ripeté Fadigati. «Ma dove li trova, cara signora, pomeriggi come quelli che il sole ci prepara da queste parti, quando si avvia a calare dietro l'azzurra visione di San Marino?»</p>
-         <p>Aveva declamato il verso del Pascoli con voce cantante, leggermente nasale, spiccando ogni sillaba e facendo risaltare la dieresi di «visïon». Seguì un silenzio imbarazzato; ma già il dottore ricominciava a discorrere.</p>
-         <p>«Mi rendo conto», continuò, «che i tramonti della Riviera di Levante sono magnifici. Tuttavia bisogna sempre pagarli a caro prezzo: al prezzo, voglio dire, di pomeriggi infuocati, col mare trasformato in una specie di specchio ustorio, e con la gente costretta a starsene tappata in casa, o, al massimo, a rifugiarsi nelle pinete. Avrà invece notato il colore dell'Adriatico dopo le due o le tre. Più che azzurro, diventa nero: insomma non se ne resta abbacinati. La superficie dell'acqua assorbe i raggi del sole, non li riflette. O meglio li riflette, sì, ma in direzione della... Jugoslavia! Io, per me», concluse, affatto smemorato, «non vedo l'ora di aver mangiato per tornare subito sulla spiaggia. Le due del pomeriggio. Non c'è momento più bello per godersi in santa pace il nostro divino Amarissimo!»</p>
-         <p>«Immagino che ci verrà in compagnia di quel suo... quel suo amico inseparabile», disse acida la signora Lavezzoli.</p>
-         <p>Richiamato così sgarbatamente alla realtà, Fadigati tacque, confuso.</p>
-         <p>Quand'ecco, un improvviso assembrarsi di persone a qualche centinaio di metri di distanza, dalla parte di Rimini, attirò l'attenzione di mio padre.</p>
+         <p>Come ogni mattina fra le undici e mezzogiorno, l'acqua aveva cambiato colore. Non era già più la massa scialba, oleosa, di mezz'ora avanti. Il vento teso che proveniva dal largo, il sole pressoché a picco, l'avevano trasformata in una distesa azzurra, sparsa di innumerevoli scintille d'oro. La spiaggia cominciava a essere attraversata di corsa dai primi bagnanti. E anche i <persName ref="#FamLavezzoli">tre ragazzi Lavezzoli</persName>, dopo aver chiesto permesso alla <persName ref="#MrsLavezzoli">madre</persName>, si diressero verso il loro capanno per cambiarsi di costume.</p>
+         <p>«Può darsi», ripeté <persName ref="#Fadigati">Fadigati</persName>. «Ma dove li trova, cara signora, pomeriggi come quelli che il sole ci prepara da queste parti, quando si avvia a calare dietro l'azzurra visione di San Marino?»</p>
+         <p>Aveva declamato il verso del <persName ref="#Pascoli">Pascoli</persName> con voce cantante, leggermente nasale, spiccando ogni sillaba e facendo risaltare la dieresi di «visïon». Seguì un silenzio imbarazzato; ma già il dottore ricominciava a discorrere.</p>
+         <p>«Mi rendo conto», continuò, «che i tramonti della <persName ref="#MarTirreno">Riviera di Levante</persName> sono magnifici. Tuttavia bisogna sempre pagarli a caro prezzo: al prezzo, voglio dire, di pomeriggi infuocati, col mare trasformato in una specie di specchio ustorio, e con la gente costretta a starsene tappata in casa, o, al massimo, a rifugiarsi nelle pinete. Avrà invece notato il colore dell'<persName ref="#MarAdriatico">Adriatico</persName> dopo le due o le tre. Più che azzurro, diventa nero: insomma non se ne resta abbacinati. La superficie dell'acqua assorbe i raggi del sole, non li riflette. O meglio li riflette, sì, ma in direzione della... <placeName ref="#Jugoslavia">Jugoslavia</placeName>! Io, per me», concluse, affatto smemorato, «non vedo l'ora di aver mangiato per tornare subito sulla spiaggia. Le due del pomeriggio. Non c'è momento più bello per godersi in santa pace il nostro divino Amarissimo!»</p>
+         <p>«Immagino che ci verrà in compagnia di quel suo... <persName ref="#Deliliers">quel suo amico inseparabile</persName>», disse acida <persName ref="#MrsLavezzoli">la signora Lavezzoli</persName>.</p>
+         <p>Richiamato così sgarbatamente alla realtà, <persName ref="#Fadigati">Fadigati</persName> tacque, confuso.</p>
+         <p>Quand'ecco, un improvviso assembrarsi di persone a qualche centinaio di metri di distanza, dalla parte di <placeName ref="#Rimini">Rimini</placeName>, attirò l'attenzione di mio padre.</p>
          <p>«Che cosa succede?», chiese, portandosi una mano alla fronte per veder meglio.</p>
          <p>Attraverso il vento giunsero grida di evviva miste a battimani.</p>
-         <p>«È il Duce che scende in acqua», spiegò la signora Lavezzoli, compunta.</p>
-         <p>Mio padre storse la bocca.</p>
+         <p>«È <persName ref="#Mussolini">il Duce</persName> che scende in acqua», spiegò <persName ref="#MrsLavezzoli">la signora Lavezzoli</persName>, compunta.</p>
+         <p><persName ref="#IosFather">Mio padre</persName> storse la bocca.</p>
          <p>«Possibile che non ci si salvi nemmeno al mare?», si lamentò fra i denti.</p>
-         <p>Romantico, patriota, politicamente ingenuo e inesperto come tanti altri ebrei italiani della sua generazione, anche mio padre, tornando dal fronte nel '19, aveva preso la tessera del Fascio. Era stato dunque fascista fin dalla «prima ora», e tale in fondo era rimasto nonostante la sua mitezza e onestà. Ma da quando Mussolini, dopo le baruffe dei primi tempi, aveva cominciato a intendersela con Hitler, era diventato inquieto. Non faceva che pensare a un possibile scoppio di antisemitismo anche in Italia; e ogni tanto, pur soffrendone, si lasciava sfuggire qualche amara parola contro il Regime.</p>
-         <p>«È così semplice, così umano», proseguì senza badargli la signora Lavezzoli. «Da bravo marito, ogni sabato mattina prende la macchina, e via, è capace di far tutta una tirata da Roma fino a Riccione.»</p>
-         <p>«Davvero bravo», sogghignò mio padre. «Chissà come sarà contenta Donna Rachele!»</p>
-         <p>Guardava l'avvocato Lavezzoli con intenzione, in cerca del suo consenso. Non era senza tessera, l'avvocato Lavezzoli? Non era stato firmatario nel '24 del famoso manifesto Croce, e almeno per qualche anno, almeno fino al '30, tenuto in conto di «demoliberale» e disfattista? Tutto però fu vano. Sebbene distolti finalmente dalle fitte pagine di Antonio Adverse, gli occhi dell'avvocato si mantennero insensibili al muto richiamo di quelli di mio padre. Allungando il collo, socchiudendo le palpebre, l'illustre avv. prof. scrutava ostinato in direzione del mare. I «figlioli» avevano preso a nolo un moscone, e stavano spingendosi troppo al largo.</p>
-         <p>«L'altro sabato», diceva intanto la signora Lavezzoli, «io e Filippo si rincasava a braccetto per viale dei Mille. Erano le sette e mezzo, o giù di lì. D'un tratto, dal cancello d'una villa, chi ti vedo uscire? Il Duce in persona, vestito di bianco da capo a piedi. Io feci: "Buona sera, Eccellenza". E lui, gentilissimo, togliendosi il cappello: "Buona sera, signora". Non è vero, Pippo», soggiunse, girata verso il marito, «non è vero che fu gentilissimo?»</p>
-         <p>L'avvocato annuì.</p>
-         <p>«Forse dovremmo avere la modestia di riconoscere di aver sbagliato», disse gravemente, rivolto a mio padre. «L'Uomo, non dimentichiamolo, ci ha dato l'Impero.»</p>
+         <p>Romantico, patriota, politicamente ingenuo e inesperto come tanti altri ebrei italiani della sua generazione, anche mio padre, tornando dal fronte nel <date when="1919">'19</date>, aveva preso la tessera del Fascio. Era stato dunque fascista fin dalla «prima ora», e tale in fondo era rimasto nonostante la sua mitezza e onestà. Ma da quando <persName ref="#Mussolini">Mussolini</persName>, dopo le baruffe dei primi tempi, aveva cominciato a intendersela con <persName ref="#Hitler">Hitler</persName>, era diventato inquieto. Non faceva che pensare a un possibile scoppio di antisemitismo anche in <placeName ref="#Italia">Italia</placeName>; e ogni tanto, pur soffrendone, si lasciava sfuggire qualche amara parola contro il Regime.</p>
+         <p>«È così semplice, così umano», proseguì senza badargli <persName ref="#MrsLavezzoli">la signora Lavezzoli</persName>. «Da bravo marito, ogni sabato mattina prende la macchina, e via, è capace di far tutta una tirata da <placeName ref="#Roma">Roma</placeName> fino a <placeName ref="#Riccione">Riccione</placeName>.»</p>
+         <p>«Davvero bravo», sogghignò mio padre. «Chissà come sarà contenta <persName ref="#DonnaRachele">Donna Rachele!</persName>»</p>
+         <p>Guardava <persName ref="#AvvLavezzoli">l'avvocato Lavezzoli</persName> con intenzione, in cerca del suo consenso. Non era senza tessera, <persName ref="#AvvLavezzoli">l'avvocato Lavezzoli</persName>? Non era stato firmatario nel <date when="1924">'24</date> del famoso manifesto <persName ref="#Croce">Croce</persName>, e almeno per qualche anno, almeno fino al <date when="1930">'30</date>, tenuto in conto di «demoliberale» e disfattista? Tutto però fu vano. Sebbene distolti finalmente dalle fitte pagine di Antonio Adverse, gli occhi dell'<persName ref="#AvvLavezzoli">avvocato</persName> si mantennero insensibili al muto richiamo di quelli di <persName ref="#IosFather">mio padre</persName>. Allungando il collo, socchiudendo le palpebre, <persName ref="#AvvLavezzoli">l'illustre avv. prof.</persName> scrutava ostinato in direzione del mare. I «figlioli» avevano preso a nolo un moscone, e stavano spingendosi troppo al largo.</p>
+         <p>«L'altro sabato», diceva intanto <persName ref="#MrsLavezzoli">la signora Lavezzoli</persName>, «io e <persName ref="#AvvLavezzoli">Filippo</persName> si rincasava a braccetto per <placeName ref="#VialeMille">viale dei Mille</placeName>. Erano le sette e mezzo, o giù di lì. D'un tratto, dal cancello d'una villa, chi ti vedo uscire? <persName ref="#Mussolini">Il Duce</persName> in persona, vestito di bianco da capo a piedi. Io feci: "Buona sera, Eccellenza". E lui, gentilissimo, togliendosi il cappello: "Buona sera, signora". Non è vero, <persName ref="#AvvLavezzoli">Pippo</persName>», soggiunse, girata verso il marito, «non è vero che fu gentilissimo?»</p>
+         <p><persName ref="#AvvLavezzoli">l'avvocato</persName> annuì.</p>
+         <p>«Forse dovremmo avere la modestia di riconoscere di aver sbagliato», disse gravemente, rivolto a <persName ref="#IosFather">mio padre</persName>. «L'Uomo, non dimentichiamolo, ci ha dato l'Impero.»</p>
          <p>Come se fossero state incise sopra un nastro magnetico, ritrovo nella memoria ad una ad una tutte le parole di quella lontana mattina.</p>
-         <p>Dopo aver pronunciato la sua sentenza (a udirla, mio padre aveva sgranato tanto d'occhi), l'avvocato Lavezzoli era tornato alla lettura. Ma la signora non aveva ormai più ritegno. Spronata dalla frase del coniuge, e in particolare da quella parola, «Impero», che magari non aveva mai colto prima d'allora dalle austere labbra di lui, insisteva a non finire sul «buon cuore» del Duce, sul suo generoso sangue romagnolo.</p>
-         <p>«A questo proposito», disse, «voglio raccontarvi un episodio di cui sono stata testimone io stessa tre anni fa, proprio qui, a Riccione. Una mattina il Duce stava facendo il bagno coi due ragazzi maggiori, Vittorio e Bruno. Verso l'una viene su dall'acqua, e cosa ti trova, ad attenderlo? Un dispaccio telegrafico arrivato un attimo prima, che gli comunica la notizia dell'assassinio del cancelliere austriaco Dollfuss. Quell'anno la nostra tenda era a due passi dalla tenda dei Mussolini: dunque quello che dico è la pura verità. Non appena ebbe letto il telegramma il Duce uscì in una gran bestemmia in dialetto (eh, si capisce, il temperamento è il temperamento!). Ma poi si mise a piangere, gliele ho vedute io le lacrime che gli rigavano le gote. Erano grandi amici, i Mussolini, dei Dollfuss. Anzi: la signora Dollfuss, una signora piccina, magra, modesta, tanto carina, appunto quell'estate era ospite loro, nella loro villa, insieme coi bambini. E lui piangeva, il Duce, certo pensando a ciò che di lì a qualche minuto, rientrato a casa per il desinare, avrebbe per forza dovuto dire a quella sventurata madre...»</p>
-         <p>Fadigati si alzò in piedi di scatto. Umiliato dalla frase velenosa della signora Lavezzoli, da quel momento in poi non aveva più aperto bocca. Sopra pensiero, non faceva che mordersi le labbra. Perché mai Deliliers tardava talmente? Che cosa gli era accaduto?</p>
+         <p>Dopo aver pronunciato la sua sentenza (a udirla, <persName ref="#IosFather">mio padre</persName> aveva sgranato tanto d'occhi), <persName ref="#AvvLavezzoli">l'avvocato Lavezzoli</persName> era tornato alla lettura. Ma <persName ref="#MrsLavezzoli">la signora</persName> non aveva ormai più ritegno. Spronata dalla frase del coniuge, e in particolare da quella parola, «Impero», che magari non aveva mai colto prima d'allora dalle austere labbra di lui, insisteva a non finire sul «buon cuore» del <persName ref="#Mussolini">Duce</persName>, sul suo generoso sangue romagnolo.</p>
+         <p>«A questo proposito», disse, «voglio raccontarvi un episodio di cui sono stata testimone io stessa tre anni fa, proprio qui, a Riccione. Una mattina <persName ref="#Mussolini">il Duce</persName> stava facendo il bagno coi due ragazzi maggiori, <persName ref="#VittorioMussolini">Vittorio</persName> e <persName ref="#BrunoMussolini">Bruno</persName>. Verso l'una viene su dall'acqua, e cosa ti trova, ad attenderlo? Un dispaccio telegrafico arrivato un attimo prima, che gli comunica la notizia dell'assassinio del <persName ref="#Dolfuss">cancelliere austriaco Dollfuss</persName>. Quell'anno la nostra tenda era a due passi dalla tenda dei <persName ref="#Mussolini">Mussolini</persName>: dunque quello che dico è la pura verità. Non appena ebbe letto il telegramma il <persName ref="#Mussolini">Duce</persName> uscì in una gran bestemmia in dialetto (eh, si capisce, il temperamento è il temperamento!). Ma poi si mise a piangere, gliele ho vedute io le lacrime che gli rigavano le gote. Erano grandi amici, i <persName ref="#Mussolini">Mussolini</persName>, dei <persName ref="#Dolfuss">Dollfuss</persName>. Anzi: <persName ref="#MrsDolfuss">la signora Dollfuss</persName>, una signora piccina, magra, modesta, tanto carina, appunto quell'estate era ospite loro, nella loro villa, insieme coi bambini. E lui piangeva, <persName ref="#Mussolini">il Duce</persName>, certo pensando a ciò che di lì a qualche minuto, rientrato a casa per il desinare, avrebbe per forza dovuto dire a quella sventurata madre...»</p>
+         <p><persName ref="#Fadigati">Fadigati</persName> si alzò in piedi di scatto. Umiliato dalla frase velenosa della <persName ref="#MrsLavezzoli">signora Lavezzoli</persName>, da quel momento in poi non aveva più aperto bocca. Sopra pensiero, non faceva che mordersi le labbra. Perché mai <persName ref="#Deliliers">Deliliers</persName> tardava talmente? Che cosa gli era accaduto?</p>
          <p>«Con permesso», balbettò impacciato.</p>
-         <p>«Ma è presto!», protestò la signora Lavezzoli. «Non aspetta il suo amico? Mancano ancora venti minuti al tocco!»</p>
-         <p>Fadigati borbottò qualcosa di incomprensibile. Strinse in giro tutte le mani, quindi si allontanò,arrancando, in direzione dell'ombrellone.</p>
+         <p>«Ma è presto!», protestò <persName ref="#MrsLavezzoli">la signora Lavezzoli</persName>. «Non aspetta <persName ref="#Deliliers">il suo amico</persName>? Mancano ancora venti minuti al tocco!»</p>
+         <p><persName ref="#Fadigati">Fadigati</persName> borbottò qualcosa di incomprensibile. Strinse in giro tutte le mani, quindi si allontanò,arrancando, in direzione dell'ombrellone.</p>
          <p>Raggiunto che ebbe l'ombrellone, si chinò a raccogliere il libro giallo e l'asciugamano di spugna. Dopodiché lo vedemmo attraversare di nuovo la spiaggia sotto il sole dell'una, ma questa volta diretto verso l'albergo.</p>
-         <p>Camminava a fatica, tenendo il libro giallo sotto il braccio e l'asciugamano sulla spalla, il volto disfatto dal sudore e dall'ansia. Tanto che mio padre, il quale era stato messo subito al corrente di ogni cosa, e lo seguiva con occhio impietosito, mormorò sottovoce: «Puvràz.»</p>
+         <p>Camminava a fatica, tenendo il libro giallo sotto il braccio e l'asciugamano sulla spalla, il volto disfatto dal sudore e dall'ansia. Tanto che <persName ref="#IosFather">mio padre</persName>, il quale era stato messo subito al corrente di ogni cosa, e lo seguiva con occhio impietosito, mormorò sottovoce: «Puvràz.»</p>
       </div>
       <div>
          <p>Capitolo 10</p>
@@ -1268,7 +1414,7 @@
       </div>
       <div>
          <p>Capitolo 12</p>
-         <p>Come spesso accade sull'Adriatico, ai primi di settembre la stagione di colpo mutò. Piovve un giorno soltanto, il 31 agosto. Ma il bel tempo dell'indomani non ingannò nessuno. Il mare era inquieto e verde, d'un verde vegetale; il cielo d'una trasparenza esagerata, da pietra preziosa. Nel tepore stesso dell'aria si era insinuata una piccola persistente punta di freddo.</p>
+         <p>Come spesso accade sull'<placeName ref="#MarAdriatico">Adriatico</placeName>, ai primi di settembre la stagione di colpo mutò. Piovve un giorno soltanto, il 31 agosto. Ma il bel tempo dell'indomani non ingannò nessuno. Il mare era inquieto e verde, d'un verde vegetale; il cielo d'una trasparenza esagerata, da pietra preziosa. Nel tepore stesso dell'aria si era insinuata una piccola persistente punta di freddo.</p>
          <p>Il numero dei villeggianti cominciò a diminuire. Sulla spiaggia le tre o quattro file di tende o di ombrelloni si ridussero in breve a due, e poi, dopo una nuova giornata di pioggia, a una sola. Di là dai capanni ormai in buona parte smontati, le dune, ricoperte fino a pochi giorni avanti di una sterpaglia stenta e bruciacchiata, apparivano punteggiate da una quantità incredibile di meravigliosi fiori gialli, alti sui gambi come gigli. Per rendersi esatto conto del significato di quella fioritura bastava un po' conoscere la costa romagnola. L'estate era finita: da quel momento non sarebbe stata più che un 
             ricordo.
         </p>
