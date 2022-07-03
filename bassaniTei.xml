@@ -60,7 +60,7 @@
                 <person xml:id="madreNarratore">
                    <persName>Madre del narratore</persName>
                 </person>
-                <person xml:id="IosFather">
+                <person xml:id="padreNarratore">
                    <persName>Padre del narratore</persName>
                 </person>
                 <person xml:id="Ernesto">
@@ -144,14 +144,11 @@
                 <person xml:id="CLavezzoli">
                    <persName>Cristina Lavezzoli</persName>
                 </person>
-                <person xml:id="MrsDolfuss">
-                   <persName>Signora Dolfuss</persName>
+                <person xml:id="FLavezzoli">
+                   <persName>Franco Lavezzoli</persName>
                 </person>
-                <person xml:id="Franco">
-                   <persName>Franco</persName>
-                </person>
-                <person xml:id="Gilberto">
-                   <persName>Gilberto</persName>
+                <person xml:id="GLavezzoli">
+                   <persName>Gilberto Lavezzoli</persName>
                 </person>
                 <person xml:id="Levi">
                    <persName>Dott. Levi</persName>
@@ -209,6 +206,9 @@
                    <persName>Felice Casorati</persName>
                    <persName>Casoratino</persName>
                 </person>
+                <person xml:id="Melozzo">
+                   <persName>Melozzo da Forlì</persName>
+                </person>
                 <person xml:id="BWalter">
                     <persName>Bruno Walter</persName>
                 </person>
@@ -220,6 +220,9 @@
                 </person>
                 <person xml:id="Mozart">
                    <persName>Wolfgang Amadeus Mozart</persName>
+                </person>
+                <person xml:id="Schubert">
+                   <persName>Franz Schubert</persName>
                 </person>
                 <person xml:id="Beethoven">
                    <persName>Ludwig van Beethoven</persName>
@@ -243,8 +246,12 @@
                 <person xml:id="Ciano">
                    <persName>Galeazzo Ciano</persName>
                 </person>
-                <person xml:id="Dolfuss">
-                   <persName>Engelbert Dolfuss</persName>
+                <person xml:id="Dollfuss">
+                   <persName>Engelbert Dollfuss</persName>
+                </person>
+                <person xml:id="MrsDollfuss">
+                   <persName>Signora Dollfuss</persName>
+                   <persName>Alwine Dollfuss</persName>
                 </person>
                 <person xml:id="DePisis">
                    <persName>Filippo De Pisis</persName>
@@ -259,8 +266,17 @@
                 <person xml:id="Pascoli">
                    <persName>Giovanni Pascoli</persName>
                 </person>
+                <person xml:id="Omero">
+                   <persName>Omero</persName>
+                </person>
+                <person xml:id="Orazio">
+                   <persName>Quinto Orazio Flacco</persName>
+                </person>
                 <person xml:id="Croce">
                    <persName>Benedetto Croce</persName>
+                </person>
+                <person xml:id="PadreGemelli">
+                   <persName>Padre Gemelli</persName>
                 </person>
              </listPerson>
           </particDesc>
@@ -373,6 +389,9 @@
                </place>
                <place xml:id="HotelBritannia">
                   <placeName>Hotel Britannia, Cesenatico</placeName>
+               </place>
+               <place xml:id="HotelVittoria">
+                  <placeName>Hotel Vittoria, Rimini</placeName>
                </place>
                 <place xml:id="PuntaPesaro">
                    <placeName>Punta di Pesaro</placeName>
@@ -616,6 +635,9 @@
                </place>
                <place xml:id="Roma">
                   <placeName>Roma</placeName>
+               </place>
+               <place xml:id="Parma">
+                  <placeName>Parma</placeName>
                </place>
              </listPlace>
           </settingDesc>
@@ -944,6 +966,10 @@
               <rdf:type rdf:resource="dbo:Place"/>
               <rdfs:label xml:lang="it">Roma</rdfs:label>
            </rdf:Description>
+           <rdf:Description tei:ref="Parma" rdf:about="geonames:3171457">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Parma</rdfs:label>
+           </rdf:Description>
               
            <!-- PEOPLE -->
            <rdf:Description tei:ref="#Pertile" rdf:about="viaf:5118632"> 
@@ -957,6 +983,10 @@
            <rdf:Description tei:ref="#Casorati" rdf:about="viaf:40743254"> 
               <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
               <rdfs:label xml:lang="en">Felice Casorati</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Melozzo" rdf:about="viaf:40174386"> 
+              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdfs:label xml:lang="en">Melozzo da Forlì</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#BWalter" rdf:about="viaf:46948108"> 
               <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
@@ -973,6 +1003,10 @@
            <rdf:Description tei:ref="#Mozart" rdf:about="viaf:32197206"> 
               <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
               <rdfs:label xml:lang="en">Wolfgang Amadeus Mozart</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Schubert" rdf:about="viaf:29719275"> 
+              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdfs:label xml:lang="en">Franz Schubert</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#Beethoven" rdf:about="viaf:80351209"> 
               <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
@@ -1005,7 +1039,12 @@
            </rdf:Description>
            <rdf:Description tei:ref="#Dollfuss" rdf:about="viaf:56702085"> 
               <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-              <rdfs:label xml:lang="en">Engelbert Dolfuss</rdfs:label>
+              <rdfs:label xml:lang="en">Engelbert Dollfuss</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#MrsDollfuss" rdf:about="viaf:311574828"> 
+              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdfs:label xml:lang="en">Alwine Dollfuss</rdfs:label>
+              <rdfs:label xml:lang="en">Signora Dollfuss</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#DePisis" rdf:about="viaf:68940882"> 
                  <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
@@ -1023,9 +1062,21 @@
               <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
               <rdfs:label xml:lang="en">Giovanni Pascoli</rdfs:label>
            </rdf:Description>
+           <rdf:Description tei:ref="#Omero" rdf:about="viaf:224924963"> 
+              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdfs:label xml:lang="en">Omero</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Orazio" rdf:about="viaf:100227522"> 
+              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdfs:label xml:lang="en">Quinto Orazio Flacco</rdfs:label>
+           </rdf:Description>
            <rdf:Description tei:ref="#Croce" rdf:about="viaf:61544292"> 
               <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
               <rdfs:label xml:lang="en">Benedetto Croce</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#PadreGemelli" rdf:about="viaf:46802170"> 
+              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdfs:label xml:lang="en">Padre Gemelli</rdfs:label>
            </rdf:Description>
         </rdf:RDF> 
      </xenoData>
@@ -1250,9 +1301,9 @@
          <p>Capitolo 9</p>
          <p>Baciò la mano di <persName ref="#madreNarratore">mia madre</persName>.</p>
          <p>«Lei conosce <persName ref="#AvvLavezzoli">l'avvocato Lavezzoli</persName>, non è vero?», disse subito mio padre, ad alta voce.</p>
-         <p><persName ref="#Fadigati">Fadigati</persName> ebbe un attimo di esitazione. Guardò <persName ref="#IosFather">mio padre</persName>, accennando di sì col capo; quindi, sulle spine, si volse verso la tenda dei Lavezzoli.</p>
+         <p><persName ref="#Fadigati">Fadigati</persName> ebbe un attimo di esitazione. Guardò <persName ref="#padreNarratore">mio padre</persName>, accennando di sì col capo; quindi, sulle spine, si volse verso la tenda dei Lavezzoli.</p>
          <p><persName ref="#AvvLavezzoli">L'avvocato</persName> appariva più che mai assorbito dalla lettura di Antonio Adverse. <persName ref="#FamLavezzoli">I tre «figlioli»</persName>, sdraiati bocconi sulla sabbia a due passi di distanza, in circolo attorno a un asciugamano di spugna azzurro, prendevano il sole sulla schiena, immobili come lucertole. La signora stava ricamando una tovaglia che le ricadeva in lunghe pieghe dalle ginocchia. Sembrava una Madonna rinascimentale sul suo trono di nuvole.</p>
-         <p>Famoso per il suo candore, <persName ref="#IosFather">mio padre</persName> non si rendeva conto delle cosiddette «situazioni» prima di trovarcisi immerso fino al collo.</p>
+         <p>Famoso per il suo candore, <persName ref="#padreNarratore">mio padre</persName> non si rendeva conto delle cosiddette «situazioni» prima di trovarcisi immerso fino al collo.</p>
          <p>«<persName ref="#AvvLavezzoli">Avvocato</persName>», gridò, «guardi qui chi c'è!»</p>
          <p>Anticipando la risposta del marito, <persName ref="#MrsLavezzoli">la signora Lavezzoli</persName> fu pronta a intervenire. Alzò di scatto gli occhi dalla tovaglia, e, d'impeto, tese il dorso della mano a Fadigati.</p>
          <p>«Ma sì... ma sì...», gorgheggiò.</p>
@@ -1261,8 +1312,8 @@
          <p>«Però che bello, qui», disse, «che bella ventilazione!»</p>
          <p>Si girò di tre quarti per parlarmi.</p>
          <p>«Ricorda a <placeName ref="#Bologna">Bologna</placeName>, il mese scorso, che razza di caldo faceva?»</p>
-         <p>Spiegò quindi a <persName ref="#IosFather">mio padre</persName> e a <persName ref="#madreNarratore">mia madre</persName>, ai quali non avevo mai raccontato dei nostri periodici incontri sull'accelerato mattutino delle sei e cinquanta, come negli ultimi tre mesi ci fossimo fatti «ottima compagnia». Si esprimeva con disinvoltura mondana. Non gli pareva vero, lo si capiva benissimo, di ritrovarsi lì, con noi, perfino <persName ref="#FamLavezzoli">coi temuti Lavezzoli</persName>, restituito d'un tratto al suo ambiente, riaccettato dalla società di persone colte e beneducate a cui aveva sempre appartenuto. «Aah!», faceva di continuo, allargando il petto ad accogliere la brezza marina. Era chiaro che si sentiva felice, libero, e insieme penetrato di gratitudine nei confronti di tutti coloro che gli permettevano di sentirsi così.</p>
-         <p>Frattanto <persName ref="#IosFather">mio padre</persName> aveva riportato il discorso sull'afa incredibile dell'agosto ferrarese.</p>
+         <p>Spiegò quindi a <persName ref="#padreNarratore">mio padre</persName> e a <persName ref="#madreNarratore">mia madre</persName>, ai quali non avevo mai raccontato dei nostri periodici incontri sull'accelerato mattutino delle sei e cinquanta, come negli ultimi tre mesi ci fossimo fatti «ottima compagnia». Si esprimeva con disinvoltura mondana. Non gli pareva vero, lo si capiva benissimo, di ritrovarsi lì, con noi, perfino <persName ref="#FamLavezzoli">coi temuti Lavezzoli</persName>, restituito d'un tratto al suo ambiente, riaccettato dalla società di persone colte e beneducate a cui aveva sempre appartenuto. «Aah!», faceva di continuo, allargando il petto ad accogliere la brezza marina. Era chiaro che si sentiva felice, libero, e insieme penetrato di gratitudine nei confronti di tutti coloro che gli permettevano di sentirsi così.</p>
+         <p>Frattanto <persName ref="#padreNarratore">mio padre</persName> aveva riportato il discorso sull'afa incredibile dell'agosto ferrarese.</p>
          <p>«La notte non si dormiva», diceva, contraendo il viso in una smorfia di sofferenza: come se gli bastasse il ricordo del caldo cittadino per provarne ancora tutta l'oppressione. «Mi creda, dottore, non si riusciva a chiudere occhio. C'è chi fa cominciare l'Evo moderno dall'anno in cui è stato inventato il Flit. Non discuto. Ma il Flit vuole anche dire finestre tutte chiuse. E le finestre chiuse significano lenzuola che ti si attaccano alla pelle per il sudore. Non scherzo. Fino a ieri vedevo avvicinarsi la notte terrorizzato. Maledette zanzare!»</p>
          <p>«Qui è diverso», disse <persName ref="#Fadigati">Fadigati</persName> con slancio entusiastico. «Anche nelle notti più calde qui c'è sempre modo di respirare.» E cominciò a diffondersi sui «vantaggi» della costa adriatica in confronto alle altre coste del resto d'Italia. Era veneziano - ammise -, aveva trascorso l'infanzia e l'adolescenza al <placeName ref="#VeLido">Lido</placeName>, e quindi il suo giudizio peccava forse di parzialità. Però l'Adriatico a lui sembrava di gran lunga più riposante del Tirreno.</p>
          <p><persName ref="#MrsLavezzoli">La signora Lavezzoli</persName> stava con le orecchie tese. Dissimulando l'intenzione maligna dietro un finto orgoglio municipale, assunse impetuosamente le difese del <placeName ref="#MarTirreno">Tirreno</placeName>. Dichiarò che se si fosse trovata nelle condizioni di poter scegliere fra una villeggiatura a <placeName ref="#Riccione">Riccione</placeName> e una a <placeName ref="#Viareggio">Viareggio</placeName>, non avrebbe esitato nemmeno un momento.</p>
@@ -1278,24 +1329,24 @@
          <p>«Che cosa succede?», chiese, portandosi una mano alla fronte per veder meglio.</p>
          <p>Attraverso il vento giunsero grida di evviva miste a battimani.</p>
          <p>«È <persName ref="#Mussolini">il Duce</persName> che scende in acqua», spiegò <persName ref="#MrsLavezzoli">la signora Lavezzoli</persName>, compunta.</p>
-         <p><persName ref="#IosFather">Mio padre</persName> storse la bocca.</p>
+         <p><persName ref="#padreNarratore">Mio padre</persName> storse la bocca.</p>
          <p>«Possibile che non ci si salvi nemmeno al mare?», si lamentò fra i denti.</p>
          <p>Romantico, patriota, politicamente ingenuo e inesperto come tanti altri ebrei italiani della sua generazione, anche mio padre, tornando dal fronte nel <date when="1919">'19</date>, aveva preso la tessera del Fascio. Era stato dunque fascista fin dalla «prima ora», e tale in fondo era rimasto nonostante la sua mitezza e onestà. Ma da quando <persName ref="#Mussolini">Mussolini</persName>, dopo le baruffe dei primi tempi, aveva cominciato a intendersela con <persName ref="#Hitler">Hitler</persName>, era diventato inquieto. Non faceva che pensare a un possibile scoppio di antisemitismo anche in <placeName ref="#Italia">Italia</placeName>; e ogni tanto, pur soffrendone, si lasciava sfuggire qualche amara parola contro il Regime.</p>
          <p>«È così semplice, così umano», proseguì senza badargli <persName ref="#MrsLavezzoli">la signora Lavezzoli</persName>. «Da bravo marito, ogni sabato mattina prende la macchina, e via, è capace di far tutta una tirata da <placeName ref="#Roma">Roma</placeName> fino a <placeName ref="#Riccione">Riccione</placeName>.»</p>
          <p>«Davvero bravo», sogghignò mio padre. «Chissà come sarà contenta <persName ref="#DonnaRachele">Donna Rachele!</persName>»</p>
-         <p>Guardava <persName ref="#AvvLavezzoli">l'avvocato Lavezzoli</persName> con intenzione, in cerca del suo consenso. Non era senza tessera, <persName ref="#AvvLavezzoli">l'avvocato Lavezzoli</persName>? Non era stato firmatario nel <date when="1924">'24</date> del famoso manifesto <persName ref="#Croce">Croce</persName>, e almeno per qualche anno, almeno fino al <date when="1930">'30</date>, tenuto in conto di «demoliberale» e disfattista? Tutto però fu vano. Sebbene distolti finalmente dalle fitte pagine di Antonio Adverse, gli occhi dell'<persName ref="#AvvLavezzoli">avvocato</persName> si mantennero insensibili al muto richiamo di quelli di <persName ref="#IosFather">mio padre</persName>. Allungando il collo, socchiudendo le palpebre, <persName ref="#AvvLavezzoli">l'illustre avv. prof.</persName> scrutava ostinato in direzione del mare. I «figlioli» avevano preso a nolo un moscone, e stavano spingendosi troppo al largo.</p>
+         <p>Guardava <persName ref="#AvvLavezzoli">l'avvocato Lavezzoli</persName> con intenzione, in cerca del suo consenso. Non era senza tessera, <persName ref="#AvvLavezzoli">l'avvocato Lavezzoli</persName>? Non era stato firmatario nel <date when="1924">'24</date> del famoso manifesto <persName ref="#Croce">Croce</persName>, e almeno per qualche anno, almeno fino al <date when="1930">'30</date>, tenuto in conto di «demoliberale» e disfattista? Tutto però fu vano. Sebbene distolti finalmente dalle fitte pagine di Antonio Adverse, gli occhi dell'<persName ref="#AvvLavezzoli">avvocato</persName> si mantennero insensibili al muto richiamo di quelli di <persName ref="#padreNarratore">mio padre</persName>. Allungando il collo, socchiudendo le palpebre, <persName ref="#AvvLavezzoli">l'illustre avv. prof.</persName> scrutava ostinato in direzione del mare. I «figlioli» avevano preso a nolo un moscone, e stavano spingendosi troppo al largo.</p>
          <p>«L'altro sabato», diceva intanto <persName ref="#MrsLavezzoli">la signora Lavezzoli</persName>, «io e <persName ref="#AvvLavezzoli">Filippo</persName> si rincasava a braccetto per <placeName ref="#VialeMille">viale dei Mille</placeName>. Erano le sette e mezzo, o giù di lì. D'un tratto, dal cancello d'una villa, chi ti vedo uscire? <persName ref="#Mussolini">Il Duce</persName> in persona, vestito di bianco da capo a piedi. Io feci: "Buona sera, Eccellenza". E lui, gentilissimo, togliendosi il cappello: "Buona sera, signora". Non è vero, <persName ref="#AvvLavezzoli">Pippo</persName>», soggiunse, girata verso il marito, «non è vero che fu gentilissimo?»</p>
          <p><persName ref="#AvvLavezzoli">l'avvocato</persName> annuì.</p>
-         <p>«Forse dovremmo avere la modestia di riconoscere di aver sbagliato», disse gravemente, rivolto a <persName ref="#IosFather">mio padre</persName>. «L'Uomo, non dimentichiamolo, ci ha dato l'Impero.»</p>
+         <p>«Forse dovremmo avere la modestia di riconoscere di aver sbagliato», disse gravemente, rivolto a <persName ref="#padreNarratore">mio padre</persName>. «L'Uomo, non dimentichiamolo, ci ha dato l'Impero.»</p>
          <p>Come se fossero state incise sopra un nastro magnetico, ritrovo nella memoria ad una ad una tutte le parole di quella lontana mattina.</p>
-         <p>Dopo aver pronunciato la sua sentenza (a udirla, <persName ref="#IosFather">mio padre</persName> aveva sgranato tanto d'occhi), <persName ref="#AvvLavezzoli">l'avvocato Lavezzoli</persName> era tornato alla lettura. Ma <persName ref="#MrsLavezzoli">la signora</persName> non aveva ormai più ritegno. Spronata dalla frase del coniuge, e in particolare da quella parola, «Impero», che magari non aveva mai colto prima d'allora dalle austere labbra di lui, insisteva a non finire sul «buon cuore» del <persName ref="#Mussolini">Duce</persName>, sul suo generoso sangue romagnolo.</p>
-         <p>«A questo proposito», disse, «voglio raccontarvi un episodio di cui sono stata testimone io stessa tre anni fa, proprio qui, a Riccione. Una mattina <persName ref="#Mussolini">il Duce</persName> stava facendo il bagno coi due ragazzi maggiori, <persName ref="#VittorioMussolini">Vittorio</persName> e <persName ref="#BrunoMussolini">Bruno</persName>. Verso l'una viene su dall'acqua, e cosa ti trova, ad attenderlo? Un dispaccio telegrafico arrivato un attimo prima, che gli comunica la notizia dell'assassinio del <persName ref="#Dolfuss">cancelliere austriaco Dollfuss</persName>. Quell'anno la nostra tenda era a due passi dalla tenda dei <persName ref="#Mussolini">Mussolini</persName>: dunque quello che dico è la pura verità. Non appena ebbe letto il telegramma il <persName ref="#Mussolini">Duce</persName> uscì in una gran bestemmia in dialetto (eh, si capisce, il temperamento è il temperamento!). Ma poi si mise a piangere, gliele ho vedute io le lacrime che gli rigavano le gote. Erano grandi amici, i <persName ref="#Mussolini">Mussolini</persName>, dei <persName ref="#Dolfuss">Dollfuss</persName>. Anzi: <persName ref="#MrsDolfuss">la signora Dollfuss</persName>, una signora piccina, magra, modesta, tanto carina, appunto quell'estate era ospite loro, nella loro villa, insieme coi bambini. E lui piangeva, <persName ref="#Mussolini">il Duce</persName>, certo pensando a ciò che di lì a qualche minuto, rientrato a casa per il desinare, avrebbe per forza dovuto dire a quella sventurata madre...»</p>
+         <p>Dopo aver pronunciato la sua sentenza (a udirla, <persName ref="#padreNarratore">mio padre</persName> aveva sgranato tanto d'occhi), <persName ref="#AvvLavezzoli">l'avvocato Lavezzoli</persName> era tornato alla lettura. Ma <persName ref="#MrsLavezzoli">la signora</persName> non aveva ormai più ritegno. Spronata dalla frase del coniuge, e in particolare da quella parola, «Impero», che magari non aveva mai colto prima d'allora dalle austere labbra di lui, insisteva a non finire sul «buon cuore» del <persName ref="#Mussolini">Duce</persName>, sul suo generoso sangue romagnolo.</p>
+         <p>«A questo proposito», disse, «voglio raccontarvi un episodio di cui sono stata testimone io stessa tre anni fa, proprio qui, a Riccione. Una mattina <persName ref="#Mussolini">il Duce</persName> stava facendo il bagno coi due ragazzi maggiori, <persName ref="#VittorioMussolini">Vittorio</persName> e <persName ref="#BrunoMussolini">Bruno</persName>. Verso l'una viene su dall'acqua, e cosa ti trova, ad attenderlo? Un dispaccio telegrafico arrivato un attimo prima, che gli comunica la notizia dell'assassinio del <persName ref="#Dollfuss">cancelliere austriaco Dollfuss</persName>. Quell'anno la nostra tenda era a due passi dalla tenda dei <persName ref="#Mussolini">Mussolini</persName>: dunque quello che dico è la pura verità. Non appena ebbe letto il telegramma il <persName ref="#Mussolini">Duce</persName> uscì in una gran bestemmia in dialetto (eh, si capisce, il temperamento è il temperamento!). Ma poi si mise a piangere, gliele ho vedute io le lacrime che gli rigavano le gote. Erano grandi amici, i <persName ref="#Mussolini">Mussolini</persName>, dei <persName ref="#Dollfuss">Dollfuss</persName>. Anzi: <persName ref="#MrsDollfuss">la signora Dollfuss</persName>, una signora piccina, magra, modesta, tanto carina, appunto quell'estate era ospite loro, nella loro villa, insieme coi bambini. E lui piangeva, <persName ref="#Mussolini">il Duce</persName>, certo pensando a ciò che di lì a qualche minuto, rientrato a casa per il desinare, avrebbe per forza dovuto dire a quella sventurata madre...»</p>
          <p><persName ref="#Fadigati">Fadigati</persName> si alzò in piedi di scatto. Umiliato dalla frase velenosa della <persName ref="#MrsLavezzoli">signora Lavezzoli</persName>, da quel momento in poi non aveva più aperto bocca. Sopra pensiero, non faceva che mordersi le labbra. Perché mai <persName ref="#Deliliers">Deliliers</persName> tardava talmente? Che cosa gli era accaduto?</p>
          <p>«Con permesso», balbettò impacciato.</p>
          <p>«Ma è presto!», protestò <persName ref="#MrsLavezzoli">la signora Lavezzoli</persName>. «Non aspetta <persName ref="#Deliliers">il suo amico</persName>? Mancano ancora venti minuti al tocco!»</p>
          <p><persName ref="#Fadigati">Fadigati</persName> borbottò qualcosa di incomprensibile. Strinse in giro tutte le mani, quindi si allontanò,arrancando, in direzione dell'ombrellone.</p>
          <p>Raggiunto che ebbe l'ombrellone, si chinò a raccogliere il libro giallo e l'asciugamano di spugna. Dopodiché lo vedemmo attraversare di nuovo la spiaggia sotto il sole dell'una, ma questa volta diretto verso l'albergo.</p>
-         <p>Camminava a fatica, tenendo il libro giallo sotto il braccio e l'asciugamano sulla spalla, il volto disfatto dal sudore e dall'ansia. Tanto che <persName ref="#IosFather">mio padre</persName>, il quale era stato messo subito al corrente di ogni cosa, e lo seguiva con occhio impietosito, mormorò sottovoce: «Puvràz.»</p>
+         <p>Camminava a fatica, tenendo il libro giallo sotto il braccio e l'asciugamano sulla spalla, il volto disfatto dal sudore e dall'ansia. Tanto che <persName ref="#padreNarratore">mio padre</persName>, il quale era stato messo subito al corrente di ogni cosa, e lo seguiva con occhio impietosito, mormorò sottovoce: «Puvràz.»</p>
       </div>
       <div>
          <p>Capitolo 10</p>
@@ -1321,95 +1372,95 @@
          <p>«Non le venga mai in mente di tuffarsi prima di una data ora, mi raccomando!», esclamò. «Lei è un ragazzo, avrà un cuore senza dubbio eccellente, fortunato lei, ma la congestione fulmina,tac, stronca anche i più robusti.»</p>
          <p>Mi tese il fiammifero acceso.</p>
          <p>«E adesso ha qualche appuntamento?»</p>
-         <p>Gli risposi che ero atteso per le sei dai ragazzi Lavezzoli. Avevamo fissato per quell'ora il campo di tennis dietro il Caffè Zanarini. Era vero che mancava ancora una ventina di minuti alle sei, ma dovevo passare da casa, cambiarmi, prendere la racchetta e le palle. Temevo insomma di non arrivare puntuale.</p>
-         <p>«E speriamo che Fanny non si metta in testa di venire anche lei!», aggiunsi. «La mamma non la lascerebbe andare prima di averle rifatto le trecce, col risultato che io perderei altri dieci minuti buoni.»</p>
+         <p>Gli risposi che ero atteso per le sei dai <persName ref="#FamLavezzoli">ragazzi Lavezzoli</persName>. Avevamo fissato per quell'ora il campo di tennis dietro il <placeName ref="#CaffeZanarini">Caffè Zanarini</placeName>. Era vero che mancava ancora una ventina di minuti alle sei, ma dovevo passare da casa, cambiarmi, prendere la racchetta e le palle. Temevo insomma di non arrivare puntuale.</p>
+         <p>«E speriamo che <persName ref="#Fanny">Fanny</persName> non si metta in testa di venire anche lei!», aggiunsi. «La mamma non la lascerebbe andare prima di averle rifatto le trecce, col risultato che io perderei altri dieci minuti buoni.»</p>
          <p>Mentre parlavo, lo vidi impegnato in una curiosa manovra. Staccò dalle labbra la Nazionale, per poi accenderla dal capo opposto, quello della marca. Quindi buttò via il pacchetto vuoto.</p>
          <p>Soltanto a questo punto mi accorsi che il terreno dinanzi a noi era cosparso di mozziconi di sigarette, più di una dozzina.</p>
          <p>«Ha visto come fumo?», disse.</p>
          <p>«Già.»</p>
-         <p>Una domanda mi bruciava: «E Deliliers?». Ma non ne fui capace.</p>
+         <p>Una domanda mi bruciava: «E <persName ref="#Deliliers">Deliliers</persName>?». Ma non ne fui capace.</p>
          <p>Mi alzai in piedi e gli tesi la mano.</p>
          <p>«Prima non fumava affatto, se non sbaglio.»</p>
          <p>«Cerco anche io di dare il mio modesto contributo alla diffusione del... mal di gola», ridacchiò miserabilmente. «Ho pensato che mi conveniva.»</p>
          <p>Mi allontanai di qualche passo.</p>
-         <p>«Ha detto il campo di tennis vicino al Zanarini, no?», mi gridò dietro. «Chissà che più tardi non venga ad ammirarvi.»</p>
-         <p>Come risultò di lì a poco, a Deliliers non era successo nulla di grave. Questo, in sostanza: che invece di fare il bagno a Riccione, di punto in bianco gli era venuta voglia di farlo a Rimini, dove, all'altezza dell'Hôtel Vittoria, conosceva certe sorelle di Parma. Aveva preso la macchina e via, era sparito senza nemmeno curarsi di lasciare due righe per il compagno di camera. Era tornato circa alle otto - raccontò la signora Lavezzoli che, insieme col marito, si trovava per caso nell'atrio del Grand Hôtel a bere un aperitivo -. Improvvisamente avevano veduto «quel Deliliers» attraversare l'atrio a gran passi, nero in faccia, e con Fadigati quasi in lacrime alle calcagna.</p>
-         <p>Fu Deliliers ad avvicinarmi quella sera stessa sulla terrazza del Grand Hôtel.</p>
-         <p>Ci ero venuto coi miei genitori e coi soliti Lavezzoli, avvocato e consorte. Tuttora stanco del tennis, non mi andava di ballare. Ascoltavo in silenzio la signora Lavezzoli, la quale, sebbene certo non ignorasse quanto la cosa potesse ferirci, si era messa a discorrere con pretese di «obbiettività» della Germania hitleriana, sostenendo che bisognava finalmente decidersi a riconoscerne «l'innegabile grandezza».</p>
-         <p>«Badi però, signora, che il suo Dollfuss pare che l'abbia liquidato proprio Hitler», dissi con un sogghigno.</p>
+         <p>«Ha detto il campo di tennis vicino al <placeName ref="#CaffeZanarini">Zanarini</placeName>, no?», mi gridò dietro. «Chissà che più tardi non venga ad ammirarvi.»</p>
+         <p>Come risultò di lì a poco, a Deliliers non era successo nulla di grave. Questo, in sostanza: che invece di fare il bagno a <placeName ref="#Riccione">Riccione</placeName>, di punto in bianco gli era venuta voglia di farlo a Rimini, dove, all'altezza dell'<placeName ref="#HotelVittoria">Hôtel Vittoria</placeName>, conosceva certe sorelle di <placeName ref="#Parma">Parma</placeName>. Aveva preso la macchina e via, era sparito senza nemmeno curarsi di lasciare due righe per il compagno di camera. Era tornato circa alle otto - raccontò <persName ref="#MrsLavezzoli">la signora Lavezzoli</persName> che, insieme col marito, si trovava per caso nell'atrio del <placeName ref="#GrandHotel">Grand Hôtel</placeName> a bere un aperitivo -. Improvvisamente avevano veduto «quel <persName ref="#Deliliers">Deliliers</persName>» attraversare l'atrio a gran passi, nero in faccia, e con <persName ref="#Fadigati">Fadigati</persName> quasi in lacrime alle calcagna.</p>
+         <p>Fu <persName ref="#Deliliers">Deliliers</persName> ad avvicinarmi quella sera stessa sulla terrazza del <placeName ref="#GrandHotel">Grand Hôtel</placeName>.</p>
+         <p>Ci ero venuto coi miei genitori e coi soliti Lavezzoli, <persName ref="#AvvLavezzoli">avvocato</persName> e <persName ref="#MrsLavezzoli">consorte</persName>. Tuttora stanco del tennis, non mi andava di ballare. Ascoltavo in silenzio <persName ref="#MrsLavezzoli">la signora Lavezzoli</persName>, la quale, sebbene certo non ignorasse quanto la cosa potesse ferirci, si era messa a discorrere con pretese di «obbiettività» della Germania hitleriana, sostenendo che bisognava finalmente decidersi a riconoscerne «l'innegabile grandezza».</p>
+         <p>«Badi però, signora, che il suo <persName ref="#Dollfuss">Dollfuss</persName> pare che l'abbia liquidato proprio <persName ref="#Hitler">Hitler</persName>», dissi con un sogghigno.</p>
          <p>Si strinse nelle spalle.</p>
          <p>«Che cosa significa!», sbuffò.</p>
          <p>Assunse l'espressione compiaciuta e longanime della maestra di scuola disposta a giustificare nel primo della classe qualsiasi marachella.</p>
          <p>«Sono purtroppo le esigenze della politica», continuò. «Lasciamo stare le simpatie o antipatie personali. Fatto si è che in determinate circostanze un Capo di Stato, uno Statista davvero degno di questo nome, per il bene e il vantaggio del proprio Popolo deve anche sapere passar sopra alle delicatezze della gente comune... della piccola gente come noi.»</p>
          <p>Ed ebbe un sorriso pieno d'orgoglio, in netto contrasto con queste ultime parole.</p>
-         <p>Sconvolto, mio padre aprì la bocca per dire qualcosa. Ma come al solito la signora Lavezzoli non gliene dette il tempo. Con l'aria di cambiare discorso, e rivolgendosi direttamente a lui, era già passata a esporre il contenuto di un «interessante» articolo apparso nell'ultimo numero della «Civiltà Cattolica», a firma del celebre Padre Gemelli.</p>
-         <p>Tema dell'articolo era la «vecchissima e vessatissima question juive». Secondo il Padre Gemelli - riferiva la signora -, le ricorrenti persecuzioni, di cui gli «israeliti» venivano fatti oggetto in ogni parte del mondo da quasi duemila anni, non potevano esser spiegate altro che come segni dell'ira celeste. E l'articolo si chiudeva con la seguente domanda: è lecito al cristiano, anche se il suo cuore repugna, si capisce, da ogni idea di violenza, avanzare un giudizio su eventi storici attraverso i quali manifestamente si esprima la volontà di Dio?</p>
+         <p>Sconvolto, <persName ref="#padreNarratore">mio padre</persName> aprì la bocca per dire qualcosa. Ma come al solito <persName ref="#MrsLavezzoli">la signora Lavezzoli</persName> non gliene dette il tempo. Con l'aria di cambiare discorso, e rivolgendosi direttamente a lui, era già passata a esporre il contenuto di un «interessante» articolo apparso nell'ultimo numero della «Civiltà Cattolica», a firma del celebre <persName ref="#PadreGemelli">Padre Gemelli</persName>.</p>
+         <p>Tema dell'articolo era la «vecchissima e vessatissima question juive». Secondo il <persName ref="#PadreGemelli">Padre Gemelli</persName> - riferiva la signora -, le ricorrenti persecuzioni, di cui gli «israeliti» venivano fatti oggetto in ogni parte del mondo da quasi duemila anni, non potevano esser spiegate altro che come segni dell'ira celeste. E l'articolo si chiudeva con la seguente domanda: è lecito al cristiano, anche se il suo cuore repugna, si capisce, da ogni idea di violenza, avanzare un giudizio su eventi storici attraverso i quali manifestamente si esprima la volontà di Dio?</p>
          <p>A questo punto mi tirai su dalla poltroncina di vimini, e senza tanti complimenti mi eclissai.</p>
-         <p>Stavo dunque con la schiena appoggiata allo stipite della grande vetrata che separava il salone da pranzo dalla terrazza, e l'orchestra aveva attaccato, se non sbaglio,Blue Moon. «Ma tuu... pallida luna, perchèé... sei tanto triste, cos'èè... » cantava l'abituale voce melensa. Ad un tratto sentii due dita toccarmi duramente una spalla.</p>
-         <p>«Ciao», fece Deliliers.</p>
-         <p>Era la prima volta, a Riccione, che mi rivolgeva la parola.</p>
+         <p>Stavo dunque con la schiena appoggiata allo stipite della grande vetrata che separava il salone da pranzo dalla terrazza, e l'orchestra aveva attaccato, se non sbaglio, Blue Moon. «Ma tuu... pallida luna, percheé... sei tanto triste, cos'eè... » cantava l'abituale voce melensa. Ad un tratto sentii due dita toccarmi duramente una spalla.</p>
+         <p>«Ciao», fece <persName ref="#Deliliers">Deliliers</persName>.</p>
+         <p>Era la prima volta, a <placeName ref="#Riccione">Riccione</placeName>, che mi rivolgeva la parola.</p>
          <p>«Ciao», risposi. «Come va?»</p>
          <p>«Oggi un po' meglio», disse ammiccando. «E tu cosa fai?»</p>
          <p>«Leggo... studio...», mentii. «Ho due esami da dare a ottobre.»</p>
-         <p>«Eh già!», sospirò Deliliers, grattandosi pensierosamente col mignolo fra i capelli lucidi di brillantina.</p>
-         <p>Ma non gliene importava niente. Di colpo il suo volto mutò espressione. A bassa voce, con l'aria di mettermi a parte di un segreto importante, e guardandosi ogni tanto alle spalle come se temesse di venir sorpreso, mi raccontò in poche battute del bagno fatto a Rimini e delle due ragazze di Parma.</p>
+         <p>«Eh già!», sospirò <persName ref="#Deliliers">Deliliers</persName>, grattandosi pensierosamente col mignolo fra i capelli lucidi di brillantina.</p>
+         <p>Ma non gliene importava niente. Di colpo il suo volto mutò espressione. A bassa voce, con l'aria di mettermi a parte di un segreto importante, e guardandosi ogni tanto alle spalle come se temesse di venir sorpreso, mi raccontò in poche battute del bagno fatto a <placeName ref="#Rimini">Rimini</placeName> e delle due ragazze di <placeName ref="#Parma">Parma</placeName>.</p>
          <p>«Perché non ci vieni anche tu, domattina, in macchina? Io ci torno. Vieni, dài, aiutami! Non posso mica andare con due ragazze in una volta. E piantala di studiare!»</p>
-         <p>Fadigati apparve in fondo al salone, in smoking. Strizzando gli occhi miopi dietro le lenti, si guardava attorno. Dov'era la giacchetta bianca di Deliliers? Creata apposta per Blue Moon, la penombra tipo luna gli impediva di distinguere bene.</p>
+         <p><persName ref="#Fadigati">Fadigati</persName> apparve in fondo al salone, in smoking. Strizzando gli occhi miopi dietro le lenti, si guardava attorno. Dov'era la giacchetta bianca di <persName ref="#Deliliers">Deliliers</persName>? Creata apposta per Blue Moon, la penombra tipo luna gli impediva di distinguere bene.</p>
          <p>«Mah», dissi, «non so se potrò.»</p>
          <p>«Ti aspetto in albergo.»</p>
          <p>«Cercherò di venire. A che ora partiamo?» «Alle nove e mezzo. D'accordo?»</p>
          <p>«Sì, ma senza impegno.»</p>
-         <p>Accennai col mento a Fadigati.</p>
+         <p>Accennai col mento a <persName ref="#Fadigati">Fadigati</persName>.</p>
          <p>«Ti vogliono.»</p>
-         <p>«Allora intesi, eh?», fece Deliliers, girando sui tacchi e dirigendosi verso l'amico intento a pulire febbrilmente gli occhiali col fazzoletto.</p>
+         <p>«Allora intesi, eh?», fece <persName ref="#Deliliers">Deliliers</persName>, girando sui tacchi e dirigendosi verso l'amico intento a pulire febbrilmente gli occhiali col fazzoletto.</p>
          <p>E di lì a qualche secondo il rombo inconfondibile dell'Alfa Romeo si levò dal piazzale sottostante ad avvertire tutto l'albergo che i due «sposini», forse per festeggiare nel modo più degno l'avvenuta riconciliazione, avevano deciso di concedersi una serata eccezionale.</p>
       </div>
       <div>
          <p>Capitolo 11</p>
-         <p>L'indomani mattina, debbo ammetterlo, fui tentato per qualche momento d'andare a Rimini con Deliliers.</p>
-         <p>Ciò che più mi attirava era la corsa in macchina lungo la strada litoranea. Ma poi? - cominciai a dirmi quasi subito -. Quelle sorelle di Parma che tipi erano, veramente? Si trattava di ragazze qualsiasi da portare difilato in pineta (come era facile), oppure di due signorine di buona famiglia da intrattenere sulla spiaggia sotto i vigili occhi di un'altra signora Lavezzoli? In un caso come nell'altro (sebbene non fosse per nulla impossibile una eventualità intermedia...), non mi reputavo abbastanza amico di Deliliers per accettare a cuor leggero il suo invito. Strano. Deliliers non mi aveva mai dimostrato né molta simpatia né vera considerazione, e adesso invece mi chiedeva, quasi mi supplicava, di accompagnarlo a donne. Davvero strano. Non ci teneva soprattutto a far sapere in giro, per caso, servendosi di me, che lui con Fadigati non ci stava per vizio ma soltanto per pagarsi la villeggiatura, e che comunque gli preferiva sempre una ragazza?</p>
+         <p>L'indomani mattina, debbo ammetterlo, fui tentato per qualche momento d'andare a <placeName ref="#Rimini">Rimini</placeName> con <persName ref="#Deliliers">Deliliers</persName>.</p>
+         <p>Ciò che più mi attirava era la corsa in macchina lungo la strada litoranea. Ma poi? - cominciai a dirmi quasi subito -. Quelle sorelle di <placeName ref="#Parma">Parma</placeName> che tipi erano, veramente? Si trattava di ragazze qualsiasi da portare difilato in pineta (come era facile), oppure di due signorine di buona famiglia da intrattenere sulla spiaggia sotto i vigili occhi di <persName ref="#MrsLavezzoli">un'altra signora Lavezzoli</persName>? In un caso come nell'altro (sebbene non fosse per nulla impossibile una eventualità intermedia...), non mi reputavo abbastanza amico di <persName ref="#Deliliers">Deliliers</persName> per accettare a cuor leggero il suo invito. Strano. <persName ref="#Deliliers">Deliliers</persName> non mi aveva mai dimostrato né molta simpatia né vera considerazione, e adesso invece mi chiedeva, quasi mi supplicava, di accompagnarlo a donne. Davvero strano. Non ci teneva soprattutto a far sapere in giro, per caso, servendosi di me, che lui con <persName ref="#Fadigati">Fadigati</persName> non ci stava per vizio ma soltanto per pagarsi la villeggiatura, e che comunque gli preferiva sempre una ragazza?</p>
          <p>«Va' là, patàca!», borbottai alla romagnola, già deciso a rimanere.</p>
-         <p>E poco più tardi, sulla spiaggia, scorgendo di lontano il dottore sotto l'ombrellone, abbandonato a una solitudine che mi parve di colpo immensa, immedicabile, mi sentii intimamente ripagato della rinuncia. Io almeno non lo avevo fatto fesso. Anziché associarmi a chi lo tradiva e lo sfruttava, avevo saputo resistere, conservargli un minimo di rispetto.</p>
-         <p>Un attimo prima che raggiungessi l'ombrellone, Fadigati si voltò.</p>
+         <p>E poco più tardi, sulla spiaggia, scorgendo di lontano <persName ref="#Fadigati">il dottore</persName> sotto l'ombrellone, abbandonato a una solitudine che mi parve di colpo immensa, immedicabile, mi sentii intimamente ripagato della rinuncia. <persName ref="#Narratore">Io</persName> almeno non lo avevo fatto fesso. Anziché associarmi a chi lo tradiva e lo sfruttava, avevo saputo resistere, conservargli un minimo di rispetto.</p>
+         <p>Un attimo prima che raggiungessi l'ombrellone, <persName ref="#Fadigati">Fadigati</persName> si voltò.</p>
          <p>«Ah, è lei», disse, ma senza sorpresa. «È gentile da parte sua venire a farmi visita.»</p>
-         <p>Tutto in lui esprimeva la stanchezza e il dolore di un litigio recente. Nonostante le probabili promesse della sera prima, Deliliers a Rimini c'era andato lo stesso.</p>
+         <p>Tutto in lui esprimeva la stanchezza e il dolore di un litigio recente. Nonostante le probabili promesse della sera prima, <persName ref="#Deliliers">Deliliers</persName> a <placeName ref="#Rimini">Rimini</placeName> c'era andato lo stesso.</p>
          <p>Chiuse il libro che stava leggendo e lo posò su uno sgabello lì accanto, mezzo all'ombra e mezzo al sole. Non era il solito libro giallo, bensì un opuscolo sottile, ricoperto di vecchia carta fiorata.</p>
          <p>«Che cosa leggeva?», chiesi, accennando all'opuscolo. «Versi?»</p>
          <p>«Guardi pure.»</p>
          <p>Era una edizione scolastica del primo canto dell'Iliade, corredata di traduzione interlineare.</p>
          <p>«Mènin aèide teà peleiàdeo Achillèos», recitò lentamente, con un sorriso amaro. «L'ho trovato nella valigia.»</p>
-         <p>Mio padre e mia madre arrivavano proprio allora, la mamma tenendo Fanny per mano. Levai un braccio per avvertirli della mia presenza, e modulai il fischio di famiglia: la prima battuta di un Lied di Schubert.</p>
-         <p>Fadigati si volse, si alzò a metà dalla chaise longue, si levò il panama con deferenza. I miei genitori risposero assieme: mia madre chinando secca il capo, e mio padre toccando con due dita la visiera del berretto di tela bianca, nuovo fiammante. Capii subito che erano scontenti di trovarmi in compagnia di Fadigati. Non appena mi aveva visto, Fanny si era girata a chiedere qualcosa alla mamma, certo il permesso di raggiungermi. Ma mia madre l'aveva visibilmente trattenuta.</p>
-         <p>«Come è graziosa la sua sorellina», disse Fadigati. «Quanti anni ha?»</p>
+         <p><persName ref="#padreNarratore">Mio padre</persName> e <persName ref="#madreNarratore">mia madre</persName> arrivavano proprio allora, <persName ref="#madreNarratore">la mamma</persName> tenendo <persName ref="#Fanny">Fanny</persName> per mano. Levai un braccio per avvertirli della mia presenza, e modulai il fischio di famiglia: la prima battuta di un Lied di <persName ref="#Schubert">Schubert</persName>.</p>
+         <p><persName ref="#Fadigati">Fadigati</persName> si volse, si alzò a metà dalla chaise longue, si levò il panama con deferenza. I miei genitori risposero assieme: <persName ref="#madreNarratore">mia madre</persName> chinando secca il capo, e <persName ref="#padreNarratore">mio padre</persName> toccando con due dita la visiera del berretto di tela bianca, nuovo fiammante. Capii subito che erano scontenti di trovarmi in compagnia di <persName ref="#Fadigati">Fadigati</persName>. Non appena mi aveva visto, <persName ref="#Fanny">Fanny</persName> si era girata a chiedere qualcosa alla <persName ref="#madreNarratore">mamma</persName>, certo il permesso di raggiungermi. Ma <persName ref="#madreNarratore">mia madre</persName> l'aveva visibilmente trattenuta.</p>
+         <p>«Come è graziosa <persName ref="#Fanny">la sua sorellina</persName>», disse <persName ref="#Fadigati">Fadigati</persName>. «Quanti anni ha?»</p>
          <p>«Dodici: otto anni giusti meno di me», risposi imbarazzato.</p>
          <p>«Ma loro sono in tre fratelli, mi pare.»</p>
          <p>«Infatti. Due maschi e una femmina: a quattro anni di distanza l'uno 
-            dall'altro. Ernesto, il secondo, è in Inghilterra...»
+            dall'altro. <persName ref="#Ernesto">Ernesto</persName>, il secondo, è in Inghilterra...»
         </p>
-         <p>«Che visetto intelligente!», sospirò Fadigati, continuando a guardare in direzione di Fanny. «E come le sta bene quel costumino rosa! È sempre una gran fortuna per una femminuccia avere dei fratelli ormai grandi.»</p>
+         <p>«Che visetto intelligente!», sospirò <persName ref="#Fadigati">Fadigati</persName>, continuando a guardare in direzione di Fanny. «E come le sta bene quel costumino rosa! È sempre una gran fortuna per una femminuccia avere dei fratelli ormai grandi.»</p>
          <p>«È ancora molto bambina», dissi io.</p>
          <p>«Oh, si capisce. Le avrei dato al massimo dieci anni. Del resto non vuol dire. Le bambine si sviluppano tutte in una volta... Vedrà che sorpresa... Fa il ginnasio?»</p>
          <p>«Sì, la terza.»</p>
          <p>Scosse il capo in atto di malinconica deplorazione: come se misurasse dentro se stesso tutta la fatica e tutto il dolore a cui ogni essere umano deve andare incontro per crescere, per maturare.</p>
          <p>Ma pensava già ad altro.</p>
-         <p>«E i signori Lavezzoli?», domandò.</p>
+         <p>«E <persName ref="#FamLavezzoli">i signori Lavezzoli</persName>?», domandò.</p>
          <p>«Mah. Credo che stamattina non li vedremo prima di mezzogiorno. Per via della Messa.»</p>
          <p>«Ah, è vero, oggi è domenica», disse trasalendo.</p>
          <p>«Però, quando è così», soggiunse dopo un'altra pausa, mentre si alzava in piedi, «venga che andiamo a salutare i suoi genitori.» Camminammo fianco a fianco sulla sabbia che già cominciava a scottare.</p>
-         <p>«Ho l'impressione», mi diceva frattanto, «ho l'impressione che la signora Lavezzoli non mi abbia troppo in simpatia.»</p>
+         <p>«Ho l'impressione», mi diceva frattanto, «ho l'impressione che <persName ref="#MrsLavezzoli">la signora Lavezzoli</persName> non mi abbia troppo in simpatia.»</p>
          <p>«Ma no, non credo.»</p>
          <p>«Comunque è sempre meglio, penso, approfittare quando non c'è.»</p>
-         <p>Assenti i Lavezzoli, mio padre e mia madre non riuscirono a perseverare nei loro chiari propositi di sostenutezza. Specie mio padre, che in breve avviò col dottore una conversazione della massima cordialità.</p>
-         <p>Tirava un leggero vento di terra, il garbino. Sebbene il sole non avesse ancora raggiunto lo zenit, il mare, del tutto sgombro di vele, appariva già scuro: una coltre compatta, color del piombo. Forse perché reduce dalla lettura del primo canto dell'Iliade, Fadigati parlava del sentimento della natura nei Greci e del significato che secondo lui bisognava attribuire ad aggettivi come «purpureo» e «violaceo», applicati da Omero all'acqua dell'oceano. Mio padre parlò a sua volta di Orazio, e quindi delle Odi barbare, le quali rappresentavano, in polemica quasi quotidiana con me, il suo ideale supremo nel campo della poesia moderna. Conversavano tra loro tanto d'accordo, insomma (il fatto che Deliliers non dovesse spuntare da un momento all'altro di qua dai capanni giovava evidentemente all'equilibrio nervoso del dottore), che quando la famiglia Lavezzoli, fresca di Messa, sopraggiunse al completo verso mezzogiorno, Fadigati fu in grado di sopportare con disinvoltura le inevitabili frecciate della signora Lavezzoli, e anzi di ribattere a qualcuna di esse non senza efficacia.</p>
-         <p>Deliliers sulla spiaggia non l'avremmo più veduto: né quel giorno, né i successivi. Dalle sue scorribande in macchina mai che tornasse prima delle due dopo mezzanotte, e Fadigati, lasciato solo a se stesso, ricercava sempre più sovente la nostra compagnia.</p>
-         <p>Fu così, dunque, che oltre a frequentare nelle ore antimeridiane la nostra tenda (a mio padre in fondo non pareva vero poter discutere con lui di musica, di letteratura, di arte, invece che con la signora Lavezzoli di politica), prese l'abitudine, il pomeriggio, quando sentiva che io e i ragazzi Lavezzoli ci saremmo andati, di venire al campo di tennis dietro il Caffè Zanarini.</p>
-         <p>I nostri fiacchi palleggi a quattro, una coppia maschile contro una mista, non erano certo tali da entusiasmare. Se io me la cavavo mediocremente, Franco e Gilberto Lavezzoli sapevano appena impugnare la racchetta. Quanto poi a Cristina, la loro bionda, rosea, delicata sorella quindicenne (usciva allora allora da un collegio di monache fiorentino, e l'intera famiglia la portava in palmo di mano), come giocatrice valeva ancora meno dei fratelli. Si era lasciata crescere intorno al capo una piccola corona di capelli che Fadigati stesso, una volta, paternamente ammirando, aveva definito «alla angelo musicante di Melozzo». Piuttosto che scomporne un solo ricciolo avrebbe rinunciato perfino a camminare. Altro che badare allo stile del drive o a far passare il rovescio!</p>
-         <p>Eppure, anche se il nostro gioco risultava così scadente e noioso, Fadigati sembrava apprezzarlo moltissimo. «Bella palla!», «Fuori di un dito!», «Peccato!»: era prodigo di lodi per tutti, con un commento, talora magari a sproposito, sempre pronto per ogni colpo.</p>
+         <p>Assenti <persName ref="#FamLavezzoli">i Lavezzoli</persName>, <persName ref="#padreNarratore">mio padre</persName> e <persName ref="#madreNarratore">mia madre</persName> non riuscirono a perseverare nei loro chiari propositi di sostenutezza. Specie <persName ref="#padreNarratore">mio padre</persName>, che in breve avviò col <persName ref="#Fadigati">dottore</persName> una conversazione della massima cordialità.</p>
+         <p>Tirava un leggero vento di terra, il garbino. Sebbene il sole non avesse ancora raggiunto lo zenit, il mare, del tutto sgombro di vele, appariva già scuro: una coltre compatta, color del piombo. Forse perché reduce dalla lettura del primo canto dell'Iliade, <persName ref="#Fadigati">Fadigati</persName> parlava del sentimento della natura nei Greci e del significato che secondo lui bisognava attribuire ad aggettivi come «purpureo» e «violaceo», applicati da <persName ref="#Omero">Omero</persName> all'acqua dell'oceano. <persName ref="#padreNarratore">Mio padre</persName> parlò a sua volta di <persName ref="#Orazio">Orazio</persName>, e quindi delle Odi barbare, le quali rappresentavano, in polemica quasi quotidiana con me, il suo ideale supremo nel campo della poesia moderna. Conversavano tra loro tanto d'accordo, insomma (il fatto che <persName ref="#Deliliers">Deliliers</persName> non dovesse spuntare da un momento all'altro di qua dai capanni giovava evidentemente all'equilibrio nervoso del dottore), che quando <persName ref="#FamLavezzoli">la famiglia Lavezzoli</persName>, fresca di Messa, sopraggiunse al completo verso mezzogiorno, <persName ref="#Fadigati">Fadigati</persName> fu in grado di sopportare con disinvoltura le inevitabili frecciate della <persName ref="#MrsLavezzoli">signora Lavezzoli</persName>, e anzi di ribattere a qualcuna di esse non senza efficacia.</p>
+         <p><persName ref="#Deliliers">Deliliers</persName> sulla spiaggia non l'avremmo più veduto: né quel giorno, né i successivi. Dalle sue scorribande in macchina mai che tornasse prima delle due dopo mezzanotte, e <persName ref="#Fadigati">Fadigati</persName>, lasciato solo a se stesso, ricercava sempre più sovente la nostra compagnia.</p>
+         <p>Fu così, dunque, che oltre a frequentare nelle ore antimeridiane la nostra tenda (a mio padre in fondo non pareva vero poter discutere con lui di musica, di letteratura, di arte, invece che con <persName ref="#MrsLavezzoli">la signora Lavezzoli</persName> di politica), prese l'abitudine, il pomeriggio, quando sentiva che io e i <persName ref="#FamLavezzoli">ragazzi Lavezzoli</persName> ci saremmo andati, di venire al campo di tennis dietro il <placeName ref="#CaffeZanarini">Caffè Zanarini</placeName>.</p>
+         <p>I nostri fiacchi palleggi a quattro, una coppia maschile contro una mista, non erano certo tali da entusiasmare. Se io me la cavavo mediocremente, <persName ref="#FLavezzoli">Franco</persName> e <persName ref="#GLavezzoli">Gilberto Lavezzoli</persName> sapevano appena impugnare la racchetta. Quanto poi a <persName ref="#CLavezzoli">Cristina</persName>, la loro bionda, rosea, delicata sorella quindicenne (usciva allora allora da un collegio di monache fiorentino, e <persName ref="#FamLavezzoli">l'intera famiglia</persName> la portava in palmo di mano), come giocatrice valeva ancora meno dei fratelli. Si era lasciata crescere intorno al capo una piccola corona di capelli che <persName ref="#Fadigati">Fadigati</persName> stesso, una volta, paternamente ammirando, aveva definito «alla angelo musicante di <persName ref="#Melozzo">Melozzo</persName>». Piuttosto che scomporne un solo ricciolo avrebbe rinunciato perfino a camminare. Altro che badare allo stile del drive o a far passare il rovescio!</p>
+         <p>Eppure, anche se il nostro gioco risultava così scadente e noioso, <persName ref="#Fadigati">Fadigati</persName> sembrava apprezzarlo moltissimo. «Bella palla!», «Fuori di un dito!», «Peccato!»: era prodigo di lodi per tutti, con un commento, talora magari a sproposito, sempre pronto per ogni colpo.</p>
          <p>A volte, per altro, il palleggio languiva un po' troppo.</p>
          <p>«Perché non fate una partita?», proponeva.</p>
-         <p>«Per carità!», si schermiva subito Cristina, arrossendo. «Se non prendo una palla!»</p>
+         <p>«Per carità!», si schermiva subito <persName ref="#CLavezzoli">Cristina</persName>, arrossendo. «Se non prendo una palla!»</p>
          <p>Lui non stava ad ascoltarla.</p>
-         <p>«Volontà e impegno!», proclamava festoso. «Il dottor Fadigati premierà la coppia vincitrice con due superbe bottigliette di aranciata San Pellegrino!»</p>
+         <p>«Volontà e impegno!», proclamava festoso. «<persName ref="#Fadigati">Il dottor Fadigati</persName> premierà la coppia vincitrice con due superbe bottigliette di aranciata San Pellegrino!»</p>
          <p>Correva al capanno del custode, ne tirava fuori una scranna tarlata e pericolante, alta almeno due metri, la trasportava a forza di braccia da un lato del campo, infine vi si arrampicava sopra. L'aria a poco a poco imbruniva; il suo cappello, controluce, appariva circondato da un'aureola di moscerini. Ma lui, appollaiato sulla sua gruccia come un grosso uccello, rimaneva ancora lassù, a scandire uno dopo l'altro i punti con voce metallica, tenace ad assolvere fino all'ultimo il suo compito di arbitro imparziale. Era chiaro: non sapeva cosa altro fare, in che modo riempire il vuoto tremendo delle giornate.</p>
       </div>
       <div>
