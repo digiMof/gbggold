@@ -207,6 +207,9 @@
                 <person xml:id="Bocchini">
                    <persName>Sua Eccellenza Bocchini</persName>
                 </person>
+                <person xml:id="Corazza">
+                   <persName>dott. Corazza</persName>
+                </person>
                 <!-- with semantic tagging -->
                 <person xml:id="Pertile">
                    <persName>Aureliano Pertile</persName>
@@ -343,6 +346,9 @@
                </place>
                <place xml:id="FarmaBarilari">
                   <placeName>farmacia Barilari, Ferrara</placeName>
+               </place>
+               <place xml:id="CreditoItaliano">
+                  <placeName>Filiale del Credito Italiano, Ferrara</placeName>
                </place>
                 <place xml:id="Listone">
                    <placeName>Il Listone</placeName>
@@ -653,6 +659,9 @@
                </place>
                <place xml:id="Roma">
                   <placeName>Roma</placeName>
+               </place>
+               <place xml:id="Viminale">
+                  <placeName>Palazzo del Viminale</placeName>
                </place>
                <place xml:id="Parma">
                   <placeName>Parma</placeName>
@@ -1001,6 +1010,10 @@
            <rdf:Description tei:ref="#Roma" rdf:about="geonames:3169070">
               <rdf:type rdf:resource="dbo:Place"/>
               <rdfs:label xml:lang="it">Roma</rdfs:label>
+           </rdf:Description>
+           <rdf:Description tei:ref="#Viminale" rdf:about="geonames:245391378">
+              <rdf:type rdf:resource="dbo:Place"/>
+              <rdfs:label xml:lang="it">Palazzo del Viminale</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="Parma" rdf:about="geonames:3171457">
               <rdf:type rdf:resource="dbo:Place"/>
@@ -1778,7 +1791,7 @@
          <p>«Non mi dica che a tenerla sveglia era il pensiero dei piccoli.»</p>
          <p>«E invece ha indovinato, guardi, proprio il pensiero dei piccoli! Le serve una prova? In camera mia, nell'angolo dove volevo che stesse, ho trovato più tardi una gran pozza di latte. Nel corso della nottata le era venuta la cosiddetta piena del latte: ecco perché non riusciva a quietarsi e si lamentava. Gli spasimi che deve aver provato li sa soltanto lei, povera bestia!»</p>
          <p>Parlò ancora: della cagna, degli animali in genere e dei loro sentimenti, che sono così simili a quelli degli uomini - disse -, anche se, «forse», più semplici, più direttamente sottomessi all'imperio della legge naturale. Quanto a me, mi sentivo ormai sulle spine. Preoccupato che <persName ref="#padreNarratore">mio padre</persName> e <persName ref="#madreNarratore">mia madre</persName>, di certo tutti orecchi, capissero con chi stavo conversando, mi limitavo a rispondere a monosillabi. Speravo anche, in questo modo, di indurlo ad abbreviare. Ma niente. Pareva che non gli riuscisse di staccarsi dall'apparecchio.</p>
-         <p>Era giovedì. Combinammo di vederci il sabato seguente. Lui mi avrebbe telefonato subito dopo pranzo. Se faceva bello, avremmo preso il tram, e saremmo andati a Pontelagoscuro a vedere il Po. Dopo le ultime piogge il livello del fiume doveva essersi avvicinato di molto al segnale di guardia. Chissà che spettacolo!</p>
+         <p>Era giovedì. Combinammo di vederci il sabato seguente. Lui mi avrebbe telefonato subito dopo pranzo. Se faceva bello, avremmo preso il tram, e saremmo andati a <placeName ref="#Pontelagoscuro">Pontelagoscuro</placeName> a vedere il Po. Dopo le ultime piogge il livello del fiume doveva essersi avvicinato di molto al segnale di guardia. Chissà che spettacolo!</p>
          <p>Ma poi, finalmente accomiatandosi:</p>
          <p>«Addio, caro amico... stia bene», ripeté più volte, commosso. «Buona fortuna a lei e ai suoi cari...»</p>
       </div>
@@ -1830,28 +1843,28 @@
          <p>«Su, sentiamo», accondiscese infine <persName ref="#madreNarratore">la mamma</persName>, però con l'aria di fare un piacere soprattutto a me.</p>
       </div>
       <div>
-         <p>Capitolo 18</p>
+         <head>Capitolo 18</head>
          <p>Le novità che mio padre aveva da comunicarci erano le seguenti.</p>
-         <p>Mezz'ora prima, al Credito Italiano, gli era capitato di incontrare per caso l'avvocato Geremia Tabet, il quale, come noi ben sapevamo, non soltanto era sempre stato «dentro alle segrete cose» della Casa del Fascio di Ferrara, ma notoriamente godeva anche dell'«amicizia» e della stima di Sua Eccellenza Bocchini, il Capo della Polizia.</p>
-         <p>Mentre uscivano assieme dal Credito, Tabet aveva preso sottobraccio mio padre. Di recente era stato a Roma per affari - gli aveva confidato -: occasione, questa, che gli aveva dato modo di «mettere un momento il naso» di là dalla soglia del Viminale. Dati i tempi e le circostanze, pensava che il segretario particolare di Sua Eccellenza non lo avrebbe nemmeno annunciato. Invece no. Il prefetto dottor Corazza lo aveva subito introdotto nella gran sala dove il «padrone» lavorava.</p>
-         <p>«Caro avvocato!», aveva esclamato Bocchini, scorgendolo entrare.</p>
+         <p>Mezz'ora prima, al <placeName ref="#CreditoItaliano">Credito Italiano</placeName>, gli era capitato di incontrare per caso <persName ref="#Tabet">l'avvocato Geremia Tabet</persName>, il quale, come noi ben sapevamo, non soltanto era sempre stato «dentro alle segrete cose» della Casa del Fascio di Ferrara, ma notoriamente godeva anche dell'«amicizia» e della stima di <persName ref="#Bocchini">Sua Eccellenza Bocchini</persName>, il Capo della Polizia.</p>
+         <p>Mentre uscivano assieme dal Credito, <persName ref="#Tabet">Tabet</persName> aveva preso sottobraccio mio padre. Di recente era stato a <persName ref="#Roma">Roma</persName> per affari - gli aveva confidato -: occasione, questa, che gli aveva dato modo di «mettere un momento il naso» di là dalla soglia del <placeName ref="#Viminale">Viminale</placeName>. Dati i tempi e le circostanze, pensava che il segretario particolare di <persName ref="#Mussolini">Sua Eccellenza</persName> non lo avrebbe nemmeno annunciato. Invece no. Il prefetto <persName ref="#Corazza">dottor Corazza</persName> lo aveva subito introdotto nella gran sala dove il «padrone» lavorava.</p>
+         <p>«Caro <persName ref="#Tabet">avvocato</persName>!», aveva esclamato <persName ref="#Bocchini">Bocchini</persName>, scorgendolo entrare.</p>
          <p>Si era alzato, gli era venuto incontro a metà del salone, gli aveva stretto calorosamente la mano, lo aveva fatto accomodare in una poltrona. Dopodiché, senza tanti preamboli, aveva affrontato la questione delle ventilate leggi razziali.</p>
-         <p>«Conservi pure la sua bella calma, Tabet», così si era espresso, «e induca alla tranquillità e alla fiducia, la prego, il maggior numero possibile di suoi correligionari. In Italia,sono autorizzato a garantirglielo, una legislazione sulla razza non sarà mai varata.»</p>
-         <p>I giornali, è vero, parlavano tuttora male degli «israeliti» - aveva continuato Bocchini -; ma unicamente per ragioni superiori, ne parlavano male, per ragioni di politica estera. Bisognava capire. In quegli ultimi mesi il Duce era venuto a trovarsi nella necessità «im-pre-scin-di-bi-le» di far credere alle democrazie occidentali che l'Italia fosse ormai legata a filo doppio con la Germania. Quale argomento avrebbe dunque potuto trovare più persuasivo di un po' di antisemitismo? Stessimo tranquilli. Sarebbe bastato un contrordine dello stesso Duce, e tutti i cani da pagliaio tipo Interlandi e Preziosi (il Capo della Polizia ostentava nei riguardi di costoro un sommo disprezzo) l'avrebbero piantata da un giorno all'altro di abbaiare.</p>
-         <p>«Speriamo!», sospirò la mamma, i grandi occhi marrone rivolti verso il soffitto. «Speriamo che Mussolini si decida a darlo presto, il suo contrordine!»</p>
-         <p>Entrò l'Elisa col piatto ovale della pastasciutta, e mio padre tacque. A questo punto scostai la seggiola. Tiratomi su, mi avvicinai al mobiletto della radio. Accesi. Spensi. Infine mi sedetti nella poltroncina di vimini, lì accanto.</p>
-         <p>Per qual motivo non partecipavo alle speranze dei miei? Che cosa c'era nel loro entusiasmo che non mi andava? «Dio, Dio...», dicevo fra me, serrando i denti. «Appena l'Elisa sarà uscita da questa stanza, sento che il papà ripiglierà a parlare.»</p>
-         <p>Ero disperato, assolutamente disperato. E certo non perché dubitassi che il Capo della Polizia avesse mentito, ma per aver visto mio padre subito così felice, o meglio così smanioso di tornare felice. Dunque era proprio questo che non sopportavo? - mi chiedevo -. Non sopportavo che lui fosse contento? Che il futuro gli sorridesse di nuovo come una volta,come prima?</p>
-         <p>Trassi di tasca il giornale e, data una scorsa alla pagina d'apertura, passai direttamente a quella sportiva. Inutile. Nonostante ogni mio sforzo di concentrare l'attenzione sulla cronaca della partita Juventus- Bologna, conclusasi a Torino, appunto come avevo udito gridare da Cenzo, con la «clamorosa sconfitta» del Bologna, niente, la testa mi sfuggiva sempre via.</p>
-         <p>La gioia di mio padre - pensavo - era quella dello scolaretto ingiustamente espulso, il quale, richiamato indietro per ordine del maestro dal corridoio deserto dove rimase per un poco di tempo in esilio, si trovi, a un tratto, contro ogni sua aspettativa, riammesso in aula fra i cari compagni: non soltanto assolto, ma riconosciuto innocente e riabilitato in pieno. Ebbene non era giusto, in fondo, che mio padre gioisse come quel bambino? Io però no. Il senso di solitudine che mi aveva sempre accompagnato in quei due ultimi mesi diventava se mai, proprio adesso, ancora più atroce: totale e definitivo. Dal mio esilio non sarei mai tornato, io. Mai più.</p>
-         <p>Levai il capo. L'Elisa se ne era andata, la porta di cucina appariva di nuovo ben chiusa. Tuttavia mio padre continuava a tacere, o quasi. Curvo sul suo piatto, si limitava a scambiare ogni tanto qualche frase senza importanza con la mamma, che gli sorrideva compiaciuta. Lunghi raggi di un sole già pomeridiano trafiggevano la penombra del tinello. Venivano dal salotto attiguo, che ne traboccava. Quando avesse finito di mangiare, mio padre si sarebbe ritirato di là, a dormire steso sopra il divano di pelle. Lo vedevo. Separato, là, chiuso, protetto. Come dentro un roseo bozzolo luminoso. Col viso ingenuo offerto alla luce, dormiva avvolto nella sua mantella...</p>
+         <p>«Conservi pure la sua bella calma, <persName ref="#Tabet">Tabet</persName>», così si era espresso, «e induca alla tranquillità e alla fiducia, la prego, il maggior numero possibile di suoi correligionari. In <placeName ref="#Italia">Italia</placeName>, sono autorizzato a garantirglielo, una legislazione sulla razza non sarà mai varata.»</p>
+         <p>I giornali, è vero, parlavano tuttora male degli «israeliti» - aveva continuato <persName ref="#Bocchini">Bocchini</persName>-; ma unicamente per ragioni superiori, ne parlavano male, per ragioni di politica estera. Bisognava capire. In quegli ultimi mesi il <persName ref="#Mussolini">Duce</persName> era venuto a trovarsi nella necessità «im-pre-scin-di-bi-le» di far credere alle democrazie occidentali che l'<placeName ref="#Italia">Italia</placeName> fosse ormai legata a filo doppio con la <placeName ref="#Germania">Germania</placeName>. Quale argomento avrebbe dunque potuto trovare più persuasivo di un po' di antisemitismo? Stessimo tranquilli. Sarebbe bastato un contrordine dello stesso <persName ref="#Mussolini">Duce</persName>, e tutti i cani da pagliaio tipo Interlandi e Preziosi (il <persName ref="#Bocchini">Capo della Polizia</persName> ostentava nei riguardi di costoro un sommo disprezzo) l'avrebbero piantata da un giorno all'altro di abbaiare.</p>
+         <p>«Speriamo!», sospirò <persName ref="#madreNarratore">la mamma</persName>, i grandi occhi marrone rivolti verso il soffitto. «Speriamo che <persName ref="#Mussolini">Mussolini</persName> si decida a darlo presto, il suo contrordine!»</p>
+         <p>Entrò l'<persName ref="#Elisa">Elisa</persName> col piatto ovale della pastasciutta, e mio padre tacque. A questo punto scostai la seggiola. Tiratomi su, mi avvicinai al mobiletto della radio. Accesi. Spensi. Infine mi sedetti nella poltroncina di vimini, lì accanto.</p>
+         <p>Per qual motivo non partecipavo alle speranze dei miei? Che cosa c'era nel loro entusiasmo che non mi andava? «Dio, Dio...», dicevo fra me, serrando i denti. «Appena l'<persName ref="#Elisa">Elisa</persName> sarà uscita da questa stanza, sento che il papà ripiglierà a parlare.»</p>
+         <p>Ero disperato, assolutamente disperato. E certo non perché dubitassi che il <persName ref="#Bocchini">Capo della Polizia</persName> avesse mentito, ma per aver visto <persName ref="#padreNarratore">mio padre</persName> subito così felice, o meglio così smanioso di tornare felice. Dunque era proprio questo che non sopportavo? - mi chiedevo -. Non sopportavo che lui fosse contento? Che il futuro gli sorridesse di nuovo come una volta,come prima?</p>
+         <p>Trassi di tasca il giornale e, data una scorsa alla pagina d'apertura, passai direttamente a quella sportiva. Inutile. Nonostante ogni mio sforzo di concentrare l'attenzione sulla cronaca della partita Juventus-Bologna, conclusasi a <placeName ref="#Torino">Torino</placeName>, appunto come avevo udito gridare da <persName ref="#Cenzo">Cenzo</persName>, con la «clamorosa sconfitta» del Bologna, niente, la testa mi sfuggiva sempre via.</p>
+         <p>La gioia di <persName ref="#padreNarratore">mio padre</persName> - pensavo - era quella dello scolaretto ingiustamente espulso, il quale, richiamato indietro per ordine del maestro dal corridoio deserto dove rimase per un poco di tempo in esilio, si trovi, a un tratto, contro ogni sua aspettativa, riammesso in aula fra i cari compagni: non soltanto assolto, ma riconosciuto innocente e riabilitato in pieno. Ebbene non era giusto, in fondo, che mio padre gioisse come quel bambino? Io però no. Il senso di solitudine che mi aveva sempre accompagnato in quei due ultimi mesi diventava se mai, proprio adesso, ancora più atroce: totale e definitivo. Dal mio esilio non sarei mai tornato, io. Mai più.</p>
+         <p>Levai il capo. <persName ref="#Elisa">L'Elisa</persName> se ne era andata, la porta di cucina appariva di nuovo ben chiusa. Tuttavia <persName ref="#padreNarratore">mio padre</persName> continuava a tacere, o quasi. Curvo sul suo piatto, si limitava a scambiare ogni tanto qualche frase senza importanza con <persName ref="#madreNarratore">la mamma</persName>, che gli sorrideva compiaciuta. Lunghi raggi di un sole già pomeridiano trafiggevano la penombra del tinello. Venivano dal salotto attiguo, che ne traboccava. Quando avesse finito di mangiare, mio padre si sarebbe ritirato di là, a dormire steso sopra il divano di pelle. Lo vedevo. Separato, là, chiuso, protetto. Come dentro un roseo bozzolo luminoso. Col viso ingenuo offerto alla luce, dormiva avvolto nella sua mantella...</p>
          <p>Tornai al mio giornale.</p>
          <p>Ed ecco, in fondo alla pagina di sinistra, di riscontro a quella sportiva, gli occhi mi caddero su un titolo di media grandezza.</p>
-         <p>Diceva: NOTO PROFESSIONISTA FERRARESE ANNEGATO NELLE ACQUE DEL PO PRESSO PONTELAGOSCURO</p>
+         <p>Diceva: NOTO PROFESSIONISTA FERRARESE ANNEGATO NELLE ACQUE DEL PO PRESSO <placeName ref="#Pontelagoscuro">PONTELAGOSCURO</placeName></p>
          <p>Credo che per qualche secondo il cuore mi si fermasse. Eppure non avevo capito bene, ancora non mi ero reso ben conto.</p>
          <p>Respirai profondamente. E adesso capivo, sì, avevo capito già prima che cominciassi a leggere il mezzo colonnino sotto il titolo, il quale non parlava affatto di suicidio, s'intende, ma, secondo lo stile dei tempi, soltanto di disgrazia (a nessuno era lecito sopprimersi, in quegli anni: nemmeno ai vecchi disonorati e senza più ragione alcuna di restare al mondo...).</p>
-         <p>Non finii di leggerlo, comunque. Abbassai le palpebre. Il cuore aveva ripreso a battere regolare. Aspettai che l'Elisa, riapparsa per un attimo, ci lasciasse un'altra volta soli, e poi, quietamente, ma subito:</p>
-         <p>«È morto il dottor Fadigati», dissi.</p>
+         <p>Non finii di leggerlo, comunque. Abbassai le palpebre. Il cuore aveva ripreso a battere regolare. Aspettai che <persName ref="#Elisa">l'Elisa</persName>, riapparsa per un attimo, ci lasciasse un'altra volta soli, e poi, quietamente, ma subito:</p>
+         <p>«È morto <persName ref="#Fadigati">il dottor Fadigati</persName>p», dissi.</p>
       </div>
    </body>
 </text>
