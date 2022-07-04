@@ -11497,10 +11497,24 @@ body {
   outline: none;
   background-color: transparent;
 }
-#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus, #mainNav .dropdown-menu {
   outline: none;
   background-color: transparent;
 }
+
+#mainNav .dropdown-item {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown-menu, .show {
+  border: 0px;
+}
+
+#mainNav .dropdown-item:hover {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(218,165,32,0.7);
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 0;
