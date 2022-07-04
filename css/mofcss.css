@@ -22,14 +22,26 @@ h4 {
 h5 {
     font-weight: bold;
 }
+
 .chapindex {
     width: 100%;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .chap {
     display: none;
+    animation: fadeIn 3s;
 }
 
 #cap1 {
