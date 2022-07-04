@@ -118,9 +118,9 @@
        
     <!-- head -->
     <xsl:template match="tei:head">
-        <h3>
+        <h5>
             <xsl:apply-templates/>
-        </h3>
+        </h5>
     </xsl:template>
     
     <!-- p -->
@@ -136,6 +136,7 @@
             <xsl:attribute name="id">
                 <xsl:value-of select="@xml:id"/>
             </xsl:attribute>
+            <xsl:attribute name="class">chap</xsl:attribute>
             <xsl:apply-templates/>
         </div>
     </xsl:template>

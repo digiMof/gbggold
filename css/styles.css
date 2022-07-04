@@ -11497,13 +11497,17 @@ body {
   outline: none;
   background-color: transparent;
 }
-#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus, #mainNav .dropdown-menu {
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
 }
 
+#mainNav .dropdown-menu {
+  background-color: rgba(0,0,0,0.8);
+}
+
 #mainNav .dropdown-item {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .dropdown-menu, .show {

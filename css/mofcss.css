@@ -1,0 +1,45 @@
+.textsection {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+table td {
+    text-align: center;   
+}
+
+table td:hover {
+    text-align: center;  
+    font-weight: bold; 
+}
+
+h4 {
+    color: #8E3200;
+}
+
+h5 {
+    font-weight: bold;
+}
+.chapindex {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.chap {
+    display: none;
+}
+
+#cap1 {
+    display: block;
+}
+
+.progress-bar {
+    background-color: #8E3200 !important;
+}
+
+#listchars, #listplaces {
+    display: none;
+}
