@@ -218,11 +218,90 @@
 
                   </div>
                   <div id="listplaces">
-                     <p>In this part you will find a list of all the places. When available, you'll have also a
-                        reference to the authority files</p>
-                     <p>This version of the website can now only decide whether to <b
-                           onclick="$('.place-name').css('background-color', '#E69E7F');">highlight</b> them or <b
-                           onclick="$('.place-name').css('background-color','white');">not</b></p>
+                        <div class="form-check form-switch">
+                           <input class="form-check-input" type="checkbox" id="myCheckboxPlace" id="flexSwitchCheckDefault" onchange="toggleCheck('myCheckboxPlace','.place-name', '#E69E7F')">
+                           <label class="form-check-label" for="flexSwitchCheckDefault">Highlight characters and people</label>
+                        </div>  
+                        <hr>
+                        <p>Click on the correspondent category to toggle the full list. Autority files have been added when available and are indicated by the symbol <i class="bi bi-share-fill"></i></p>
+                        <h5>Main settings</h5>
+                        <table class="list-places" style="margin-left: 5%;">
+                           <tr>
+                              <th onclick="showList('ferraraplacelist')">Ferrara</th>
+                           </tr>
+                           <tr>
+                              <td id="ferraraplacelist">
+                                 <ul>
+                                    <li>Via Gorgadello</li>
+                                    <li>Vicolo-mozzo Torcicoda</li>
+                                    <li>Cattedrale di Ferrara <a href="https://viaf.org/viaf/234334949/"><i class="bi bi-share-fill"></i></a></li>
+                                 </ul>
+                              </td>
+                           </tr>
+                           <tr>
+                              <th onclick="showList('bolognaplacelist')">Bologna</th>
+                           </tr>
+                           <tr>
+                              <td id="bolognaplacelist">
+                                 <ul>
+                                    <li>Via Indipendenza</li>
+                                    <li>Piazza del Nettuno</li>
+                                    <li>Via Zamboni</li>
+                                 </ul>
+                              </td>
+                           </tr>
+                           <tr>
+                              <th onclick="showList('adriaticplacelist')">Riccione &amp; the Adriatic Sea</th>
+                           </tr>
+                           <tr>
+                              <td id="adriaticplacelist">
+                                 <ul>
+                                    <li>Via Indipendenza</li>
+                                    <li>Piazza del Nettuno</li>
+                                    <li>Via Zamboni</li>
+                                 </ul>
+                              </td>
+                           </tr>
+                        </table>
+                        <h5>Mentioned places</h5>
+                        <table class="list-places" style="margin-left: 5%;">
+                           <tr>
+                              <th onclick="showList('venetoplacelist')">Padova and Venice</th>
+                           </tr>
+                           <tr>
+                              <td id="venetoplacelist">
+                                 <ul>
+                                    <li>Canal Grande, Venice</li>
+                                    <li>Biennale, Venice</li>
+                                    <li>Chiesa di San Francesco, Padova</li>
+                                 </ul>
+                              </td>
+                           </tr>
+                           <tr>
+                              <th onclick="showList('etcitaplacelist')">Other Italian places</th>
+                           </tr>
+                           <tr>
+                              <td id="etcitaplacelist">
+                                 <ul>
+                                    <li>Roma</li>
+                                    <li>Parma</li>
+                                    <li>Torino</li>
+                                 </ul>
+                              </td>
+                           </tr>
+                           <tr>
+                              <th onclick="showList('abroadplacelist')">Abroad</th>
+                           </tr>
+                           <tr>
+                              <td id="abroadplacelist">
+                                 <ul>
+                                    <li>Parigi</li>
+                                    <li>Germania</li>
+                                    <li>Malta</li>
+                                 </ul>
+                              </td>
+                           </tr>
+                        </table>
                   </div>
                </span>
             </div>

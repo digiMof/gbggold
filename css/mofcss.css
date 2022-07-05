@@ -29,7 +29,7 @@ h5 {
     margin-bottom: 1rem;
 }
 
-.list-person {
+.list-person, .list-places {
     width: 90%;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -41,7 +41,14 @@ h5 {
     border: 1px solid #AA6B39;
 }
 
-.list-person td {
+.list-places th {
+    background-color: #E69E7F;
+    padding-left: 0.5em;
+    border: 1px solid #7c4e28;
+}
+
+
+.list-person td, .list-places td {
     display: none;
 }
 
@@ -80,4 +87,9 @@ a [class^="bi-"]::before, [class*=" bi-"]::before {
 #myCheckboxPers:checked {
     background-color: #B8860B;
     border-color: #B8860B;
+}
+
+#myCheckboxPlace:checked {
+    background-color: #ca896d;
+    border-color: #ca896d;
 }
