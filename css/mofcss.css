@@ -6,11 +6,11 @@
     text-justify: inter-word;
 }
 
-table td {
+.chapindex td {
     text-align: center;   
 }
 
-table td:hover {
+.chapindex td:hover {
     text-align: center;  
     font-weight: bold; 
 }
@@ -27,6 +27,22 @@ h5 {
     width: 100%;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.list-person {
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.list-person th {
+    background-color: #F1E5AC;
+    padding-left: 0.5em;
+    border: 1px solid #AA6B39;
+}
+
+.list-person td {
+    display: none;
 }
 
 @keyframes fadeIn {
@@ -54,4 +70,14 @@ h5 {
 
 #listchars, #listplaces {
     display: none;
+}
+
+a [class^="bi-"]::before, [class*=" bi-"]::before {
+    font-size: 0.8em;
+    line-height: 1.6 !important; 
+}
+
+#myCheckboxPers:checked {
+    background-color: #B8860B;
+    border-color: #B8860B;
 }
