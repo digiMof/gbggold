@@ -345,7 +345,7 @@
                   <placeName>Cinema Diana, Ferrara</placeName>
                </place>
                <place xml:id="FarmaBarilari">
-                  <placeName>farmacia Barilari, Ferrara</placeName>
+                  <placeName>Farmacia Barilari, Ferrara</placeName>
                </place>
                <place xml:id="CreditoItaliano">
                   <placeName>Filiale del Credito Italiano, Ferrara</placeName>
@@ -1783,7 +1783,7 @@
          <p>«Se voleva andar via, perché non l'ha lasciata andare?»</p>
          <p>«Cosa vuole, la pigrizia. Mi seccava alzarmi, accompagnarla fino da basso... sa come succede. Non appena però ha fatto chiaro, mi sono affrettato ad accontentarla. Mi sono vestito, e l'ho accompagnata fuori. Già... l'ho accompagnata io, questa volta. Mi era venuto in mente che non sapesse come ritrovare la via di casa.»</p>
          <p>«L'aveva incontrata dalle parti dell'<placeName ref="#Acquedotto">Acquedotto</placeName>, se non sbaglio.»</p>
-         <p>«Precisamente. Stia a sentire. Proprio in fondo a <placeName ref="#ViaGaribaldi">via Garibaldi</placeName>, all'angolo che via Garibaldi fa con la Spianata, a un certo punto sento gridare: "Vampa!". Era un garzone di fornaio, un ragazzetto bruno, in bicicletta. La cagna gli si butta subito addosso, e non le dico l'altro, che abbracci e che baci. Insomma, grandi feste reciproche. E poi via, insieme, lui in bicicletta e lei dietro.»</p>
+         <p>«Precisamente. Stia a sentire. Proprio in fondo a <placeName ref="#ViaGaribaldi">via Garibaldi</placeName>, all'angolo che <placeName ref="#ViaGaribaldi">via Garibaldi</placeName> fa con la <placeName ref="#Spianata">Spianata</placeName>, a un certo punto sento gridare: "Vampa!". Era un garzone di fornaio, un ragazzetto bruno, in bicicletta. La cagna gli si butta subito addosso, e non le dico l'altro, che abbracci e che baci. Insomma, grandi feste reciproche. E poi via, insieme, lui in bicicletta e lei dietro.»</p>
          <p>«Le vede le donne?», scherzai.</p>
          <p>«Eh, un poco sì!», sospirò. «Era già lontana, stavano quasi per imboccare <placeName ref="#ViaPiangipane">via Piangipane</placeName>, e si è voltata a guardarmi, ci crede?, come per dire: "Scusa se ti pianto, vecchio signore, ma debbo proprio andare con questo ragazzo qui, abbi pazienza!".»</p>
          <p>Rise da solo, niente affatto amareggiato.</p>
