@@ -105,31 +105,33 @@
                     <h4>2.2. Spatial Analysis</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit sed urna quis auctor. Etiam eleifend lacus sit amet nibh efficitur, ac lacinia massa pharetra. Suspendisse lacinia enim nulla, vel tincidunt metus pulvinar ultrices. Morbi quis semper dolor, vitae sagittis nibh. Nam et nulla ultrices, fermentum nisl sit amet, dictum dolor. Praesent nec semper lorem, quis suscipit massa. Donec at iaculis lorem. Donec eleifend ex quis mi aliquet, eu consectetur eros vulputate. Morbi quis enim lorem.</p>
                     <p>Main interpretations: placeName e persName hanno comportamento opposto per quanto riguarda massimi e minimi relativi, soprattutto in concomitanza dei cambi di ambientazioni (segnati dalle linee verticali). I picchi delle due distribuzioni sono sfasate: parrebbe quasi che Bassani voglia adottare un approccio quasi teatrale: si concentra dapprima sui luoghi e in un secondo momento introduce in maniera significativa i personaggi o le personalità storiche.</p>
-                    <section> <!-- This is the graph of placeName vs persName, cfr js/graphteitag.js -->
-                        <div id="chart_div" style="margin-bottom: 1.5em; border: 0.2em solid #996515;"></div>
-                        <div class="container mb-3" style="padding-left: 0px; padding-right: 0px;">
-                            <div class="row" style="width: 100%;">
-                                <div class="col-8">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit sed urna quis auctor. Etiam eleifend lacus sit amet nibh efficitur, ac lacinia massa pharetra. Suspendisse lacinia enim nulla, vel tincidunt metus pulvinar ultrices. Morbi quis semper dolor, vitae sagittis nibh. Nam et nulla ultrices, fermentum nisl sit amet, dictum dolor. Praesent nec semper lorem, quis suscipit massa. Donec at iaculis lorem. Donec eleifend ex quis mi aliquet, eu consectetur eros vulputate. Morbi quis enim lorem.</p>
-                                    <p>The category of center and periphery have been populated as follows (the toponyms are in Italian):</p>
-                                    <table>
-                                        <tr>
-                                            <th>Center</th>
-                                            <th>Periphery</th>
-                                        </tr>
-                                        <tr>
-                                            <td style="padding-right: 2.5%;">Via Gorgadello, Piazza delle Erbe, Corso Giovecca, Corso Roma, Palazzo Assicurazioni Generali, Castello, Piazza Cattedrale, Via Bersaglieri del Po, Cinema, Ristoranti, Farmacia Barillari, Filiale del Credito Italiano, Vicolo del Granchio, Via Mazzini, Via Saraceno, Duomo, Piazza Travaglio, Via Garibaldi, Via San Romano, San Carlo Il Listone, Circoli cittadini, il Montagnone, Viale Cavour, Caffè della Borsa</td>
-                                            <td>Via Bomporto, Mura degli Angeli, Via Vignatagliata, Vicolo-mozzo Torcicoda, Ghetto di Ferrara, Corso Ercole I, Via Ripagrande, L’Acquedotto, La Spianata, Via Piangipane, Pontelagoscuro, Via Cairoli, Via Savonarola, Chiesa di San Girolamo</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                                <div class="col-4">
+                    <div class="container mb-3" style="padding-left: 0px; padding-right: 0px;"> <!-- This is the graph of placeName vs persName, cfr js/graphteitag.js -->
+                        <div class="row" style="width: 100%;">
+                            <div class="col-12">
+                                <div id="chart_div" style="margin-bottom: 1.5em; border: 0.2em solid #996515"></div>
+                            </div>
+                            <div class="col-8">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit sed urna quis auctor. Etiam eleifend lacus sit amet nibh efficitur, ac lacinia massa pharetra. Suspendisse lacinia enim nulla, vel tincidunt metus pulvinar ultrices. Morbi quis semper dolor, vitae sagittis nibh. Nam et nulla ultrices, fermentum nisl sit amet, dictum dolor. Praesent nec semper lorem, quis suscipit massa. Donec at iaculis lorem. Donec eleifend ex quis mi aliquet, eu consectetur eros vulputate. Morbi quis enim lorem.</p>
+                                <p>The category of center and periphery have been populated as follows (the toponyms are in Italian):</p>
+                                <table>
+                                    <tr>
+                                        <th>Center</th>
+                                        <th>Periphery</th>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-right: 2.5%;">Via Gorgadello, Piazza delle Erbe, Corso Giovecca, Corso Roma, Palazzo Assicurazioni Generali, Castello, Piazza Cattedrale, Via Bersaglieri del Po, Cinema, Ristoranti, Farmacia Barillari, Filiale del Credito Italiano, Vicolo del Granchio, Via Mazzini, Via Saraceno, Duomo, Piazza Travaglio, Via Garibaldi, Via San Romano, San Carlo Il Listone, Circoli cittadini, il Montagnone, Viale Cavour, Caffè della Borsa</td>
+                                        <td>Via Bomporto, Mura degli Angeli, Via Vignatagliata, Vicolo-mozzo Torcicoda, Ghetto di Ferrara, Corso Ercole I, Via Ripagrande, L’Acquedotto, La Spianata, Via Piangipane, Pontelagoscuro, Via Cairoli, Via Savonarola, Chiesa di San Girolamo</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="col-4">
                                     <img src="img/mappericentre.png" style="width:100%">
-                                </div>
+                            </div>
+                            <div class="col-12"> 
+                                <div id="chart_divFE" style="margin-bottom: 1.5em; border: 0.2em solid #996515; height: 25rem;"></div>
                             </div>
                         </div>
-                        <div id="chart_divFE" style="margin-bottom: 1.5em; border: 0.2em solid #996515; height: 25rem;"></div>
-                    </section>
+                    </div>
                 </div>
                 <div>
                     <h4>2.3. Network Analysis</h4>

@@ -30,6 +30,7 @@ function drawLineColors() {
     ]);
 
     var options = {
+        responsive: true,
         hAxis: {
             title: 'Chapter'
         },
@@ -56,3 +57,7 @@ function drawLineColors() {
     var chart = new google.visualization.LineChart(document.getElementById('chart_divFE'));
     chart.draw(data, options);
 }
+
+$(window).resize(function(){
+    drawLineColors();
+  });

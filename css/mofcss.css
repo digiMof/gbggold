@@ -93,3 +93,7 @@ a [class^="bi-"]::before, [class*=" bi-"]::before {
     background-color: #ca896d;
     border-color: #ca896d;
 }
+
+#chart_div, #chart_divFE {
+    width: 100%; 
+}
