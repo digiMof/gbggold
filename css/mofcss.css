@@ -114,3 +114,9 @@ a [class^="bi-"]::before,
 #chart_divFE {
     width: 100%;
 }
+
+/* GEOLOCALISATION OR SPATIAL ANALYSIS HTML (choose one name and stick to it */ 
+#map {
+    height: 600px;
+    width:100%;
+}
