@@ -6,30 +6,42 @@
     text-justify: inter-word;
 }
 
-.chapindex td {
-    text-align: center;   
-}
-
-.chapindex td:hover {
-    text-align: center;  
-    font-weight: bold; 
-}
-
-h3, h4 {
+h3,
+h4,
+h5 {
     color: #8E3200;
+    padding-top: 1em;
 }
 
 h5 {
     font-weight: bold;
 }
 
+.divider {
+    border: 0.1em solid #8E3200;
+    opacity: 100;
+    width: 30%;
+    margin: auto;
+}
+
+/* SEMANTIC DIGITAL EDITION HTML */
 .chapindex {
     width: 100%;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.list-person, .list-places {
+.chapindex td {
+    text-align: center;
+}
+
+.chapindex td:hover {
+    text-align: center;
+    font-weight: bold;
+}
+
+.list-person,
+.list-places {
     width: 90%;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -48,7 +60,8 @@ h5 {
 }
 
 
-.list-person td, .list-places td {
+.list-person td,
+.list-places td {
     display: none;
 }
 
@@ -75,13 +88,15 @@ h5 {
     background-color: #8E3200 !important;
 }
 
-#listchars, #listplaces {
+#listchars,
+#listplaces {
     display: none;
 }
 
-a [class^="bi-"]::before, [class*=" bi-"]::before {
+a [class^="bi-"]::before,
+[class*=" bi-"]::before {
     font-size: 0.8em;
-    line-height: 1.6 !important; 
+    line-height: 1.6 !important;
 }
 
 #myCheckboxPers:checked {
@@ -94,6 +109,7 @@ a [class^="bi-"]::before, [class*=" bi-"]::before {
     border-color: #ca896d;
 }
 
-#chart_div, #chart_divFE {
-    width: 100%; 
+#chart_div,
+#chart_divFE {
+    width: 100%;
 }
