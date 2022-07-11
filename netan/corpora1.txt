@@ -35,8 +35,7 @@ Aveva incontrato, come si dice. Non più giovanissimo, e con l'aria, già allora
 non esserlo mai stato, piacque che fosse venuto via da <span class="place-name">Venezia</span> (lo raccontò una volta
 lui stesso) non tanto per cercare fortuna in una città non
 sua, quanto per sottrarsi all'atmosfera angosciosa di una vasta casa sul <span class="place-name">Canal Grande</span>
-nella quale aveva visto spegnersi in pochi anni ambedue i <span class="pers-name"><span
-      class="pers-name">genitori</span></span> e una <span class="pers-name">sorella</span> molto amata. Erano piaciuti
+nella quale aveva visto spegnersi in pochi anni ambedue i <span class="pers-name">genitori</span> e una <span class="pers-name">sorella</span> molto amata. Erano piaciuti
 i suoi modi cortesi, discreti, il suo evidente disinteresse,
 il suo ragionevole spirito di carità nei confronti dei malati più poveri. Ma prima
 ancora che per queste ragioni, dovette raccomandarsi per come era: per quegli occhiali
@@ -115,7 +114,8 @@ società perbene. Cosa mai succedeva di <span class="pers-name">Athos Fadigati</
 la porta a vetri dell'ambulatorio dietro le spalle
 dell'ultimo cliente? Il non chiaro, o per lo meno poco normale impiego che il dottore
 faceva delle sue serate, contribuiva a stimolare di continuo la curiosità nei suoi
-riguardi. Eh sì, in <span class="pers-name">Athos Fadigati</span> c'era un che di non perfettamente comprensibile. Maanche questo piaceva, in lui,
+riguardi. Eh sì, in <span class="pers-name">Athos Fadigati</span> c'era un che di non perfettamente comprensibile. Ma
+anche questo piaceva, in lui,
 anche questo attirava.
 
 Le mattine tutti lo sapevano come le passava, e sulle mattine nessuno aveva niente
