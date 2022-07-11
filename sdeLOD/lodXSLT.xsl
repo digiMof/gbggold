@@ -17,33 +17,34 @@
     
     <xsl:template match="tei:place">                                                                              
         <li>Place: <xsl:value-of select="tei:placeName/text()" /></li>
-        <li>RDF: 
-            <xsl:call-template name="rdf">
-                <xsl:with-param name="id" select="concat('#', @xml:id)" />                             
-            </xsl:call-template>
-        </li> 
-    </xsl:template>
-    
-    <!--  
-    <xsl:template match="tei:place">
-        <ul>
-        <xsl:for-each select="/tei:TEI/tei:teiHeader/tei:profileDesc/tei:settingDesc/tei:listPlace/tei:place/tei:placeName">
-            <xsl:sort order="ascending"/>
-            <li>Place: <xsl:value-of select="tei:placeName/text()" /></li>
-            <li>RDF: <xsl:call-template name="rdf">
+        <xsl:if test="//tei:xenoData/rdf:RDF/rdf:Description">
+            <li>RDF: 
+                <xsl:call-template name="rdf">
                     <xsl:with-param name="id" select="concat('#', @xml:id)" />
                 </xsl:call-template>
             </li>
-        </xsl:for-each>
-        </ul>
+        </xsl:if>
     </xsl:template>
-    -->
-    
     
     <xsl:template match="/">
-        <ul>
-        <xsl:apply-templates select="//tei:place" />
-        </ul>
+        <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
+        <xsl:variable name="title"
+            select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+        <html>
+            <head>
+                <meta charset="utf-8"/>
+                <meta name="description" content="TEI Sample"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <title>
+                    <xsl:value-of select="$title"/>
+                </title>
+            </head>
+            <body>
+                <ul>
+                    <xsl:apply-templates select="//tei:place" />
+                </ul>
+            </body>
+        </html>
     </xsl:template>
     
 </xsl:stylesheet>
