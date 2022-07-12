@@ -19,22 +19,22 @@ function drawLineColors() {
 
     data.addRows([
         [1, 20, 15, "Ferrara", "Ferrara, the main setting"],
-        [2, 27, 8, null, null],
-        [3, 13, 28, null, null],
-        [4, 25, 18, "Bologna", "Commute and university life in Bologna"],
-        [5, 13, 21, null, null],
-        [6, 17, 25, null, null],
-        [7, 21, 49, null, null],
+        [2, 27, 9, null, null],
+        [3, 13, 29, null, null],
+        [4, 25, 19, "Bologna", "Commute and university life in Bologna"],
+        [5, 13, 22, null, null],
+        [6, 17, 26, null, null],
+        [7, 21, 51, null, null],
         [8, 26, 40, "Riccione", "Riccione and the summer at the Adriatic Sea"],
-        [9, 16, 68, null, null],
+        [9, 16, 69, null, null],
         [10, 14, 25, null, null],
         [11, 4, 53, null, null],
-        [12, 6, 22, null, null],
+        [12, 6, 23, null, null],
         [13, 26, 35, "Ferrara", "Ferrara, back to an endangered routine"],
         [14, 15, 25, null, null],
-        [15, 6, 17, null, null],
+        [15, 6, 18, null, null],
         [16, 7, 8, null, null],
-        [17, 15, 18, null, null],
+        [17, 15, 19, null, null],
         [18, 7, 26, null, null]
     ]);
 
