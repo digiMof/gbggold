@@ -120,3 +120,15 @@ a [class^="bi-"]::before,
     height: 600px;
     width:100%;
 }
+
+.sdeloddownload a [class^="bi-"]::before, [class*=" bi-"]::before {
+    font-size: 0.95em;
+}
+
+#docuidx a:any-link {
+    text-decoration: none;
+}
+
+.paridx a:any-link {
+    text-decoration: none;
+}
