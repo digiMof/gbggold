@@ -1,18 +1,15 @@
 Capitolo 1
 
 Il tempo ha cominciato a diradarli, eppure non si può ancora dire che siano pochi,
-a <span class="place-name">Ferrara</span>, quelli che ricordano il <span class="pers-name">dottor Fadigati</span> (<span
-   class="pers-name">Athos Fadigati</span>, sicuro - rievocano -, l'otorinolaringoiatra che aveva studio e casa in <span
-   class="place-name">via Gorgadello</span>, a due passi da <span class="place-name">Piazza delle Erbe</span>, e che è
+a <span class="place-name">Ferrara</span>, quelli che ricordano il <span class="pers-name">dottor Fadigati</span> (<span class="pers-name">Athos Fadigati</span>, sicuro - rievocano -, l'otorinolaringoiatra che aveva studio e casa in <span class="place-name">via Gorgadello</span>, a due passi da <span class="place-name">Piazza delle Erbe</span>, e che è
 finito così male, poveruomo, così tragicamente, proprio lui che da giovane,
 quando venne a stabilirsi nella nostra città dalla nativa <span class="place-name">Venezia</span>, era parso destinato
 alla più regolare, più tranquilla, e per ciò stesso più invidiabile
 delle carriere...).
 
-Fu nel '19, subito dopo l'altra guerra. Per ragioni di età, <span class="pers-name">io che scrivo</span> non ho da
+Fu nel '19, subito dopo l'altra guerra. Per ragioni di età, <span class="pers-name">io</span> che scrivo non ho da
 offrire che una immagine piuttosto vaga e confusa dell'epoca. I caffè del
-centro rigurgitavano di ufficiali in divisa; ogni momento lungo <span class="place-name">corso Giovecca</span> e <span
-   class="place-name">corso Roma (oggi ribattezzato corso Martiri della Libertà)</span> passavano camion sventolanti di
+centro rigurgitavano di ufficiali in divisa; ogni momento lungo <span class="place-name">corso Giovecca</span> e <span class="place-name">corso Roma (oggi ribattezzato corso Martiri della Libertà)</span> passavano camion sventolanti di
 bandiere rosse; sulle impalcature che ricoprivano
 la facciata in costruzione del <span class="place-name">palazzo delle Assicurazioni Generali</span>, di fronte al lato
 nord del <span class="place-name">Castello</span>, era steso un enorme, scarlatto telone pubblicitario, che invitava
@@ -21,14 +18,13 @@ del socialismo a bere concordi l'APERITIVO LENIN; le zuffe fra contadini e opera
 massimalisti da una parte, ed ex combattenti dall'altra, scoppiavano quasi ogni giorno...
 Questo clima di febbre, di agitazione, di distrazione generale, entro cui si svolse
 la prima infanzia di tutti coloro che sarebbero diventati uomini nel ventennio successivo,
-dovette in qualche modo favorire <span class="pers-name">il veneziano Fadigati</span>. In una città come la nostra, dove
+dovette in qualche modo favorire il veneziano <span class="pers-name">Fadigati</span>. In una città come la nostra, dove
 i giovani di buona famiglia riluttarono più che
 in qualunque altro luogo a ritornare dopo la guerra alle professioni liberali, si
 capisce come avesse potuto mettere radici senza quasi farsi notare. Fatto sta che
 nel '25, quando la scalmana anche da noi cominciò a placarsi, e il fascismo, organizzandosi
 in grande partito nazionale, fu in grado di offrire vantaggiose sistemazioni a tutti
-i ritardatari, <span class="pers-name">Athos Fadigati</span> era già solidamente impiantato a <span
-   class="place-name">Ferrara</span>, titolare di un magnifico ambulatorio privato, e per di più direttore del reparto
+i ritardatari, <span class="pers-name">Athos Fadigati</span> era già solidamente impiantato a <span class="place-name">Ferrara</span>, titolare di un magnifico ambulatorio privato, e per di più direttore del reparto
 orecchio-naso-gola del nuovo <span class="place-name">Arcispedale Sant'Anna</span>.
 
 Aveva incontrato, come si dice. Non più giovanissimo, e con l'aria, già allora, di
@@ -93,8 +89,7 @@ Trovava infine un medico bonario e conversevole, che mentre lo introduceva perso
 che anche era, di sapere se il suo cliente avesse avuto modo di ascoltare alcune sere
 prima, al <span class="place-name">Comunale di Bologna</span>, <span class="pers-name">Aureliano Pertile</span> nel
 Lohengrin; oppure, che so?, se avesse visto bene, appeso a quella data parete
-di quel dato salotto, quel tale <span class="pers-name">De Chirico</span> o quel tale <span
-   class="pers-name">«Casoratino»</span>, e se gli fosse piaciuto quel talaltro <span class="pers-name">De Pisis</span>;
+di quel dato salotto, quel tale <span class="pers-name">De Chirico</span> o quel tale «<span class="pers-name">Casoratino</span>», e se gli fosse piaciuto quel talaltro <span class="pers-name">De Pisis</span>;
 e faceva poi le più alte meraviglie se il cliente, a quest'ultimo proposito, confessava
 non soltanto di non conoscere <span class="pers-name">De Pisis</span>, ma di non aver mai saputo prima d'allora che
 <span class="pers-name">De Pisis</span> fosse un giovane,molto promettente pittore ferrarese. Un ambiente comodo,
@@ -102,9 +97,6 @@ piacevole,
 signorile, e perfino stimolante per il cervello, in conclusione. Dove il tempo, il
 dannato tempo che è sempre stato dappertutto il gran problema della provincia, passava
 che era un piacere.
-</div>
-
-id="cap2" class="chap">
 
 Capitolo 2
 
@@ -133,9 +125,7 @@ essere lui stesso, storia in fondo già bizzarra abbastanza, a prepararsi l'indi
 piatto di pastasciutta.
 
 Anche per cena lo avrebbero atteso invano negli unici ristoranti cittadini che, a
-quell'epoca, fossero giudicati di un certo decoro: <span class="place-name">da Vincenzo</span>, <span
-   class="place-name">dalla Sandrina</span>, <span class="place-name">ai Tre Galletti</span>; e neppure <span
-   class="place-name">da Roveraro</span>, in <span class="place-name">vicolo del Granchio</span>, la cui cucina
+quell'epoca, fossero giudicati di un certo decoro: <span class="place-name">da Vincenzo</span>, <span class="place-name">dalla Sandrina</span>, <span class="place-name">ai Tre Galletti</span>; e neppure <span class="place-name">da Roveraro</span>, in <span class="place-name">vicolo del Granchio</span>, la cui cucina
 casalinga richiamava tanti altri scapoli di mezza età. Ma ciò non
 significava affatto che mangiasse in casa come al mattino. In casa non doveva restarci
 mai, la sera. A passare verso le otto, otto e un quarto, da <span class="place-name">via Gorgadello</span>, era facile
@@ -152,15 +142,13 @@ allegra, vociante, indifferenziata. Alto, grosso, col cappello a lobbia, i guant
 gialli, nonché, se era inverno, col pastrano foderato di opossum e col bastone infilato
 nella tasca destra, dalla parte del manico, fra le otto e le nove di sera poteva esser
 visto in qualsiasi punto della città. Ogni tanto si aveva la sorpresa di scorgerlo
-fermo, di fronte alla vetrina di qualche negozio di <span class="place-name">via Mazzini</span> e di <span
-   class="place-name">via Saraceno</span>, che guardava, attento, sopra la spalla di chi gli stava davanti. Spesso
+fermo, di fronte alla vetrina di qualche negozio di <span class="place-name">via Mazzini</span> e di <span class="place-name">via Saraceno</span>, che guardava, attento, sopra la spalla di chi gli stava davanti. Spesso
 sostava
 accanto alle bancarelle di chincaglierie e di dolciumi disposte a decine lungo il
 fianco meridionale del <span class="place-name">duomo</span>, o in <span class="place-name">piazza Travaglio</span>, o
 in <span class="place-name">via Garibaldi</span>, fissando senza dir motto l'umile merce esposta. In ogni caso, erano
 gli angusti
-e gremiti marciapiedi di <span class="place-name">via San Romano</span> quelli che <span
-   class="pers-name">Fadigati</span> batteva di preferenza. A incrociarsi con lui sotto quei portici bassi, dove
+e gremiti marciapiedi di <span class="place-name">via San Romano</span> quelli che <span class="pers-name">Fadigati</span> batteva di preferenza. A incrociarsi con lui sotto quei portici bassi, dove
 stagnava
 un acre sentore di pesce fritto, di salumi, di vini e di filati da poco prezzo, ma
 pieni soprattutto di folla, donnette, soldati, ragazzi, contadini ammantellati, eccetera,
@@ -205,8 +193,7 @@ quanto all'aristocrazia, con o senza blasone, dei patrimoni e delle terre; provv
 perfino della tessera del Fascio che, sebbene lui si fosse sommessamente dichiarato
 «apolitico per natura», il <span class="pers-name">Segretario Federale</span> in persona aveva voluto dargli a tutti i
 costi: cos'è che gli mancava, adesso, se
-non una bella donna da portare ogni domenica mattina a <span class="place-name">San Carlo</span> o in <span
-   class="place-name">duomo</span>, e la sera al cinematografo, impellicciata e ingioiellata come si conviene? E perché
+non una bella donna da portare ogni domenica mattina a <span class="place-name">San Carlo</span> o in <span class="place-name">duomo</span>, e la sera al cinematografo, impellicciata e ingioiellata come si conviene? E perché
 mai non si dava un po' d'attorno per trovarne una? Forse, ecco, forse era assorbito
 dalla relazione con qualche donnetta inconfessabile, tipo sarta, governante, serva,
 eccetera. Come succede a molti medici, forse gli piacevano soltanto le infermiere:
@@ -224,8 +211,7 @@ E in città fervevano già le ricerche della ragazza davvero degna di diventare 
 <span class="pers-name">Fadigati</span> (ma questa non persuadeva per una ragione, quella per un'altra: nessuna pareva
 mai
 abbastanza adatta al solitario diretto a casa che certe notti, uscendo tutti assieme
-dall'<span class="place-name">Excelsior</span> o dal <span class="place-name">Salvini</span> in <span
-   class="place-name">piazza delle Erbe</span>, era dato scorgere a un tratto laggiù, in fondo al Listone, un momento
+dall'<span class="place-name">Excelsior</span> o dal <span class="place-name">Salvini</span> in <span class="place-name">piazza delle Erbe</span>, era dato scorgere a un tratto laggiù, in fondo al Listone, un momento
 prima che
 sparisse dentro la buia fenditura laterale di <span class="place-name">via Bersaglieri del Po</span>...): quand'ecco,
 non si sa da chi messe in giro, cominciarono a udirsi strane, anzi

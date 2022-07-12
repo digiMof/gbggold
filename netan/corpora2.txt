@@ -32,7 +32,7 @@ i suoi gusti, nel non dare scandalo. Sì - dicevano -: adesso che il suo segreto
 era più un segreto, adesso che tutto era chiaro, si era capito finalmente come comportarsi,
 con lui. Di giorno, alla luce del sole, fargli tanto di cappello; la sera, anche a
 essere spinti ventre contro ventre dalla calca di <span class="place-name">via San Romano</span>, mostrare di non
-conoscerlo. Come Fredric March nel Dottor Jekyll, <span class="pers-name">il dottor Fadigati</span> aveva due vite.
+conoscerlo. Come Fredric March nel Dottor Jekyll, il <span class="pers-name">dottor Fadigati</span> aveva due vite.
 Ma chi non ne ha?
 
 Sapere equivaleva a comprendere, non essere più curiosi, «lasciar perdere».
@@ -50,10 +50,9 @@ avrebbero atteso col disagio di una volta ogni ritorno della luce in sala? Se a 
 esisteva un borghese al quale fosse riconoscibile il diritto di frequentare le platee
 popolari, di immergersi a suo talento e in faccia a tutti nell'orrido sottomondo degli
 «scanni» da una lira e venti centesimi, questi non poteva essere che <span class="place-name">il dottor
-   Fadigati</span>.
+ Fadigati</span>.
 
-Uguale identico il loro comportamento ai <span class="place-name">Negozianti</span> e all'<span
-   class="place-name">Unione</span> le due o tre sere all'anno che <span class="pers-name">Fadigati</span> vi
+Uguale identico il loro comportamento ai <span class="place-name">Negozianti</span> e all'<span class="place-name">Unione</span> le due o tre sere all'anno che <span class="pers-name">Fadigati</span> vi
 capitava (come ho già detto, era socio di entrambi i Circoli dal 1927).
 
 Mentre, in passato, a vederlo attraversare la saletta dei biliardi, e tirar via senza
@@ -78,9 +77,8 @@ tutti premurosi, ad accomodarsi nel loro scompartimento, i nostri bravi sportivi
 che certo non erano dei musicomani (<span class="pers-name">Wagner</span>: soltanto al nome si sentivano sprofondare
 in un oceano di tristezza!), stettero
 lì buoni buoni ad ascoltare un infervorato resoconto di <span class="pers-name">Fadigati</span> a proposito del
-Tristano che <span class="pers-name">Bruno Walter</span> aveva diretto quello stesso pomeriggio al <span
-   class="place-name">Comunale fiorentino</span>. <span class="pers-name">Fadigati</span> parlò della musica del
-Tristano, della mirabile interpretazione che il <span class="pers-name">«maestro germanico»</span> ne aveva dato, e
+Tristano che <span class="pers-name">Bruno Walter</span> aveva diretto quello stesso pomeriggio al <span class="place-name">Comunale fiorentino</span>. <span class="pers-name">Fadigati</span> parlò della musica del
+Tristano, della mirabile interpretazione che il «<span class="pers-name">maestro germanico</span>» ne aveva dato, e
 in particolare del secondo atto dell'opera, il quale - disse «non
 è che un lungo lamento d'amore». Diffondendosi sulla panchina tutta avvolta dai rami
 fioriti di un rosaio, e quindi simbolo trasparente del talamo, seduti sopra la quale
@@ -94,7 +92,7 @@ così largo
 spirito di tolleranza.
 
 Su di lui, dopo tutto, che cosa poteva dirsi di concreto? Al contrario di quello che
-era lecito attendersi da soggetti dello stampo di <span class="pers-name">donna Maria Grillanzoni</span>, tanto per
+era lecito attendersi da soggetti dello stampo di donna <span class="pers-name">Maria Grillanzoni</span>, tanto per
 fare un nome, una più che settantenne dama della nostra migliore aristocrazia
 i cui impetuosi atti di seduzione, perpetrati nei confronti dei ragazzi delle drogherie
 e delle macellerie che le venivano per casa la mattina, correvano normalmente sulla
@@ -136,7 +134,7 @@ durante i primi mesi della guerra di Spagna, venne ad aggiungersi alla parca lis
 degli «amici» di <span class="pers-name">Fadigati</span> anche il nome di un ex giocatore della S.P.A.L. Scuro di
 pelle, imbolsito, le tempie
 ormai grige, si trattava proprio di quel <span class="pers-name">Baùsi</span>, <span class="pers-name">Olao
-   Baùsi</span>, che nel decennio fra il '20 e il '30 era stato, chi non se ne ricordava?, una specie di idolo della
+ Baùsi</span>, che nel decennio fra il '20 e il '30 era stato, chi non se ne ricordava?, una specie di idolo della
 gioventù sportiva
 ferrarese, e che in pochi anni si era ridotto a vivere dei peggiori espedienti.
 
@@ -152,8 +150,7 @@ visibili cornicioni del duomo, volavano fiochi brandelli di musiche celestiali, 
 <span class="pers-name">Mozart</span>, <span class="pers-name">Beethoven</span>, <span class="pers-name">Wagner</span>:
 <span class="pers-name">Wagner</span>, soprattutto, forse perché la musica
 wagneriana era la più indicata a evocare determinate
-atmosfere. L'idea che la guardia <span class="pers-name">Manservigi</span>, o <span class="pers-name">l'usciere
-   Trapolini</span>, o l'<span class="pers-name">ex calciatore Baùsi</span>, fossero in quello stesso momento ospiti
+atmosfere. L'idea che la guardia <span class="pers-name">Manservigi</span>, o <span class="pers-name">l'usciere Trapolini</span>, o l'<span class="pers-name">ex calciatore Baùsi</span>, fossero in quello stesso momento ospiti
 del <span class="pers-name">dottore</span>, non poteva venire accolta dall'ultimo nottambulo, di transito a quell'ora
 per <span class="place-name">via Gorgadello</span>, altro che a cuor leggero.
 
@@ -173,7 +170,7 @@ rettilineo dopo <span class="place-name">Corticella</span>, il convoglio imbocca
 fermarsi al semaforo
 d'ingresso, i minuti potevano diventare facilmente trenta). Non erano più i tempi
 del vecchio <span class="pers-name">Ciano</span>, d'accordo, quando, all'arrivo, certi treni trovavano ad
-aspettarli <span class="pers-name">il ministro delle Comunicazioni</span> in persona, tutto assorto nella solenne
+aspettarli il <span class="pers-name">ministro</span> delle Comunicazioni in persona, tutto assorto nella solenne
 azione scenica di misurare a passi impazienti
 la banchina e di controllare borbottando l'ora al quadrante della grossa cipolla da
 capostazione che estraeva di continuo dal taschino del panciotto. Vero è però che
@@ -183,7 +180,7 @@ il governo, infischiarsene altamente del suo vanto d'avere imposto perfino alle 
 dello Stato il rigido rispetto degli orari. E d'altra parte chi gli badava, chi se
 ne preoccupava? Mezzo coperta d'erba e priva di tettoia, la banchina del sedicesimo
 binario, a lui riservata, era l'ultima, confinava con la campagna di fuori <span class="place-name">Porta
-   Galliera</span>. Aveva proprio l'aria d'essere dimenticata.
+ Galliera</span>. Aveva proprio l'aria d'essere dimenticata.
 
 Di solito il treno si componeva di sei carrozze soltanto: cinque di terza classe e
 una di seconda.
@@ -195,8 +192,7 @@ in direzione della barriera daziaria di <span class="place-name">viale Cavour</s
 ripetutamente, lontano e invisibile. Sembrava che minacciasse:
 «Badate, parto!». O addirittura: «È inutile che vi affrettiate, ragazzi, sono bell'e
 partito!». Non erano comunque che le matricole, in genere, maschi e femmine, a smaniare
-attorno al conduttore perché aumentasse la velocità. Tutti noi altri, <span class="pers-name">Eraldo
-   Deliliers</span> compreso, il quale si era iscritto quello stesso anno a Scienze politiche ma si comportava
+attorno al conduttore perché aumentasse la velocità. Tutti noi altri, <span class="pers-name">Eraldo Deliliers</span> compreso, il quale si era iscritto quello stesso anno a Scienze politiche ma si comportava
 già con la disinvoltura e con l'indifferenza di un anziano, sapevamo bene che l'accelerato
 delle sei e cinquanta non sarebbe mai partito prima di aver fatto il carico delle
 nostre persone. Il tram si fermava finalmente davanti alla stazione; balzavamo a terra;
@@ -227,10 +223,8 @@ ampie mantelle, dai cappelli di feltro calati sul naso, dallo stuzzicadenti o da
 sigaro toscano incastrati fra le labbra: gente della campagna che parlava già nello
 sguaiato dialetto bolognese, e dal cui contatto ci si difendeva barricandoci dentro
 due o tre scompartimenti contigui. L'assalto dei vilàn cominciava a <span class="place-name">Poggio
-   Renatico</span>, un chilometro prima dell'argine di sinistra del Reno; si rinnovava a <span
-   class="place-name">Galliera</span>, appena di là dal ponte di ferro, e poi a <span class="place-name">San
-   Giorgio di Piano</span>, a <span class="place-name">San Pietro in Casale</span>, a <span
-   class="place-name">Castelmaggiore</span>, a <span class="place-name">Corticella</span>. Quando il treno
+ Renatico</span>, un chilometro prima dell'argine di sinistra del Reno; si rinnovava a <span class="place-name">Galliera</span>, appena di là dal ponte di ferro, e poi a <span class="place-name">San
+ Giorgio di Piano</span>, a <span class="place-name">San Pietro in Casale</span>, a <span class="place-name">Castelmaggiore</span>, a <span class="place-name">Corticella</span>. Quando il treno
 arrivava a <span class="place-name">Bologna</span>, dagli sportelli aperti con violenza quasi esplosiva si
 riversava sulla banchina
 del sedicesimo binario una piccola folla tumultuosa di diverse centinaia di persone.
@@ -277,11 +271,9 @@ di febbraio del '37, mentre varie mani, sempre un po' più numerose del necessar
 lo sportello per aiutarlo a salire in treno, e lui si faceva sollevare quasi di peso,
 giurerei che sia stato proprio <span class="pers-name">Deliliers</span> ad annunciare che la seconda classe aveva
 trovato nel tipo dell'Astura un cliente
-fisso, fisso e pagante, e che questo tale era, nientemeno, <span class="pers-name">il dottor Fadigati</span>.
+fisso, fisso e pagante, e che questo tale era, nientemeno, il <span class="pers-name">dottor Fadigati</span>.
 
-«<span class="pers-name">Fadigati</span>? Chi era costui?», chiese con aria stordita una delle ragazze: <span
-   class="pers-name">Bianca Sgarbi</span>, per la precisione, la maggiore delle due sorelle Sgarbi (l'altra, <span
-   class="pers-name">Attilia</span>, di tre anni più giovane e tuttora al liceo, all'inizio del '37 ancora non la
+«<span class="pers-name">Fadigati</span>? Chi era costui?», chiese con aria stordita una delle ragazze: <span class="pers-name">Bianca Sgarbi</span>, per la precisione, la maggiore delle due sorelle Sgarbi (l'altra, <span class="pers-name">Attilia</span>, di tre anni più giovane e tuttora al liceo, all'inizio del '37 ancora non la
 conoscevo).
 
 La sua domanda fu accolta da grandi risate. <span class="pers-name">Deliliers</span> si era seduto e stava
@@ -359,8 +351,7 @@ con sicurezza in quale strada precisa. (Forse in quei giorni fui assente da scuo
 e la cosa mi venne variamente riferita dopo, dagli altri? Oppure sono io, a tanti
 anni di distanza, a non distinguere, a non ricordare con precisione?)
 
-Può darsi che sia stato uscendo dalla stazione, mentre aspettavamo il tram di <span
-   class="place-name">Mascarella</span>. Siamo una decina e tutti quanti assieme, occupando buona parte della
+Può darsi che sia stato uscendo dalla stazione, mentre aspettavamo il tram di <span class="place-name">Mascarella</span>. Siamo una decina e tutti quanti assieme, occupando buona parte della
 piattaforma
 tranviaria antistante al luogo di posteggio per le carrozze e per i tassì. Il sole
 scintilla sui cumuli di neve sporca che punteggiano a intervalli regolari il vasto
@@ -385,19 +376,17 @@ i bambini di buona famiglia hanno sempre da combattere col mal di gola e col mal
 - e ride -, ci ha visti, quale più quale meno, passare dal suo studio tutti quanti?
 
 Senonché spesso, invece che prendere il tram e filare spediti all'università, in <span class="place-name">via
-   Zamboni</span>, preferivamo risalire a piedi i portici di <span class="place-name">via Indipendenza</span>, su
+ Zamboni</span>, preferivamo risalire a piedi i portici di <span class="place-name">via Indipendenza</span>, su
 su fino al centro. Era raro che Deliliers ci fosse. Appena fuori dalla <span class="place-name">stazione</span>,
 tagliava la corda per conto suo, e prima dell'indomani mattina nessuno, in genere,
 lo rivedeva più: né all'università, né in trattoria, né altrove. Sgranati in ordine
-sparso lungo il marciapiede, gli altri però c'erano sempre tutti. C'era <span class="pers-name">Nino
-   Bottecchiari</span>, che studiava legge, ma per via di <span class="pers-name">Bianca Sgarbi</span> bazzicava
+sparso lungo il marciapiede, gli altri però c'erano sempre tutti. C'era <span class="pers-name">Nino Bottecchiari</span>, che studiava legge, ma per via di <span class="pers-name">Bianca Sgarbi</span> bazzicava
 assai spesso i corridoi e le aule della Facoltà di lettere, sorbendosi
 con pazienza le lezioni più indigeste: da quella di grammatica latina a quella di
 biblioteconomia. C'era <span class="pers-name">Bianca</span>, in basco blu e pellicciotto di coniglio corto ai
 fianchi, ora a braccetto con uno
 ora con l'altro: quasi mai con Nino, e solo per litigarci. C'erano <span class="pers-name">Sergio Pavani</span>,
-<span class="pers-name">Otello Forti</span>, <span class="pers-name">Giovannino Piazza</span>, <span
-   class="pers-name">Enrico Sangiuliano</span>, <span class="pers-name">Vittorio Molon</span>: chi studente di
+<span class="pers-name">Otello Forti</span>, <span class="pers-name">Giovannino Piazza</span>, <span class="pers-name">Enrico Sangiuliano</span>, <span class="pers-name">Vittorio Molon</span>: chi studente di
 agraria, chi di medicina, chi di scienze economiche e commerciali.
 E infine, unico studente in lettere della compagnia (a parte <span class="pers-name">Bianca Sgarbi</span>), infine
 c'ero <span class="pers-name">io</span>.
@@ -411,8 +400,7 @@ a una squadra di operai intenti ad aggiustare una rotaia della linea tranviaria,
 è affatto impossibile, dicevo, che una di queste mattine di tardo inverno, quando
 ogni pretesto sembra buono per rinviare il momento di chiudersi dentro un'aula scolastica,
 il <span class="pers-name">dottor Fadigati</span>, che da tempo ci seguiva, venga d'un tratto ad affiancarsi a
-qualcuno di noi: a <span class="pers-name">Nino Bottecchiari</span> e a <span class="pers-name">Bianca
-   Sgarbi</span>, per esempio, che un poco in disparte, ma incuranti come al solito di farsi sentire,
+qualcuno di noi: a <span class="pers-name">Nino Bottecchiari</span> e a <span class="pers-name">Bianca Sgarbi</span>, per esempio, che un poco in disparte, ma incuranti come al solito di farsi sentire,
 non la piantano un solo istante di discutere e litigare.
 
 Ronzandoci, per così dire, continuamente attorno, <span class="pers-name">Fadigati</span> ci ha seguiti finora
@@ -435,15 +423,14 @@ e solidale:
 «E lei sia buona, signorina», aggiunge, «sia un po' più arrendevole. Tocca alla donna,
 non lo sa?»
 
-Scherza, non intende che scherzare. <span class="pers-name">Bianca</span> scoppia a ridere. Anche <span
-   class="pers-name">Nino</span> ride. Chiacchierando del più e del meno, arriviamo quindi tutti insieme fino a
+Scherza, non intende che scherzare. <span class="pers-name">Bianca</span> scoppia a ridere. Anche <span class="pers-name">Nino</span> ride. Chiacchierando del più e del meno, arriviamo quindi tutti insieme fino a
 <span class="place-name">piazza del Nettuno</span>. Anzi. Prima di separarci dobbiamo accettare per forza un
 caffè.
 
 Insomma diventiamo amici: se è vero in ogni caso che d'ora in avanti, cioè fin dall'aprile del '37, nei due o tre
 scompartimenti di terza classe dentro i quali usiamo asserragliarci
 (già verde, la campagna scorre fresca e luminosa nel riquadro del finestrino), il
-martedì e il venerdì mattina ci sarà sempre un posto anche per <span class="pers-name">il dottor Fadigati</span>.
+martedì e il venerdì mattina ci sarà sempre un posto anche per il <span class="pers-name">dottor Fadigati</span>.
 
 
 
@@ -466,8 +453,7 @@ sicuro anche a loro che pensava, guardandoci.
 Sapeva che sapevamo? Forse no, forse su questo punto si illudeva ancora. Nel suo contegno,
 comunque, nell'educato e preoccupato riserbo che si sforzava di mantenere, era fin
 troppo facile leggere il fermo proposito di comportarsi come se niente di sé fosse
-mai trapelato in città. Per noi, soprattutto per noi, lui doveva restare <span class="pers-name">il dottor
-   Fadigati</span> di una volta, quando, da bambini, vedevamo il suo largo viso, seminascosto dietro
+mai trapelato in città. Per noi, soprattutto per noi, lui doveva restare il <span class="pers-name">dottor Fadigati</span> di una volta, quando, da bambini, vedevamo il suo largo viso, seminascosto dietro
 il tondo specchio frontale, piegarsi e incombere sul nostro viso. Se al mondo esistevano
 delle persone con le quali lui dovesse cercare di tenersi su, queste eravamo proprio
 noi.
@@ -492,8 +478,7 @@ imbiondiva.
 
 «Mi sembra di essere tornato studente», ripeteva spesso <span class="pers-name">Fadigati</span>, guardando di là
 dal vetro del finestrino. «Mi sembra di essere tornato ai tempi
-di quando anch'io viaggiavo ogni giorno tra <span class="place-name">Venezia</span> e <span
-   class="place-name">Padova</span>...»
+di quando anch'io viaggiavo ogni giorno tra <span class="place-name">Venezia</span> e <span class="place-name">Padova</span>...»
 
 Era successo prima della guerra - raccontò -, fra il '10 e il '15.
 
@@ -502,7 +487,7 @@ due città: proprio come la
 facevamo noi adesso tra <span class="place-name">Ferrara</span> e <span class="place-name">Bologna</span>. A
 partire dal terzo anno, però, i suoi genitori, continuamente in ansia per il suo
 cuore, avevano preteso che si stabilisse a Padova, in una stanza d'affitto. E così,
-nei tre anni successivi (si era laureato nel '15 col <span class="pers-name">«grande»</span> Arslan: 110 e lode),
+nei tre anni successivi (si era laureato nel '15 col «grande» <span class="pers-name">Arslan</span>: 110 e lode),
 aveva condotto in confronto a prima vita abbastanza sedentaria.
 In famiglia ci passava soltanto due giorni per settimana: il sabato e la domenica.
 A quel tempo <span class="place-name">Venezia</span> non era certo una città allegra, la domenica, soprattutto
@@ -522,9 +507,7 @@ poi. «Sapete qual era la principale risorsa della domenica per la gioventù del
 mia? Le sale da ballo!»
 
 Storse la bocca, come se avesse evocato luoghi ben altrimenti abominevoli. Aggiungendo
-subito dopo che a <span class="place-name">Venezia</span> per lo meno lui aveva la casa, il <span
-   class="pers-name">papà</span> e la <span class="pers-name">mamma</span>, soprattutto la <span
-   class="pers-name">mamma</span>: gli «affetti» più sacri, insomma.
+subito dopo che a <span class="place-name">Venezia</span> per lo meno lui aveva la casa, il <span class="pers-name">papà</span> e la <span class="pers-name">mamma</span>, soprattutto la <span class="pers-name">mamma</span>: gli «affetti» più sacri, insomma.
 
 Come l'aveva adorata - sospirava -, la sua povera <span class="pers-name">mamma</span>!
 
@@ -545,8 +528,7 @@ veneta.
 Un giorno <span class="pers-name">Fadigati</span> gli chiese se per caso «loro» fossero di Padova.
 
 «Gliel'ho chiesto», spiegò, «perché quando ci vivevo io, a <span class="place-name">Padova</span>, stavo a dozzina
-da una vedova che si chiamava Molon, <span class="pers-name">Elsa Molon</span>. La casetta di questa <span
-   class="pers-name">signora Molon</span> si trovava in <span class="place-name">via San Francesco</span>, nei
+da una vedova che si chiamava Molon, <span class="pers-name">Elsa Molon</span>. La casetta di questa <span class="pers-name">signora Molon</span> si trovava in <span class="place-name">via San Francesco</span>, nei
 pressi dell'università, e dava, dietro, su un grande orto. Che vita, facevo!
 A <span class="place-name">Padova</span> non avevo parenti, non amici, nemmeno tra i compagni di scuola.»
 
@@ -566,7 +548,7 @@ pieno di alberi velenosi...»
 
 «Ma l'orto su cui si apriva la mia finestra», continuò, «non era affatto avvelenato:
 si rassicuri, signorina. Era un orto molto normale, coltivato alla perfezione da una
-<span class="pers-name">famiglia di contadini, certi Scagnellato</span>, che abitava in una casupola addossata
+famiglia di contadini, certi <span class="pers-name">Scagnellato</span>, che abitava in una casupola addossata
 all'abside della <span class="place-name">chiesa di San Francesco</span>. Io vi scendevo spesso a passeggiare, con
 un libro in mano: specie nei tardi pomeriggi
 di luglio, sotto gli esami. Gli Scagnellato, che mi invitavano sovente a cena, erano
@@ -575,8 +557,7 @@ bei ragazzi, così vivi e simpatici, così... Lavoravano fra le piante e i semin
 fino a che non ci si vedeva più. A quell'ora annaffiavano, in genere. Ah, il buon
 odore di letame!» L'aria dello scompartimento era grigia del fumo delle nostre Nazionali.
 Ma lui l'aspirava a pieni polmoni, socchiudendo le palpebre dietro le lenti e dilatando
-le narici del grosso naso. Seguì un silenzio abbastanza prolungato e oppressivo. <span
-   class="pers-name">Deliliers</span> aprì gli occhi, sbadigliò rumorosamente.
+le narici del grosso naso. Seguì un silenzio abbastanza prolungato e oppressivo. <span class="pers-name">Deliliers</span> aprì gli occhi, sbadigliò rumorosamente.
 
 
 «Buono l'odore del letame?», diceva frattanto <span class="pers-name">Bianca</span>, con una risatina nervosa.
@@ -625,11 +606,7 @@ A <span class="place-name">Bologna</span>, per esempio, non appena fossimo uscit
 venne con noi
 fino all'università, non successe mai che ce lo trovassimo vicino senza sapere come
 liberarcene. Conosceva bene, perché glielo avevamo detto, le trattorie a buon mercato
-dove intorno all'una avrebbe potuto raggiungerci: alla <span class="place-name">Stella del Nord</span>, in <span
-   class="place-name">Strada Maggiore</span>, o <span class="place-name">da Gigino</span>, ai piedi delle <span
-   class="place-name">due Torri</span>, o <span class="place-name">alla Gallina Faraona</span>, in <span
-   class="place-name">San Vitale</span>. Tuttavia non vi capitò mai. Un pomeriggio, entrando in un locale di <span
-   class="place-name">via Zamboni</span> per giocare a boccette, lo scorgemmo seduto a un tavolino in disparte,
+dove intorno all'una avrebbe potuto raggiungerci: alla <span class="place-name">Stella del Nord</span>, in <span class="place-name">Strada Maggiore</span>, o <span class="place-name">da Gigino</span>, ai piedi delle <span class="place-name">due Torri</span>, o <span class="place-name">alla Gallina Faraona</span>, in <span class="place-name">San Vitale</span>. Tuttavia non vi capitò mai. Un pomeriggio, entrando in un locale di <span class="place-name">via Zamboni</span> per giocare a boccette, lo scorgemmo seduto a un tavolino in disparte,
 con davanti
 un caffè e un bicchier d'acqua, e immerso nella lettura di un giornale. Si accorse
 subito di noi, certo. Ma finse di no; e anzi, dopo qualche minuto, chiamò il cameriere
@@ -712,8 +689,7 @@ Un'altra volta si parlava tutti assieme di sport.
 
 Se in materia di cultura <span class="pers-name">Nino Bottecchiari</span> era ritenuto il nostro numero uno, nello
 sport era Deliliers che primeggiava indiscutibilmente.
-Ferrarese soltanto per parte di madre (nativo di <span class="place-name">Imperia</span>, mi sembra, o di <span
-   class="place-name">Ventimiglia</span>, il padre era morto nel '18 sul <span class="place-name">Grappa</span>,
+Ferrarese soltanto per parte di madre (nativo di <span class="place-name">Imperia</span>, mi sembra, o di <span class="place-name">Ventimiglia</span>, il padre era morto nel '18 sul <span class="place-name">Grappa</span>,
 alla testa di una compagnia di Arditi), anche lui, come <span class="pers-name">Vittorio Molon</span>, aveva
 compiuto a <span class="place-name">Ferrara</span> soltanto le scuole medie superiori, cioè i quattro anni del
 liceo scientifico. Quei
@@ -815,8 +791,8 @@ incisivi.
 
 Spiegò quindi calmo, indifferente, ma non senza una punta di orgoglio, che soffriva
 da circa un mese delle conseguenze di un «regalo delle verginelle di <span class="place-name">via
-   Bomporto»</span>: una «notevole fregatura, altro che balle!», a causa della quale aveva dovuto sospendere
-«anche» la ginnastica in palestra. <span class="pers-name">Il dottor Manfredini</span> - aggiunse - lo curava col
+ Bomporto»</span>: una «notevole fregatura, altro che balle!», a causa della quale aveva dovuto sospendere
+«anche» la ginnastica in palestra. Il <span class="pers-name">dottor Manfredini</span> - aggiunse - lo curava col
 blu di metilene e con quotidiane irrigazioni di permanganato.
 Ma la cura andava per le lunghe, e lui invece aveva bisogno di ristabilirsi al più
 presto.
@@ -853,9 +829,7 @@ E <span class="pers-name">Deliliers</span> di rimando, ma serio:
 
 «Badi di non farla lei, piuttosto.»
 
-Di lì a qualche giorno capitammo verso le sei di sera <span class="place-name">da Majani</span>, in <span
-   class="place-name">via Indipendenza</span>. Faceva un gran caldo. Era stato <span class="pers-name">Nino
-   Bottecchiari</span> a lanciare la proposta di un gelato. Se non l'avessimo preso - aveva detto -, fra
+Di lì a qualche giorno capitammo verso le sei di sera <span class="place-name">da Majani</span>, in <span class="place-name">via Indipendenza</span>. Faceva un gran caldo. Era stato <span class="pers-name">Nino Bottecchiari</span> a lanciare la proposta di un gelato. Se non l'avessimo preso - aveva detto -, fra
 poco, in «direttissimo», avremmo avuto tempo abbondante per pentircene.
 
 Anche allora, prima del rammodernamento del '40, la <span class="place-name">Pasticceria Majani</span> era una
@@ -886,7 +860,7 @@ il quale abbia acconsentito a pagare il gelato a un branco di figli e nipotini t
 e attenda in silenzio, un po' vergognoso, che i cari marmocchi abbiano finito di leccare
 e succhiare a loro piacere, per poi, più tardi, portarseli a casa...
 
-Quel signore era <span class="pers-name">il dottor Fadigati</span>, naturalmente.
+Quel signore era il <span class="pers-name">dottor Fadigati</span>, naturalmente.
 
 
 
@@ -897,29 +871,22 @@ adriatica. Ogni anno succedeva la stessa cosa. Mio padre, dopo
 aver invano tentato di trascinarci in montagna, sulle Dolomiti, nei luoghi dove aveva
 fatto la guerra, alla fine si rassegnava a tornare a <span class="place-name">Riccione</span>, a riprendere in
 affitto la medesima villetta accanto al Grand Hôtel. Ricordo molto
-bene. <span class="pers-name">Io</span>, <span class="pers-name">la mamma</span>, e <span
-   class="pers-name">Fanny</span>, la nostra sorellina minore, ci muovemmo da <span class="place-name">Ferrara</span> il
+bene. <span class="pers-name">Io</span>, <span class="pers-name">la mamma</span>, e <span class="pers-name">Fanny</span>, la nostra sorellina minore, ci muovemmo da <span class="place-name">Ferrara</span> il
 10 di agosto, insieme con la donna di servizio (<span class="pers-name">Ernesto</span>, l'altro mio fratello, si trovava
-in <span class="place-name">Inghilterra</span> dalla metà di luglio, au pair presso una famiglia di <span
-   class="place-name">Bath</span> per impratichirsi nella lingua). Quanto a mio padre, che era rimasto in città,
+in <span class="place-name">Inghilterra</span> dalla metà di luglio, au pair presso una famiglia di <span class="place-name">Bath</span> per impratichirsi nella lingua). Quanto a mio padre, che era rimasto in città,
 ci
 avrebbe raggiunti più tardi: non appena la cura della campagna di <span class="pers-name">Masi Torello</span>
 glielo avesse consentito.
 
-Lo stesso giorno del nostro arrivo seppi subito di <span class="pers-name">Fadigati</span> e <span
-   class="pers-name">Deliliers</span>. Sulla spiaggia, affollata anche allora da ferraresi in villeggiatura con le
+Lo stesso giorno del nostro arrivo seppi subito di <span class="pers-name">Fadigati</span> e <span class="pers-name">Deliliers</span>. Sulla spiaggia, affollata anche allora da ferraresi in villeggiatura con le
 famiglie,
 non si parlava che di loro, della loro «amicizia scandalosa».
 
 A cominciare dai primi di agosto, infatti, i due erano stati visti passare da un albergo
-all'altro delle varie cittadine balneari disseminate tra <span class="place-name">Porto Corsini</span> e la <span
-   class="place-name">Punta di Pesaro</span>. Erano comparsi la prima volta a <span class="place-name">Milano
-   Marittima</span>, di là dal porto-canale di <span class="place-name">Cervia</span>, fissando una bella camera
-all'<span class="place-name">Hôtel Mare e Pineta</span>. Dopo una settimana si erano spostati a <span
-   class="place-name">Cesenatico</span>, all'<span class="place-name">Hôtel Britannia</span>. E poi, via via,
-destando ovunque enorme scalpore e voci infinite, a <span class="place-name">Viserba</span>, a <span
-   class="place-name">Rimini</span>, a <span class="place-name">Riccione</span> stessa, a <span
-   class="place-name">Cattolica</span>. Viaggiavano in macchina: una Alfa Romeo 1750 a due posti, rossa, tipo
+all'altro delle varie cittadine balneari disseminate tra <span class="place-name">Porto Corsini</span> e la <span class="place-name">Punta di Pesaro</span>. Erano comparsi la prima volta a <span class="place-name">Milano
+ Marittima</span>, di là dal porto-canale di <span class="place-name">Cervia</span>, fissando una bella camera
+all'<span class="place-name">Hôtel Mare e Pineta</span>. Dopo una settimana si erano spostati a <span class="place-name">Cesenatico</span>, all'<span class="place-name">Hôtel Britannia</span>. E poi, via via,
+destando ovunque enorme scalpore e voci infinite, a <span class="place-name">Viserba</span>, a <span class="place-name">Rimini</span>, a <span class="place-name">Riccione</span> stessa, a <span class="place-name">Cattolica</span>. Viaggiavano in macchina: una Alfa Romeo 1750 a due posti, rossa, tipo
 Mille Miglia.
 
 Intorno al 20 agosto, impensatamente, eccoli di nuovo a <span class="place-name">Riccione</span>, piazzati al
@@ -986,20 +953,18 @@ un gran piacere.
 
 Senza dubbio lo ammiravano tutti, uomini e donne. Ma toccava poi a <span class="pers-name">Fadigati</span>
 scontare in qualche modo l'indulgenza che il settore ferrarese della spiaggia di
-<span class="pers-name">Riccione</span> riservava a <span class="pers-name">Deliliers</span>.
+<span class="place-name">Riccione</span> riservava a <span class="pers-name">Deliliers</span>.
 
 
-Nostra vicina di tenda era quell'anno <span class="pers-name">la signora Lavezzoli</span>, la moglie dell'<span
-   class="pers-name">avvocato</span>. Perduta ormai l'antica importanza, oggi non è più che una vecchia. Ma
+Nostra vicina di tenda era quell'anno la <span class="pers-name">signora Lavezzoli</span>, la moglie dell'<span class="pers-name">avvocato</span>. Perduta ormai l'antica importanza, oggi non è più che una vecchia. Ma
 allora, nel
-maturo splendore dei suoi quarant'anni, circondata dal perpetuo ossequio dei <span class="pers-name">tre figli
-   adolescenti, due maschi e una <span class="pers-name">femmina</span></span>, e da quello non meno perpetuo del
-<span class="pers-name">degno consorte, illustre civilista, professore universitario ed ex deputato
-   salandrino</span>, allora era da considerarsi una delle più autorevoli ispiratrici dell'opinione pubblica
+maturo splendore dei suoi quarant'anni, circondata dal perpetuo ossequio dei tre <span class="pers-name">figli adolescenti</span>, due maschi e una <span class="pers-name">femmina</span>, e da quello non meno perpetuo del
+<span class="pers-name">degno consorte</span>, illustre civilista, professore universitario ed ex deputato
+ salandrino, allora era da considerarsi una delle più autorevoli ispiratrici dell'opinione pubblica
 cittadina.
 
 Puntando dunque l'occhialetto verso l'ombrellone a cui <span class="pers-name">Deliliers</span> era approdato,
-<span class="pers-name">la signora Lavezzoli</span>, che era nata e cresciuta a <span class="place-name">Pisa</span>,
+la <span class="pers-name">signora Lavezzoli</span>, che era nata e cresciuta a <span class="place-name">Pisa</span>,
 «in riva d'Arno», e si serviva con straordinaria destrezza della sua veloce
 lingua
 di toscana, ci teneva continuamente informati di tutto quanto accadesse «laggiù».
@@ -1007,7 +972,7 @@ di toscana, ci teneva continuamente informati di tutto quanto accadesse «laggi�
 Con la tecnica, quasi, di un cronista sportivo della radio, riferiva ad esempio che
 «gli sposini», alzatisi d'un tratto dalle sedie a sdraio, stavano dirigendosi alla
 volta del più vicino moscone: evidentemente il giovanotto aveva espresso il desiderio
-di tuffarsi al largo, e il <span class="pers-name">«signor dottore»</span>, per non rimaner solo, «in palpiti», ad
+di tuffarsi al largo, e il «<span class="pers-name">signor dottore</span>», per non rimaner solo, «in palpiti», ad
 attenderne il ritorno, aveva ottenuto di
 accompagnarlo. Oppure descriveva e commentava gli esercizi ginnastici a corpo libero
 che Deliliers dopo il bagno eseguiva al sole per asciugarsi, quando invece «l'amato
@@ -1019,7 +984,7 @@ particolare a <span class="pers-name">mia madre</span>: credendo forse d'abbassa
 «figlioli» non sarebbero riusciti
 a udirla, ma in realtà parlando più forte che mai -, quel <span class="pers-name">Deliliers</span> non era in
 fondo che un ragazzo viziato, un «ragazzaccio» a cui il servizio militare
-sarebbe a suo tempo tornato utilissimo. <span class="pers-name">Il dottor Fadigati</span> invece no. Un signore
+sarebbe a suo tempo tornato utilissimo. Il <span class="pers-name">dottor Fadigati</span> invece no. Un signore
 della sua condizione, della sua età, non era scusabile in nessun
 modo. Era «così»? Ebbene, pazienza! Chi gliene aveva fatto eccessivo carico, prima
 d'ora? Ma venire a esibirsi proprio a <span class="place-name">Riccione</span>, dove certo non ignorava come fosse
@@ -1027,11 +992,11 @@ conosciuto, venire a dar spettacolo proprio da
 quelle parti, mentre in <span class="place-name">Italia</span>, volendo, di spiagge nelle quali non c'è pericolo
 di imbattersi in un ferrarese che
 sia uno se ne trovano a migliaia! No, via. Solamente da uno «sporcaccione» (e così
-dicendo <span class="pers-name">la signora Lavezzoli</span> mandava fuori dai grandi occhi celesti di regina
+dicendo la <span class="pers-name">signora Lavezzoli</span> mandava fuori dai grandi occhi celesti di regina
 fiamme di autentica indignazione),
 solamente da un «vecchio degenerato» ci si sarebbe potuti aspettare un tiro del genere.
 
-<span class="pers-name">La signora Lavezzoli</span> parlava, ed io avrei dato molto perché tacesse, una buona
+La <span class="pers-name">signora Lavezzoli</span> parlava, ed io avrei dato molto perché tacesse, una buona
 volta. La sentivo ingiusta.
 <span class="pers-name">Fadigati</span> mi dispiaceva, senza dubbio, ma non era da lui che mi consideravo offeso.
 Conoscevo
@@ -1090,11 +1055,9 @@ Baciò la mano di <span class="pers-name">mia madre</span>.
 «Lei conosce <span class="pers-name">l'avvocato Lavezzoli</span>, non è vero?», disse subito mio padre, ad alta
 voce.
 
-<span class="pers-name">Fadigati</span> ebbe un attimo di esitazione. Guardò <span class="pers-name">mio
-   padre</span>, accennando di sì col capo; quindi, sulle spine, si volse verso la tenda dei Lavezzoli.
+<span class="pers-name">Fadigati</span> ebbe un attimo di esitazione. Guardò <span class="pers-name">mio padre</span>, accennando di sì col capo; quindi, sulle spine, si volse verso la tenda dei Lavezzoli.
 
-<span class="pers-name">L'avvocato</span> appariva più che mai assorbito dalla lettura di Antonio Adverse. <span
-   class="pers-name">I tre «figlioli»</span>, sdraiati bocconi sulla sabbia a due passi di distanza, in circolo
+<span class="pers-name">L'avvocato</span> appariva più che mai assorbito dalla lettura di Antonio Adverse. I <span class="pers-name">tre «figlioli»</span>, sdraiati bocconi sulla sabbia a due passi di distanza, in circolo
 attorno a un asciugamano
 di spugna azzurro, prendevano il sole sulla schiena, immobili come lucertole. La signora
 stava ricamando una tovaglia che le ricadeva in lunghe pieghe dalle ginocchia. Sembrava
@@ -1106,7 +1069,7 @@ al collo.
 
 «<span class="pers-name">Avvocato</span>», gridò, «guardi qui chi c'è!»
 
-Anticipando la risposta del marito, <span class="pers-name">la signora Lavezzoli</span> fu pronta a intervenire.
+Anticipando la risposta del marito, la <span class="pers-name">signora Lavezzoli</span> fu pronta a intervenire.
 Alzò di scatto gli occhi dalla tovaglia, e, d'impeto, tese
 il dorso della mano a <span class="pers-name">Fadigati</span>.
 
@@ -1132,7 +1095,7 @@ Spiegò quindi a <span class="pers-name">mio padre</span> e a <span class="pers-
 non avevo mai raccontato dei nostri periodici incontri sull'accelerato
 mattutino delle sei e cinquanta, come negli ultimi tre mesi ci fossimo fatti «ottima
 compagnia». Si esprimeva con disinvoltura mondana. Non gli pareva vero, lo si capiva
-benissimo, di ritrovarsi lì, con noi, perfino <span class="pers-name">coi temuti Lavezzoli</span>, restituito d'un
+benissimo, di ritrovarsi lì, con noi, perfino coi temuti <span class="pers-name">Lavezzoli</span>, restituito d'un
 tratto al suo ambiente, riaccettato dalla società di persone colte
 e beneducate a cui aveva sempre appartenuto. «Aah!», faceva di continuo, allargando
 il petto ad accogliere la brezza marina. Era chiaro che si sentiva felice, libero,
@@ -1158,7 +1121,7 @@ al <span class="place-name">Lido</span>, e quindi il suo giudizio peccava forse 
 lui sembrava
 di gran lunga più riposante del Tirreno.
 
-<span class="pers-name">La signora Lavezzoli</span> stava con le orecchie tese. Dissimulando l'intenzione maligna
+La <span class="pers-name">signora Lavezzoli</span> stava con le orecchie tese. Dissimulando l'intenzione maligna
 dietro un finto orgoglio
 municipale, assunse impetuosamente le difese del <span class="place-name">Tirreno</span>. Dichiarò che se si fosse
 trovata nelle condizioni di poter scegliere fra una villeggiatura
@@ -1170,7 +1133,7 @@ la sensazione di non essersi spostati da <span class="place-name">Ferrara</span>
 l'estate uno desidererebbe, siamo sinceri, vedere altre
 facce, diverse una buona volta da quelle che gli vengono offerte tutto il resto dell'anno.
 Sembra di camminare per la <span class="place-name">Giovecca</span>, oppure per <span class="place-name">corso
-   Roma</span>, sotto i portici del <span class="place-name">Caffè della Borsa</span>. Non trova?» A disagio,
+ Roma</span>, sotto i portici del <span class="place-name">Caffè della Borsa</span>. Non trova?» A disagio,
 <span class="pers-name">Fadigati</span> si mosse sulla chaise longue. Di nuovo gli occhi gli sfuggirono verso i
 capanni.
 Ma di <span class="pers-name">Deliliers</span> ancora niente.
@@ -1182,7 +1145,7 @@ Come ogni mattina fra le undici e mezzogiorno, l'acqua aveva cambiato colore. No
 era già più la massa scialba, oleosa, di mezz'ora avanti. Il vento teso che proveniva
 dal largo, il sole pressoché a picco, l'avevano trasformata in una distesa azzurra,
 sparsa di innumerevoli scintille d'oro. La spiaggia cominciava a essere attraversata
-di corsa dai primi bagnanti. E anche i <span class="pers-name">tre ragazzi Lavezzoli</span>, dopo aver chiesto
+di corsa dai primi bagnanti. E anche i tre <span class="pers-name">ragazzi Lavezzoli</span>, dopo aver chiesto
 permesso alla <span class="pers-name">madre</span>, si diressero verso il loro capanno per cambiarsi di costume.
 
 
@@ -1195,11 +1158,11 @@ spiccando ogni sillaba e facendo risaltare
 la dieresi di «visïon». Seguì un silenzio imbarazzato; ma già il dottore ricominciava
 a discorrere.
 
-«Mi rendo conto», continuò, «che i tramonti della <span class="pers-name">Riviera di Levante</span> sono
+«Mi rendo conto», continuò, «che i tramonti della <span class="place-name">Riviera di Levante</span> sono
 magnifici. Tuttavia bisogna sempre pagarli a caro prezzo: al prezzo, voglio
 dire, di pomeriggi infuocati, col mare trasformato in una specie di specchio ustorio,
 e con la gente costretta a starsene tappata in casa, o, al massimo, a rifugiarsi nelle
-pinete. Avrà invece notato il colore dell'<span class="pers-name">Adriatico</span> dopo le due o le tre. Più che
+pinete. Avrà invece notato il colore dell'<span class="place-name">Adriatico</span> dopo le due o le tre. Più che
 azzurro, diventa nero: insomma non se ne resta abbacinati.
 La superficie dell'acqua assorbe i raggi del sole, non li riflette. O meglio li riflette,
 sì, ma in direzione della... <span class="place-name">Jugoslavia</span>! Io, per me», concluse, affatto smemorato,
@@ -1207,8 +1170,8 @@ sì, ma in direzione della... <span class="place-name">Jugoslavia</span>! Io, pe
 subito sulla spiaggia. Le due del pomeriggio. Non c'è momento più bello per godersi
 in santa pace il nostro divino Amarissimo!»
 
-«Immagino che ci verrà in compagnia di quel suo... <span class="pers-name">quel suo amico inseparabile</span>»,
-disse acida <span class="pers-name">la signora Lavezzoli</span>.
+«Immagino che ci verrà in compagnia di quel suo... quel suo <span class="pers-name">amico inseparabile</span>»,
+disse acida la <span class="pers-name">signora Lavezzoli</span>.
 
 Richiamato così sgarbatamente alla realtà, <span class="pers-name">Fadigati</span> tacque, confuso.
 
@@ -1219,8 +1182,7 @@ dalla parte di <span class="place-name">Rimini</span>, attirò l'attenzione di m
 
 Attraverso il vento giunsero grida di evviva miste a battimani.
 
-«È <span class="pers-name">il Duce</span> che scende in acqua», spiegò <span class="pers-name">la signora
-   Lavezzoli</span>, compunta.
+«È <span class="pers-name">il Duce</span> che scende in acqua», spiegò la <span class="pers-name">signora Lavezzoli</span>, compunta.
 
 <span class="pers-name">Mio padre</span> storse la bocca.
 
@@ -1237,7 +1199,7 @@ anche in <span class="place-name">Italia</span>; e ogni tanto, pur soffrendone, 
 parola contro
 il Regime.
 
-«È così semplice, così umano», proseguì senza badargli <span class="pers-name">la signora Lavezzoli</span>. «Da
+«È così semplice, così umano», proseguì senza badargli la <span class="pers-name">signora Lavezzoli</span>. «Da
 bravo marito, ogni sabato mattina prende la macchina, e via, è capace di far
 tutta una tirata da <span class="place-name">Roma</span> fino a <span class="place-name">Riccione</span>.»
 
@@ -1250,12 +1212,11 @@ manifesto <span class="pers-name">Croce</span>, e almeno per qualche anno, almen
 «demoliberale» e disfattista? Tutto però fu vano. Sebbene distolti
 finalmente dalle fitte pagine di Antonio Adverse, gli occhi dell'<span class="pers-name">avvocato</span> si
 mantennero insensibili al muto richiamo di quelli di <span class="pers-name">mio padre</span>. Allungando il
-collo, socchiudendo le palpebre, <span class="pers-name">l'illustre avv. prof.</span> scrutava ostinato in
+collo, socchiudendo le palpebre, l'illustre <span class="pers-name">avv. prof.</span> scrutava ostinato in
 direzione del mare. I «figlioli» avevano preso a nolo un moscone,
 e stavano spingendosi troppo al largo.
 
-«L'altro sabato», diceva intanto <span class="pers-name">la signora Lavezzoli</span>, «io e <span
-   class="pers-name">Filippo</span> si rincasava a braccetto per <span class="place-name">viale dei Mille</span>.
+«L'altro sabato», diceva intanto la <span class="pers-name">signora Lavezzoli</span>, «io e <span class="pers-name">Filippo</span> si rincasava a braccetto per <span class="place-name">viale dei Mille</span>.
 Erano le sette e mezzo, o giù di lì. D'un tratto, dal cancello d'una villa, chi
 ti vedo uscire? <span class="pers-name">Il Duce</span> in persona, vestito di bianco da capo a piedi. Io feci:
 "Buona sera, Eccellenza".
@@ -1271,8 +1232,7 @@ Come se fossero state incise sopra un nastro magnetico, ritrovo nella memoria ad
 ad una tutte le parole di quella lontana mattina.
 
 Dopo aver pronunciato la sua sentenza (a udirla, <span class="pers-name">mio padre</span> aveva sgranato tanto
-d'occhi), <span class="pers-name">l'avvocato Lavezzoli</span> era tornato alla lettura. Ma <span class="pers-name">la
-   signora</span> non aveva ormai più ritegno. Spronata dalla frase del coniuge, e in
+d'occhi), <span class="pers-name">l'avvocato Lavezzoli</span> era tornato alla lettura. Ma <span class="pers-name">la signora</span> non aveva ormai più ritegno. Spronata dalla frase del coniuge, e in
 particolare da
 quella parola, «Impero», che magari non aveva mai colto prima d'allora dalle austere
 labbra di lui, insisteva a non finire sul «buon cuore» del <span class="pers-name">Duce</span>, sul suo generoso
@@ -1282,9 +1242,7 @@ sangue romagnolo.
 io stessa tre anni fa, proprio qui, a Riccione. Una mattina <span class="pers-name">il Duce</span> stava facendo
 il bagno coi due ragazzi maggiori, <span class="pers-name">Vittorio</span> e <span class="pers-name">Bruno</span>.
 Verso l'una viene su dall'acqua, e cosa ti trova, ad attenderlo? Un dispaccio telegrafico
-arrivato un attimo prima, che gli comunica la notizia dell'assassinio del <span class="pers-name">cancelliere
-   austriaco Dollfuss</span>. Quell'anno la nostra tenda era a due passi dalla tenda dei <span
-   class="pers-name">Mussolini</span>: dunque quello che dico è la pura verità. Non appena ebbe letto il
+arrivato un attimo prima, che gli comunica la notizia dell'assassinio del cancelliere austriaco <span class="pers-name">Dollfuss</span>. Quell'anno la nostra tenda era a due passi dalla tenda dei <span class="pers-name">Mussolini</span>: dunque quello che dico è la pura verità. Non appena ebbe letto il
 telegramma il
 <span class="pers-name">Duce</span> uscì in una gran bestemmia in dialetto (eh, si capisce, il temperamento è il
 temperamento!).
@@ -1297,8 +1255,7 @@ pensando a ciò che di lì a qualche minuto, rientrato a casa per il desinare,
 avrebbe per forza dovuto dire a quella sventurata madre...»
 
 
-<span class="pers-name">Fadigati</span> si alzò in piedi di scatto. Umiliato dalla frase velenosa della <span
-   class="pers-name">signora Lavezzoli</span>, da quel momento in poi non aveva più aperto bocca. Sopra pensiero,
+<span class="pers-name">Fadigati</span> si alzò in piedi di scatto. Umiliato dalla frase velenosa della <span class="pers-name">signora Lavezzoli</span>, da quel momento in poi non aveva più aperto bocca. Sopra pensiero,
 non faceva che
 mordersi le labbra. Perché mai <span class="pers-name">Deliliers</span> tardava talmente? Che cosa gli era
 accaduto?
@@ -1306,7 +1263,7 @@ accaduto?
 «Con permesso», balbettò impacciato.
 
 «Ma è presto!», protestò <span class="pers-name">la signora Lavezzoli</span>. «Non aspetta <span class="pers-name">il
-   suo amico</span>? Mancano ancora venti minuti al tocco!»
+ suo amico</span>? Mancano ancora venti minuti al tocco!»
 
 <span class="pers-name">Fadigati</span> borbottò qualcosa di incomprensibile. Strinse in giro tutte le mani,
 quindi si allontanò,arrancando,
@@ -1441,23 +1398,20 @@ venuta voglia di farlo a Rimini, dove, all'altezza dell'<span class="place-name"
 certe sorelle di <span class="place-name">Parma</span>. Aveva preso la macchina e via, era sparito senza nemmeno
 curarsi di lasciare due
 righe per il compagno di camera. Era tornato circa alle otto - raccontò <span class="pers-name">la signora
-   Lavezzoli</span> che, insieme col marito, si trovava per caso nell'atrio del <span class="place-name">Grand
-   Hôtel</span> a bere un aperitivo -. Improvvisamente avevano veduto «quel <span class="pers-name">Deliliers</span>»
+ Lavezzoli</span> che, insieme col marito, si trovava per caso nell'atrio del <span class="place-name">Grand
+ Hôtel</span> a bere un aperitivo -. Improvvisamente avevano veduto «quel <span class="pers-name">Deliliers</span>»
 attraversare l'atrio a gran passi, nero in faccia, e con <span class="pers-name">Fadigati</span> quasi in lacrime alle
 calcagna.
 
-Fu <span class="pers-name">Deliliers</span> ad avvicinarmi quella sera stessa sulla terrazza del <span
-   class="place-name">Grand Hôtel</span>.
+Fu <span class="pers-name">Deliliers</span> ad avvicinarmi quella sera stessa sulla terrazza del <span class="place-name">Grand Hôtel</span>.
 
-Ci ero venuto coi miei genitori e coi soliti Lavezzoli, <span class="pers-name">avvocato</span> e <span
-   class="pers-name">consorte</span>. Tuttora stanco del tennis, non mi andava di ballare. Ascoltavo in silenzio
+Ci ero venuto coi miei genitori e coi soliti Lavezzoli, <span class="pers-name">avvocato</span> e <span class="pers-name">consorte</span>. Tuttora stanco del tennis, non mi andava di ballare. Ascoltavo in silenzio
 <span class="pers-name">la signora Lavezzoli</span>, la quale, sebbene certo non ignorasse quanto la cosa potesse
 ferirci, si era messa
 a discorrere con pretese di «obbiettività» della Germania hitleriana, sostenendo che
 bisognava finalmente decidersi a riconoscerne «l'innegabile grandezza».
 
-«Badi però, signora, che il suo <span class="pers-name">Dollfuss</span> pare che l'abbia liquidato proprio <span
-   class="pers-name">Hitler</span>», dissi con un sogghigno.
+«Badi però, signora, che il suo <span class="pers-name">Dollfuss</span> pare che l'abbia liquidato proprio <span class="pers-name">Hitler</span>», dissi con un sogghigno.
 
 Si strinse nelle spalle.
 
@@ -1474,8 +1428,7 @@ piccola gente come noi.»
 
 Ed ebbe un sorriso pieno d'orgoglio, in netto contrasto con queste ultime parole.
 
-Sconvolto, <span class="pers-name">mio padre</span> aprì la bocca per dire qualcosa. Ma come al solito <span
-   class="pers-name">la signora Lavezzoli</span> non gliene dette il tempo. Con l'aria di cambiare discorso, e
+Sconvolto, <span class="pers-name">mio padre</span> aprì la bocca per dire qualcosa. Ma come al solito la <span class="pers-name">signora Lavezzoli</span> non gliene dette il tempo. Con l'aria di cambiare discorso, e
 rivolgendosi direttamente
 a lui, era già passata a esporre il contenuto di un «interessante» articolo apparso
 nell'ultimo numero della «Civiltà Cattolica», a firma del celebre <span class="pers-name">Padre Gemelli</span>.
@@ -1558,7 +1511,7 @@ Ciò che più mi attirava era la corsa in macchina lungo la strada litoranea. Ma
 - cominciai a dirmi quasi subito -. Quelle sorelle di <span class="place-name">Parma</span> che tipi erano,
 veramente? Si trattava di ragazze qualsiasi da portare difilato in
 pineta (come era facile), oppure di due signorine di buona famiglia da intrattenere
-sulla spiaggia sotto i vigili occhi di <span class="pers-name">un'altra signora Lavezzoli</span>? In un caso come
+sulla spiaggia sotto i vigili occhi di un'altra <span class="pers-name">signora Lavezzoli</span>? In un caso come
 nell'altro (sebbene non fosse per nulla impossibile una eventualità
 intermedia...), non mi reputavo abbastanza amico di <span class="pers-name">Deliliers</span> per accettare a cuor
 leggero il suo invito. Strano. <span class="pers-name">Deliliers</span> non mi aveva mai dimostrato né molta
@@ -1582,8 +1535,7 @@ Un attimo prima che raggiungessi l'ombrellone, <span class="pers-name">Fadigati<
 «Ah, è lei», disse, ma senza sorpresa. «È gentile da parte sua venire a farmi visita.»
 
 Tutto in lui esprimeva la stanchezza e il dolore di un litigio recente. Nonostante
-le probabili promesse della sera prima, <span class="pers-name">Deliliers</span> a <span
-   class="place-name">Rimini</span> c'era andato lo stesso.
+le probabili promesse della sera prima, <span class="pers-name">Deliliers</span> a <span class="place-name">Rimini</span> c'era andato lo stesso.
 
 Chiuse il libro che stava leggendo e lo posò su uno sgabello lì accanto, mezzo all'ombra
 e mezzo al sole. Non era il solito libro giallo, bensì un opuscolo sottile, ricoperto
@@ -1605,15 +1557,13 @@ di famiglia: la prima battuta di un Lied di <span class="pers-name">Schubert</sp
 
 <span class="pers-name">Fadigati</span> si volse, si alzò a metà dalla chaise longue, si levò il panama con
 deferenza. I
-miei genitori risposero assieme: <span class="pers-name">mia madre</span> chinando secca il capo, e <span
-   class="pers-name">mio padre</span> toccando con due dita la visiera del berretto di tela bianca, nuovo
+miei genitori risposero assieme: <span class="pers-name">mia madre</span> chinando secca il capo, e <span class="pers-name">mio padre</span> toccando con due dita la visiera del berretto di tela bianca, nuovo
 fiammante. Capii
 subito che erano scontenti di trovarmi in compagnia di <span class="pers-name">Fadigati</span>. Non appena mi
-aveva visto, <span class="pers-name">Fanny</span> si era girata a chiedere qualcosa alla <span
-   class="pers-name">mamma</span>, certo il permesso di raggiungermi. Ma <span class="pers-name">mia madre</span>
+aveva visto, <span class="pers-name">Fanny</span> si era girata a chiedere qualcosa alla <span class="pers-name">mamma</span>, certo il permesso di raggiungermi. Ma <span class="pers-name">mia madre</span>
 l'aveva visibilmente trattenuta.
 
-«Come è graziosa <span class="pers-name">la sua sorellina</span>», disse <span class="pers-name">Fadigati</span>.
+«Come è graziosa la <span class="pers-name">sua sorellina</span>», disse <span class="pers-name">Fadigati</span>.
 «Quanti anni ha?»
 
 «Dodici: otto anni giusti meno di me», risposi imbarazzato.
@@ -1641,7 +1591,7 @@ crescere, per maturare.
 
 Ma pensava già ad altro.
 
-«E <span class="pers-name">i signori Lavezzoli</span>?», domandò.
+«E i <span class="pers-name">signori Lavezzoli</span>?», domandò.
 
 «Mah. Credo che stamattina non li vedremo prima di mezzogiorno. Per via della Messa.»
 
@@ -1651,15 +1601,14 @@ Ma pensava già ad altro.
 che andiamo a salutare i suoi genitori.» Camminammo fianco a fianco sulla sabbia che
 già cominciava a scottare.
 
-«Ho l'impressione», mi diceva frattanto, «ho l'impressione che <span class="pers-name">la signora Lavezzoli</span>
+«Ho l'impressione», mi diceva frattanto, «ho l'impressione che la <span class="pers-name">signora Lavezzoli</span>
 non mi abbia troppo in simpatia.»
 
 «Ma no, non credo.»
 
 «Comunque è sempre meglio, penso, approfittare quando non c'è.»
 
-Assenti <span class="pers-name">i Lavezzoli</span>, <span class="pers-name">mio padre</span> e <span
-   class="pers-name">mia madre</span> non riuscirono a perseverare nei loro chiari propositi di sostenutezza.
+Assenti <span class="pers-name">i Lavezzoli</span>, <span class="pers-name">mio padre</span> e <span class="pers-name">mia madre</span> non riuscirono a perseverare nei loro chiari propositi di sostenutezza.
 Specie <span class="pers-name">mio padre</span>, che in breve avviò col <span class="pers-name">dottore</span> una
 conversazione della massima cordialità.
 
@@ -1674,7 +1623,7 @@ e quindi delle Odi barbare, le quali rappresentavano, in polemica quasi quotidia
 con me, il suo ideale supremo nel campo della poesia moderna. Conversavano tra loro
 tanto d'accordo, insomma (il fatto che <span class="pers-name">Deliliers</span> non dovesse spuntare da un momento
 all'altro di qua dai capanni giovava evidentemente
-all'equilibrio nervoso del dottore), che quando <span class="pers-name">la famiglia Lavezzoli</span>, fresca di
+all'equilibrio nervoso del dottore), che quando la <span class="pers-name">famiglia Lavezzoli</span>, fresca di
 Messa, sopraggiunse al completo verso mezzogiorno, <span class="pers-name">Fadigati</span> fu in grado di
 sopportare con disinvoltura le inevitabili frecciate della <span class="pers-name">signora Lavezzoli</span>, e
 anzi di ribattere a qualcuna di esse non senza efficacia.
@@ -1687,14 +1636,12 @@ lasciato solo a se stesso, ricercava sempre più sovente la nostra compagnia.
 
 Fu così, dunque, che oltre a frequentare nelle ore antimeridiane la nostra tenda (a
 mio padre in fondo non pareva vero poter discutere con lui di musica, di letteratura,
-di arte, invece che con <span class="pers-name">la signora Lavezzoli</span> di politica), prese l'abitudine, il
+di arte, invece che con la <span class="pers-name">signora Lavezzoli</span> di politica), prese l'abitudine, il
 pomeriggio, quando sentiva che io e i <span class="pers-name">ragazzi Lavezzoli</span> ci saremmo andati, di
 venire al campo di tennis dietro il <span class="place-name">Caffè Zanarini</span>.
 
 I nostri fiacchi palleggi a quattro, una coppia maschile contro una mista, non erano
-certo tali da entusiasmare. Se io me la cavavo mediocremente, <span class="pers-name">Franco</span> e <span
-   class="pers-name">Gilberto Lavezzoli</span> sapevano appena impugnare la racchetta. Quanto poi a <span
-   class="pers-name">Cristina</span>, la loro bionda, rosea, delicata sorella quindicenne (usciva allora allora da
+certo tali da entusiasmare. Se io me la cavavo mediocremente, <span class="pers-name">Franco</span> e <span class="pers-name">Gilberto Lavezzoli</span> sapevano appena impugnare la racchetta. Quanto poi a <span class="pers-name">Cristina</span>, la loro bionda, rosea, delicata sorella quindicenne (usciva allora allora da
 un
 collegio di monache fiorentino, e <span class="pers-name">l'intera famiglia</span> la portava in palmo di mano),
 come giocatrice valeva ancora meno dei fratelli. Si
@@ -1718,7 +1665,7 @@ A volte, per altro, il palleggio languiva un po' troppo.
 
 Lui non stava ad ascoltarla.
 
-«Volontà e impegno!», proclamava festoso. «<span class="pers-name">Il dottor Fadigati</span> premierà la coppia
+«Volontà e impegno!», proclamava festoso. «Il <span class="pers-name">dottor Fadigati</span> premierà la coppia
 vincitrice con due superbe bottigliette di aranciata San Pellegrino!»
 
 Correva al capanno del custode, ne tirava fuori una scranna tarlata e pericolante,
@@ -1759,8 +1706,7 @@ La stessa cosa facevo il pomeriggio aspettando l'ora del tennis.
 
 Un giorno, dopo pranzo, mentre appunto stavo studiando (quella mattina non ero andato
 nemmeno sulla spiaggia: appena alzato, il lontano fragore del mare mi aveva immediatamente
-distolto da ogni idea di bagno), udii salire dal giardino la voce acuta della <span class="pers-name">signora
-   Lavezzoli</span>. Non distinguevo le sue parole. Capivo però, dal tono, che era indignata di qualcosa.
+distolto da ogni idea di bagno), udii salire dal giardino la voce acuta della <span class="pers-name">signora Lavezzoli</span>. Non distinguevo le sue parole. Capivo però, dal tono, che era indignata di qualcosa.
 
 «Eh, no... lo scandalo di ieri sera...», riuscii ad afferrare.
 
@@ -1768,8 +1714,7 @@ Con chi ce l'aveva? Perché era venuta a farci visita? - mi chiesi irritato -. E
 istintivamente, pensai a <span class="pers-name">Fadigati</span>.
 
 Resistetti alla tentazione di scendere in tinello per mettermi a origliare dietro
-la porta che dava nel giardino, e quando di lì a un'ora mi affacciai <span class="pers-name">la signora
-   Lavezzoli</span> non c'era più. <span class="pers-name">Mio padre</span> sedeva sotto il solito pino,
+la porta che dava nel giardino, e quando di lì a un'ora mi affacciai la <span class="pers-name">signora Lavezzoli</span> non c'era più. <span class="pers-name">Mio padre</span> sedeva sotto il solito pino,
 all'ombra. Non appena avvertì il rumore dei miei passi
 sulla ghiaia, abbassò il giornale spiegato sulle ginocchia.
 
@@ -1796,9 +1741,7 @@ Per qualche istante stette zitto. Oltre che inquieto, sembrava affaticato. La vi
 della <span class="pers-name">signora Lavezzoli</span>, evidentemente inaspettata, gli aveva impedito di fare
 l'abituale sonnellino pomeridiano.
 
-«Non credo che ci troverai nessuno», disse.«Era qui un momento fa <span class="pers-name">la signora
-   Lavezzoli</span>. È venuta ad avvisare che quest'oggi i suoi ragazzi non ci vanno. <span class="pers-name"><span
-      class="pers-name">I due maschi</span></span> hanno da studiare, e <span class="pers-name">Cristina</span> da sola
+«Non credo che ci troverai nessuno», disse.«Era qui un momento fa la <span class="pers-name">signora Lavezzoli</span>. È venuta ad avvisare che quest'oggi i suoi ragazzi non ci vanno. I due maschi hanno da studiare, e <span class="pers-name">Cristina</span> da sola
 non la manda.»
 
 Volse il capo dalla parte di <span class="pers-name">Fanny</span>, accucciata in fondo al giardino a giocare con
@@ -1838,8 +1781,7 @@ Accostata la bicicletta alla rete metallica di recinzione, mi avvicinai.
 Ebbe un debole sorriso, con la bocca storta. Aveva il labbro superiore piuttosto gonfio.
 Una doppia incrinatura attraversava la lente di sinistra dei suoi begli occhiali d'oro.
 
-«Non capisco per quale ragione», soggiunsi. «Pare che <span class="pers-name">Franco</span> e <span
-   class="pers-name">Gilberto</span> abbiano da studiare. Ma mi sa di scusa. Spero, comunque...»
+«Non capisco per quale ragione», soggiunsi. «Pare che <span class="pers-name">Franco</span> e <span class="pers-name">Gilberto</span> abbiano da studiare. Ma mi sa di scusa. Spero, comunque...»
 
 «Glielo dirò io, perché», mi interruppe <span class="pers-name">Fadigati</span> amaramente. «Sarà certo a causa
 della storia di ieri sera.»
@@ -1857,8 +1799,7 @@ pronunciare dalla <span class="pers-name">signora Lavezzoli</span> la parola «s
 Allora, previo un rapido, strano ammicco laterale, e stringendo quindi le palpebre
 come se fosse stato improvvisamente attratto da qualcosa di vago e di distante dietro
 le mie spalle, cominciò a raccontare come la sera prima, nel salone del <span class="place-name">Grand
-   Hôtel</span>, «davanti a tutti», avesse avuto una «discussione» con <span class="pers-name">Deliliers</span>.
-
+ Hôtel</span>, «davanti a tutti», avesse avuto una «discussione» con <span class="pers-name">Deliliers</span>.
 
 «Io lo rimproveravo, ma sottovoce, s'intende, della vita che si era messo a fare in
 questi ultimi tempi... sempre in qua e in là... sempre in giro con la macchina...
@@ -1944,8 +1885,6 @@ Nei suoi occhi balenò a un tratto un lampo di scherno.
 «Denunciarlo?», ripeté, e mi guardava come si guarda un estraneo un po' ridicolo.
 «Ma le pare possibile?»
 
-
-
 Capitolo 13
 
 Da <span class="place-name">Riccione</span> venimmo via il 10 di ottobre, un sabato pomeriggio.
@@ -1964,15 +1903,13 @@ mattina presto a caccia di carta stampata; gli occhi
 di <span class="pers-name">mia madre</span>, gonfi sempre di lacrime; <span class="pers-name">Fanny</span> ancora
 ignara, povera bimba, eppure in qualche modo già consapevole; il gusto doloroso
 da parte mia di chiudermi in un silenzio ostinato. Sempre solo, e invaso di rabbia,
-addirittura di odio, alla semplice idea di ritrovarmi al cospetto della <span class="pers-name">signora
-   Lavezzoli</span> troneggiante nella sua chaise longue, di dovere magari udirla discettare come se
+addirittura di odio, alla semplice idea di ritrovarmi al cospetto della <span class="pers-name">signora Lavezzoli</span> troneggiante nella sua chaise longue, di dovere magari udirla discettare come se
 nulla fosse di cristianesimo e di ebraismo, nonché della colpa da attribuirsi o meno
 agli «israeliti» a proposito della crocifissione di Gesù Cristo (in linea di massima
 la signora si era subito dichiarata contraria alla nuova politica del governo nei
 nostri confronti, e tuttavia anche il Papa - mi sembrava adesso di sentirla -, in
 un certo suo discorso del '29...), ormai non mi facevo più vedere nemmeno sulla spiaggia.
-Mi bastava, e ne avevo d'avanzo, essere costretto durante i pasti ad ascoltare <span class="pers-name">mio
-   padre</span>, il quale, in vana polemica con gli articoli velenosi che di continuo leggeva sui
+Mi bastava, e ne avevo d'avanzo, essere costretto durante i pasti ad ascoltare <span class="pers-name">mio padre</span>, il quale, in vana polemica con gli articoli velenosi che di continuo leggeva sui
 giornali, si intestava a enumerare i «meriti patriottici» degli ebrei italiani, tutti,
 o quasi - non faceva che ripeterlo, spalancando gli occhi azzurri -, stati sempre
 «ottimi fascisti». Anche <span class="pers-name">io</span>, insomma, ero disperato. Mi sforzavo di tirare avanti
@@ -1980,7 +1917,7 @@ con la preparazione del mio
 esame. Ma compivo soprattutto lunghissime scorribande in bicicletta sulle colline
 dell'entroterra. Una volta, senza aver prima avvertito nessuno, col risultato, al
 ritorno, di ritrovare mio padre e mia madre ambedue in pianti, mi spinsi fino a <span class="place-name">San
-   Leo</span> e in <span class="place-name">Carpegna</span>, stando via nell'insieme quasi tre giorni. Pensavo
+ Leo</span> e in <span class="place-name">Carpegna</span>, stando via nell'insieme quasi tre giorni. Pensavo
 senza tregua al prossimo rientro
 a <span class="place-name">Ferrara</span>. Ci pensavo con una specie di terrore, con un senso ognora crescente di
 intima lacerazione.
@@ -1989,9 +1926,8 @@ Da ultimo riprese a piovere, e fu necessario partire.
 
 Come sempre mi succedeva ogni qualvolta tornavamo dalla villeggiatura, immediatamente
 dopo l'arrivo non seppi resistere al desiderio di fare un giro per la città. Chiesi
-in prestito la bicicletta al <span class="pers-name">portiere di casa, il vecchio Tubi</span>, e prima ancora di
-rimettere piede nella mia stanza, o di telefonare a <span class="pers-name">Vittorio Molon</span> e a <span
-   class="pers-name">Nino Bottecchiari</span>, me ne andai a zonzo, senza una meta precisa.
+in prestito la bicicletta al portiere di casa, il vecchio <span class="pers-name">Tubi</span>, e prima ancora di
+rimettere piede nella mia stanza, o di telefonare a <span class="pers-name">Vittorio Molon</span> e a <span class="pers-name">Nino Bottecchiari</span>, me ne andai a zonzo, senza una meta precisa.
 
 Finii verso sera sulla <span class="place-name">Mura degli Angeli</span>, dove avevo passato tanti pomeriggi
 dell'infanzia e dell'adolescenza; e in breve,
@@ -2052,21 +1988,12 @@ mi fermai sui due piedi. Tutto mi disturbava, tutto mi feriva.
 
 «Aspetta!»
 
-Il suo grido, e la lunga manovra a cui fu costretto per pagare (il <span class="pers-name">cameriere
-   Giovanni</span> non aveva da dargli il resto di un biglietto da cinquanta: bisognò che, ciabattando
+Il suo grido, e la lunga manovra a cui fu costretto per pagare (il <span class="pers-name">cameriere Giovanni</span> non aveva da dargli il resto di un biglietto da cinquanta: bisognò che, ciabattando
 e brontolando, il vecchio andasse a cambiarlo alla vicina <span class="place-name">farmacia Barilari</span>),
 attirarono definitivamente su <span class="pers-name">Nino</span> e su me l'attenzione degli astanti. Mi sentii
 osservato con insistenza da molti sguardi.
 Persino attorno ai due tavolini contigui, riservati in permanenza agli squadristi
-della prima ora, e occupati, quel giorno, oltre che dal solito triumvirato <span class="pers-name">Aretusi</span>-<span
-   class="pers-name">Sturla</span>-<span class="pers-name">Bellistracci</span>, dal <span class="pers-name">Segretario
-   Federale Bolognesi</span> e da
-<span class="pers-name">Gino Cariani, il Segretario del G.U.F.</span>, la conversazione cessò all'improvviso. Dopo
-essersi voltato indietro a sbirciarmi,
-<span class="pers-name">Cariani</span>, servile come sempre, si piegò a sussurrare qualcosa all'orecchio di <span
-   class="pers-name">Aretusi</span>. Vidi <span class="pers-name">Sciagura</span> abbozzare una smorfia e annuire
-gravemente.
-
+della prima ora, e occupati, quel giorno, oltre che dal solito triumvirato <span class="pers-name">Aretusi</span>-<span class="pers-name">Sturla</span>-<span class="pers-name">Bellistracci</span>, dal Segretario Federale <span class="pers-name">Bolognesi</span> e da <span class="pers-name">Gino Cariani</span>, il Segretario del G.U.F., la conversazione cessò all'improvviso. Dopo essersi voltato indietro a sbirciarmi, <span class="pers-name">Cariani</span>, servile come sempre, si piegò a sussurrare qualcosa all'orecchio di <span class="pers-name">Aretusi</span>. Vidi <span class="pers-name">Sciagura</span> abbozzare una smorfia e annuire gravemente.
 
 Nell'attesa che <span class="pers-name">Nino</span> riuscisse ad avere il suo resto mi allontanai di qualche
 passo. La giornata era bellissima,
@@ -2090,8 +2017,7 @@ intanto <span class="pers-name">Nino</span>, riferendo di sé e della famiglia -
 la solita
 roba, tanto che, e adesso se ne rammaricava, aveva ritenuto superfluo mandarmi la
 sacramentale cartolina. Da principio insomma una gran noia. La fortuna tuttavia aveva
-voluto che in agosto avessero avuto ospite per una quindicina di giorni <span class="pers-name">lo zio
-   Mauro</span>, l'ex onorevole socialista, il quale, a partire dal primo momento del suo arrivo,
+voluto che in agosto avessero avuto ospite per una quindicina di giorni lo <span class="pers-name">zio Mauro</span>, l'ex onorevole socialista, il quale, a partire dal primo momento del suo arrivo,
 col suo carattere esuberantissimo aveva messo alla frusta l'intero parentado. Non
 stava mai fermo un secondo. L'occhio d'aquila sempre fisso alle cime. Se lui non gli
 avesse fatto da accompagnatore, chi l'avrebbe trattenuto? Quello là sarebbe stato
@@ -2120,9 +2046,7 @@ Fui afferrato da una strana sensazione di colpa.
 sulla spiaggia non eravamo nella stessa compagnia, gli avrò parlato un paio di volte
 soltanto...»
 
-«Oh no, per carità!», mi interruppe <span class="pers-name">Nino</span>. «La notizia che era a <span
-   class="place-name">Riccione</span> in viaggio di nozze con quell'ignobile nave-scuola del <span
-   class="pers-name">dottor Fadigati</span> è arrivata in un lampo anche a <span class="place-name">Moena</span>,
+«Oh no, per carità!», mi interruppe <span class="pers-name">Nino</span>. «La notizia che era a <span class="place-name">Riccione</span> in viaggio di nozze con quell'ignobile nave-scuola del <span class="pers-name">dottor Fadigati</span> è arrivata in un lampo anche a <span class="place-name">Moena</span>,
 si capisce. No, no, non è mica di questo che volevo vedere se tu fossi informato.»
 Si mise quindi a raccontare come una settimana avanti avesse ricevuto una lettera
 di <span class="pers-name">Deliliers</span> nientemeno che da <span class="place-name">Parigi</span>. Peccato, non
@@ -2167,9 +2091,7 @@ Esitò a rispondere. Nella penombra dell'androne lo vidi arrossire.
 
 E mi trascinò un po' a forza verso l'uscita secondaria dell'<span class="place-name">Arcivescovado</span>: quella
 che, proprio all'angolo con <span class="place-name">via Gorgadello</span>, dà su <span class="place-name">piazza
-   Cattedrale</span>.
-
-
+ Cattedrale</span>.
 
 Capitolo 14
 
@@ -2181,8 +2103,7 @@ delle dodici e mezzo da <span class="place-name">San Carlo</span> o dal <span cl
 anche oggi, in fondo riflettevo -, non l'avrei perduta. Ma poteva bastarmi? Oggi
 era diverso. Non mi trovavo più laggiù, mescolato agli altri, confuso in mezzo a tutti
 gli altri nella solita attesa tra beffarda e ansiosa. Addossato al portone del <span class="place-name">Palazzo
-   Arcivescovile</span>, confinato in un angolo della piazza (la presenza al mio fianco di <span class="pers-name">Nino
-   Bottecchiari</span> aumentava se mai la mia amarezza), mi sentivo tagliato fuori,
+ Arcivescovile</span>, confinato in un angolo della piazza (la presenza al mio fianco di <span class="pers-name">Nino Bottecchiari</span> aumentava se mai la mia amarezza), mi sentivo tagliato fuori,
 irrimediabilmente un
 intruso.
 
@@ -2208,8 +2129,7 @@ l'antico, atavico odio dell'ebreo nei confronti di tutto ciò che fosse cristian
 cattolico, insomma goi. Goi, goìm: che vergogna, che umiliazione, che ribrezzo, a
 esprimermi così! Eppure ci riuscivo già - mi dicevo -: diventato simile a un qualsiasi
 ebreo dell'Europa orientale che non fosse mai vissuto fuori dal proprio ghetto. Pensavo
-anche al nostro, di <span class="place-name">ghetto</span>, a <span class="place-name">via Mazzini</span>, a <span
-   class="place-name">via Vignatagliata</span>, al <span class="place-name">vicolo-mozzo Torcicoda</span>. In un
+anche al nostro, di <span class="place-name">ghetto</span>, a <span class="place-name">via Mazzini</span>, a <span class="place-name">via Vignatagliata</span>, al <span class="place-name">vicolo-mozzo Torcicoda</span>. In un
 futuro abbastanza vicino, loro, i goìm, ci avrebbero costretti a brulicare
 di nuovo là, per le anguste, tortuose viuzze di quel misero quartiere medioevale da
 cui in fin dei conti non eravamo venuti fuori che da settanta, ottanta anni. Ammassati
@@ -2255,15 +2175,13 @@ anzi costituivano
 in un certo senso il nerbo, la spina dorsale. Il fatto medesimo che la maggior parte
 di essi fossero stati fascisti, e non pochi, come ben sapevo, della prima ora, dimostrava
 la loro perfetta solidarietà e fusione con l'ambiente. Si poteva immaginare qualcuno
-più israelita e insieme più ferrarese dell'<span class="pers-name">avvocato Geremia Tabet</span>, tanto per fare
+più israelita e insieme più ferrarese dell'avvocato <span class="pers-name">Geremia Tabet</span>, tanto per fare
 il primo nome che venisse alle labbra, il quale apparteneva al ristretto
 numero di persone (con <span class="pers-name">Carlo Aretusi</span>, <span class="pers-name">Vezio Sturla</span>,
-<span class="pers-name">Osvaldo Bellistracci</span>, <span class="pers-name">il console Bolognesi</span>, e due o
+<span class="pers-name">Osvaldo Bellistracci</span>, il console <span class="pers-name">Bolognesi</span>, e due o
 tre altri) che nel '19 avevano fondato la prima sezione locale dei Fasci
-di Combattimento? E chi più «nostro» <span class="pers-name">del vecchio dottor Corcos, Elia Corcos</span>, il
-celebre clinico, tanto che, a rigore, avrebbe potuto magnificamente sopportare
-l'incorporazione in effige nello stemma municipale? E <span class="pers-name">mio padre</span>? E l'<span
-   class="pers-name">avvocato Lattes</span>, il papà di Bruno? No, no: a scorrere l'elenco del telefono, dove i
+di Combattimento? E chi più «nostro» del vecchio dottor <span class="pers-name">Corcos</span>, <span class="pers-name">Elia Corcos</span>, il celebre clinico, tanto che, a rigore, avrebbe potuto magnificamente sopportare
+l'incorporazione in effige nello stemma municipale? E <span class="pers-name">mio padre</span>? E l'<span class="pers-name">avvocato Lattes</span>, il papà di <span class="pers-name">Bruno</span>? No, no: a scorrere l'elenco del telefono, dove i
 nomi degli israeliti
 apparivano inevitabilmente accompagnati da qualifiche professionali e accademiche,
 dottori, avvocati, ingegneri, titolari di ditte commerciali grandi e piccole, e così
@@ -2273,8 +2191,7 @@ avrebbe potuto «incontrare» soltanto nel caso che le famiglie genere <span cla
 con quel loro specialissimo gusto di starsene segregati in una grande casa nobiliare
 (lui stesso, quantunque conoscesse parecchio bene <span class="pers-name">Alberto Finzi-Contini</span>, non era
 mai riuscito a farsi invitare a giocare a tennis a casa loro, nel loro magnifico
-campo di tennis privato!), fossero state più numerose. Ma <span class="pers-name">i Finzi-Contini</span>, a <span
-   class="place-name">Ferrara</span>, rappresentavano appunto una eccezione. E poi non svolgevano anche essi una
+campo di tennis privato!), fossero state più numerose. Ma <span class="pers-name">i Finzi-Contini</span>, a <span class="place-name">Ferrara</span>, rappresentavano appunto una eccezione. E poi non svolgevano anche essi una
 insopprimibile
 «funzione storica», essendo sottentrati nel possesso del palazzo di <span class="place-name">corso Ercole I</span>
 e delle terre, nonché nel sistema di vivere isolati, a qualche antica famiglia dell'aristocrazia
@@ -2299,8 +2216,7 @@ avanti lui era stato avvicinato da «quel rettile» di <span class="pers-name">G
 troppi preamboli, gli aveva proposto di assumere la carica di Addetto
 alla Cultura. Lì per lì lui non aveva né accettato né rifiutato. Aveva solamente chiesto
 un poco di tempo per pensarci sopra. Adesso però una decisione si imponeva. Anche
-quella mattina, al caffè, poco prima che arrivassi <span class="pers-name">io</span>, <span
-   class="pers-name">Cariani</span> era tornato sull'argomento.
+quella mattina, al caffè, poco prima che arrivassi <span class="pers-name">io</span>, <span class="pers-name">Cariani</span> era tornato sull'argomento.
 
 «Che fare?», domandò a questo punto, dopo una pausa.
 
@@ -2308,8 +2224,7 @@ Strinse le labbra, perplesso. Ma già riprendeva a discorrere.
 
 «Appartengo a un clan familiare che ha le tradizioni che sai», disse. «Ebbene, sta'
 pur sicuro che quando mio padre venisse a sapere che non ho accettato la proposta
-<span class="pers-name">Cariani</span>, si metterebbe le mani nei capelli, ecco cosa farebbe. E lo <span
-   class="pers-name">zio Mauro</span>, credi che si comporterebbe in modo granché diverso? Sarebbe sufficiente che
+<span class="pers-name">Cariani</span>, si metterebbe le mani nei capelli, ecco cosa farebbe. E lo <span class="pers-name">zio Mauro</span>, credi che si comporterebbe in modo granché diverso? Sarebbe sufficiente che
 il papà
 gli chiedesse di mandarmi a chiamare, e lui pronto, lo accontenterebbe subito, non
 fosse altro che per distogliere da se stesso ogni accusa di proselitismo. Vedo già
@@ -2452,8 +2367,7 @@ suonata da un pezzo, e per le strade non si incontrava nessuno. File
 e file di imposte chiuse e cieche, porte sprangate, e, a intervalli, le luci quasi
 subacquee dei lampioni.
 
-Si era fatto così tardi che forse eravamo rimasti noi due soli, <span class="pers-name">io</span> e <span
-   class="pers-name">Fadigati</span>, in giro a quell'ora per la città. Mi parlava accorato, sommesso. Mi
+Si era fatto così tardi che forse eravamo rimasti noi due soli, <span class="pers-name">io</span> e <span class="pers-name">Fadigati</span>, in giro a quell'ora per la città. Mi parlava accorato, sommesso. Mi
 raccontava le
 sue disgrazie. Lo avevano esonerato dall'ospedale con un pretesto qualsiasi. Anche
 allo studio di <span class="place-name">via Gorgadello</span> c'erano ormai pomeriggi interi che non si presentava
@@ -2673,7 +2587,7 @@ in bicicletta e lei dietro.»
 «Le vede le donne?», scherzai.
 
 «Eh, un poco sì!», sospirò. «Era già lontana, stavano quasi per imboccare <span class="place-name">via
-   Piangipane</span>, e si è voltata a guardarmi, ci crede?, come per dire: "Scusa se ti pianto, vecchio
+ Piangipane</span>, e si è voltata a guardarmi, ci crede?, come per dire: "Scusa se ti pianto, vecchio
 signore, ma debbo proprio andare con questo ragazzo qui, abbi pazienza!".»
 
 Rise da solo, niente affatto amareggiato.
@@ -2692,8 +2606,7 @@ li sa soltanto lei, povera bestia!»
 Parlò ancora: della cagna, degli animali in genere e dei loro sentimenti, che sono
 così simili a quelli degli uomini - disse -, anche se, «forse», più semplici, più
 direttamente sottomessi all'imperio della legge naturale. Quanto a me, mi sentivo
-ormai sulle spine. Preoccupato che <span class="pers-name">mio padre</span> e <span class="pers-name">mia
-   madre</span>, di certo tutti orecchi, capissero con chi stavo conversando, mi limitavo a rispondere
+ormai sulle spine. Preoccupato che <span class="pers-name">mio padre</span> e <span class="pers-name">mia madre</span>, di certo tutti orecchi, capissero con chi stavo conversando, mi limitavo a rispondere
 a monosillabi. Speravo anche, in questo modo, di indurlo ad abbreviare. Ma niente.
 Pareva che non gli riuscisse di staccarsi dall'apparecchio.
 
@@ -2743,8 +2656,7 @@ Uscii solo, invece. Entrai all'<span class="place-name">Excelsior</span>.
 
 Era una donna di età indefinibile, bruna, riccioluta, formosa, molto incipriata e
 dipinta. Da quanti mai anni stava là, pigramente occhieggiante di sotto le palpebre
-pesanti, grottesco idolo borghese? L'avevo vista sempre: fin da quando, bambini, <span class="pers-name">la
-   mamma</span> ci mandava al cinema con la donna di servizio. Andavamo per solito il mercoledì pomeriggio,
+pesanti, grottesco idolo borghese? L'avevo vista sempre: fin da quando, bambini, <span class="pers-name">la mamma</span> ci mandava al cinema con la donna di servizio. Andavamo per solito il mercoledì pomeriggio,
 perché giovedì non c'era scuola; e salivamo ogni volta in galleria.
 
 La mano grassa, bianca, dalle unghie laccate, mi offriva il biglietto. C'era qualcosa
@@ -2775,7 +2687,7 @@ di nubi lasciava intravedere il cielo stellato. Un vento teso e caldo aveva rapi
 asciugato i marciapiedi.
 
 Traversai <span class="place-name">il Listone</span>, e presi per <span class="place-name">via Bersaglieri del
-   Po</span>. Dall'angolo di Gorgadello guardai di fianco verso le cinque finestre del suo appartamento.
+ Po</span>. Dall'angolo di Gorgadello guardai di fianco verso le cinque finestre del suo appartamento.
 Tutto chiuso, tutto buio. Provai allora a telefonare dal vicino posto pubblico della
 T.I.M.O., in <span class="place-name">via Cairoli</span>. Ma niente, silenzio, nessuna risposta.
 
@@ -2808,11 +2720,8 @@ S.P.A.L. esce imbattuta dal terreno di <span class="place-name">Carpiii</span>!�
 serratura del portone di casa, e udivo ancora la sua voce
 lontana echeggiare per le vie deserte.
 
-Di sopra trovai la <span class="pers-name">mamma</span> tutta allegra. Mio fratello <span
-   class="place-name">Ernesto</span> aveva telegrafato da <span class="place-name">Parigi</span>, avvisando che
-sarebbe rientrato in <span class="place-name">Italia</span> la sera stessa. Si sarebbe fermato a <span
-   class="place-name">Milano</span> mezza giornata, quella di domani. Contava comunque di essere a <span
-   class="place-name">Ferrara</span> per cena.
+Di sopra trovai la <span class="pers-name">mamma</span> tutta allegra. Mio fratello <span class="place-name">Ernesto</span> aveva telegrafato da <span class="place-name">Parigi</span>, avvisando che
+sarebbe rientrato in <span class="place-name">Italia</span> la sera stessa. Si sarebbe fermato a <span class="place-name">Milano</span> mezza giornata, quella di domani. Contava comunque di essere a <span class="place-name">Ferrara</span> per cena.
 
 «E <span class="pers-name">il papà</span> l'ha saputo?», domandai, leggermente urtato dalle sue lacrime di gioia,
 e senza smetterla
@@ -2853,7 +2762,7 @@ Quel giorno <span class="pers-name">mio padre</span> tardò più del solito. Qua
 Si lasciò cadere di peso sulla sua sedia con un «aah!» di soddisfazione. Era stanco,
 pallido, ma raggiante.
 
-Guardò verso la porta di cucina per sincerarsi che <span class="pers-name">Elisa, la cuoca</span>, non stesse
+Guardò verso la porta di cucina per sincerarsi che <span class="pers-name">Elisa</span>, la cuoca, non stesse
 entrando in quel momento. Quindi, sbarrando per l'eccitazione gli occhi
 azzurri, si allungò tutto al di sopra del tavolo con l'evidente proposito di vuotare
 il sacco.
@@ -2887,11 +2796,10 @@ Capitolo 18
 
 Le novità che mio padre aveva da comunicarci erano le seguenti.
 
-Mezz'ora prima, al <span class="place-name">Credito Italiano</span>, gli era capitato di incontrare per caso <span
-   class="pers-name">l'avvocato Geremia Tabet</span>, il quale, come noi ben sapevamo, non soltanto era sempre
+Mezz'ora prima, al <span class="place-name">Credito Italiano</span>, gli era capitato di incontrare per caso l'avvocato <span class="pers-name">Geremia Tabet</span>, il quale, come noi ben sapevamo, non soltanto era sempre
 stato «dentro alle segrete
 cose» della Casa del Fascio di Ferrara, ma notoriamente godeva anche dell'«amicizia»
-e della stima di <span class="pers-name">Sua Eccellenza Bocchini</span>, il Capo della Polizia.
+e della stima di Sua Eccellenza <span class="pers-name">Bocchini</span>, il Capo della Polizia.
 
 Mentre uscivano assieme dal Credito, <span class="pers-name">Tabet</span> aveva preso sottobraccio mio padre. Di
 recente era stato a <span class="pers-name">Roma</span> per affari - gli aveva confidato -: occasione, questa, che
@@ -2913,16 +2821,14 @@ tranquillità e alla fiducia, la prego, il
 maggior numero possibile di suoi correligionari. In <span class="place-name">Italia</span>, sono autorizzato a
 garantirglielo, una legislazione sulla razza non sarà mai varata.»
 
-I giornali, è vero, parlavano tuttora male degli «israeliti» - aveva continuato <span
-   class="pers-name">Bocchini</span>-; ma unicamente per ragioni superiori, ne parlavano male, per ragioni di
+I giornali, è vero, parlavano tuttora male degli «israeliti» - aveva continuato <span class="pers-name">Bocchini</span>-; ma unicamente per ragioni superiori, ne parlavano male, per ragioni di
 politica
 estera. Bisognava capire. In quegli ultimi mesi il <span class="pers-name">Duce</span> era venuto a trovarsi nella
 necessità «im-pre-scin-di-bi-le» di far credere alle
-democrazie occidentali che l'<span class="place-name">Italia</span> fosse ormai legata a filo doppio con la <span
-   class="place-name">Germania</span>. Quale argomento avrebbe dunque potuto trovare più persuasivo di un po' di
+democrazie occidentali che l'<span class="place-name">Italia</span> fosse ormai legata a filo doppio con la <span class="place-name">Germania</span>. Quale argomento avrebbe dunque potuto trovare più persuasivo di un po' di
 antisemitismo?
 Stessimo tranquilli. Sarebbe bastato un contrordine dello stesso <span class="pers-name">Duce</span>, e tutti i
-cani da pagliaio tipo Interlandi e Preziosi (il <span class="pers-name">Capo della Polizia</span> ostentava nei
+cani da pagliaio tipo Interlandi e Preziosi (il <span class="pers-name">Capo</span> della Polizia ostentava nei
 riguardi di costoro un sommo disprezzo) l'avrebbero piantata da un
 giorno all'altro di abbaiare.
 
@@ -2938,8 +2844,7 @@ Per qual motivo non partecipavo alle speranze dei miei? Che cosa c'era nel loro 
 che non mi andava? «Dio, Dio...», dicevo fra me, serrando i denti. «Appena l'<span class="pers-name">Elisa</span>
 sarà uscita da questa stanza, sento che il papà ripiglierà a parlare.»
 
-Ero disperato, assolutamente disperato. E certo non perché dubitassi che il <span class="pers-name">Capo della
-   Polizia</span> avesse mentito, ma per aver visto <span class="pers-name">mio padre</span> subito così felice, o
+Ero disperato, assolutamente disperato. E certo non perché dubitassi che il <span class="pers-name">Capo</span> della Polizia avesse mentito, ma per aver visto <span class="pers-name">mio padre</span> subito così felice, o
 meglio così smanioso di tornare felice. Dunque era proprio
 questo che non sopportavo? - mi chiedevo -. Non sopportavo che lui fosse contento?
 Che il futuro gli sorridesse di nuovo come una volta,come prima?
@@ -2960,7 +2865,7 @@ però no. Il senso di solitudine che mi aveva sempre accompagnato in quei due ul
 mesi diventava se mai, proprio adesso, ancora più atroce: totale e definitivo. Dal
 mio esilio non sarei mai tornato, io. Mai più.
 
-Levai il capo. <span class="pers-name">L'Elisa</span> se ne era andata, la porta di cucina appariva di nuovo ben
+Levai il capo. L'<span class="pers-name">Elisa</span> se ne era andata, la porta di cucina appariva di nuovo ben
 chiusa. Tuttavia <span class="pers-name">mio padre</span> continuava a tacere, o quasi. Curvo sul suo piatto, si
 limitava a scambiare ogni
 tanto qualche frase senza importanza con <span class="pers-name">la mamma</span>, che gli sorrideva compiaciuta.
@@ -2987,8 +2892,8 @@ sopprimersi, in quegli anni: nemmeno ai vecchi disonorati e senza più ragione a
 di restare al mondo...).
 
 Non finii di leggerlo, comunque. Abbassai le palpebre. Il cuore aveva ripreso a battere
-regolare. Aspettai che <span class="pers-name">l'Elisa</span>, riapparsa per un attimo, ci lasciasse un'altra
+regolare. Aspettai che l'<span class="pers-name">Elisa</span>, riapparsa per un attimo, ci lasciasse un'altra
 volta soli, e poi, quietamente, ma
 subito:
 
-«È morto <span class="pers-name">il dottor Fadigati</span>p», dissi.
+«È morto il <span class="pers-name">dottor Fadigati</span>p», dissi.
