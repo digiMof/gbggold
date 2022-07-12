@@ -61,7 +61,7 @@
                 <script src="replace.js"></script> 
             </head>
             <body>
-                <p onclick="replace()">Change</p>
+                <h1>Linked Open Data: Settings, Characters and Historical Figures in "Gli Occhiali d'Oro" by Bassani</h1><button onclick="replace()">set link</button>
                 <div class="container">
                     <div class="row">
                         <div class="col">
