@@ -73,17 +73,31 @@
                     <div class="featured-text text-lg-left">
                         <h3>Table of content</h3>
                         <p class="text-black-50 mb-0">
-                            <ol id="docuidx">
-                                <a href="#parIntro"><li>Introduction</li></a>
-                                <a href="#parMet"><li>Methodologies</li></a>
-                                <ol>
-                                    <a href="#parSDE"><li style="font-weight: 100;">Semantic Digital Edition</li></a>
-                                    <a href="#parGeo"><li style="font-weight: 100;">Spatial Analysis</li></a>
-                                    <a href="#parNet"><li style="font-weight: 100;">Network Analysis</li></a>
-                                </ol>
-                                <a href="#parResult"><li>Results and final remarks</li></a>
-                                <a href="#biblio"><li>Bibliography</li></a>
+                        <ol id="docuidx">
+                            <a href="#parIntro">
+                                <li>Introduction</li>
+                            </a>
+                            <a href="#parMet">
+                                <li>Methodologies</li>
+                            </a>
+                            <ol>
+                                <a href="#parSDE">
+                                    <li style="font-weight: 100;">Semantic Digital Edition</li>
+                                </a>
+                                <a href="#parGeo">
+                                    <li style="font-weight: 100;">Spatial Analysis</li>
+                                </a>
+                                <a href="#parNet">
+                                    <li style="font-weight: 100;">Network Analysis</li>
+                                </a>
                             </ol>
+                            <a href="#parResult">
+                                <li>Results and final remarks</li>
+                            </a>
+                            <a href="#biblio">
+                                <li>Bibliography</li>
+                            </a>
+                        </ol>
                         </p>
                     </div>
                 </div>
@@ -91,73 +105,200 @@
 
             <div class="paridx" id="parIntro">
                 <h3>1. Introduction</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit sed urna quis auctor. Etiam eleifend lacus sit amet nibh efficitur, ac lacinia massa pharetra. Suspendisse lacinia enim nulla, vel tincidunt metus pulvinar ultrices. Morbi quis semper dolor, vitae sagittis nibh. Nam et nulla ultrices, fermentum nisl sit amet, dictum dolor. Praesent nec semper lorem, quis suscipit massa. Donec at iaculis lorem. Donec eleifend ex quis mi aliquet, eu consectetur eros vulputate. Morbi quis enim lorem.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit sed urna quis auctor. Etiam
+                    eleifend lacus sit amet nibh efficitur, ac lacinia massa pharetra. Suspendisse lacinia enim nulla,
+                    vel tincidunt metus pulvinar ultrices. Morbi quis semper dolor, vitae sagittis nibh. Nam et nulla
+                    ultrices, fermentum nisl sit amet, dictum dolor. Praesent nec semper lorem, quis suscipit massa.
+                    Donec at iaculis lorem. Donec eleifend ex quis mi aliquet, eu consectetur eros vulputate. Morbi quis
+                    enim lorem.</p>
             </div>
 
             <div class="paridx" id="parMet">
                 <h3>2. Methodologies</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit sed urna quis auctor. Etiam eleifend lacus sit amet nibh efficitur, ac lacinia massa pharetra. Suspendisse lacinia enim nulla, vel tincidunt metus pulvinar ultrices. Morbi quis semper dolor, vitae sagittis nibh. Nam et nulla ultrices, fermentum nisl sit amet, dictum dolor. Praesent nec semper lorem, quis suscipit massa. Donec at iaculis lorem. Donec eleifend ex quis mi aliquet, eu consectetur eros vulputate. Morbi quis enim lorem.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit sed urna quis auctor. Etiam
+                    eleifend lacus sit amet nibh efficitur, ac lacinia massa pharetra. Suspendisse lacinia enim nulla,
+                    vel tincidunt metus pulvinar ultrices. Morbi quis semper dolor, vitae sagittis nibh. Nam et nulla
+                    ultrices, fermentum nisl sit amet, dictum dolor. Praesent nec semper lorem, quis suscipit massa.
+                    Donec at iaculis lorem. Donec eleifend ex quis mi aliquet, eu consectetur eros vulputate. Morbi quis
+                    enim lorem.</p>
                 <div class="paridx" id="parSDE">
                     <h4>2.1. Semantic Digital Edition</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit sed urna quis auctor. Etiam eleifend lacus sit amet nibh efficitur, ac lacinia massa pharetra. Suspendisse lacinia enim nulla, vel tincidunt metus pulvinar ultrices. Morbi quis semper dolor, vitae sagittis nibh. Nam et nulla ultrices, fermentum nisl sit amet, dictum dolor. Praesent nec semper lorem, quis suscipit massa. Donec at iaculis lorem. Donec eleifend ex quis mi aliquet, eu consectetur eros vulputate. Morbi quis enim lorem.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit sed urna quis auctor.
+                        Etiam eleifend lacus sit amet nibh efficitur, ac lacinia massa pharetra. Suspendisse lacinia
+                        enim nulla, vel tincidunt metus pulvinar ultrices. Morbi quis semper dolor, vitae sagittis nibh.
+                        Nam et nulla ultrices, fermentum nisl sit amet, dictum dolor. Praesent nec semper lorem, quis
+                        suscipit massa. Donec at iaculis lorem. Donec eleifend ex quis mi aliquet, eu consectetur eros
+                        vulputate. Morbi quis enim lorem.</p>
                     <p>To perform these procedures, different snippets of code were developed:
-                        <ul style="list-style-type:none; list-style: none; padding-left: 0;">
-                            <li class="sdeloddownload"><a href="sdeLOD/bassaniXSLT.xsl" download><i class="bi bi-code"></i></a> XSLT Transformation to convert the marked up novel into a complete HTML.</li>
-                            <li class="sdeloddownload"><a href="sdeLOD/lodXSLT/lodXSLT.xsl" download><i class="bi bi-code"></i></a> XSLT Transformation to list all the mentioned settings and participants declared in the header of the source XML file.</li>
-                            <li class="sdeloddownload"><a href="sdeLOD/lodXSLT/replace.js" download><i class="bi bi-code"></i></a> Javascript function to replace the prefix of the autoriy files so as to add a functioning hyperlink in <i>@href</i>.</li>
-                            <li class="sdeloddownload"><a href="sdeLOD/bassaniXQuery.xquery" download><i class="bi bi-code"></i></a> XQuery to calculate the frequency of tag <i>placeName</i> and <i>persName</i> throughout the chapters of the book (see §2.2).</li>
-                        </ul>
+                    <ul style="list-style-type:none; list-style: none; padding-left: 0;">
+                        <li class="sdeloddownload"><a href="sdeLOD/bassaniXSLT.xsl" download><i
+                                    class="bi bi-code"></i></a> XSLT Transformation to convert the marked up novel into
+                            a complete HTML.</li>
+                        <li class="sdeloddownload"><a href="sdeLOD/lodXSLT/lodXSLT.xsl" download><i
+                                    class="bi bi-code"></i></a> XSLT Transformation to list all the mentioned settings
+                            and participants declared in the header of the source XML file.</li>
+                        <li class="sdeloddownload"><a href="sdeLOD/lodXSLT/replace.js" download><i
+                                    class="bi bi-code"></i></a> Javascript function to replace the prefix of the autoriy
+                            files so as to add a functioning hyperlink in <i>@href</i>.</li>
+                        <li class="sdeloddownload"><a href="sdeLOD/bassaniXQuery.xquery" download><i
+                                    class="bi bi-code"></i></a> XQuery to calculate the frequency of tag
+                            <i>placeName</i> and <i>persName</i> throughout the chapters of the book (see §2.2).
+                        </li>
+                    </ul>
                     </p>
                     <h5><b>Disclaimer</b></h5>
-                    <p>The purpose of this website is to perform a multilevel digital analysis of Bassani's novel, as an end-of-course project for the "Digital Text in the Humanities: Theories, Methodologies and Applications" course of the Master Degree in Digital Humanities and Digital Knowledge of the University of Bologna, under prof. Tiziana Mancinelli. The displayed publication of the aforementioned book is not intended to be an alternative or replace its original location, i.e. the edition by Mondadori published in 1980 and later republished by Feltrinelli. All copyrights and related rights on the content remain with their original owners. All copyright on the typographic and layout choices, as well as the methodologies and results of the performed analysis are 2022 © Changing Lenses.</p>
+                    <p>The purpose of this website is to perform a multilevel digital analysis of Bassani's novel, as an
+                        end-of-course project for the "Digital Text in the Humanities: Theories, Methodologies and
+                        Applications" course of the Master Degree in Digital Humanities and Digital Knowledge of the
+                        University of Bologna, under prof. Tiziana Mancinelli. The displayed publication of the
+                        aforementioned book is not intended to be an alternative or replace its original location, i.e.
+                        the edition by Mondadori published in 1980 and later republished by Feltrinelli. All copyrights
+                        and related rights on the content remain with their original owners. All copyright on the
+                        typographic and layout choices, as well as the methodologies and results of the performed
+                        analysis are 2022 © Changing Lenses.</p>
                 </div>
                 <div class="paridx" id="parGeo">
                     <h4>2.2. Spatial Analysis</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit sed urna quis auctor. Etiam eleifend lacus sit amet nibh efficitur, ac lacinia massa pharetra. Suspendisse lacinia enim nulla, vel tincidunt metus pulvinar ultrices. Morbi quis semper dolor, vitae sagittis nibh. Nam et nulla ultrices, fermentum nisl sit amet, dictum dolor. Praesent nec semper lorem, quis suscipit massa. Donec at iaculis lorem. Donec eleifend ex quis mi aliquet, eu consectetur eros vulputate. Morbi quis enim lorem.</p>
-                    <p>Main interpretations: placeName e persName hanno comportamento opposto per quanto riguarda massimi e minimi relativi, soprattutto in concomitanza dei cambi di ambientazioni (segnati dalle linee verticali). I picchi delle due distribuzioni sono sfasate: parrebbe quasi che Bassani voglia adottare un approccio quasi teatrale: si concentra dapprima sui luoghi e in un secondo momento introduce in maniera significativa i personaggi o le personalità storiche.</p>
-                    <div class="container mb-3" style="padding-left: 0px; padding-right: 0px;"> <!-- This is the graph of placeName vs persName, cfr js/graphteitag.js -->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit sed urna quis auctor.
+                        Etiam eleifend lacus sit amet nibh efficitur, ac lacinia massa pharetra. Suspendisse lacinia
+                        enim nulla, vel tincidunt metus pulvinar ultrices. Morbi quis semper dolor, vitae sagittis nibh.
+                        Nam et nulla ultrices, fermentum nisl sit amet, dictum dolor. Praesent nec semper lorem, quis
+                        suscipit massa. Donec at iaculis lorem. Donec eleifend ex quis mi aliquet, eu consectetur eros
+                        vulputate. Morbi quis enim lorem.</p>
+                    <p>Main interpretations: placeName e persName hanno comportamento opposto per quanto riguarda
+                        massimi e minimi relativi, soprattutto in concomitanza dei cambi di ambientazioni (segnati dalle
+                        linee verticali). I picchi delle due distribuzioni sono sfasate: parrebbe quasi che Bassani
+                        voglia adottare un approccio quasi teatrale: si concentra dapprima sui luoghi e in un secondo
+                        momento introduce in maniera significativa i personaggi o le personalità storiche.</p>
+                    <div class="container mb-3" style="padding-left: 0px; padding-right: 0px;">
+                        <!-- This is the graph of placeName vs persName, cfr js/graphteitag.js -->
                         <div class="row" style="width: 100%;">
                             <div class="col-12">
                                 <div id="chart_div" style="margin-bottom: 1.5em; border: 0.2em solid #996515"></div>
                             </div>
                             <div class="col-12">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit sed urna quis auctor. Etiam eleifend lacus sit amet nibh efficitur, ac lacinia massa pharetra. Suspendisse lacinia enim nulla, vel tincidunt metus pulvinar ultrices. Morbi quis semper dolor, vitae sagittis nibh. Nam et nulla ultrices, fermentum nisl sit amet, dictum dolor. Praesent nec semper lorem, quis suscipit massa. Donec at iaculis lorem. Donec eleifend ex quis mi aliquet, eu consectetur eros vulputate. Morbi quis enim lorem.</p>
-                                <p>The category of center and periphery have been populated as follows (the toponyms are in Italian):</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit sed urna quis
+                                    auctor. Etiam eleifend lacus sit amet nibh efficitur, ac lacinia massa pharetra.
+                                    Suspendisse lacinia enim nulla, vel tincidunt metus pulvinar ultrices. Morbi quis
+                                    semper dolor, vitae sagittis nibh. Nam et nulla ultrices, fermentum nisl sit amet,
+                                    dictum dolor. Praesent nec semper lorem, quis suscipit massa. Donec at iaculis
+                                    lorem. Donec eleifend ex quis mi aliquet, eu consectetur eros vulputate. Morbi quis
+                                    enim lorem.</p>
+                                <p>The category of center and periphery have been populated as follows (the toponyms are
+                                    in Italian):</p>
                                 <table>
                                     <tr>
                                         <th>Center</th>
                                         <th>Periphery</th>
                                     </tr>
                                     <tr>
-                                        <td style="padding-right: 2.5%;">Via Gorgadello, Piazza delle Erbe, Corso Giovecca, Corso Roma, Palazzo Assicurazioni Generali, Castello, Piazza Cattedrale, Via Bersaglieri del Po, Cinema, Ristoranti, Farmacia Barillari, Filiale del Credito Italiano, Vicolo del Granchio, Via Mazzini, Via Saraceno, Duomo, Piazza Travaglio, Via Garibaldi, Via San Romano, San Carlo Il Listone, Circoli cittadini, il Montagnone, Viale Cavour, Caffè della Borsa</td>
-                                        <td>Via Bomporto, Mura degli Angeli, Via Vignatagliata, Vicolo-mozzo Torcicoda, Ghetto di Ferrara, Corso Ercole I, Via Ripagrande, L’Acquedotto, La Spianata, Via Piangipane, Pontelagoscuro, Via Cairoli, Via Savonarola, Chiesa di San Girolamo</td>
+                                        <td style="padding-right: 2.5%;">Via Gorgadello, Piazza delle Erbe, Corso
+                                            Giovecca, Corso Roma, Palazzo Assicurazioni Generali, Castello, Piazza
+                                            Cattedrale, Via Bersaglieri del Po, Cinema, Ristoranti, Farmacia Barillari,
+                                            Filiale del Credito Italiano, Vicolo del Granchio, Via Mazzini, Via
+                                            Saraceno, Duomo, Piazza Travaglio, Via Garibaldi, Via San Romano, San Carlo
+                                            Il Listone, Circoli cittadini, il Montagnone, Viale Cavour, Caffè della
+                                            Borsa</td>
+                                        <td>Via Bomporto, Mura degli Angeli, Via Vignatagliata, Vicolo-mozzo Torcicoda,
+                                            Ghetto di Ferrara, Corso Ercole I, Via Ripagrande, L’Acquedotto, La
+                                            Spianata, Via Piangipane, Pontelagoscuro, Via Cairoli, Via Savonarola,
+                                            Chiesa di San Girolamo</td>
                                     </tr>
                                 </table>
                             </div>
-                            <div class="col-12 mt-3"> 
-                                <div id="chart_divFE" style="margin-bottom: 1.5em; border: 0.2em solid #996515; height: 25rem;"></div>
+                            <div class="col-12 mt-3">
+                                <div id="chart_divFE"
+                                    style="margin-bottom: 1.5em; border: 0.2em solid #996515; height: 25rem;"></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="paridx" id="parNet">
                     <h4>2.3. Network Analysis</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit sed urna quis auctor. Etiam eleifend lacus sit amet nibh efficitur, ac lacinia massa pharetra. Suspendisse lacinia enim nulla, vel tincidunt metus pulvinar ultrices. Morbi quis semper dolor, vitae sagittis nibh. Nam et nulla ultrices, fermentum nisl sit amet, dictum dolor. Praesent nec semper lorem, quis suscipit massa. Donec at iaculis lorem. Donec eleifend ex quis mi aliquet, eu consectetur eros vulputate. Morbi quis enim lorem.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit sed urna quis auctor.
+                        Etiam eleifend lacus sit amet nibh efficitur, ac lacinia massa pharetra. Suspendisse lacinia
+                        enim nulla, vel tincidunt metus pulvinar ultrices. Morbi quis semper dolor, vitae sagittis nibh.
+                        Nam et nulla ultrices, fermentum nisl sit amet, dictum dolor. Praesent nec semper lorem, quis
+                        suscipit massa. Donec at iaculis lorem. Donec eleifend ex quis mi aliquet, eu consectetur eros
+                        vulputate. Morbi quis enim lorem.</p>
+                    <h5>Research Question</h5>
+                    <p>Starting from our corpora (a full edition of Bassani's "Gli Occhiali d'Oro", carefully edited and
+                        tagged according to TEI guidelines), our network analysis was guided by a main research
+                        question:
+                        <!-- Research Question highlighted -->
+                    <div class="featured-text text-center text-lg-left">
+                        <h5 style="font-style: italic;">How does Fadigati's network of people change before and after
+                            the discovery of his sexuality?</h4>
+                            <p> !!!!! WE MAY NEED TO ADD NODES SPECIFYING MORE THE TRAITS OF PEOPLE TO DEIFNE THEM
+                                BETTER !!!!! </p>
+                    </div>
+                    <h5>Connection definition</h5>
+                    <p>After defining the Research Question, we have worked on <i>defining</i> the connections between
+                        characters in the written text and with regards to our project's corpora and scope. Working with
+                        a literary text would suggest that connections between characters are established whenever there
+                        are dialogues between them or when they appear in the same sentence (this circumstance being
+                        either a direct interaction between two characters or an indirect one, whenever a third
+                        character compares the first two).</p>
+                    <p>After a first attempt at tackling this problem, the particular structure of Bassani's "Gli
+                        Occhiali d'Oro" made it difficult to consider the coexistence of characters inside a sentence a
+                        sufficient condition for defining a relation between them: while testing the Python script used
+                        to detect the characters in isolated sentences, many times there would be only one character,
+                        making it impossible to infer any relation.</p>
+                    <p>Hence, we have considered, as the condition for establishing connections between characters,
+                        their coexistence in the <b>same paragraph</b>.</p>
+                    <h5>Graph building</h5>
+                    <p>After the definition of "connection", a Python script was developed to retrieve the occurrences
+                        of different characters inside the same paragraph (mainly by using Regular Expressions) and to
+                        build a CSV file containing such information. The CSV was then used to <b>visualise the
+                            graph</b> by means of Gephi.</p>
+                    <p>As our research question focuses on <i>how</i> Fadigati's social network changes before and after
+                        the discovery of his sexuality, it was crucial for us to distinguish between these two moments
+                        in our starting corpora (the literary text).</p>
+                    <p>Two different sub-corpora were then created:
+                    <ul>
+                        <li>The first sub-corpora comprising the first two chapters</li>
+                        <li>The second sub-corpora spanning from Chapter 3 to Chapter 18</li>
+                    </ul>
+                    The script was then run twice on the two different sub-corpora to obtain two different graphs
+                    representing the two different social networks.
+                    <!-- Here img 1 -->
+                    <!-- Here img 2 -->
+                    </p>
+                    <p>It is worth pointing out how the two graphs vary also because of the different size of the
+                        sub-corporas: after a brief introduction to the context and the characters in the first two
+                        chapters, Fadigati's sexuality is immediately pointed out and becomes the center of the story,
+                        being the talk of the town.</p>
+                    <p>By comparing the two graphs we can already see some differences between the two social networks.
+                    <ul>
+                        <li>In the first case...</li>
+                        <li>While in the second...</li>
+                    </ul>
+                    It is therefore clear how the discovery of Fadigati's sexuality and his successive behaviour
+                    influence his network, which starts pulling away from him and changes drastically to such an extent
+                    that, at the end of the book, the only character that really feels close to the doctor and
+                    empathises with him is the narrator himself.</p>
+                </div>
+                <div class="paridx" id="parResult">
+                    <h3>3. Results and final remarks</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit sed urna quis auctor.
+                        Etiam eleifend lacus sit amet nibh efficitur, ac lacinia massa pharetra. Suspendisse lacinia
+                        enim nulla, vel tincidunt metus pulvinar ultrices. Morbi quis semper dolor, vitae sagittis nibh.
+                        Nam et nulla ultrices, fermentum nisl sit amet, dictum dolor. Praesent nec semper lorem, quis
+                        suscipit massa. Donec at iaculis lorem. Donec eleifend ex quis mi aliquet, eu consectetur eros
+                        vulputate. Morbi quis enim lorem.</p>
+                    <p><b>Suggestion on how to quote:</b> It has been said <a href="#Rossi22">(Rossi 2022: 33)</a> that
+                        Bologna is a big city</p>
+                </div>
+                <div id="biblio">
+                    <h3>4. Bibliography</h3>
+                    <ul style="list-style-type:none; list-style: none; padding-left: 0;">
+                        <li id="Rossi22">Rossi, Mario (2022): "You don't say". <i>Il grande libro dell'ovvietà</i>.
+                            Torino: Einaudi editore.</li>
+                        <li id="Geronimooo">Stilton, Geronimo (2008): "??". <i>Viaggio nel mondo della Fantasia n.
+                                1000000</i>. Topazia: Parmigiano editore.</li>
+                    </ul>
                 </div>
             </div>
-            <div class="paridx" id="parResult">
-                <h3>3. Results and final remarks</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit sed urna quis auctor. Etiam eleifend lacus sit amet nibh efficitur, ac lacinia massa pharetra. Suspendisse lacinia enim nulla, vel tincidunt metus pulvinar ultrices. Morbi quis semper dolor, vitae sagittis nibh. Nam et nulla ultrices, fermentum nisl sit amet, dictum dolor. Praesent nec semper lorem, quis suscipit massa. Donec at iaculis lorem. Donec eleifend ex quis mi aliquet, eu consectetur eros vulputate. Morbi quis enim lorem.</p>
-                <p><b>Suggestion on how to quote:</b> It has been said <a href="#Rossi22">(Rossi 2022: 33)</a> that Bologna is a big city</p>
-            </div>
-            <div id="biblio">
-                <h3>4. Bibliography</h3>
-                <ul style="list-style-type:none; list-style: none; padding-left: 0;">
-                    <li id="Rossi22">Rossi, Mario (2022): "You don't say". <i>Il grande libro dell'ovvietà</i>. Torino: Einaudi editore.</li>
-                </ul>
-            </div>
-
-        </div>
     </section>
     <!-- Footer-->
     <footer class="footer bg-black small text-center text-white-50">
