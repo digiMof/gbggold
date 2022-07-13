@@ -18,12 +18,10 @@ h5 {
     padding-top: 0em;
 }
 
-.divider {
-    border: 0.1em solid #996515;
-    opacity: 100;
-    width: 30%;
-    margin: auto;
+h4.text-white:hover {
+    text-shadow: 2px 0 #8E3200, -2px 0 #8E3200, 0 2px #8E3200, 0 -2px #8E3200, 1px 1px #8E3200, -1px -1px #8E3200, 1px -1px #8E3200, -1px 1px #8E3200;
 }
+
 
 /* SEMANTIC DIGITAL EDITION HTML */
 .chapindex {
@@ -115,13 +113,14 @@ a [class^="bi-"]::before,
     width: 100%;
 }
 
-/* GEOLOCALISATION OR SPATIAL ANALYSIS HTML (choose one name and stick to it */ 
+/* GEOLOCALISATION OR SPATIAL ANALYSIS HTML (choose one name and stick to it */
 #map {
     height: 600px;
-    width:100%;
+    width: 100%;
 }
 
-.sdeloddownload a [class^="bi-"]::before, [class*=" bi-"]::before {
+.sdeloddownload a [class^="bi-"]::before,
+[class*=" bi-"]::before {
     font-size: 0.95em;
 }
 
