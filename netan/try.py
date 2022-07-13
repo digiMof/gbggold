@@ -99,7 +99,7 @@ tpl_lst = list()
 for paragraph in tot_lst:
     for i in range(len(paragraph)):
         tpl = tuple((paragraph[0],paragraph[i]))
-        print(tpl)
+        #print(tpl)
         tpl_lst.append(tpl)
     #print("SINGLE TPL_LIST",tpl_lst)
 #print(tpl_lst)
@@ -134,7 +134,7 @@ tpl_list2 = list()
 '''
 
 # Create the csv file to be imported to Gephi for visualisation
-with open('netan/corpora2.csv', 'w', newline='') as file:
+with open('netan/corpora2.csv', 'w', encoding='UTF-8', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(["source", "target"])
     for item in tpl_lst:
