@@ -123,12 +123,29 @@
                     enim lorem.</p>
                 <div class="paridx" id="parSDE">
                     <h4>2.1. Semantic Digital Edition</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit sed urna quis auctor.
-                        Etiam eleifend lacus sit amet nibh efficitur, ac lacinia massa pharetra. Suspendisse lacinia
-                        enim nulla, vel tincidunt metus pulvinar ultrices. Morbi quis semper dolor, vitae sagittis nibh.
-                        Nam et nulla ultrices, fermentum nisl sit amet, dictum dolor. Praesent nec semper lorem, quis
-                        suscipit massa. Donec at iaculis lorem. Donec eleifend ex quis mi aliquet, eu consectetur eros
-                        vulputate. Morbi quis enim lorem.</p>
+                    <p>One of the core functionalities of “Changing lenses” is the presence of a Semantic Digital Edition of the novel by Bassani. The methodological approach is directly drawn from Sahle <a href="#Sahle16">(2016: 28)</a>, who stresses how “scholarly digital edition” are “guided by a digital paradigm in their theory, method and practice”. The scholarly nature of the publication is granted by the reference edition, referenced in the disclaimer below. Moreover, the edition is thought as a product per se born and structured within a digital ecosystem.
+                    </p>
+                    
+                    <p>
+                    In particular, this digital nature is strictly bound with the guidelines of the <a href="#TEIguide">Text Encoding Initiative</a>. The entire book was transcribed through a supervised OCR and imported into a XML document, which was structured according to this model. Among the suggested elements, two main sections were implemented: 
+                    <ul>
+                    <li>&ltparticDesc&gt and &ltsettingDesc&gt in the header, combined with the use of &ltpersName&gt and &ltplaceName&gt in the body, referenced with @ref</li>
+                    <li>&ltxenoData&gt which allows to enhance a scholarly digital edition with linked open data. Indeed, this section of the TEI P5 guidelines allows to declare for instance authority files. The description of the entity relied on four main authorities
+                        <ul>
+                            <li><b>VIAF</b>: for historical figures and relevant monument (e.g. Ferrara Cathedral)</li>
+                            <li><b>Geonames</b>: gazeteer used to describe the majority of the mentioned place</li>
+                            <li><b>Wikidata</b>: to cover all those people and place which were mentioned neither by VIAF nor by Geonames </li>
+                        </ul>
+                    Places and peoples were also catalogued in the proper classes according to the ontology <b>FOAF</b> (foaf:Person) and <b>DBPedia</b> (dbo:Place). All the namespace of the used ontologies, authorities and gazeteers are declared in the &ltTEI&gt tag.
+                    </li>
+                    </ul>  
+                    </p> 
+                    
+                    <p>
+                        <a href="sdeLOD/bassaniTei.xml"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-filetype-xml" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2v-1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM3.527 11.85h-.893l-.823 1.439h-.036L.943 11.85H.012l1.227 1.983L0 15.85h.861l.853-1.415h.035l.85 1.415h.908l-1.254-1.992 1.274-2.007Zm.954 3.999v-2.66h.038l.952 2.159h.516l.946-2.16h.038v2.661h.715V11.85h-.8l-1.14 2.596h-.025L4.58 11.85h-.806v3.999h.706Zm4.71-.674h1.696v.674H8.4V11.85h.791v3.325Z"/>
+                          </svg></a> The orginal XML marked up document available at the following here.
+                    </p>
                     <p>To perform these procedures, different snippets of code were developed:
                     <ul style="list-style-type:none; list-style: none; padding-left: 0;">
                         <li class="sdeloddownload"><a href="sdeLOD/bassaniXSLT.xsl" download><i
@@ -292,6 +309,9 @@
                 <div id="biblio">
                     <h3>4. Bibliography</h3>
                     <ul style="list-style-type:none; list-style: none; padding-left: 0;">
+                        <li id="TEIguide">TEI Consortium, eds. Guidelines for Electronic Text Encoding and Interchange [available at <a href=”http://www.tei-c.org/P5/”>this link</a>].</li>
+                        <li id="Sahle16">Sahle, Patrick (2016):“What is a Scholarly Digital Edition?”. In Pierazzo, Elena and Matthew James Driscoll. <i>Digital Scholarly Editing. Theories and Practices</i>. Cambridge: Open Book Publisher. </li> 
+
                         <li id="Rossi22">Rossi, Mario (2022): "You don't say". <i>Il grande libro dell'ovvietà</i>.
                             Torino: Einaudi editore.</li>
                         <li id="Geronimooo">Stilton, Geronimo (2008): "??". <i>Viaggio nel mondo della Fantasia n.

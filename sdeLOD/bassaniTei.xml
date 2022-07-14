@@ -9,7 +9,8 @@
      xmlns:wikidata="https://www.wikidata.org/wiki/"
      xmlns:geonames="https://www.geonames.org/"
      xmlns:viaf="http://viaf.org/viaf/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/">
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dbo="http://dbpedia.org/ontology/">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -1046,109 +1047,109 @@
               
            <!-- PEOPLE -->
            <rdf:Description tei:ref="#Pertile" rdf:about="viaf:5118632"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Aureliano Pertile</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#DeChirico" rdf:about="viaf:104172730"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Giorgio De Chirico</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#Casorati" rdf:about="viaf:40743254"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Felice Casorati</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#Melozzo" rdf:about="viaf:40174386"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Melozzo da Forlì</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#BWalter" rdf:about="viaf:46948108"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Bruno Walter</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#Wagner" rdf:about="viaf:29732107"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Richard Wagner</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#Bach" rdf:about="viaf:12304462"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Johann Sebastian Bach</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#Mozart" rdf:about="viaf:32197206"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Wolfgang Amadeus Mozart</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#Schubert" rdf:about="viaf:29719275"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Franz Schubert</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#Beethoven" rdf:about="viaf:80351209"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Ludwig van Beethoven</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#Hitler" rdf:about="viaf:38190770"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Adolf Hitler</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#Mussolini" rdf:about="viaf:90162262"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Benito Mussolini</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#DonnaRachele" rdf:about="viaf:47605447"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Rachele Guidi Mussolini</rdfs:label>
               <rdfs:label xml:lang="en">Donna Rachele</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#VittorioMussolini" rdf:about="viaf:95308999"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Vittorio Mussolini</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#BrunoMussolini" rdf:about="viaf:295149196253174790294"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Bruno Mussolini</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#Ciano" rdf:about="viaf:56702085"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Gian Galeazzo Ciano</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#Dollfuss" rdf:about="viaf:56702085"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Engelbert Dollfuss</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#MrsDollfuss" rdf:about="viaf:311574828"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Alwine Dollfuss</rdfs:label>
               <rdfs:label xml:lang="en">Signora Dollfuss</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#DePisis" rdf:about="viaf:68940882"> 
-                 <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+                 <rdf:type rdf:resource="foaf:Person"/>
                  <rdfs:label xml:lang="en">Filippo De Pisis</rdfs:label>
               </rdf:Description>
            <rdf:Description tei:ref="#Ridolini" rdf:about="viaf:24802993"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Ridolini</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#FFranco" rdf:about="viaf:44334635"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Francisco Franco</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#Pascoli" rdf:about="viaf:39397405"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Giovanni Pascoli</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#Omero" rdf:about="viaf:224924963"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Omero</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#Orazio" rdf:about="viaf:100227522"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Quinto Orazio Flacco</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#Croce" rdf:about="viaf:61544292"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Benedetto Croce</rdfs:label>
            </rdf:Description>
            <rdf:Description tei:ref="#PadreGemelli" rdf:about="viaf:46802170"> 
-              <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+              <rdf:type rdf:resource="foaf:Person"/>
               <rdfs:label xml:lang="en">Padre Gemelli</rdfs:label>
            </rdf:Description>
         </rdf:RDF> 
