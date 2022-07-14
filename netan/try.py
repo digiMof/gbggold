@@ -5,9 +5,6 @@ import csv
 
 # ====== I HAVE TO USE PARAGRAPHS, NOT SENTENCES =====
 
-
-
-
 # Since we want to distinguish between the two networks of Fadigati before and after the discovery of his sexuality, we need to split the full text into two different corpora (the before and after corpora): two txt files (NO tags except for the pers-name and place-name)
 
 # Starting corpora -> corpora1.txt, corpora2.txt
@@ -87,7 +84,7 @@ for item in txt2:
             #print("THIS IS THE CHARACTER\n",char)
 
     tot_lst.append(person_lst)  # Append list to external list
-print(tot_lst)  # The empty lists will be the paragraphs in which there is no pers-name
+#print(tot_lst)  # The empty lists will be the paragraphs in which there is no pers-name
 
 
 # Out of the snt_lst we will create the tuples for the csv file
@@ -99,7 +96,7 @@ tpl_lst = list()
 for paragraph in tot_lst:
     for i in range(len(paragraph)):
         tpl = tuple((paragraph[0],paragraph[i]))
-        #print(tpl)
+        print(tpl)
         tpl_lst.append(tpl)
     #print("SINGLE TPL_LIST",tpl_lst)
 #print(tpl_lst)
