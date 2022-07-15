@@ -105,12 +105,25 @@
 
             <div class="paridx" id="parIntro">
                 <h3>1. Introduction</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit sed urna quis auctor. Etiam
-                    eleifend lacus sit amet nibh efficitur, ac lacinia massa pharetra. Suspendisse lacinia enim nulla,
-                    vel tincidunt metus pulvinar ultrices. Morbi quis semper dolor, vitae sagittis nibh. Nam et nulla
-                    ultrices, fermentum nisl sit amet, dictum dolor. Praesent nec semper lorem, quis suscipit massa.
-                    Donec at iaculis lorem. Donec eleifend ex quis mi aliquet, eu consectetur eros vulputate. Morbi quis
-                    enim lorem.</p>
+                <p>
+                    <i>Gli occhiali d'oro</i> by Giorgio Bassani plays a crucial role within the Italian narrative tradition of the aftermath of the Second World War. The book was published in 1958 and constitutes the second section of the series <i>Il romanzo di Ferrara</i>. As it has been often pointed out (among the others, <a href="#Ferroni13">Ferroni 2013: 77</a>), the author stresses the theme of historical memory and contextualises it within the geographical scenario of the city of Ferrara. The chronotope of the plot is indeed the Emilian city during the Thirties and, similarly to the masterpiece <i>Il giardino dei Finzi-Contini</i>, describes the difficult situation experienced by Jewish communities in Italy during Fascism. Albeit the novel seems to deepen a crucial theme for the poetics of the author, it also deals with an unprecedented topic: the homophobic discrimination.
+                </p>
+                <p>
+                    The protagonist of <i>Gli occhiali d'oro</i> is indeed Athos Fadigati, a well-known otolaryngologist working in Ferrara. The first chapters of the book are indeed aimed at describing the bourgeois milieu of the small city and to provide the reader a portrait of the doctor. This harmonious balance is however fragile: already at the end of the second chapter a plot twist takes place:
+                    <blockquote>
+                        «Non lo sai? Mi risulta che il dottor Fadigati è...» «Sta' a sentire la novità. Conosci mica quel dottor Fadigati, che abita in Gorgadello, quasi all'angolo con Bersaglieri del Po? Ebbene, ho sentito dire che è...»
+                    </blockquote>
+                    From this moment the reader witness an hasher and harsher discrimination towards Fadigati. Indeed, his "inversione sessuale" is radically incompatible with the righteous principle of the Fascist bourgeois. This discrimination will progressively exclude and marginalise the protagonist, whose story cannot turn but into a tragedy. In fact, this unbearable burden will force Fadigati to drown himself in the suburbs of Ferrara, Pontelagoscuro.
+                </p>
+                <p>
+                    The entire story is described from an internal observer, who works emotive filter on the entire plot. The narrator is indeed a Jewish middle-class young adult (maybe Bassani himself?): this character, however, cannot be identified by a name, as it is referenced quite exclusively by personal pronouns throughout the book. Acerbi and Faré <a href="#CassoBassa">(1966: 185)</a> proposed a valid description of the narratological strategy implemented by Bassani in the book.
+                    <blockquote>
+                       A partire da <i>Gli occhiali d'oro</i> si apre la strada del puro intimismo, ponendosi come unico interesse l'analisi delle reazioni psicologiche individuali. La piu significativa innovazione e l'introduzione di un io narrante che, da elemento del coro intorno al dott. Fadigati, si fa personalità di rilievo sempre maggiore in rapporto con il protagonista, e con l'ambiente sociale, e in cui la personalità dell'autore si fonde e si immedesima con quella della sua creatura fantastica. Ne consegue la riduzione dei personaggi a quanto il giovane, che fa da narratore, coglie nel rapporto individuale, senza che questi vengano costruiti per convergenza di più punti di vista [...]. Ma poi il giovane protagonista si fa, da semplice osservatore e testimonio, partecipe del dramma del dottore [...]: è un incontro di perseguitati, per una analogia di condizioni tra il dottore e il giovane ebreo, che si accorge, attraverso i trasalimenti della sua vivissima sensibilita, di essere egli pure condannato ed esiliato dalla vita per la sola colpa di essere d'un'altra stirpe
+                    </blockquote>
+                </p>
+                <p>
+
+                </p>
             </div>
 
             <div class="paridx" id="parMet">
@@ -123,22 +136,23 @@
                     enim lorem.</p>
                 <div class="paridx" id="parSDE">
                     <h4>2.1. Semantic Digital Edition</h4>
-                    <p>One of the core functionalities of “Changing lenses” is the presence of a Semantic Digital Edition of the novel by Bassani. The methodological approach is directly drawn from Sahle <a href="#Sahle16">(2016: 28)</a>, who stresses how “scholarly digital edition” are “guided by a digital paradigm in their theory, method and practice”. The scholarly nature of the publication is granted by the reference edition, referenced in the disclaimer below. Moreover, the edition is thought as a product per se born and structured within a digital ecosystem.
+                    <p>
+                        One of the core functionalities of “Changing lenses” is the presence of a Semantic Digital Edition of the novel by Bassani. The methodological approach is directly drawn from Sahle <a href="#Sahle16">(2016: 28)</a>, who stresses how “scholarly digital edition” are “guided by a digital paradigm in their theory, method and practice”. The scholarly nature of the publication is granted by the reference edition, referenced in the disclaimer below. Moreover, the edition is thought as a product per se born and structured within a digital ecosystem.
                     </p>
                     
                     <p>
-                    In particular, this digital nature is strictly bound with the guidelines of the <a href="#TEIguide">Text Encoding Initiative</a>. The entire book was transcribed through a supervised OCR and imported into a XML document, which was structured according to this model. Among the suggested elements, two main sections were implemented: 
-                    <ul>
-                    <li>&ltparticDesc&gt and &ltsettingDesc&gt in the header, combined with the use of &ltpersName&gt and &ltplaceName&gt in the body, referenced with @ref</li>
-                    <li>&ltxenoData&gt which allows to enhance a scholarly digital edition with linked open data. Indeed, this section of the TEI P5 guidelines allows to declare for instance authority files. The description of the entity relied on four main authorities
+                        In particular, this digital nature is strictly bound with the guidelines of the <a href="#TEIguide">Text Encoding Initiative</a>. The entire book was transcribed through a supervised OCR and imported into a XML document, which was structured according to this model. Among the suggested elements, two main sections were implemented: 
                         <ul>
-                            <li><b>VIAF</b>: for historical figures and relevant monument (e.g. Ferrara Cathedral)</li>
-                            <li><b>Geonames</b>: gazeteer used to describe the majority of the mentioned place</li>
-                            <li><b>Wikidata</b>: to cover all those people and place which were mentioned neither by VIAF nor by Geonames </li>
-                        </ul>
-                    Places and peoples were also catalogued in the proper classes according to the ontology <b>FOAF</b> (foaf:Person) and <b>DBPedia</b> (dbo:Place). All the namespace of the used ontologies, authorities and gazeteers are declared in the &ltTEI&gt tag.
-                    </li>
-                    </ul>  
+                            <li>&ltparticDesc&gt and &ltsettingDesc&gt in the header, combined with the use of &ltpersName&gt and &ltplaceName&gt in the body, referenced with @ref</li>
+                            <li>&ltxenoData&gt which allows to enhance a scholarly digital edition with linked open data. Indeed, this section of the TEI P5 guidelines allows to declare for instance authority files. The description of the entity relied on four main authorities
+                                <ul>
+                                    <li><b>VIAF</b>: for historical figures and relevant monument (e.g. Ferrara Cathedral)</li>
+                                    <li><b>Geonames</b>: gazeteer used to describe the majority of the mentioned place</li>
+                                    <li><b>Wikidata</b>: to cover all those people and place which were mentioned neither by VIAF nor by Geonames </li>
+                                </ul>
+                            Places and peoples were also catalogued in the proper classes according to the ontology <b>FOAF</b> (foaf:Person) and <b>DBPedia</b> (dbo:Place). All the namespace of the used ontologies, authorities and gazeteers are declared in the &ltTEI&gt tag.
+                            </li>
+                        </ul>  
                     </p> 
                     
                     <p>
@@ -314,9 +328,11 @@
                 </div>
                 <div id="biblio">
                     <h3>4. Bibliography</h3>
-                    <ul style="list-style-type:none; list-style: none; padding-left: 0;">
+                    <ul>
+                        <li id="CassoBassa">Acerbi, Maria Teresa and Sandra Faré (1966): "Cassola e Bassani: L'intimismo psicologistico". <i>Aevum</i>, 40, 1/2 (Jan. - Apr.)</li>
+                        <li id="Ferroni13">Ferroni, Giulio et al. (2013): <i>Storia e testi della letteratura italiana. Ricostruzione e sviluppo nel dopoguerra (1945-1968)</i>. Vol. X. Milan: Mondadori Education.</li>
                         <li id="Sahle16">Sahle, Patrick (2016):“What is a Scholarly Digital Edition?”. In Pierazzo, Elena and Matthew James Driscoll. <i>Digital Scholarly Editing. Theories and Practices</i>. Cambridge: Open Book Publisher. </li> 
-                        <li id="TEIguide">TEI Consortium, eds. Guidelines for Electronic Text Encoding and Interchange [available at <a href=”http://www.tei-c.org/P5/”>this link</a>].</li>
+                        <li id="TEIguide">TEI Consortium, eds. <i>Guidelines for Electronic Text Encoding and Interchange</i> [available at <a href=”http://www.tei-c.org/P5/”>this link</a>].</li>
                     </ul>
                 </div>
             </div>

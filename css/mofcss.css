@@ -130,3 +130,9 @@ a [class^="bi-"]::before,
 .paridx a:any-link {
     text-decoration: none;
 }
+
+blockquote {
+    padding-left: 2%; 
+    padding-right:2%; 
+    font-size: 0.95em;
+}
