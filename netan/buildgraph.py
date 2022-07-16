@@ -1,3 +1,4 @@
+from email.errors import FirstHeaderLineIsContinuationDefect
 import re
 import csv
 
@@ -79,6 +80,7 @@ for item in txt:
     # Update the list of lists
     tot_lst.append(node_lst)
 
+
 # ==== CREATING THE EDGES SHEET ====
 # 2) Create tuples associating the items of each list together
     # Add attributes
@@ -90,7 +92,6 @@ for paragraph in tot_lst:
         tpl_lst1.append(tpl1)
 
 # 3) Create the csv file from the tuples
-    # !!! If we add stuff on the previous point, here we will need to add the necessary column(s)
 
 with open('netan/csv/edgesSheet.csv', 'w', encoding='UTF-8', newline='') as file:
     writer = csv.writer(file)
@@ -99,7 +100,7 @@ with open('netan/csv/edgesSheet.csv', 'w', encoding='UTF-8', newline='') as file
         writer.writerow(item)
     
 # ==== CREATING THE NODES SHEET ====
-tpl_lst2 = list()
+tpl_lst2 = set()    # This is a set because the repetitions are not meaningful for what concerns nodes
 for paragraph in tot_lst:
     for i in range(len(paragraph)):
         if paragraph[i] in place_list:
@@ -111,7 +112,7 @@ for paragraph in tot_lst:
                 tpl2 = tuple((paragraph[i],paragraph[i],"Place","Adriatic Region's Locations"))
             else:
                 tpl2 = tuple((paragraph[i],paragraph[i],"Place","Others"))
-            tpl_lst2.append(tpl2)
+            tpl_lst2.add(tpl2)
         elif paragraph[i] in char_list:
             if paragraph[i] in primary_char:
                 tpl2 = tuple((paragraph[i],paragraph[i],"Character","Primary Character"))
@@ -127,7 +128,7 @@ for paragraph in tot_lst:
                 tpl2 = tuple((paragraph[i],paragraph[i],"Character","Cultural Character"))
             else:
                 tpl2 = tuple((paragraph[i],paragraph[i],"Character","Others"))
-            tpl_lst2.append(tpl2)
+            tpl_lst2.add(tpl2)
 
 with open('netan/csv/nodesSheet.csv', 'w', encoding='UTF-8', newline='') as file:
     writer = csv.writer(file)
@@ -136,21 +137,61 @@ with open('netan/csv/nodesSheet.csv', 'w', encoding='UTF-8', newline='') as file
         writer.writerow(item)
 
 
+# >>>>>> CREATE FADIGATI'S NETWORK <<<<<<
+fadigati_lst = ['vecchio finocchio','Athos Fadigati','signor dottore','vecchio degenerato', 'dottore','amato bene', 'signore attempato', 'tipo', 'Fadigati']
+# ==== EDGES SHEET ====
+tpl_lstF1 = list()
+for paragraph in tot_lst:
+    for i in range(len(paragraph)):
+        if (paragraph[i] in fadigati_lst) and (paragraph[i] != paragraph[0]):
+            tpl = tuple((paragraph[0],paragraph[i]))
+            tpl_lstF1.append(tpl)
 
+with open('netan/csv/F_edgesSheet.csv', 'w', encoding='UTF-8', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(["Source","Target"])
+    for item in tpl_lst1:
+        writer.writerow(item)
+    
+# ==== NODES SHEET ====
+tpl_lstF2 = set()
+for paragraph in tot_lst:
+    for i in range(len(paragraph)):
+        for item in tpl_lstF1:
+            if (paragraph[i] == item[0]) or (paragraph[i] == item[1]):
+                if paragraph[i] in place_list:
+                    if paragraph[i] in ferrara_pl:
+                        tpl2 = tuple((paragraph[i],paragraph[i],"Place","Ferrara's Locations"))
+                    elif paragraph[i] in bologna_pl:
+                        tpl2 = tuple((paragraph[i],paragraph[i],"Place","Bologna's Locations"))
+                    elif paragraph[i] in adriatic_pl:
+                        tpl2 = tuple((paragraph[i],paragraph[i],"Place","Adriatic Region's Locations"))
+                    else:
+                        tpl2 = tuple((paragraph[i],paragraph[i],"Place","Others"))
+                    tpl_lstF2.add(tpl2)
+                elif paragraph[i] in char_list:
+                    if paragraph[i] in primary_char:
+                        tpl2 = tuple((paragraph[i],paragraph[i],"Character","Primary Character"))
+                    elif paragraph[i] in family_char:
+                        tpl2 = tuple((paragraph[i],paragraph[i],"Character","Family Character"))
+                    elif paragraph[i] in students_char:
+                        tpl2 = tuple((paragraph[i],paragraph[i],"Character","Student Character"))
+                    elif paragraph[i] in borg_char:
+                        tpl2 = tuple((paragraph[i],paragraph[i],"Character","Bourgeoisie Character"))
+                    elif paragraph[i] in historical_char:
+                        tpl2 = tuple((paragraph[i],paragraph[i],"Character","Historical Character"))
+                    elif paragraph[i] in cultural_char:
+                        tpl2 = tuple((paragraph[i],paragraph[i],"Character","Cultural Character"))
+                    else:
+                        tpl2 = tuple((paragraph[i],paragraph[i],"Character","Others"))
+                    tpl_lstF2.add(tpl2)
 
-
-### CHECK TXT
-
-# PRIMARY CHARACTERS: NARRATOR, FADIGATI, ERALDO DELILIERS ---- DONE
-# SECUNDARY CHARACTERS: MOTHER, FATHER, FANNY, ERNESTO, ELISA ---- DONE
-# BOURGEOISIE CHARACTERS: LAVEZZOLIS ---- DONE
-# YOUNG STUDENTS: BIANCA SGARBI, NINO BOTTECCHIARI, VITTORIO MOLON, SERGIO PAVANI, OTELLO FORTI, GIOVANNINO PIAZZA, ENRICO SANGIULIANO ---- DONE
-# HISTORICAL: MUSSOLINI, DOLLFUSS, CIANO, FRANCO, HITLER ---- DONE
-# CULTURAL: BENEDETTO CROCE, PADRE GEMELLI, OMERO, ORAZIO, PASCOLI, BACH, BEETHOVEN, MOZARD, SCHUBERT, WAGNER, CASORATI, DE CHIRICO, DE PISIS, MELOZZO DA FORLI, AURELIANO PERTILE, RIDOLINI, BRUNO WALTER, ---- DONE
-
-# FERRARA---- DONE
-# BOLOGNA---- DONE
-# ADRIATIC---- DONE
+print(tpl_lstF2)
+with open('netan/csv/F_nodesSheet.csv', 'w', encoding='UTF-8', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(["Id","Label","Type","Class"])
+    for item in tpl_lstF2:
+        writer.writerow(item)
 
 
 
