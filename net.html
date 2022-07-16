@@ -21,6 +21,8 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/mofcss.css" rel="stylesheet" />
+    <!-- Sigma.js -->
+    <script src="./build/sigma.min.js"></script>
 </head>
 
 <body id="page-top">
@@ -72,6 +74,19 @@
                 <p>By hovering over (??) the graph you'll be able to explore the different relationships that connect the characters to eachother and to urban places.</p>
             </div>
             <iframe allowfullscreen="allowfullscreen" src="netan/network/index.html" title="Sigma.js demo" width="100%" height="900px"></iframe>
+            <div id='sigma-container'></div>
+            <script>
+                // Initialize sigma:
+                var s = new sigma(
+                  {
+                     renderer: {
+                       container: document.getElementById('sigma-container'),
+                       type: 'canvas'
+                     },
+                     settings: {}
+                   }
+                 );
+              </script>
         </div>
     </section>
     <!-- Footer-->

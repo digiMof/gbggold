@@ -92,7 +92,7 @@ for paragraph in tot_lst:
 # 3) Create the csv file from the tuples
     # !!! If we add stuff on the previous point, here we will need to add the necessary column(s)
 
-with open('netan/edgesSheet.csv', 'w', encoding='UTF-8', newline='') as file:
+with open('netan/csv/edgesSheet.csv', 'w', encoding='UTF-8', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(["Source","Target"])
     for item in tpl_lst1:
@@ -129,7 +129,7 @@ for paragraph in tot_lst:
                 tpl2 = tuple((paragraph[i],paragraph[i],"Character","Others"))
             tpl_lst2.append(tpl2)
 
-with open('netan/nodesSheet.csv', 'w', encoding='UTF-8', newline='') as file:
+with open('netan/csv/nodesSheet.csv', 'w', encoding='UTF-8', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(["Id","Label","Type","Class"])
     for item in tpl_lst2:
