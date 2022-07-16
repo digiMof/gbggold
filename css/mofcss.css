@@ -112,7 +112,7 @@ a [class^="bi-"]::before,
     width: 100%;
 }
 
-/* GEOLOCALISATION OR SPATIAL ANALYSIS HTML (choose one name and stick to it */
+/* GEOLOCALISATION OR SPATIAL ANALYSIS HTML (choose one name )*/
 #map {
     height: 600px;
     width: 100%;
@@ -135,4 +135,10 @@ blockquote {
     padding-left: 2%; 
     padding-right:2%; 
     font-size: 0.95em;
+}
+
+/* NETWORK ANALYSIS */
+iframe {
+    width: 100% !important;
+    height: 900px !important;
 }
