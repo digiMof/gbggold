@@ -51,7 +51,6 @@ for item in txt:
     for word in word_lst:
         if "pers-name" in word or "place-name" in word: # If the word contains one of these strings it is a character/place
             node = re.search('(?<=\"\>)\w+\s?\w+(\s?\w+(\s?\w+)?)?',word)
-            print(node)
             node_lst.append(node.group(0))
             # We then add the word in the different 'communities'
             if "pers-name" in word:
