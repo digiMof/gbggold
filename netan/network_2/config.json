@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Orsola Maria Borrini"
+  },
+  "text": {
+    "more": "This graph represents Fadigati\u0027s network after rumors about his sexuality start spreding (at the end of chapter 2): the corpora is the second part of the text (from chapter 3 to 18) and the various entities/nodes are firstly divided in types: there are Characters (identifiable with warmer colours) and Places (identifiable with colder colours). Then, each type is divided in classes: for what concerns the Places we have Ferrara, Bologna and the Adriatic Region; for what concerns the characters, we have different social classes and roles.\nIt is therefore possible to infer new connections and relations between the entities of the book and, by comparing it to Fadigati\u0027s previous network, to understand how it changes.",
+    "intro": "Browse through the various relationships held by dott. Athos Fadigati after his outing (at the end of chapter 2).\nClick on a node to see its connections or select different classes representing the book\u0027s communities: for places (Ferrara, Bologna or Adriatic locations) and people (historical and cultural characters, the group of students, the narrator\u0027s family, characters belonging and representing the bourgeoisie and \"others\").",
+    "title": "Fadigati\u0027s network - Second Graph"
+  },
+  "legend": {
+    "edgeLabel": "Relationships",
+    "colorLabel": "Different types",
+    "nodeLabel": "Characters and Places"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

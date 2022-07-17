@@ -8,8 +8,8 @@
     "text": "Orsola Maria Borrini"
   },
   "text": {
-    "more": "With this graph it is possible to browse through the relations present in Bassani\u0027s \"Gli Occhiali d\u0027Oro\"",
-    "intro": "With this graph it is possible to browse through the relations present in Bassani\u0027s \"Gli Occhiali d\u0027Oro\"",
+    "more": "This graph represents the whole network of Bassani\u0027s \"Gli occhiali d\u0027oro\": the corpora is the full text and the various entities/nodes are firstly divided in types: there are Characters (identifiable with warmer colours) and Places (identifiable with colder colours). Then, each type is divided in classes: for what concerns the Places we have Ferrara, Bologna and the Adriatic Region; for what concerns the characters, we have different social classes and roles.\nIt is therefore possible to infer new connections and relations between the entities of the book.",
+    "intro": "Browse through the various relationships in Bassani\u0027s \"Gli occhiali d\u0027oro\".\nClick on a node to see its connections or select different classes representing the book\u0027s communities: for places (Ferrara, Bologna or Adriatic locations) and people (historical and cultural characters, the group of students, the narrator\u0027s family, characters belonging and representing the bourgeoisie and \"others\").",
     "title": "Gli Occhiali d\u0027Oro Graph"
   },
   "legend": {
