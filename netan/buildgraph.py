@@ -3,6 +3,7 @@ import re
 import csv
 
 from numpy import char, place
+from pip import List
 
 # ------------------------------------ CSV CREATION FOR GRAPH BUILDING IN GEPHI -------------------------------------------------------
 # To create the WHOLE GRAPH for the whole literary text, use the starting .txt file "fulltext.txt"
@@ -30,21 +31,21 @@ txt = re.split('\n', corpora)
 
 # List of lists (each second layer list represents a paragraph) -> List of paragraphs
 tot_lst = list()
-place_list = set()
-char_list = set()
+place_list = list()
+char_list = list()
 
-# Sets for distinguish between characters' communities
-primary_char = set()
-family_char = set()
-students_char = set()
-borg_char = set()
-historical_char = set()
-cultural_char = set()
+# lists for distinguish between characters' communities
+primary_char = list()
+family_char = list()
+students_char = list()
+borg_char = list()
+historical_char = list()
+cultural_char = list()
 
-# Sets for distinguish between places' communities
-ferrara_pl = set()
-bologna_pl = set()
-adriatic_pl = set()
+# lists for distinguish between places' communities
+ferrara_pl = list()
+bologna_pl = list()
+adriatic_pl = list()
 
 for item in txt:
     # Split the paragraph in a list of words (str)
@@ -60,27 +61,27 @@ for item in txt:
             node_lst.append(node.group(0))
             # We then add the word in the different 'communities'
             if "pers-name" in word:
-                char_list.add(node.group(0))
+                char_list.append(node.group(0))
                 if "primary" in word:   # The character is either Fadigati, Deliliers or the narrator
-                    primary_char.add(node.group(0))
+                    primary_char.append(node.group(0))
                 elif "family" in word:    # The character belongs to the narrator's family
-                    family_char.add(node.group(0))
+                    family_char.append(node.group(0))
                 elif "student" in word:  # The character belongs to the group of young students
-                    students_char.add(node.group(0))
+                    students_char.append(node.group(0))
                 elif "borg" in word:    # The character belongs to the bourgeoisie class (e.g. Lavezzoli family)
-                    borg_char.add(node.group(0))
+                    borg_char.append(node.group(0))
                 elif "historical" in word:  # The character is historical (Mussolini, Hitler, Dolfuss...)
-                    historical_char.add(node.group(0))
+                    historical_char.append(node.group(0))
                 elif "cultural" in word:    # The character is cultural (composer, artist...)
-                    cultural_char.add(node.group(0))
+                    cultural_char.append(node.group(0))
             elif "place-name" in word:
-                place_list.add(node.group(0))
+                place_list.append(node.group(0))
                 if "ferrara-loc" in word:
-                    ferrara_pl.add(node.group(0))
+                    ferrara_pl.append(node.group(0))
                 elif "bologna-loc" in word:
-                    bologna_pl.add(node.group(0))
+                    bologna_pl.append(node.group(0))
                 elif "adriatic-loc" in word:
-                    adriatic_pl.add(node.group(0))
+                    adriatic_pl.append(node.group(0))
 
     # Update the list of lists
     tot_lst.append(node_lst)
@@ -105,8 +106,7 @@ with open('netan/csv/F2_edgesSheet.csv', 'w', encoding='UTF-8', newline='') as f
         writer.writerow(item)
 
 # ==== CREATING THE NODES SHEET ====
-# This is a set because the repetitions are not meaningful for what concerns nodes
-tpl_lst2 = set()
+tpl_lst2 = list()
 for paragraph in tot_lst:
     for i in range(len(paragraph)):
         if paragraph[i] in place_list:
@@ -121,7 +121,7 @@ for paragraph in tot_lst:
                     (paragraph[i], paragraph[i], "Place", "Adriatic Region's Locations"))
             else:
                 tpl2 = tuple((paragraph[i], paragraph[i], "Place", "Others"))
-            tpl_lst2.add(tpl2)
+            tpl_lst2.append(tpl2)
         elif paragraph[i] in char_list:
             if paragraph[i] in primary_char:
                 tpl2 = tuple(
@@ -144,7 +144,7 @@ for paragraph in tot_lst:
             else:
                 tpl2 = tuple(
                     (paragraph[i], paragraph[i], "Character", "Others"))
-            tpl_lst2.add(tpl2)
+            tpl_lst2.append(tpl2)
 
 with open('netan/csv/F2_nodesSheet.csv', 'w', encoding='UTF-8', newline='') as file:
     writer = csv.writer(file)
@@ -177,27 +177,27 @@ for item in txt1:
             node = re.search('(?<=\"\>)\w+\s?\w+(\s?\w+(\s?\w+)?)?', word)
             node_lst.append(node.group(0))
             if "pers-name" in word:
-                char_list.add(node.group(0))
+                char_list.append(node.group(0))
                 if "primary" in word:
-                    primary_char.add(node.group(0))
+                    primary_char.append(node.group(0))
                 elif "family" in word:
-                    family_char.add(node.group(0))
+                    family_char.append(node.group(0))
                 elif "student" in word:
-                    students_char.add(node.group(0))
+                    students_char.append(node.group(0))
                 elif "borg" in word:
-                    borg_char.add(node.group(0))
+                    borg_char.append(node.group(0))
                 elif "historical" in word:
-                    historical_char.add(node.group(0))
+                    historical_char.append(node.group(0))
                 elif "cultural" in word:
-                    cultural_char.add(node.group(0))
+                    cultural_char.append(node.group(0))
             elif "place-name" in word:
-                place_list.add(node.group(0))
+                place_list.append(node.group(0))
                 if "ferrara-loc" in word:
-                    ferrara_pl.add(node.group(0))
+                    ferrara_pl.append(node.group(0))
                 elif "bologna-loc" in word:
-                    bologna_pl.add(node.group(0))
+                    bologna_pl.append(node.group(0))
                 elif "adriatic-loc" in word:
-                    adriatic_pl.add(node.group(0))
+                    adriatic_pl.append(node.group(0))
     f1_tot_lst.append(node_lst)
 
 # ===
@@ -218,7 +218,7 @@ with open('netan/csv/F1_edgesSheet.csv', 'w', encoding='UTF-8', newline='') as f
 # ===
 # ==== NODES SHEET ====
 # ===
-tpl_lstF12 = set()
+tpl_lstF12 = list()
 for paragraph in f1_tot_lst:
     for i in range(len(paragraph)):
         if paragraph[i] in place_list:
@@ -234,7 +234,7 @@ for paragraph in f1_tot_lst:
             else:
                 tpl2 = tuple(
                     (paragraph[i], paragraph[i], "Place", "Others"))
-            tpl_lstF12.add(tpl2)
+            tpl_lstF12.append(tpl2)
         elif paragraph[i] in char_list:
             if paragraph[i] in primary_char:
                 tpl2 = tuple(
@@ -257,7 +257,7 @@ for paragraph in f1_tot_lst:
             else:
                 tpl2 = tuple(
                     (paragraph[i], paragraph[i], "Character", "Others"))
-            tpl_lstF12.add(tpl2)
+            tpl_lstF12.append(tpl2)
 
 with open('netan/csv/F1_nodesSheet.csv', 'w', encoding='UTF-8', newline='') as file:
     writer = csv.writer(file)
@@ -290,27 +290,27 @@ for item in txt2:
             node = re.search('(?<=\"\>)\w+\s?\w+(\s?\w+(\s?\w+)?)?', word)
             node_lst.append(node.group(0))
             if "pers-name" in word:
-                char_list.add(node.group(0))
+                char_list.append(node.group(0))
                 if "primary" in word:
-                    primary_char.add(node.group(0))
+                    primary_char.append(node.group(0))
                 elif "family" in word:
-                    family_char.add(node.group(0))
+                    family_char.append(node.group(0))
                 elif "student" in word:
-                    students_char.add(node.group(0))
+                    students_char.append(node.group(0))
                 elif "borg" in word:
-                    borg_char.add(node.group(0))
+                    borg_char.append(node.group(0))
                 elif "historical" in word:
-                    historical_char.add(node.group(0))
+                    historical_char.append(node.group(0))
                 elif "cultural" in word:
-                    cultural_char.add(node.group(0))
+                    cultural_char.append(node.group(0))
             elif "place-name" in word:
-                place_list.add(node.group(0))
+                place_list.append(node.group(0))
                 if "ferrara-loc" in word:
-                    ferrara_pl.add(node.group(0))
+                    ferrara_pl.append(node.group(0))
                 elif "bologna-loc" in word:
-                    bologna_pl.add(node.group(0))
+                    bologna_pl.append(node.group(0))
                 elif "adriatic-loc" in word:
-                    adriatic_pl.add(node.group(0))
+                    adriatic_pl.append(node.group(0))
     f2_tot_lst.append(node_lst)
 print(f2_tot_lst)
 
@@ -328,7 +328,7 @@ with open('netan/csv/F2_edgesSheet.csv', 'w', encoding='UTF-8', newline='') as f
         writer.writerow(item)
 
 # ==== NODES SHEET ====
-tpl_lstF22 = set()
+tpl_lstF22 = list()
 for paragraph in f2_tot_lst:
     for i in range(len(paragraph)):
         if paragraph[i] in place_list:
@@ -344,7 +344,7 @@ for paragraph in f2_tot_lst:
             else:
                 tpl2 = tuple(
                     (paragraph[i], paragraph[i], "Place", "Others"))
-            tpl_lstF22.add(tpl2)
+            tpl_lstF22.append(tpl2)
         elif paragraph[i] in char_list:
             if paragraph[i] in primary_char:
                 tpl2 = tuple(
@@ -367,7 +367,7 @@ for paragraph in f2_tot_lst:
             else:
                 tpl2 = tuple(
                     (paragraph[i], paragraph[i], "Character", "Others"))
-            tpl_lstF22.add(tpl2)
+            tpl_lstF22.append(tpl2)
 
 with open('netan/csv/F2_nodesSheet.csv', 'w', encoding='UTF-8', newline='') as file:
     writer = csv.writer(file)

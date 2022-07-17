@@ -1,47 +1,73 @@
 Id,Label,Type,Class
-Fadigati,Fadigati,Character,Primary Character
-Venezia,Venezia,Place,Others
-De Pisis,De Pisis,Character,Cultural Character
-Canal Grande,Canal Grande,Place,Others
-De Chirico,De Chirico,Character,Cultural Character
-duomo,duomo,Place,Ferrara's Locations
-via Gorgadello,via Gorgadello,Place,Ferrara's Locations
-io,io,Character,Others
-Unione,Unione,Place,Ferrara's Locations
-via San Romano,via San Romano,Place,Ferrara's Locations
-dalla Sandrina,dalla Sandrina,Place,Ferrara's Locations
-via Saraceno,via Saraceno,Place,Ferrara's Locations
-Bersaglieri del Po,Bersaglieri del Po,Place,Ferrara's Locations
-Athos Fadigati,Athos Fadigati,Character,Primary Character
-genitori,genitori,Character,Others
-corso Roma,corso Roma,Place,Ferrara's Locations
-Diana,Diana,Place,Ferrara's Locations
-Casoratino,Casoratino,Character,Cultural Character
-via Mazzini,via Mazzini,Place,Ferrara's Locations
-Circolo dei Negozianti,Circolo dei Negozianti,Place,Ferrara's Locations
-San Carlo,San Carlo,Place,Ferrara's Locations
-Rex,Rex,Place,Ferrara's Locations
-via Bersaglieri del Po,via Bersaglieri del Po,Place,Ferrara's Locations
-Gorgadello,Gorgadello,Place,Ferrara's Locations
-Mercerie veneziane,Mercerie veneziane,Place,Ferrara's Locations
-via Garibaldi,via Garibaldi,Place,Ferrara's Locations
-Listone,Listone,Place,Ferrara's Locations
-vicolo del Granchio,vicolo del Granchio,Place,Ferrara's Locations
-Piazza Travaglio,Piazza Travaglio,Place,Ferrara's Locations
-ai Tre Galletti,ai Tre Galletti,Place,Ferrara's Locations
-Piazza delle Erbe,Piazza delle Erbe,Place,Ferrara's Locations
-da Vincenzo,da Vincenzo,Place,Ferrara's Locations
-piazza Cattedrale,piazza Cattedrale,Place,Ferrara's Locations
-sorella,sorella,Character,Others
-da Roveraro,da Roveraro,Place,Ferrara's Locations
-Salvini,Salvini,Place,Ferrara's Locations
-Comunale di Bologna,Comunale di Bologna,Place,Bologna's Locations
-corso Giovecca,corso Giovecca,Place,Ferrara's Locations
-dottor Corcos,dottor Corcos,Character,Others
-palazzo delle Assicurazioni Generali,palazzo delle Assicurazioni Generali,Place,Ferrara's Locations
-Segretario Federale,Segretario Federale,Character,Others
-Aureliano Pertile,Aureliano Pertile,Character,Cultural Character
-Arcispedale,Arcispedale,Place,Ferrara's Locations
 Ferrara,Ferrara,Place,Ferrara's Locations
-Excelsior,Excelsior,Place,Ferrara's Locations
+Fadigati,Fadigati,Character,Primary Character
+Athos Fadigati,Athos Fadigati,Character,Primary Character
+via Gorgadello,via Gorgadello,Place,Ferrara's Locations
+Piazza delle Erbe,Piazza delle Erbe,Place,Ferrara's Locations
+Venezia,Venezia,Place,Others
+io,io,Character,Others
+corso Giovecca,corso Giovecca,Place,Ferrara's Locations
+corso Roma,corso Roma,Place,Ferrara's Locations
+palazzo delle Assicurazioni Generali,palazzo delle Assicurazioni Generali,Place,Ferrara's Locations
 Castello,Castello,Place,Ferrara's Locations
+Fadigati,Fadigati,Character,Primary Character
+Fadigati,Fadigati,Character,Primary Character
+Ferrara,Ferrara,Place,Ferrara's Locations
+Arcispedale,Arcispedale,Place,Ferrara's Locations
+Venezia,Venezia,Place,Others
+Canal Grande,Canal Grande,Place,Others
+genitori,genitori,Character,Others
+sorella,sorella,Character,Others
+via Gorgadello,via Gorgadello,Place,Ferrara's Locations
+Ferrara,Ferrara,Place,Ferrara's Locations
+Arcispedale,Arcispedale,Place,Ferrara's Locations
+Fadigati,Fadigati,Character,Primary Character
+Fadigati,Fadigati,Character,Primary Character
+piazza Cattedrale,piazza Cattedrale,Place,Ferrara's Locations
+via Gorgadello,via Gorgadello,Place,Ferrara's Locations
+Circolo dei Negozianti,Circolo dei Negozianti,Place,Ferrara's Locations
+Unione,Unione,Place,Ferrara's Locations
+Comunale di Bologna,Comunale di Bologna,Place,Bologna's Locations
+Aureliano Pertile,Aureliano Pertile,Character,Cultural Character
+De Chirico,De Chirico,Character,Cultural Character
+Casoratino,Casoratino,Character,Cultural Character
+De Pisis,De Pisis,Character,Cultural Character
+De Pisis,De Pisis,Character,Cultural Character
+De Pisis,De Pisis,Character,Cultural Character
+Fadigati,Fadigati,Character,Primary Character
+Fadigati,Fadigati,Character,Primary Character
+corso Giovecca,corso Giovecca,Place,Ferrara's Locations
+da Vincenzo,da Vincenzo,Place,Ferrara's Locations
+dalla Sandrina,dalla Sandrina,Place,Ferrara's Locations
+ai Tre Galletti,ai Tre Galletti,Place,Ferrara's Locations
+da Roveraro,da Roveraro,Place,Ferrara's Locations
+vicolo del Granchio,vicolo del Granchio,Place,Ferrara's Locations
+via Gorgadello,via Gorgadello,Place,Ferrara's Locations
+via Bersaglieri del Po,via Bersaglieri del Po,Place,Ferrara's Locations
+Mercerie veneziane,Mercerie veneziane,Place,Ferrara's Locations
+via Mazzini,via Mazzini,Place,Ferrara's Locations
+via Saraceno,via Saraceno,Place,Ferrara's Locations
+duomo,duomo,Place,Ferrara's Locations
+Piazza Travaglio,Piazza Travaglio,Place,Ferrara's Locations
+via Garibaldi,via Garibaldi,Place,Ferrara's Locations
+via San Romano,via San Romano,Place,Ferrara's Locations
+Fadigati,Fadigati,Character,Primary Character
+Excelsior,Excelsior,Place,Ferrara's Locations
+Salvini,Salvini,Place,Ferrara's Locations
+Rex,Rex,Place,Ferrara's Locations
+Diana,Diana,Place,Ferrara's Locations
+Fadigati,Fadigati,Character,Primary Character
+via Gorgadello,via Gorgadello,Place,Ferrara's Locations
+Segretario Federale,Segretario Federale,Character,Others
+San Carlo,San Carlo,Place,Ferrara's Locations
+duomo,duomo,Place,Ferrara's Locations
+dottor Corcos,dottor Corcos,Character,Others
+Excelsior,Excelsior,Place,Ferrara's Locations
+Salvini,Salvini,Place,Ferrara's Locations
+Piazza delle Erbe,Piazza delle Erbe,Place,Ferrara's Locations
+Listone,Listone,Place,Ferrara's Locations
+via Bersaglieri del Po,via Bersaglieri del Po,Place,Ferrara's Locations
+Fadigati,Fadigati,Character,Primary Character
+Fadigati,Fadigati,Character,Primary Character
+Gorgadello,Gorgadello,Place,Ferrara's Locations
+Bersaglieri del Po,Bersaglieri del Po,Place,Ferrara's Locations
