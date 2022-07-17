@@ -142,6 +142,7 @@ iframe {
     border: solid 1px black;
     width: 100% !important;
     height: 900px !important;
+    margin-bottom: 2.5em;
 }
 
 #sigma-container {
