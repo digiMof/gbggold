@@ -142,10 +142,80 @@ iframe {
     border: solid 1px black;
     width: 100% !important;
     height: 900px !important;
-    margin-bottom: 2.5em !important;
+    margin: 2.5em !important;
 }
 
 #sigma-container {
     width: 100%;
-    height:100%;
+    height: 100%;
+}
+
+.box {
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    clear: both;
+}
+
+/* Legenda */
+/* basic positioning */
+.legend {
+    list-style: none;
+}
+
+.legend li {
+    float: left;
+    margin-right: 10px;
+}
+
+.legend span {
+    border: 1px solid #ccc;
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin: 2px;
+}
+
+/* your colors */
+.legend .primarychar {
+    background-color: #ffb456;
+}
+
+.legend .familychar {
+    background-color: #da8038;
+
+}
+
+.legend .studentchar {
+    background-color: #ffcb29;
+}
+
+.legend .bourgchar {
+    background-color: #ffbd6d;
+}
+
+.legend .histchar {
+    background-color: #c18c53;
+}
+
+.legend .cultchar {
+    background-color: #ffcd5a;
+}
+
+.legend .ferloc {
+    background-color: #9300e6;
+}
+
+.legend .bololoc {
+    background-color: #009de6;
+}
+
+.legend .adrialoc {
+    background-color: #0002e6;
+}
+
+.legend .others {
+    background-color: #36e600;
 }
