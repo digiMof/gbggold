@@ -1,290 +1,47 @@
 Id,Label,Type,Class
-Io,Io,Character,Primary Character
-amato bene,amato bene,Character,Primary Character
-grande Baùsi,grande Baùsi,Character,Others
-Fratta Polesine,Fratta Polesine,Place,Others
-mio,mio,Character,Primary Character
-fratello,fratello,Character,Family Character
-San Vitale,San Vitale,Place,Bologna's Locations
-Mozart,Mozart,Character,Cultural Character
-Hôtel Vittoria,Hôtel Vittoria,Place,Adriatic Region's Locations
-Alberto,Alberto,Character,Others
-sua sorellina,sua sorellina,Character,Family Character
-Piazza Travaglio,Piazza Travaglio,Place,Ferrara's Locations
-corso Roma,corso Roma,Place,Ferrara's Locations
-Lido,Lido,Place,Others
-Gilberto Lavezzoli,Gilberto Lavezzoli,Character,Bourgeoisie Character
-papà,papà,Character,Family Character
-Omero,Omero,Character,Cultural Character
-Milano Marittima,Milano Marittima,Place,Adriatic Region's Locations
-Carpegna,Carpegna,Place,Adriatic Region's Locations
-Imperia,Imperia,Place,Others
-nostro Paese,nostro Paese,Place,Others
-Casoratino,Casoratino,Character,Cultural Character
-Credito Italiano,Credito Italiano,Place,Ferrara's Locations
-Duce,Duce,Character,Historical Character
-San Leo,San Leo,Place,Adriatic Region's Locations
-chiesa di San Cristoforo,chiesa di San Cristoforo,Place,Ferrara's Locations
-Pascoli,Pascoli,Character,Cultural Character
-via Mazzini,via Mazzini,Place,Ferrara's Locations
-San Carlo,San Carlo,Place,Ferrara's Locations
-Sua Eccellenza,Sua Eccellenza,Character,Others
-da Roveraro,da Roveraro,Place,Ferrara's Locations
-consorte,consorte,Character,Bourgeoisie Character
-Elia Corcos,Elia Corcos,Character,Others
-via Savonarola,via Savonarola,Place,Ferrara's Locations
-Milano,Milano,Place,Others
-Ciano,Ciano,Character,Historical Character
-Giovannino Piazza,Giovannino Piazza,Character,Student Character
-tipo,tipo,Character,Primary Character
-Nino Bottecchiari,Nino Bottecchiari,Character,Student Character
-Caffè Zanarini,Caffè Zanarini,Place,Adriatic Region's Locations
-chiesa di San Francesco,chiesa di San Francesco,Place,Others
-Tubi,Tubi,Character,Others
-giovanotto,giovanotto,Character,Primary Character
-Berta,Berta,Place,Others
-signora Dollfuss,signora Dollfuss,Character,Historical Character
-Unione,Unione,Place,Ferrara's Locations
-Osvaldo Bellistracci,Osvaldo Bellistracci,Character,Others
-Trapolini,Trapolini,Character,Others
-Donna Rachele,Donna Rachele,Character,Historical Character
-San Pietro in Casale,San Pietro in Casale,Place,Others
-Ilario,Ilario,Character,Others
-Adriatico,Adriatico,Place,Adriatic Region's Locations
-Grand Hôtel,Grand Hôtel,Place,Adriatic Region's Locations
-Arcivescovado,Arcivescovado,Place,Others
-Croce,Croce,Character,Historical Character
-Aureliano Pertile,Aureliano Pertile,Character,Cultural Character
-mamma,mamma,Character,Family Character
-Caffè della Borsa,Caffè della Borsa,Place,Ferrara's Locations
-vecchio finocchio,vecchio finocchio,Character,Primary Character
-Beppe,Beppe,Character,Others
-Ventimiglia,Ventimiglia,Place,Others
+Fadigati,Fadigati,Character,Primary Character
 Venezia,Venezia,Place,Others
-vecchio degenerato,vecchio degenerato,Character,Primary Character
-Tirreno,Tirreno,Place,Others
-da Majani,da Majani,Place,Bologna's Locations
-Capo della Polizia,Capo della Polizia,Character,Others
-Gino Cariani,Gino Cariani,Character,Others
-sorella,sorella,Character,Others
-Mi,Mi,Character,Primary Character
-via Zamboni,via Zamboni,Place,Bologna's Locations
-Punta di Pesaro,Punta di Pesaro,Place,Adriatic Region's Locations
-figli adolescenti,figli adolescenti,Character,Bourgeoisie Character
-Cristina,Cristina,Character,Bourgeoisie Character
-intera famiglia,intera famiglia,Character,Bourgeoisie Character
-Bersaglieri del Po,Bersaglieri del Po,Place,Ferrara's Locations
+De Pisis,De Pisis,Character,Cultural Character
+Canal Grande,Canal Grande,Place,Others
 De Chirico,De Chirico,Character,Cultural Character
-genitori,genitori,Character,Others
-Porto Corsini,Porto Corsini,Place,Adriatic Region's Locations
-Italia settentrionale,Italia settentrionale,Place,Others
-Manservigi,Manservigi,Character,Others
-Sergio Pavani,Sergio Pavani,Character,Student Character
-chiesa di San Girolamo,chiesa di San Girolamo,Place,Ferrara's Locations
-Sturla,Sturla,Character,Others
-Torino,Torino,Place,Others
-farmacia Barilari,farmacia Barilari,Place,Ferrara's Locations
-Grappa,Grappa,Place,Others
-Eraldo,Eraldo,Character,Primary Character
+duomo,duomo,Place,Ferrara's Locations
+via Gorgadello,via Gorgadello,Place,Ferrara's Locations
+io,io,Character,Others
+Unione,Unione,Place,Ferrara's Locations
+via San Romano,via San Romano,Place,Ferrara's Locations
+dalla Sandrina,dalla Sandrina,Place,Ferrara's Locations
 via Saraceno,via Saraceno,Place,Ferrara's Locations
-Enrico Sangiuliano,Enrico Sangiuliano,Character,Student Character
-da Vincenzo,da Vincenzo,Place,Ferrara's Locations
+Bersaglieri del Po,Bersaglieri del Po,Place,Ferrara's Locations
+Athos Fadigati,Athos Fadigati,Character,Primary Character
+genitori,genitori,Character,Others
+corso Roma,corso Roma,Place,Ferrara's Locations
+Diana,Diana,Place,Ferrara's Locations
+Casoratino,Casoratino,Character,Cultural Character
+via Mazzini,via Mazzini,Place,Ferrara's Locations
+Circolo dei Negozianti,Circolo dei Negozianti,Place,Ferrara's Locations
+San Carlo,San Carlo,Place,Ferrara's Locations
+Rex,Rex,Place,Ferrara's Locations
+via Bersaglieri del Po,via Bersaglieri del Po,Place,Ferrara's Locations
+Gorgadello,Gorgadello,Place,Ferrara's Locations
+Mercerie veneziane,Mercerie veneziane,Place,Ferrara's Locations
 via Garibaldi,via Garibaldi,Place,Ferrara's Locations
 Listone,Listone,Place,Ferrara's Locations
-stazione bolognese,stazione bolognese,Place,Bologna's Locations
-Malta,Malta,Place,Others
-Parma,Parma,Place,Others
-Vezio Sturla,Vezio Sturla,Character,Others
-Baùsi,Baùsi,Character,Others
-Bruno,Bruno,Character,Historical Character
-Mussolini,Mussolini,Character,Historical Character
-via Cairoli,via Cairoli,Place,Ferrara's Locations
-conduttore Aldrovandi,conduttore Aldrovandi,Character,Others
-signora Lavezzoli,signora Lavezzoli,Character,Bourgeoisie Character
-Bolognesi,Bolognesi,Character,Others
-Corcos,Corcos,Character,Others
-viale dei Mille,viale dei Mille,Place,Adriatic Region's Locations
-ai Tre Galletti,ai Tre Galletti,Place,Ferrara's Locations
-Negozianti,Negozianti,Place,Ferrara's Locations
-Beethoven,Beethoven,Character,Cultural Character
-colle di San Luca,colle di San Luca,Place,Bologna's Locations
-degno consorte,degno consorte,Character,Bourgeoisie Character
-Roma,Roma,Place,Others
-coniuge,coniuge,Character,Bourgeoisie Character
-Excelsior,Excelsior,Place,Ferrara's Locations
-piazza del Nettuno,piazza del Nettuno,Place,Bologna's Locations
-madre,madre,Character,Family Character
-Palazzo Arcivescovile,Palazzo Arcivescovile,Place,Ferrara's Locations
-duomo,duomo,Place,Ferrara's Locations
-Cesenatico,Cesenatico,Place,Adriatic Region's Locations
-Jugoslavia,Jugoslavia,Place,Others
-Firenze,Firenze,Place,Others
-Montagnone,Montagnone,Place,Ferrara's Locations
-Gilberto,Gilberto,Character,Bourgeoisie Character
-padre,padre,Character,Family Character
-Mercerie veneziane,Mercerie veneziane,Place,Ferrara's Locations
-Aretusi,Aretusi,Character,Others
-Viminale,Viminale,Place,Others
-dottor Corcos,dottor Corcos,Character,Others
-Carpi,Carpi,Place,Others
-Dolomiti,Dolomiti,Place,Others
-Comunale di Bologna,Comunale di Bologna,Place,Bologna's Locations
-Arcispedale,Arcispedale,Place,Ferrara's Locations
-vicolo mozzo Torcicoda,vicolo mozzo Torcicoda,Place,Ferrara's Locations
-ministro delle Comunicazioni,ministro delle Comunicazioni,Character,Others
-Bath,Bath,Place,Others
-Arslan,Arslan,Character,Others
-Cenzo,Cenzo,Character,Others
-Elisa,Elisa,Character,Family Character
-Moena,Moena,Place,Others
-Tremiti,Tremiti,Place,Others
-via Bersaglieri del Po,via Bersaglieri del Po,Place,Ferrara's Locations
-Galliera,Galliera,Place,Bologna's Locations
-me,me,Character,Primary Character
-Salvini,Salvini,Place,Ferrara's Locations
-Ernesto,Ernesto,Character,Family Character
-Cervia,Cervia,Place,Adriatic Region's Locations
-via Ripagrande,via Ripagrande,Place,Ferrara's Locations
-Francia,Francia,Place,Others
-viale Cavour,viale Cavour,Place,Ferrara's Locations
-Castelmaggiore,Castelmaggiore,Place,Others
-Pontelagoscuro,Pontelagoscuro,Place,Ferrara's Locations
-via San Romano,via San Romano,Place,Ferrara's Locations
-Mascarella,Mascarella,Place,Bologna's Locations
-Poggio Renatico,Poggio Renatico,Place,Others
-De Pisis,De Pisis,Character,Cultural Character
-Riccione,Riccione,Place,Adriatic Region's Locations
-avvocato Lattes,avvocato Lattes,Character,Others
-Circolo dei Negozianti,Circolo dei Negozianti,Place,Ferrara's Locations
-Elsa Molon,Elsa Molon,Character,Others
-Olao Baùsi,Olao Baùsi,Character,Others
-avvocato,avvocato,Character,Bourgeoisie Character
-Giovecca,Giovecca,Place,Others
-Wagner,Wagner,Character,Cultural Character
-Maria Grillanzoni,Maria Grillanzoni,Character,Others
-i Dollfuss,i Dollfuss,Character,Historical Character
-suo amico,suo amico,Character,Primary Character
-Val di Fassa,Val di Fassa,Place,Others
-signore attempato,signore attempato,Character,Primary Character
-Mura degli Angeli,Mura degli Angeli,Place,Ferrara's Locations
-dottor Corazza,dottor Corazza,Character,Others
-due Torri,due Torri,Place,Bologna's Locations
-Bianca Sgarbi,Bianca Sgarbi,Character,Student Character
-Padre Gemelli,Padre Gemelli,Character,Cultural Character
-Schubert,Schubert,Character,Cultural Character
-Franco,Franco,Character,Bourgeoisie Character
-via San Francesco,via San Francesco,Place,Others
-Pasticceria Majani,Pasticceria Majani,Place,Bologna's Locations
-signora,signora,Character,Bourgeoisie Character
-Pisa,Pisa,Place,Others
-via Piangipane,via Piangipane,Place,Ferrara's Locations
-Diana,Diana,Place,Ferrara's Locations
-cameriere Giovanni,cameriere Giovanni,Character,Others
-Corticella,Corticella,Place,Others
-da Gigino,da Gigino,Place,Bologna's Locations
-Deliliers,Deliliers,Character,Primary Character
-Otello Forti,Otello Forti,Character,Student Character
-Italia,Italia,Place,Others
-famiglia Lavezzoli,famiglia Lavezzoli,Character,Bourgeoisie Character
-Acquedotto,Acquedotto,Place,Ferrara's Locations
-Credito,Credito,Place,Ferrara's Locations
-PONTELAGOSCURO,PONTELAGOSCURO,Place,Ferrara's Locations
-San Giorgio di Piano,San Giorgio di Piano,Place,Others
-mi,mi,Character,Primary Character
-Parigi,Parigi,Place,Others
-Fadigati,Fadigati,Character,Primary Character
-Scagnellato,Scagnellato,Character,Others
-figlioli,figlioli,Character,Bourgeoisie Character
-Uomo,Uomo,Character,Historical Character
-Vittorio Molon,Vittorio Molon,Character,Student Character
-Castello,Castello,Place,Ferrara's Locations
-Comunale fiorentino,Comunale fiorentino,Place,Others
-sorelle Sgarbi,sorelle Sgarbi,Character,Others
-dottor Manfredini,dottor Manfredini,Character,Others
-Hôtel Britannia,Hôtel Britannia,Place,Adriatic Region's Locations
-Orazio,Orazio,Character,Cultural Character
-palazzo delle Assicurazioni Generali,palazzo delle Assicurazioni Generali,Place,Ferrara's Locations
-Biennale,Biennale,Place,Others
-Filippo,Filippo,Character,Bourgeoisie Character
-Pippo,Pippo,Character,Bourgeoisie Character
-Finzi,Finzi,Character,Others
-Stella del Nord,Stella del Nord,Place,Bologna's Locations
-Viareggio,Viareggio,Place,Others
-via Indipendenza,via Indipendenza,Place,Bologna's Locations
-Masi Torello,Masi Torello,Character,Others
-Ponza,Ponza,Place,Others
-Bruno Walter,Bruno Walter,Character,Cultural Character
-Hôtel Mare e Pineta,Hôtel Mare e Pineta,Place,Adriatic Region's Locations
-Rimini,Rimini,Place,Adriatic Region's Locations
-Eraldo Deliliers,Eraldo Deliliers,Character,Primary Character
-Piazza delle Erbe,Piazza delle Erbe,Place,Ferrara's Locations
-signor dottore,signor dottore,Character,Primary Character
-Athos Fadigati,Athos Fadigati,Character,Primary Character
-Dollfuss,Dollfuss,Character,Historical Character
-signori Lavezzoli,signori Lavezzoli,Character,Bourgeoisie Character
-Tabet,Tabet,Character,Others
-Nino,Nino,Character,Student Character
-Melozzo,Melozzo,Character,Cultural Character
-Bocchini,Bocchini,Character,Others
-Ferrara,Ferrara,Place,Ferrara's Locations
-Maggio,Maggio,Place,Others
-maestro germanico,maestro germanico,Character,Cultural Character
-zio Mauro,zio Mauro,Character,Others
-Bologna,Bologna,Place,Bologna's Locations
-piazza Cattedrale,piazza Cattedrale,Place,Ferrara's Locations
-Lavezzoli,Lavezzoli,Character,Bourgeoisie Character
-avv,avv,Character,Bourgeoisie Character
-femmina,femmina,Character,Bourgeoisie Character
-dottore,dottore,Character,Primary Character
-corso Giovecca,corso Giovecca,Place,Ferrara's Locations
-Sciagura,Sciagura,Character,Others
-Gorgadello,Gorgadello,Place,Ferrara's Locations
-due maschi,due maschi,Character,Bourgeoisie Character
-ragazzi Lavezzoli,ragazzi Lavezzoli,Character,Bourgeoisie Character
-usciere Trapolini,usciere Trapolini,Character,Others
-Giovanni,Giovanni,Character,Others
-dalla Sandrina,dalla Sandrina,Place,Ferrara's Locations
-Attilia,Attilia,Character,Others
-amico inseparabile,amico inseparabile,Character,Primary Character
-Bellistracci,Bellistracci,Character,Others
-Germania,Germania,Place,Others
-Spianata,Spianata,Place,Ferrara's Locations
-via Gorgadello,via Gorgadello,Place,Ferrara's Locations
 vicolo del Granchio,vicolo del Granchio,Place,Ferrara's Locations
-zio,zio,Character,Others
-Cattolica,Cattolica,Place,Adriatic Region's Locations
-corso Ercole,corso Ercole,Place,Ferrara's Locations
-stazione,stazione,Place,Bologna's Locations
-alla Gallina Faraona,alla Gallina Faraona,Place,Bologna's Locations
-avvocato Lavezzoli,avvocato Lavezzoli,Character,Bourgeoisie Character
-Avvocato,Avvocato,Character,Bourgeoisie Character
-Bianca,Bianca,Character,Student Character
-Fanny,Fanny,Character,Family Character
-via Bomporto,via Bomporto,Place,Ferrara's Locations
-Zanarini,Zanarini,Place,Adriatic Region's Locations
-Ridolini,Ridolini,Character,Cultural Character
-castello Estense,castello Estense,Place,Ferrara's Locations
-Sua Eccellenza Bocchini,Sua Eccellenza Bocchini,Character,Others
-Carlo Aretusi,Carlo Aretusi,Character,Others
-Geremia Tabet,Geremia Tabet,Character,Others
-Bach,Bach,Character,Cultural Character
-Porta Galliera,Porta Galliera,Place,Bologna's Locations
-via Vignatagliata,via Vignatagliata,Place,Ferrara's Locations
-io,io,Character,Primary Character
-signora Molon,signora Molon,Character,Others
-Viserba,Viserba,Place,Adriatic Region's Locations
-Condorelli,Condorelli,Character,Others
-Vittorio,Vittorio,Character,Student Character
-Riviera di Levante,Riviera di Levante,Place,Others
-Cariani,Cariani,Character,Others
+Piazza Travaglio,Piazza Travaglio,Place,Ferrara's Locations
+ai Tre Galletti,ai Tre Galletti,Place,Ferrara's Locations
+Piazza delle Erbe,Piazza delle Erbe,Place,Ferrara's Locations
+da Vincenzo,da Vincenzo,Place,Ferrara's Locations
+piazza Cattedrale,piazza Cattedrale,Place,Ferrara's Locations
+sorella,sorella,Character,Others
+da Roveraro,da Roveraro,Place,Ferrara's Locations
+Salvini,Salvini,Place,Ferrara's Locations
+Comunale di Bologna,Comunale di Bologna,Place,Bologna's Locations
+corso Giovecca,corso Giovecca,Place,Ferrara's Locations
+dottor Corcos,dottor Corcos,Character,Others
+palazzo delle Assicurazioni Generali,palazzo delle Assicurazioni Generali,Place,Ferrara's Locations
 Segretario Federale,Segretario Federale,Character,Others
-ghetto,ghetto,Place,Ferrara's Locations
-Strada Maggiore,Strada Maggiore,Place,Bologna's Locations
-Canal Grande,Canal Grande,Place,Others
-Inghilterra,Inghilterra,Place,Others
-mia,mia,Character,Primary Character
-Hitler,Hitler,Character,Historical Character
-marito,marito,Character,Bourgeoisie Character
-Rex,Rex,Place,Ferrara's Locations
-Padova,Padova,Place,Others
-sorellina minore,sorellina minore,Character,Family Character
+Aureliano Pertile,Aureliano Pertile,Character,Cultural Character
+Arcispedale,Arcispedale,Place,Ferrara's Locations
+Ferrara,Ferrara,Place,Ferrara's Locations
+Excelsior,Excelsior,Place,Ferrara's Locations
+Castello,Castello,Place,Ferrara's Locations
