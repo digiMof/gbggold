@@ -24,7 +24,7 @@
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
-    "imageAttribute": "class"
+    "imageAttribute": false
   },
   "sigma": {
     "drawingProperties": {
@@ -33,11 +33,11 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 10,
+      "labelThreshold": 1,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
-      "defaultLabelSize": 14
+      "defaultLabelSize": 20
     },
     "graphProperties": {
       "maxEdgeSize": 0.5,
