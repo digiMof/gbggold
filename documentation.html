@@ -534,8 +534,7 @@
                     <!-- Research Questions -->
                     <h5>Research Questions</h5>
                     <p>Starting from our corpora (an entire edition of Bassani's "Gli occhiali d'oro", carefully edited
-                        and
-                        tagged according to TEI guidelines), our network analysis was guided by two main research
+                        and tagged according to TEI guidelines), our network analysis was guided by two main research
                         questions:
                     <div class="featured-text text-center text-lg-left">
                         <h5 style="font-style: italic;">How are the characters connected to each other?</h5>
@@ -549,64 +548,91 @@
                     protagonist's isolation.
                     </p>
                     <h5>Connection definition</h5>
-                    <p>After defining the Research Question, we have worked on <i>defining</i> the connections
-                        between
-                        characters in the written text and with regards to our project's corpora and scope. Working
-                        with
-                        a literary text would suggest that connections between characters are established whenever
-                        there
-                        are dialogues between them or when they appear in the same sentence (this circumstance being
-                        either a direct interaction between two characters or an indirect one, whenever a third
-                        character compares the first two).</p>
-                    <p>After a first attempt at tackling this problem, the particular structure of Bassani's "Gli
-                        Occhiali d'Oro" made it difficult to consider the coexistence of characters inside a
-                        sentence a
-                        sufficient condition for defining a relation between them: while testing the Python script
-                        used
-                        to detect the characters in isolated sentences, many times there would be only one
-                        character,
-                        making it impossible to infer any relation.</p>
-                    <p>Hence, we have considered, as the condition for establishing connections between characters,
-                        their coexistence in the <b>same paragraph</b>.</p>
+                    <p>In literary text the definition of connections between characters can vary a lot depending on a
+                        multitude of factors: the overall structure of the text, the genre, and even the plot.
+                        Characters can be considered connected whenever there are dialogues between them or when they
+                        appear in the same sentence (this circumstance being either a direct interaction between two
+                        characters or an indirect one, whenever a third character compares the first two). After a first
+                        attempt at taclking this problem, the particular structure of Bassani's "Gli occhiali d'oro"
+                        made it difficult to consider the coexistence of characters inside a sentence a sufficient
+                        condition for defining a relation between them: while testing the Python script used to detect
+                        them in the isolated sentences, many times there would be only one character, making it
+                        impossible to infer any relation whatsoever. Hence, we have considered the <b>coexistence</b> of
+                        characters (and places) in the <b>same paragraph</b> as the condition for establishing
+                        relationships between them.</p>
+                    <p>Moreover, "Gli occhiali d'oro" is a story narrated by a character that is never identified by a
+                        name but is referenced to mainly by personal pronouns. This meant that the text had to be
+                        profusely tagged whenever pronominal particles or possessive pronouns appear (e.g. "mi", "a me",
+                        "mio", "mia"). Of course, a deeper analysis could involve even verbal structures, as Italian
+                        sentences tend to lose the subject pronoun.</p>
                     <h5>Graph building</h5>
-                    <p>After the definition of "connection", a Python script was developed to retrieve the
-                        occurrences
-                        of different characters inside the same paragraph (mainly by using Regular Expressions) and
-                        to
-                        build a CSV file containing such information. The CSV was then used to <b>visualise the
-                            graph</b> by means of Gephi.</p>
-                    <p>As our research question focuses on <i>how</i> Fadigati's social network changes before and
-                        after
-                        the discovery of his sexuality, it was crucial for us to distinguish between these two
-                        moments
-                        in our starting corpora (the literary text).</p>
-                    <p>Two different sub-corpora were then created:
+                    <p>A Python script was then developed to retrieve the occurrences of different characters in the
+                        same paragraph: this was done by means of Regular Expressions, that could identify the the
+                        tagged characters and their meaningful tags. In fact, both characters and places had two tags
+                        associated to them: the first one to distinguish between their "type" (either pers-name or
+                        place-name, as the starting text was the TEI-tagged one), the second one to distinguish between
+                        a variety of "classes" (primary characters, characters belonging to the bourgeoisie, the family
+                        of the narrator, students peers of the narrator, historical and cultural character; Ferrara,
+                        Bologna and Adriatic Region's locations).
+                        After their identification inside the input text, the Python script then associated them in
+                        tuples and used these tuples to build CSV files containing the relevant information regarding
+                        entities' type and class. The CSV was then passed to Gephi for the <b>visualisation</b> of the
+                        network.</p>
+                    <p>As one of our research questions focuses on <i>how</i> Fadigati's social and spatial network
+                        changes after the discovery of his sexuality, it was crucial for us to distinguish between two
+                        moments: before the outing and after. <b>Two</b> different <b>sub-corpora</b> were thus created:
                     <ul>
-                        <li>The first sub-corpora comprising the first two chapters</li>
-                        <li>The second sub-corpora spanning from Chapter 3 to Chapter 18</li>
+                        <li>Chapters 1-2: the first sub-corpora, <i>before</i> the outing</li>
+                        <li>Chapters 3-18: the second sub-corpora, <i>after</i> the outing</li>
                     </ul>
-                    The script was then run twice on the two different sub-corpora to obtain two different
-                    graphs
-                    representing the two different social networks.
-                    <!-- Here img 1 -->
-                    <!-- Here img 2 -->
+                    The script was then run thrice on the different corpora (the full text and the two sub-corpora) to
+                    obtain three different networks, each representing a different moment of the book:</p>
+                    <img src="img/fulltext.png" alt="Network of the full text" class="center">
+                    <p>The two networks representing Fadigati's social and spatial context before and after the outing:
                     </p>
-                    <p>It is worth pointing out how the two graphs vary also because of the different size of the
+                    <img src="img/F1.png" alt="Fadigati's network before the outing" class="center">
+                    <img src="img/F2.png" alt="Fadigati's network after the outing" class="center">
+                    <p>It is worth pointing out how the two Fadigati's networks vary also because of the different size
+                        of the
                         sub-corporas: after a brief introduction to the context and the characters in the first two
                         chapters, Fadigati's sexuality is immediately pointed out and becomes the center of the
                         story,
                         being the talk of the town.</p>
-                    <p>By comparing the two graphs we can already see some differences between the two social
-                        networks.
+                    <p>By simply observing and comparing the two Fadigati's networks we can already infer some
+                        differences and some particular and new interpretations:</p>
                     <ul>
-                        <li>In the first case...</li>
-                        <li>While in the second...</li>
+                        <li>In the "before" network, we can see how Fadigati appears connected mainly to places and
+                            characters belonging to the upper class: social clubs, painters, Opera singers... These
+                            connections depict a man that, if not for some particular traits (such as the lack of a
+                            wife) fully belongs to the bourgeoisie social class</li>
                     </ul>
-                    It is therefore clear how the discovery of Fadigati's sexuality and his successive behaviour
-                    influence his network, which starts pulling away from him and changes drastically to such an
-                    extent
-                    that, at the end of the book, the only character that really feels close to the doctor and
-                    empathises with him is the narrator himself.</p>
+                    <img src="img/Fadigati1zoom.png" alt="Fadigati's network before the outing, with focus on Fadigati"
+                        class="center">
+                    <ul>
+                        <li>In the "after" network, we can see how not only the locations visited by Fadigati expand to
+                            other cities (Riccione and Bologna), but even his social network shows some interesting
+                            features: one of the most peculiar, which is not easily perceived while reading the book, is
+                            the <b>connection between Fadigati and the narrator's father</b>. This relationship, that
+                            can be found in the "adriatic chapters" of the book, could symbolise a particular trait that
+                            distinguishes Fadigati's relationship with the narrator himself: he could be seen as a
+                            fatherly figure for the narrator, who grows closer and closer to the doctor while feeling
+                            more and more frustrated by his father's reaction to the atmosphere created by the incoming
+                            racial laws (these feelings arise specifically towards the end of the book)</li>
+                    </ul>
+                    <img src="img/Fadigati2zoom.png" alt="Fadigati's network after the outing, with focus on Fadigati"
+                        class="center">
+                    <p>The analysis of the networks, which could be further deepened, help us discovering some new
+                        points of view on "Gli occhiali d'oro" story: we are able to discover new relationships between
+                        characters that seem very far from one another, how different classes of characters live in
+                        different urban spaces and interact differently with the protagonist.
+                        Mainly, we can observe how the discovery of
+                        Fadigati's sexuality and his subsequent behaviour influence his social and spatial context:
+                        particularly after the summer "accident" with Deliliers, it all seems to pull away from the
+                        doctor to such an extent that, by the end of the book, the only one who really is close to him
+                        and empathises with his struggles is the narrator himself.
+                        However, not even this support can be enough to mend the deep wounds of isolation and
+                        discrimination of Athos Fadigati, who decides to commit suicide exactly where he was supposed to
+                        go to with the narrator, who finds out about his death through a newspaper's page.</p>
                     <hr class="my-2 mx-4">
                     <p>To perform this network analysis, different scripts and files where produced. A complete list
                         is available at this <a href="netan">folder</a> of the GitHub repository of the project.
@@ -694,7 +720,8 @@
                         <li>Moretti, Franco (2005): <i>Graphs, Maps, Trees: Abstract Models for a Literary History</i>.
                             London: Verso.</li>
                         <li id="MorettiNET">Moretti, Franco (2013): "Network Theory, Plot Analysis". In Moretti, Franco:
-                            <i>Distant Reading</i>. London: Verso.</li>
+                            <i>Distant Reading</i>. London: Verso.
+                        </li>
                         <li id="Oldman">Oldman, Dominic et al. (2016): "Zen and the Art of Linked Data: New Strategies
                             for a Semantic Web of Humanist Knowledge". In Schreibman Susan, Ray Siemens and John
                             Unsworth: <i>A New Companion to Digital Humanities</i>. Oxford: Wiley Blackwell</li>

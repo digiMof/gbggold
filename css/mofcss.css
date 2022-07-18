@@ -210,3 +210,13 @@ iframe {
 .legend .others {
     background-color: #36e600;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 1px solid #7c4e28;
+    margin-top:1em;
+    margin-bottom:1em;
+}
