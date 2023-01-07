@@ -242,6 +242,11 @@ a {
   color: #8B4513;
   text-decoration: underline;
 }
+
+footer a {
+  text-decoration: none;
+}
+
 a:hover {
   color: #DAA520;
 }
@@ -3044,15 +3049,15 @@ textarea.form-control-lg {
   border-color: goldenrod;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
-  color: #fff;
-  background-color: #558985;
-  border-color: #50817e;
+  color: black;
+  background-color: goldenrod;
+  border-color: goldenrod;
   box-shadow: 0 0 0 0.25rem rgba(123, 175, 172, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #50817e;
-  border-color: #4b7976;
+  color: black;
+  background-color: goldenrod;
+  border-color: goldenrod;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(123, 175, 172, 0.5);
@@ -11720,4 +11725,11 @@ body {
 
 .footer {
   padding: 5rem 0 1rem;
+}
+
+.invertsignature {
+  max-width: 20%;
+  max-height: 20%;
+  padding: 0.2rem;
+  filter: invert(1);
 }
